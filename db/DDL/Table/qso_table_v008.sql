@@ -1,15 +1,17 @@
 /*
- * qso_table_v008
- * --------------
- *
- * Author:  Agro, D. (August 22, 2023). MacLoggerDX (6.53). Dog Park Software.
-            Retrieved  October 21, 2024 from https://dogparksoftware.com/MacLoggerDX.html
- * Date: October 21, 2024
- *
- * Purpose:  Base table for the MacLoggerDX software.  Since the base table was written to SQLite, it was decided
- *           to add additioanl tables to the SQLite database, and the HARC SNN Net database was created.
- *           (WARNING.  This table should not be modified in any way -- it is Read-Only.)
- */
+qso_table_v008.sql
+==========================
+Author: J. Timothy Collier
+Created: 2/15/26
+Last Updated: 2/15/26
+==========================
+Purpose:  Capture the output from MacLoggerDX (Dogpark Software).
+          The file contains all contact information  as processed by MacLoggerDX.
+          In anticipation of handing the software off to someone else, the relevant
+          information is read out of this table and inserted int t_net_qso,
+
+*/
+
 create table qso_table_v008
 (
     pk             INTEGER

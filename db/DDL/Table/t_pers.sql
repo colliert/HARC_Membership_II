@@ -1,14 +1,21 @@
 /*
- * t_pers
- * ------
- *
- * Author:  Tim Collier
- * Date:  November 18, 2024
- *
- * Purpose:  Store system information about anyone who checks into the net.  Of particular interest are:
-             (a)  Membership status of the callsign.
- *           (b)  Name by which the person prefers to be called.
- */
+t_pers.sql
+==========================
+Author: J. Timothy Collier
+Created: 2/15/26
+Last Updated: 2/15/26
+==========================
+Purpose:  Contains information about persons who have checked into the HARC
+          Sunday Night Net.
+          Since the HARC Sunday Night Net allows both members and non-members to check
+          into the net, a place to store all persons' information was necessayr.  The
+          HARC Membership Table (t_harc_Export) is a source of member-only
+          information.
+          Anybody who ever checked into the net is store here.  There actual net
+          check-in information is in t_net_qso.
+
+*/
+
 create table t_pers
 (
     pers_call     TEXT   not null

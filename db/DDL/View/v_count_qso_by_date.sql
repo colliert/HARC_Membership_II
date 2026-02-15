@@ -1,3 +1,13 @@
+/*
+v_count_qso_by_date.sql
+==========================
+Author: J. Timothy Collier
+Created: 2/15/26
+Last Updated: 2/15/26
+==========================
+Purpose: Count the number of check-ins by date
+
+*/
 CREATE VIEW v_count_qso_by_date AS
 /*
 * v_count_qso_by_date

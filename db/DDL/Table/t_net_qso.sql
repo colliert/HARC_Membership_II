@@ -1,16 +1,18 @@
 /*
- * t_net_qso
- * ---------
- *
- * Author:  Tim Collier
- * Date:  November 15, 2024
- *
- * Purpose:  This table forms the starting point of tracking the check-ins for the Henderson Amateur Radio Club's
- *           Sunday Night Net.
- *           As of November 15, 2024, an extract is taken from qso_table_v008 and loaded into this table.
- *           qso_table_v008 belongs to MacLoggerDX.  Future implementations of the HARC SNN System may employ
- *           different tables and/or methods.  Therefore, t_net_qso is the common starting point for the system.
- */
+t_net_qso.sql
+==========================
+Author: J. Timothy Collier
+Created: 2/15/26
+Last Updated: 2/15/26
+==========================
+Purpose:  Store the results of checkins to the HARC Sunday Night Net.
+          Currently this table is sourced from qso_table_v008, which is MacLoggerDX's
+          database.  It is designed, however, to allow easy update from almost any source,
+          indlucing spreadhseets.
+          This is the starting point, or starting table, for the HARC Sunday Night Net.
+
+*/
+
 create table t_net_qso
 (
     qso_key  Numeric not null

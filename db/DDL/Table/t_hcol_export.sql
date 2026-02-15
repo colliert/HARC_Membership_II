@@ -1,16 +1,15 @@
 /*
- * t_hcol_export
- * -------------
- *
- * Author:  Tim Collier
- * Date:  November 15, 2024
- *
- * Purpose:  Contains the results of a Ham Club Online member export.  Ham Club Online has been designated by
- *           Henderson Amateur Radio Club, Inc. leadership as the database of record regarding membership.
- *           As part of the Ham Club Online System, an export is provided in CSV format.  That information is loaded
- *           into this table to provide membership information to the system.
- *
- */
+t_hcol_export.sql
+==========================
+Author: J. Timothy Collier
+Created: 2/15/26
+Last Updated: 2/15/26
+==========================
+Purpose: Store information from the source of truth for club membership.  This mirrors
+         the export from Ham Club Online.
+
+*/
+
 create table t_hcol_export
 (
     mem_num         NUMERIC,
@@ -31,7 +30,7 @@ create table t_hcol_export
     lat             NUMERIC,
     lon             NUMERIC,
     elev            NUMERIC,
-    hcol_emal       TEXT,
+    hcol_email      TEXT,
     hcol_email_stat TEXT,
     club_email      TEXT,
     club_email_stat TEXT,

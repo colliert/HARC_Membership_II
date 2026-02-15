@@ -1,18 +1,20 @@
 /*
- * t_pers_typ
- * ----------
- *
- * Author:  Tim Collier
- * Date:  November 20, 2024
- *
- * Purpose:  Store the codes for the various types of people stored in t_pers.  Current types are:
- *           0 - non-member
- *           1 - member
- *           2 - member, old callsign
- *           3 - silent key
- *           4 - non-member, old callsign
- */
-create table t_pers_typ
+t_pers_typ.sql
+==========================
+Author: J. Timothy Collier
+Created: 2/15/26
+Last Updated: 2/15/26
+==========================
+Purpose:  Store types of persons that exist in the t_pers table.  Current values are:
+          0 = Non-member
+          1 = Club member
+          2 = Club member - Old Callsign
+          3 = Silent Key
+          4 = Non-member - Old Callsign
+
+*/
+c
+reate table t_pers_typ
 (
     pers_typ_cd   NUMERIC not null
         primary key,
