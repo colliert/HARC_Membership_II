@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<BusinessInfoDesign class="oracle.dbtools.crest.model.businessinfo.BusinessInfoDesign" name="Business Information" id="272497BB-35FC-60A0-8339-15B295129403">
+<createdBy>tcollier</createdBy>
+<createdTime>2020-10-28 19:32:43 UTC</createdTime>
+<ownerDesignName>HARC_SNN_Redesign_Data_Model</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</BusinessInfoDesign>

@@ -1,0 +1,166 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="069F0942-B8A8-77B7-B34C-4F17EFD9D320" name="t_harc_member_allstar">
+<createdBy>tcollier</createdBy>
+<createdTime>2020-10-28 22:51:26 UTC</createdTime>
+<generatorID>67D2F9A6-7302-96E9-8B16-8D7893784CDF</generatorID>
+<ownerDesignName>HARC_SNN_Redesign_Data_Model</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="node_num" id="6956C166-E55A-36AE-51AD-0C91356F0E95">
+<createdBy>tcollier</createdBy>
+<createdTime>2020-10-28 22:51:26 UTC</createdTime>
+<generatorID>CA0EBC8F-AADB-F021-90B3-ACE037B3861D</generatorID>
+<ownerDesignName>HARC_SNN_Redesign_Data_Model</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>109E6CCA-FE25-FBAD-AF39-A5BEDCCFD886</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="node_ext" id="648ECADE-F781-F340-C482-BEEE9A4C9520">
+<createdBy>tcollier</createdBy>
+<createdTime>2020-10-28 22:51:26 UTC</createdTime>
+<generatorID>3F9E7F5A-B2CF-970E-D2C7-44EDA70AB90F</generatorID>
+<ownerDesignName>HARC_SNN_Redesign_Data_Model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="node_id" id="BE98089F-8ECE-E988-FEDC-884A368ECC02">
+<createdBy>tcollier</createdBy>
+<createdTime>2020-10-28 22:51:26 UTC</createdTime>
+<generatorID>E108213B-3A8C-A24B-6DD9-3373F6885B26</generatorID>
+<ownerDesignName>HARC_SNN_Redesign_Data_Model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="node_freq" id="2FCB93A0-D52A-302D-DBB1-DB38BAD27129">
+<createdBy>tcollier</createdBy>
+<createdTime>2020-10-28 22:51:26 UTC</createdTime>
+<generatorID>0C3E4CD5-6505-8F8B-4F92-02FB210E822A</generatorID>
+<ownerDesignName>HARC_SNN_Redesign_Data_Model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT022</logicalDatatype>
+<domain>8A72B65E-BC42-9BD8-B2E6-DF6ECED9AC74</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="node_tone" id="0F4A9D52-5987-FCEC-8BCD-A5760CF6EDED">
+<createdBy>tcollier</createdBy>
+<createdTime>2020-10-28 22:51:26 UTC</createdTime>
+<generatorID>F06A5A97-2C50-EC28-73AF-41AD22198A9F</generatorID>
+<ownerDesignName>HARC_SNN_Redesign_Data_Model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT022</logicalDatatype>
+<domain>8A72B65E-BC42-9BD8-B2E6-DF6ECED9AC74</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="node_location" id="C721AB6A-3246-73FA-BA4B-C34C94C5A4DB">
+<createdBy>tcollier</createdBy>
+<createdTime>2020-10-28 22:51:26 UTC</createdTime>
+<generatorID>8091D59F-85D4-5F36-10E6-5D486FEBEE6A</generatorID>
+<ownerDesignName>HARC_SNN_Redesign_Data_Model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="node_country" id="55AF4C08-330C-DC87-86D6-D56A92FB6599">
+<createdBy>tcollier</createdBy>
+<createdTime>2020-10-28 22:51:26 UTC</createdTime>
+<generatorID>AB44A248-C020-9404-FC25-13FA8D64A014</generatorID>
+<ownerDesignName>HARC_SNN_Redesign_Data_Model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="node_site_nam" id="753D726B-5384-4242-1B8C-3BA8D6AA78EE">
+<createdBy>tcollier</createdBy>
+<createdTime>2020-10-28 22:51:26 UTC</createdTime>
+<generatorID>00BF9B27-691D-8158-3DCC-7119D0201584</generatorID>
+<ownerDesignName>HARC_SNN_Redesign_Data_Model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="node_affiliation" id="80CBD9C2-92ED-5CF1-57B2-9002B7AFED55">
+<createdBy>tcollier</createdBy>
+<createdTime>2020-10-28 22:51:26 UTC</createdTime>
+<generatorID>0653500E-6A74-A36B-01FA-624F727FC12E</generatorID>
+<ownerDesignName>HARC_SNN_Redesign_Data_Model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="node_eff_dat" id="DEC0A90D-980F-1591-80BE-D68882B6C583">
+<createdBy>tcollier</createdBy>
+<createdTime>2020-10-28 22:51:26 UTC</createdTime>
+<generatorID>149958AA-F6E4-06D8-2F7C-BC8A741AD48B</generatorID>
+<ownerDesignName>HARC_SNN_Redesign_Data_Model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="t_person_mem_call" id="52B7892D-E76E-704B-1AA6-50398613B6CC">
+<createdBy>tcollier</createdBy>
+<createdTime>2020-10-28 22:51:26 UTC</createdTime>
+<generatorID>95473688-68E6-5E2A-A7B6-92EFFA111992</generatorID>
+<ownerDesignName>HARC_SNN_Redesign_Data_Model</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F2EC5C7B-5650-7182-647F-40D77D5EF8B5" referredColumn="C37F90EC-DD70-0425-8D76-5ABD04612A5C"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="A8CA2676-2BD4-54B5-B877-AC5FE2CECD45" name="t_harc_member_allstar_PK">
+<createdBy>tcollier</createdBy>
+<createdTime>2020-10-28 22:51:26 UTC</createdTime>
+<generatorID>2DD6CC87-59BF-363D-96D1-8EDCDFBAF5AA</generatorID>
+<ownerDesignName>HARC_SNN_Redesign_Data_Model</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6956C166-E55A-36AE-51AD-0C91356F0E95"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B97B86FF-730A-1C50-9A42-7D98EC5B7908" name="t_harc_member_allstar_node_num_UN">
+<createdBy>tcollier</createdBy>
+<createdTime>2020-10-28 22:51:26 UTC</createdTime>
+<generatorID>CA3730BF-06BC-97AB-7C3E-E9F33481879D</generatorID>
+<ownerDesignName>HARC_SNN_Redesign_Data_Model</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6956C166-E55A-36AE-51AD-0C91356F0E95"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="1A9A8FA3-6F39-B8FE-9D62-A61C7909AF6D" name="t_harc_member_allstar_t_person_FK">
+<createdBy>tcollier</createdBy>
+<createdTime>2020-10-28 22:51:26 UTC</createdTime>
+<generatorID>E1650999-D83B-3DDD-653E-02C865C4B9B7</generatorID>
+<ownerDesignName>HARC_SNN_Redesign_Data_Model</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="52B7892D-E76E-704B-1AA6-50398613B6CC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

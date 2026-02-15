@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="t_nco_operator_avail_fk" directorySegmentName="seg_0" id="151BF80F-4CB5-A0EB-46F3-2ABA80D008FF">
+<createdBy>tcollier</createdBy>
+<createdTime>2025-10-21 20:39:41 UTC</createdTime>
+<ownerDesignName>Net_Control_Additions</ownerDesignName>
+<engineerTo>
+<item key="C119D9D8-C824-B40C-12F8-BA9037B4F1B9" value="true"/>
+</engineerTo>
+<sourcePk>6EED66B5-3421-AF1B-6686-69FDE430CF67</sourcePk>
+<identifying>true</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>E27B8A8E-A372-E16A-31E6-F2EECCB65985</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>D690EEE0-5A80-9427-CB55-746523084A4C</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

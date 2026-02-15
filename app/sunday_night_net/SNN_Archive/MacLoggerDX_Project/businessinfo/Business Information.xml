@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<BusinessInfoDesign class="oracle.dbtools.crest.model.businessinfo.BusinessInfoDesign" name="Business Information" id="B2216C8C-1F49-A627-E620-40225FEDE45F">
+<createdBy>jtimothycollier</createdBy>
+<createdTime>2019-07-02 04:04:24 UTC</createdTime>
+<ownerDesignName>MacLoggerDX_Project</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</BusinessInfoDesign>

@@ -1,0 +1,75 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="7C643DC5-B0DD-E92D-7FA8-4A9BF035D1B4" name="t_pers_typ">
+<createdBy>tcollier</createdBy>
+<createdTime>2020-10-30 22:41:48 UTC</createdTime>
+<comment><![CDATA[Person Types
+0 - unknown
+1 - HARC Member]]></comment>
+<generatorID>B6B1619A-D772-C16D-E9A5-DBBDD443086C</generatorID>
+<ownerDesignName>SNN_data_model</ownerDesignName>
+<abbreviation>t_pers_typ</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="per_typ_cd" id="FB12C3A3-240A-D83A-B2C9-D4B13CE94D1F">
+<createdBy>tcollier</createdBy>
+<createdTime>2020-10-30 22:41:48 UTC</createdTime>
+<generatorID>FFA5F1DE-6847-B515-E779-A71A62BA5D30</generatorID>
+<ownerDesignName>SNN_data_model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="pers_typ_desc" id="70913AA3-C62C-96FE-7EC7-0A67C3DC27D4">
+<createdBy>tcollier</createdBy>
+<createdTime>2020-10-30 22:41:48 UTC</createdTime>
+<generatorID>652E4D4C-A406-85B4-89C5-705A6E3F8D73</generatorID>
+<ownerDesignName>SNN_data_model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="723E6E3E-CE81-CDEC-4FDD-3928D5724AAC" name="t_pers_typ_PK">
+<createdBy>tcollier</createdBy>
+<createdTime>2020-10-30 23:09:15 UTC</createdTime>
+<generatorID>C96F09BB-29A2-CDD1-7CA2-69DA6ACA1B8F</generatorID>
+<ownerDesignName>SNN_data_model</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FB12C3A3-240A-D83A-B2C9-D4B13CE94D1F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="3AD37E19-67AF-D18F-B649-4129A8DE3C5F" name="Person_Typev1_per_typ_cd_UN">
+<createdBy>tcollier</createdBy>
+<createdTime>2020-10-30 22:41:48 UTC</createdTime>
+<generatorID>B31DC61E-E792-BBE0-7115-504D07C53103</generatorID>
+<ownerDesignName>SNN_data_model</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FB12C3A3-240A-D83A-B2C9-D4B13CE94D1F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="3F29C502-F9BD-B91B-A639-0D7189340F57" name="Person_Typev1_PK">
+<createdBy>tcollier</createdBy>
+<createdTime>2020-10-30 22:41:48 UTC</createdTime>
+<generatorID>5A89E1B1-5079-B161-0410-D0A9B05D0719</generatorID>
+<ownerDesignName>SNN_data_model</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FB12C3A3-240A-D83A-B2C9-D4B13CE94D1F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

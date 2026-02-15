@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="MacLoggerDX_SQLite_DB" id="2BD29C31-4CCD-8AC2-7981-E077D313F7B9" version="3.5">
+<createdBy>tcollier</createdBy>
+<createdTime>2020-10-30 17:41:45 UTC</createdTime>
+<ownerDesignName>MacLoggerDX_SQLite_DB</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>2BD29C31-4CCD-8AC2-7981-E077D313F7B9</designId>
+<usedDesignStorageDescriptors>
+<designDescr class="oracle.dbtools.crest.model.design.Design$DesignStorageDesc" id="D295892E-3DCF-B384-91DE-668CFD633E55">
+<designStoragePath>/MacLogger_Sqlite_import copy</designStoragePath>
+</designDescr>
+<designDescr class="oracle.dbtools.crest.model.design.Design$DesignStorageDesc" id="803B8B3F-A2A2-1DC4-79A8-CBB66D4F144F">
+<designStoragePath>/Users/tcollier/Dropbox/JTC/Software Development/HARC_SNN_Redesign/Data_Model/HARC_SNN_Redesign_Data_Model</designStoragePath>
+</designDescr>
+</usedDesignStorageDescriptors>
+</OSDM_Design>

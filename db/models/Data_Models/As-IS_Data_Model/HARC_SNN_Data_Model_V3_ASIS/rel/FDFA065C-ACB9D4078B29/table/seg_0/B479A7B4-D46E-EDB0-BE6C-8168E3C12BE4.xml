@@ -1,0 +1,90 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="B479A7B4-D46E-EDB0-BE6C-8168E3C12BE4" name="HARC_mem_official">
+<sourceDDLFile>HARC_SNN_DDL_Modified.sql</sourceDDLFile>
+<createdBy>tcollier</createdBy>
+<createdTime>2023-12-10 01:28:01 UTC</createdTime>
+<ownerDesignName>HARC_SNN_Data_Model_V3</ownerDesignName>
+<importedID>7C1F8485-6DAA-ABED-4D1E-859E942668D0</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="callsign" id="C0FF975C-43FD-75EA-1BBC-D933EF1E99DD">
+<sourceDDLFile>HARC_SNN_DDL_Modified.sql</sourceDDLFile>
+<createdBy>tcollier</createdBy>
+<createdTime>2023-12-10 01:28:01 UTC</createdTime>
+<ownerDesignName>HARC_SNN_Data_Model_V3</ownerDesignName>
+<importedID>871EFC75-CF27-58E2-8E4A-C8E256807177</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="f_nam" id="F47AE8FB-AD35-24C0-322E-6C1DC37DA8EC">
+<sourceDDLFile>HARC_SNN_DDL_Modified.sql</sourceDDLFile>
+<createdBy>tcollier</createdBy>
+<createdTime>2023-12-10 01:28:01 UTC</createdTime>
+<ownerDesignName>HARC_SNN_Data_Model_V3</ownerDesignName>
+<importedID>21D68AB8-7DC4-D448-12ED-2B00EEA67016</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="m_NAM" id="AA6186CE-AD75-003B-97C3-FB77604277AE">
+<sourceDDLFile>HARC_SNN_DDL_Modified.sql</sourceDDLFile>
+<createdBy>tcollier</createdBy>
+<createdTime>2023-12-10 01:28:01 UTC</createdTime>
+<ownerDesignName>HARC_SNN_Data_Model_V3</ownerDesignName>
+<importedID>1AA54DED-13EC-3A03-1A33-0F82168F4FD9</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="l_nam" id="6D6A098E-B8D7-6905-76FB-23269095F207">
+<sourceDDLFile>HARC_SNN_DDL_Modified.sql</sourceDDLFile>
+<createdBy>tcollier</createdBy>
+<createdTime>2023-12-10 01:28:01 UTC</createdTime>
+<ownerDesignName>HARC_SNN_Data_Model_V3</ownerDesignName>
+<importedID>6F6DFA7E-D383-1B54-29F8-475150CED7F1</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="license" id="5F53CB41-5BF0-364D-EAC3-486FD78F3652">
+<sourceDDLFile>HARC_SNN_DDL_Modified.sql</sourceDDLFile>
+<createdBy>tcollier</createdBy>
+<createdTime>2023-12-10 01:28:01 UTC</createdTime>
+<ownerDesignName>HARC_SNN_Data_Model_V3</ownerDesignName>
+<importedID>CD1EBDEA-4006-B1A0-2AB8-77E132CC741E</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="email" id="116B75D0-40BD-F812-B2C1-627F7C513E38">
+<sourceDDLFile>HARC_SNN_DDL_Modified.sql</sourceDDLFile>
+<createdBy>tcollier</createdBy>
+<createdTime>2023-12-10 01:28:01 UTC</createdTime>
+<ownerDesignName>HARC_SNN_Data_Model_V3</ownerDesignName>
+<importedID>42E91779-5E7D-802E-2C06-E46301B49973</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="status" id="A520A9CC-50EA-F15F-5694-28B0163AE131">
+<sourceDDLFile>HARC_SNN_DDL_Modified.sql</sourceDDLFile>
+<createdBy>tcollier</createdBy>
+<createdTime>2023-12-10 01:28:01 UTC</createdTime>
+<ownerDesignName>HARC_SNN_Data_Model_V3</ownerDesignName>
+<importedID>9DD4E0C1-BE78-462B-F004-D1CEC7B9A423</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+</Table>

@@ -1,0 +1,71 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="23E671B6-D21F-FAAF-E548-8DB692295C6E" name="Person Type">
+<createdBy>tcollier</createdBy>
+<createdTime>2020-10-28 22:18:37 UTC</createdTime>
+<comment><![CDATA[Person Types
+0 - unknown
+1 - HARC Member]]></comment>
+<ownerDesignName>HARC_SNN_Redesign_Data_Model</ownerDesignName>
+<usedAsRemoteObject>true</usedAsRemoteObject>
+<engineerTo>
+<item key="FC2407F3-F8D5-F415-2274-01B807491F5F" value="true"/>
+<item key="2D9F4731-903E-E966-6F91-381618624C38" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<preferredAbbreviation>t_pers_typ</preferredAbbreviation>
+<shortName>t_pers_typ</shortName>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Person Type Code" id="2F389B4A-5368-57C0-4A17-462A634FB044">
+<createdBy>tcollier</createdBy>
+<createdTime>2020-10-28 22:19:04 UTC</createdTime>
+<ownerDesignName>HARC_SNN_Redesign_Data_Model</ownerDesignName>
+<engineerTo>
+<item key="FC2407F3-F8D5-F415-2274-01B807491F5F" value="true"/>
+<item key="2D9F4731-903E-E966-6F91-381618624C38" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<preferredAbbreviation>per_typ_cd</preferredAbbreviation>
+</Attribute>
+<Attribute name="Person Type Description" id="61D4D2C0-F5EE-741F-8A19-289EEFC6238F">
+<createdBy>tcollier</createdBy>
+<createdTime>2020-10-28 22:19:31 UTC</createdTime>
+<ownerDesignName>HARC_SNN_Redesign_Data_Model</ownerDesignName>
+<engineerTo>
+<item key="FC2407F3-F8D5-F415-2274-01B807491F5F" value="true"/>
+<item key="2D9F4731-903E-E966-6F91-381618624C38" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT040</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<preferredAbbreviation>pers_typ_desc</preferredAbbreviation>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="3B6AA434-88E8-5630-937F-F2D81D04F75E" name="Person Type PK">
+<createdBy>tcollier</createdBy>
+<createdTime>2020-10-28 22:19:51 UTC</createdTime>
+<ownerDesignName>HARC_SNN_Redesign_Data_Model</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="FC2407F3-F8D5-F415-2274-01B807491F5F" value="true"/>
+<item key="2D9F4731-903E-E966-6F91-381618624C38" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>2F389B4A-5368-57C0-4A17-462A634FB044</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

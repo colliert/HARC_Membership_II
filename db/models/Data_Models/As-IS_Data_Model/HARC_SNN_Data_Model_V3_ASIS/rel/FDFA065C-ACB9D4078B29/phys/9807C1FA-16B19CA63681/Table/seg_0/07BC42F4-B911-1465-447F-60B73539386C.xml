@@ -1,0 +1,73 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev9i class="oracle.dbtools.crest.model.design.storage.oracle.v9i.TableProxyOraclev9i" name="Daylite_HARC_Mem" directorySegmentName="seg_0" id="07BC42F4-B911-1465-447F-60B73539386C">
+<createdBy>tcollier</createdBy>
+<createdTime>2023-12-10 01:28:01 UTC</createdTime>
+<ownerDesignName>HARC_SNN_Data_Model_V3</ownerDesignName>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="mem_zipcode" id="177DECEC-3A72-11FA-DCC5-F87F7BF3332B">
+<createdBy>tcollier</createdBy>
+<createdTime>2023-12-10 01:28:01 UTC</createdTime>
+<ownerDesignName>HARC_SNN_Data_Model_V3</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="mem_phone" id="1EFC8D7C-731D-A23C-5C9E-3590D7D07FCE">
+<createdBy>tcollier</createdBy>
+<createdTime>2023-12-10 01:28:01 UTC</createdTime>
+<ownerDesignName>HARC_SNN_Data_Model_V3</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="mem_city" id="454F376D-7E83-C465-EC74-9CC69F03EB45">
+<createdBy>tcollier</createdBy>
+<createdTime>2023-12-10 01:28:01 UTC</createdTime>
+<ownerDesignName>HARC_SNN_Data_Model_V3</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="first_name" id="51861F00-BB69-62E9-17FE-D6901A9D8462">
+<createdBy>tcollier</createdBy>
+<createdTime>2023-12-10 01:28:01 UTC</createdTime>
+<ownerDesignName>HARC_SNN_Data_Model_V3</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="call_sign" id="5E37888A-CDDA-2B00-6BFF-7729D4533DE6">
+<createdBy>tcollier</createdBy>
+<createdTime>2023-12-10 01:28:01 UTC</createdTime>
+<ownerDesignName>HARC_SNN_Data_Model_V3</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="mem_lic_class" id="8C7CCECD-D941-C762-E591-FC84519922BA">
+<createdBy>tcollier</createdBy>
+<createdTime>2023-12-10 01:28:01 UTC</createdTime>
+<ownerDesignName>HARC_SNN_Data_Model_V3</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="middle_name" id="913B4882-73B1-26EE-0BFC-E264E1A54CB9">
+<createdBy>tcollier</createdBy>
+<createdTime>2023-12-10 01:28:01 UTC</createdTime>
+<ownerDesignName>HARC_SNN_Data_Model_V3</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="last_name" id="C6083F43-748B-0882-5D6D-44A8785953BE">
+<createdBy>tcollier</createdBy>
+<createdTime>2023-12-10 01:28:01 UTC</createdTime>
+<ownerDesignName>HARC_SNN_Data_Model_V3</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="nick_name" id="DBB341E4-D341-2583-3B90-772EDCA58BF7">
+<createdBy>tcollier</createdBy>
+<createdTime>2023-12-10 01:28:01 UTC</createdTime>
+<ownerDesignName>HARC_SNN_Data_Model_V3</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="mem_email" id="E30B471E-3495-A699-BD46-F8F95C60A9B6">
+<createdBy>tcollier</createdBy>
+<createdTime>2023-12-10 01:28:01 UTC</createdTime>
+<ownerDesignName>HARC_SNN_Data_Model_V3</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="mem_street" id="ECFD0AE7-80BB-B21A-E8B0-E00C9DFA8E9D">
+<createdBy>tcollier</createdBy>
+<createdTime>2023-12-10 01:28:01 UTC</createdTime>
+<ownerDesignName>HARC_SNN_Data_Model_V3</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="mem_state" id="F63773D2-9583-C682-8AF3-197C37CBB2FF">
+<createdBy>tcollier</createdBy>
+<createdTime>2023-12-10 01:28:01 UTC</createdTime>
+<ownerDesignName>HARC_SNN_Data_Model_V3</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+</TableProxyOraclev9i>

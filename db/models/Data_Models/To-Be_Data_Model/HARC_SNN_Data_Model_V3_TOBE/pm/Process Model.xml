@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<ProcessModel class="oracle.dbtools.crest.model.design.process.ProcessModel" name="Process Model" id="A1C72B4B-85CB-F04B-3FC7-78E8F9C2490B">
+<createdBy>tcollier</createdBy>
+<createdTime>2023-12-10 01:27:13 UTC</createdTime>
+<ownerDesignName>HARC_SNN_Data_Model_V3</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</ProcessModel>

@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<DomainFile class="oracle.dbtools.crest.model.design.DomainFileWrapper" fileName="create_qso_sql_Domains">
+   <domains>
+      <Domain class="oracle.dbtools.crest.model.design.Domain" name="REAL_0_0_0" id="5A36C5DE-AF0C-CD54-1975-75537D422F0F">
+         <createdBy>jtimothycollier</createdBy>
+         <createdTime>2019-07-02 04:33:07 UTC</createdTime>
+         <ownerDesignName>MacLoggerDX_Project</ownerDesignName>
+         <avTSortOrder>0</avTSortOrder>
+         <fileName>create_qso_sql_Domains</fileName>
+         <logicalDatatype>LOGDT022</logicalDatatype>
+      </Domain>
+      <Domain class="oracle.dbtools.crest.model.design.Domain" name="Integer_0_0_0" id="D8859897-F332-FB06-FAAB-AF0470021D1A">
+         <createdBy>jtimothycollier</createdBy>
+         <createdTime>2019-07-02 04:33:07 UTC</createdTime>
+         <ownerDesignName>MacLoggerDX_Project</ownerDesignName>
+         <avTSortOrder>0</avTSortOrder>
+         <fileName>create_qso_sql_Domains</fileName>
+         <logicalDatatype>LOGDT011</logicalDatatype>
+      </Domain>
+   </domains>
+</DomainFile>

@@ -1,0 +1,96 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev12c class="oracle.dbtools.crest.model.design.storage.oracle.v12c.TableProxyOraclev12c" name="t harc member allstar" directorySegmentName="seg_0" id="17864FD1-2403-6E66-532A-D2F65BDD7C8D">
+<createdBy>tcollier</createdBy>
+<createdTime>2020-10-30 17:45:49 UTC</createdTime>
+<ownerDesignName>SNN_data_model</ownerDesignName>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="node_num" id="03CD95C2-0643-C45A-02D3-A25DDB20A0E3">
+<createdBy>tcollier</createdBy>
+<createdTime>2020-10-30 17:45:49 UTC</createdTime>
+<ownerDesignName>SNN_data_model</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="node_tone" id="0BBEB0D5-5385-30A3-CF90-331812EF139E">
+<createdBy>tcollier</createdBy>
+<createdTime>2020-10-30 17:45:49 UTC</createdTime>
+<ownerDesignName>SNN_data_model</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="node_ext" id="1AF68F57-92EA-AA19-06F0-9F72055A0C1E">
+<createdBy>tcollier</createdBy>
+<createdTime>2020-10-30 17:45:49 UTC</createdTime>
+<ownerDesignName>SNN_data_model</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="node_country" id="31239782-E715-857A-C8B6-01093FC215BD">
+<createdBy>tcollier</createdBy>
+<createdTime>2020-10-30 17:45:49 UTC</createdTime>
+<ownerDesignName>SNN_data_model</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="t_harc_member_mem_call" id="562E1BED-B4EB-B8AB-59BF-A9F24FA61527">
+<createdBy>tcollier</createdBy>
+<createdTime>2020-10-30 17:45:49 UTC</createdTime>
+<ownerDesignName>SNN_data_model</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="t_pers_mem_call" id="57DB45F3-A2BC-097B-4F80-D19D9940A450">
+<createdBy>tcollier</createdBy>
+<createdTime>2020-10-30 22:41:48 UTC</createdTime>
+<ownerDesignName>SNN_data_model</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="node_site_nam" id="58174EAF-A496-1F71-FBA6-C70A4C4B9410">
+<createdBy>tcollier</createdBy>
+<createdTime>2020-10-30 17:45:49 UTC</createdTime>
+<ownerDesignName>SNN_data_model</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="node_eff_dat" id="582EBE19-AB59-6143-5FB9-88C5B1700C17">
+<createdBy>tcollier</createdBy>
+<createdTime>2020-10-30 17:45:49 UTC</createdTime>
+<ownerDesignName>SNN_data_model</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="node_freq" id="63C20B90-D97C-0995-5E0E-1903E2E0691B">
+<createdBy>tcollier</createdBy>
+<createdTime>2020-10-30 17:45:49 UTC</createdTime>
+<ownerDesignName>SNN_data_model</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="node_affiliation" id="64BC9766-45C8-F073-E430-87DEB3AC8984">
+<createdBy>tcollier</createdBy>
+<createdTime>2020-10-30 17:45:49 UTC</createdTime>
+<ownerDesignName>SNN_data_model</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="node_location" id="B5A3F271-AEBD-74A1-42A5-A1B73BC9353E">
+<createdBy>tcollier</createdBy>
+<createdTime>2020-10-30 17:45:49 UTC</createdTime>
+<ownerDesignName>SNN_data_model</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="node_id" id="E882114B-0CF6-BD03-46D7-2C363E2DA568">
+<createdBy>tcollier</createdBy>
+<createdTime>2020-10-30 17:45:49 UTC</createdTime>
+<ownerDesignName>SNN_data_model</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="t_harc_member_allstar_t_pers_FK" id="09F47336-BAD5-6426-4A0B-3AAE87EF39FC">
+<createdBy>tcollier</createdBy>
+<createdTime>2020-10-30 22:42:30 UTC</createdTime>
+<ownerDesignName>SNN_data_model</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="t_harc_member_allstar_PK" id="C4CDA3D9-AEAD-6CD1-38E2-4F4B75AD1A7C">
+<createdBy>tcollier</createdBy>
+<createdTime>2020-10-30 17:45:49 UTC</createdTime>
+<ownerDesignName>SNN_data_model</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+<uniqueKeys>
+<UniqueKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.UniqueOraclev10g" name="t_harc_member_allstar_node_num_UN" id="7D29ACAE-700D-41BE-E170-BA67C964752A">
+<createdBy>tcollier</createdBy>
+<createdTime>2020-10-30 17:45:49 UTC</createdTime>
+<ownerDesignName>SNN_data_model</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</UniqueKey>
+</uniqueKeys>
+</TableProxyOraclev12c>

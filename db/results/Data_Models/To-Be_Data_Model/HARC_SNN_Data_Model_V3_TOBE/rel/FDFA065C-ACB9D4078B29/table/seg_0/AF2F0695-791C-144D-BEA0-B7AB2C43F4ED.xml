@@ -1,0 +1,55 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="AF2F0695-791C-144D-BEA0-B7AB2C43F4ED" name="t_pers_typ">
+<createdBy>tcollier</createdBy>
+<createdTime>2024-02-08 23:41:26 UTC</createdTime>
+<generatorID>31039CA6-2AA8-8207-114C-CA31E08C1BF2</generatorID>
+<ownerDesignName>HARC_SNN_Data_Model_V3_TOBE</ownerDesignName>
+<ordsAlias>person_type</ordsAlias>
+<abbreviation>t_pers_typ</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Person_Type_Code" id="86FE39BC-2CD8-B3B6-4657-3201532ABF9A">
+<createdBy>tcollier</createdBy>
+<createdTime>2024-02-08 23:41:26 UTC</createdTime>
+<generatorID>0EA8EA7D-A426-4B9E-763A-6DD238589018</generatorID>
+<ownerDesignName>HARC_SNN_Data_Model_V3_TOBE</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>90015BD8-66C0-24AE-0278-E3E87E938D9F</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Person_Type_Description" id="647AD9B1-193C-277C-075B-C984E0C5E198">
+<createdBy>tcollier</createdBy>
+<createdTime>2024-02-08 23:41:26 UTC</createdTime>
+<commentInRDBMS><![CDATA[0 non-member
+1 member
+2 member but old callsign]]></commentInRDBMS>
+<generatorID>FC8C53A1-C9E5-4839-EAF3-6E465AF3ED5E</generatorID>
+<ownerDesignName>HARC_SNN_Data_Model_V3_TOBE</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>B2E81DEA-F097-0C6E-D82D-2109375E9C22</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="49F19344-CD7B-94B2-7493-D791DC020E50" name="Person_Type_PK">
+<createdBy>tcollier</createdBy>
+<createdTime>2024-02-08 23:41:26 UTC</createdTime>
+<generatorID>5FF12390-3B7F-11F2-99AA-69B1B1BC1D86</generatorID>
+<ownerDesignName>HARC_SNN_Data_Model_V3_TOBE</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="86FE39BC-2CD8-B3B6-4657-3201532ABF9A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

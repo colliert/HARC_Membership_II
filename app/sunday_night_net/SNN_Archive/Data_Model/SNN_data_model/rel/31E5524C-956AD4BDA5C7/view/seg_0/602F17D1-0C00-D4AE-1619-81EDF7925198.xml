@@ -1,0 +1,89 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableView class="oracle.dbtools.crest.model.design.relational.TableView" directorySegmentName="seg_0" id="602F17D1-0C00-D4AE-1619-81EDF7925198" name="v_harc_member">
+<sourceDDLFile>MacLogger_Sqlite_import copy.sql</sourceDDLFile>
+<createdBy>tcollier</createdBy>
+<createdTime>2020-10-30 17:45:49 UTC</createdTime>
+<ownerDesignName>SNN_data_model</ownerDesignName>
+<importedID>ECF6FD0C-6E57-DDE7-AA06-C5FB073A8772</importedID>
+<userDefined>true</userDefined>
+<userDefinedSQL><![CDATA[SELECT *
+      FROM t_pers
+      WHERE Person Type Code =1
+      ]]></userDefinedSQL>
+<validSQL>false</validSQL>
+<incorrectSQL>true</incorrectSQL>
+<viewElements>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="mem_call" id="77C1CE74-C9DC-FE1A-CB10-0CB7F9642625">
+<createdBy>tcollier</createdBy>
+<createdTime>2020-10-30 17:45:49 UTC</createdTime>
+<ownerDesignName>SNN_data_model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>CHAR</dataType>
+<headerAlias>mem_call</headerAlias>
+<reference>false</reference>
+<tableAlias>t_harc_member</tableAlias>
+<viewID>602F17D1-0C00-D4AE-1619-81EDF7925198</viewID>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="mem_f_nam" id="0B8729DB-2F36-DE5C-37D7-556E52CC5DD8">
+<createdBy>tcollier</createdBy>
+<createdTime>2020-10-30 17:45:49 UTC</createdTime>
+<ownerDesignName>SNN_data_model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>CHAR</dataType>
+<headerAlias>mem_f_nam</headerAlias>
+<reference>false</reference>
+<tableAlias>t_harc_member</tableAlias>
+<viewID>602F17D1-0C00-D4AE-1619-81EDF7925198</viewID>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="mem_m_nam" id="BE971441-7514-7C3F-900B-0AE88488C410">
+<createdBy>tcollier</createdBy>
+<createdTime>2020-10-30 17:45:49 UTC</createdTime>
+<ownerDesignName>SNN_data_model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>CHAR</dataType>
+<headerAlias>mem_m_nam</headerAlias>
+<reference>false</reference>
+<tableAlias>t_harc_member</tableAlias>
+<viewID>602F17D1-0C00-D4AE-1619-81EDF7925198</viewID>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="mem_l_nam" id="26798848-3F11-CB9A-1FE5-5F983520139B">
+<createdBy>tcollier</createdBy>
+<createdTime>2020-10-30 17:45:49 UTC</createdTime>
+<ownerDesignName>SNN_data_model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>CHAR</dataType>
+<headerAlias>mem_l_nam</headerAlias>
+<reference>false</reference>
+<tableAlias>t_harc_member</tableAlias>
+<viewID>602F17D1-0C00-D4AE-1619-81EDF7925198</viewID>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="mem_nicknam" id="902C3B31-FF41-0CBB-E669-D28A4160D6B4">
+<createdBy>tcollier</createdBy>
+<createdTime>2020-10-30 17:45:49 UTC</createdTime>
+<ownerDesignName>SNN_data_model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>CHAR</dataType>
+<headerAlias>mem_nicknam</headerAlias>
+<reference>false</reference>
+<tableAlias>t_harc_member</tableAlias>
+<viewID>602F17D1-0C00-D4AE-1619-81EDF7925198</viewID>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="mem_lic_class" id="BFCA1037-BA65-CECA-AD98-7FAF683A8D2B">
+<createdBy>tcollier</createdBy>
+<createdTime>2020-10-30 17:45:49 UTC</createdTime>
+<ownerDesignName>SNN_data_model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>UNKNOWN</dataType>
+<headerAlias>mem_lic_class</headerAlias>
+<reference>false</reference>
+<tableAlias>t_harc_member</tableAlias>
+<viewID>602F17D1-0C00-D4AE-1619-81EDF7925198</viewID>
+</viewElement>
+</viewElements>
+</TableView>

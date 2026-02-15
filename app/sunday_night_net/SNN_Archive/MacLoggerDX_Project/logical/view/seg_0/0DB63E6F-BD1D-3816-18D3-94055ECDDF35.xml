@@ -1,0 +1,60 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<EntityView class="oracle.dbtools.crest.model.design.logical.EntityView" directorySegmentName="seg_0" id="0DB63E6F-BD1D-3816-18D3-94055ECDDF35" name="Radio Type View">
+<createdBy>tcollier</createdBy>
+<createdTime>2019-07-12 21:31:49 UTC</createdTime>
+<ownerDesignName>MacLoggerDX_Project</ownerDesignName>
+<engineerTo>
+<item key="FC57F434-133F-87AF-675A-2915278B34DE" value="true"/>
+</engineerTo>
+<userDefined>true</userDefined>
+<userDefinedSQL>select *&lt;br/&gt;from &quot;Radio Type&quot;;</userDefinedSQL>
+<parsed>true</parsed>
+<viewType>EntityView</viewType>
+<usedContainers>
+<container containerID="08422BAD-EDBE-C4C0-0C4C-9D2063B2A275"/>
+</usedContainers>
+<viewElements>
+<viewElement class="oracle.dbtools.crest.model.design.logical.AttributeView" name="Radio Type Code" id="48F43AC1-E1E0-52F9-DA7D-0779D529534C">
+<createdBy>tcollier</createdBy>
+<createdTime>2019-07-12 21:32:47 UTC</createdTime>
+<ownerDesignName>MacLoggerDX_Project</ownerDesignName>
+<engineerTo>
+<item key="FC57F434-133F-87AF-675A-2915278B34DE" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>INTEGER</dataType>
+<reference>false</reference>
+<referencedColumn>5C98FBCC-5051-790F-3040-D33417A79E22</referencedColumn>
+<table>08422BAD-EDBE-C4C0-0C4C-9D2063B2A275</table>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.logical.AttributeView" name="Radio Type Description" id="94EB9BCF-C8D2-C0D0-3859-1ED08CD65596">
+<createdBy>tcollier</createdBy>
+<createdTime>2019-07-12 21:32:47 UTC</createdTime>
+<ownerDesignName>MacLoggerDX_Project</ownerDesignName>
+<engineerTo>
+<item key="FC57F434-133F-87AF-675A-2915278B34DE" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>CLOB</dataType>
+<reference>false</reference>
+<referencedColumn>2110F7AF-A1BA-B382-8A19-04619533E62A</referencedColumn>
+<table>08422BAD-EDBE-C4C0-0C4C-9D2063B2A275</table>
+</viewElement>
+</viewElements>
+<usedObjects>
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="08422BAD-EDBE-C4C0-0C4C-9D2063B2A275">
+<container>true</container>
+<tableName>Radio Type</tableName>
+</UsedObject>
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="5C98FBCC-5051-790F-3040-D33417A79E22">
+<columnName>Radio Type Code</columnName>
+<tableName>Radio Type</tableName>
+</UsedObject>
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="2110F7AF-A1BA-B382-8A19-04619533E62A">
+<columnName>Radio Type Description</columnName>
+<tableName>Radio Type</tableName>
+</UsedObject>
+</usedObjects>
+</EntityView>

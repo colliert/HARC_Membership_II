@@ -1,0 +1,92 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableView class="oracle.dbtools.crest.model.design.relational.TableView" directorySegmentName="seg_0" id="66AB0A81-08D5-725F-CCFA-54DC4C811EF2" name="v_harc_snn_callout_roster_reverse">
+<sourceDDLFile>HARC_SNN_DDL_Modified.sql</sourceDDLFile>
+<createdBy>tcollier</createdBy>
+<createdTime>2023-12-10 01:28:01 UTC</createdTime>
+<ownerDesignName>HARC_SNN_Data_Model_V3</ownerDesignName>
+<importedID>D339ECEE-C187-2D92-C357-4111D3EA4B3B</importedID>
+<userDefined>true</userDefined>
+<userDefinedSQL><![CDATA[select callsign
+    ,"first name"
+    ,"last name"
+    ,member
+    ,comments
+    ,Cutoff_Days
+from (select callsign
+            ,"first name"
+            ,"last name"
+            ,member
+            ,comments
+            ,Cutoff_Days
+from (select * from v_harc_snn_callout_roster)
+order by 5,"last name" desc, "first name" desc)]]></userDefinedSQL>
+<validSQL>false</validSQL>
+<viewElements>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="callsign" id="39859F8F-B951-7B40-9E87-F3CE7D48D7FB">
+<createdBy>tcollier</createdBy>
+<createdTime>2023-12-10 01:28:01 UTC</createdTime>
+<ownerDesignName>HARC_SNN_Data_Model_V3</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>UNKNOWN</dataType>
+<headerAlias>callsign</headerAlias>
+<reference>false</reference>
+<viewID>66AB0A81-08D5-725F-CCFA-54DC4C811EF2</viewID>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="first name" id="E7350316-1FCF-6419-7A5A-5B149D4E7F21">
+<createdBy>tcollier</createdBy>
+<createdTime>2023-12-10 01:28:01 UTC</createdTime>
+<ownerDesignName>HARC_SNN_Data_Model_V3</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>UNKNOWN</dataType>
+<headerAlias>first name</headerAlias>
+<reference>false</reference>
+<viewID>66AB0A81-08D5-725F-CCFA-54DC4C811EF2</viewID>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="last name" id="D50E604A-BB0B-793D-7BC0-FD8CDC40233C">
+<createdBy>tcollier</createdBy>
+<createdTime>2023-12-10 01:28:01 UTC</createdTime>
+<ownerDesignName>HARC_SNN_Data_Model_V3</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>UNKNOWN</dataType>
+<headerAlias>last name</headerAlias>
+<reference>false</reference>
+<viewID>66AB0A81-08D5-725F-CCFA-54DC4C811EF2</viewID>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="member" id="31A0A691-7A83-D8C2-53CA-0EC13D48AC45">
+<createdBy>tcollier</createdBy>
+<createdTime>2023-12-10 01:28:01 UTC</createdTime>
+<ownerDesignName>HARC_SNN_Data_Model_V3</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>UNKNOWN</dataType>
+<headerAlias>member</headerAlias>
+<reference>false</reference>
+<viewID>66AB0A81-08D5-725F-CCFA-54DC4C811EF2</viewID>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="comments" id="B14DAC94-F6BD-1E09-51A9-B3F947C959BE">
+<createdBy>tcollier</createdBy>
+<createdTime>2023-12-10 01:28:01 UTC</createdTime>
+<ownerDesignName>HARC_SNN_Data_Model_V3</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>UNKNOWN</dataType>
+<headerAlias>comments</headerAlias>
+<reference>false</reference>
+<viewID>66AB0A81-08D5-725F-CCFA-54DC4C811EF2</viewID>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="Cutoff_Days" id="00DA6216-15FE-A906-633D-BD57A2B96321">
+<createdBy>tcollier</createdBy>
+<createdTime>2023-12-10 01:28:01 UTC</createdTime>
+<ownerDesignName>HARC_SNN_Data_Model_V3</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>UNKNOWN</dataType>
+<headerAlias>Cutoff_Days</headerAlias>
+<reference>false</reference>
+<viewID>66AB0A81-08D5-725F-CCFA-54DC4C811EF2</viewID>
+</viewElement>
+</viewElements>
+</TableView>

@@ -1,0 +1,266 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev10g class="oracle.dbtools.crest.model.design.storage.oracle.v10g.TableProxyOraclev10g" name="qso_table_v007" directorySegmentName="seg_0" id="A378640F-CD9B-DAD4-AEAE-265B05F458FC">
+<createdBy>tcollier</createdBy>
+<createdTime>2020-10-28 19:34:37 UTC</createdTime>
+<ownerDesignName>HARC_SNN_Redesign_Data_Model</ownerDesignName>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="longitude" id="000E1C39-4BB1-7DF2-418C-0AA928CA6B36">
+<createdBy>tcollier</createdBy>
+<createdTime>2020-10-28 19:34:38 UTC</createdTime>
+<ownerDesignName>HARC_SNN_Redesign_Data_Model</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="zip" id="02CD49C2-7126-0F03-E103-CBA81C1F37A7">
+<createdBy>tcollier</createdBy>
+<createdTime>2020-10-28 19:34:38 UTC</createdTime>
+<ownerDesignName>HARC_SNN_Redesign_Data_Model</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="pk" id="0AAA2557-D678-B585-DF86-AA5801147B25">
+<createdBy>tcollier</createdBy>
+<createdTime>2020-10-28 19:34:38 UTC</createdTime>
+<ownerDesignName>HARC_SNN_Redesign_Data_Model</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="qso_done" id="0CBB969D-EA1C-DACF-B140-A367DF7E9DBA">
+<createdBy>tcollier</createdBy>
+<createdTime>2020-10-28 19:34:38 UTC</createdTime>
+<ownerDesignName>HARC_SNN_Redesign_Data_Model</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="band_tx" id="0DFAEE8F-4763-E612-4002-DE3B4787DD88">
+<createdBy>tcollier</createdBy>
+<createdTime>2020-10-28 19:34:38 UTC</createdTime>
+<ownerDesignName>HARC_SNN_Redesign_Data_Model</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="city" id="15C10ED7-97CA-2A5B-A3B9-03D973246DA0">
+<createdBy>tcollier</createdBy>
+<createdTime>2020-10-28 19:34:38 UTC</createdTime>
+<ownerDesignName>HARC_SNN_Redesign_Data_Model</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="azimuth" id="16EF6068-5124-375F-C358-7514581920B6">
+<createdBy>tcollier</createdBy>
+<createdTime>2020-10-28 19:34:38 UTC</createdTime>
+<ownerDesignName>HARC_SNN_Redesign_Data_Model</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="my_call" id="1E845294-8327-AB12-0D0D-48AAEAE4DE21">
+<createdBy>tcollier</createdBy>
+<createdTime>2020-10-28 19:34:38 UTC</createdTime>
+<ownerDesignName>HARC_SNN_Redesign_Data_Model</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="call" id="25907D23-FD33-54DA-7950-7A09CD2A6655">
+<createdBy>tcollier</createdBy>
+<createdTime>2020-10-28 19:34:38 UTC</createdTime>
+<ownerDesignName>HARC_SNN_Redesign_Data_Model</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="rst_sent" id="29CB58E0-F070-89DC-8374-767288A363C4">
+<createdBy>tcollier</createdBy>
+<createdTime>2020-10-28 19:34:38 UTC</createdTime>
+<ownerDesignName>HARC_SNN_Redesign_Data_Model</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ten_ten" id="2C52BC61-72B5-31C8-2FE5-11A057B4E1E0">
+<createdBy>tcollier</createdBy>
+<createdTime>2020-10-28 19:34:38 UTC</createdTime>
+<ownerDesignName>HARC_SNN_Redesign_Data_Model</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="iota" id="2CDA6D83-3C1A-BEED-51F1-D687E7513FF7">
+<createdBy>tcollier</createdBy>
+<createdTime>2020-10-28 19:34:38 UTC</createdTime>
+<ownerDesignName>HARC_SNN_Redesign_Data_Model</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="my_grid" id="2F649927-BD97-4FAD-7743-86DFE4595F7C">
+<createdBy>tcollier</createdBy>
+<createdTime>2020-10-28 19:34:38 UTC</createdTime>
+<ownerDesignName>HARC_SNN_Redesign_Data_Model</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="satellite" id="31DBD116-695D-6C9C-9EE5-E8E31E591D87">
+<createdBy>tcollier</createdBy>
+<createdTime>2020-10-28 19:34:38 UTC</createdTime>
+<ownerDesignName>HARC_SNN_Redesign_Data_Model</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="county" id="3343037E-39E4-C6E6-3FEB-ACD55579EA89">
+<createdBy>tcollier</createdBy>
+<createdTime>2020-10-28 19:34:38 UTC</createdTime>
+<ownerDesignName>HARC_SNN_Redesign_Data_Model</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="itu" id="3CE095E7-ED45-01CD-B91F-7385155A693A">
+<createdBy>tcollier</createdBy>
+<createdTime>2020-10-28 19:34:38 UTC</createdTime>
+<ownerDesignName>HARC_SNN_Redesign_Data_Model</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="street" id="421A86BD-0782-7148-5B06-A71F90BEF3A5">
+<createdBy>tcollier</createdBy>
+<createdTime>2020-10-28 19:34:38 UTC</createdTime>
+<ownerDesignName>HARC_SNN_Redesign_Data_Model</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="rx_frequency" id="4768C50F-FB30-ED1B-503D-1BAEC9ED9D4E">
+<createdBy>tcollier</createdBy>
+<createdTime>2020-10-28 19:34:38 UTC</createdTime>
+<ownerDesignName>HARC_SNN_Redesign_Data_Model</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="grid" id="560DB41E-E0E5-390C-2DB0-DB8D65FED10C">
+<createdBy>tcollier</createdBy>
+<createdTime>2020-10-28 19:34:38 UTC</createdTime>
+<ownerDesignName>HARC_SNN_Redesign_Data_Model</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="qsl_sent" id="5DF4CAF5-CB7E-C801-B704-6FFCBD7A5EBC">
+<createdBy>tcollier</createdBy>
+<createdTime>2020-10-28 19:34:38 UTC</createdTime>
+<ownerDesignName>HARC_SNN_Redesign_Data_Model</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="skcc" id="6639AD3B-CC8E-85FB-7463-1C4B85D5630C">
+<createdBy>tcollier</createdBy>
+<createdTime>2020-10-28 19:34:38 UTC</createdTime>
+<ownerDesignName>HARC_SNN_Redesign_Data_Model</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="band_rx" id="66C37A24-25A6-0065-CECE-9671EA4360B0">
+<createdBy>tcollier</createdBy>
+<createdTime>2020-10-28 19:34:38 UTC</createdTime>
+<ownerDesignName>HARC_SNN_Redesign_Data_Model</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="qsl_via" id="6A06A013-B847-2DD8-F4C0-C24050246C03">
+<createdBy>tcollier</createdBy>
+<createdTime>2020-10-28 19:34:38 UTC</createdTime>
+<ownerDesignName>HARC_SNN_Redesign_Data_Model</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="stx" id="6CCA9307-4B5A-A8AB-A6F9-0C37134948EB">
+<createdBy>tcollier</createdBy>
+<createdTime>2020-10-28 19:34:38 UTC</createdTime>
+<ownerDesignName>HARC_SNN_Redesign_Data_Model</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="email" id="7AE644E1-BE19-2501-F998-11F45D8AE8C8">
+<createdBy>tcollier</createdBy>
+<createdTime>2020-10-28 19:34:38 UTC</createdTime>
+<ownerDesignName>HARC_SNN_Redesign_Data_Model</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="tx_frequency" id="85BF9E81-CDF0-50A7-DC6D-C4E798928035">
+<createdBy>tcollier</createdBy>
+<createdTime>2020-10-28 19:34:38 UTC</createdTime>
+<ownerDesignName>HARC_SNN_Redesign_Data_Model</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="postal_country" id="93114DE9-9763-8A9F-D606-B43F6AF96C3A">
+<createdBy>tcollier</createdBy>
+<createdTime>2020-10-28 19:34:38 UTC</createdTime>
+<ownerDesignName>HARC_SNN_Redesign_Data_Model</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="url" id="A039724A-35B4-2323-0992-20C3F9DEF57E">
+<createdBy>tcollier</createdBy>
+<createdTime>2020-10-28 19:34:38 UTC</createdTime>
+<ownerDesignName>HARC_SNN_Redesign_Data_Model</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="elevation" id="A8644475-A06A-D793-C42B-95EA486E1AA6">
+<createdBy>tcollier</createdBy>
+<createdTime>2020-10-28 19:34:38 UTC</createdTime>
+<ownerDesignName>HARC_SNN_Redesign_Data_Model</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="srx" id="AD939473-6DD8-B461-81BE-60BAFD96C8A2">
+<createdBy>tcollier</createdBy>
+<createdTime>2020-10-28 19:34:38 UTC</createdTime>
+<ownerDesignName>HARC_SNN_Redesign_Data_Model</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="stx_numeric" id="B093D45F-9700-FB01-FF43-53AB2AE4BF6D">
+<createdBy>tcollier</createdBy>
+<createdTime>2020-10-28 19:34:38 UTC</createdTime>
+<ownerDesignName>HARC_SNN_Redesign_Data_Model</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="qsl_received" id="B0D7A867-F5D7-CE5C-4984-08FCA0C5ADB3">
+<createdBy>tcollier</createdBy>
+<createdTime>2020-10-28 19:34:38 UTC</createdTime>
+<ownerDesignName>HARC_SNN_Redesign_Data_Model</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="rst_received" id="B15682A9-AF76-9DA8-0F3F-64BE5D1E36E7">
+<createdBy>tcollier</createdBy>
+<createdTime>2020-10-28 19:34:38 UTC</createdTime>
+<ownerDesignName>HARC_SNN_Redesign_Data_Model</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="srx_numeric" id="B20E46D1-7581-B784-A480-093218CC4407">
+<createdBy>tcollier</createdBy>
+<createdTime>2020-10-28 19:34:38 UTC</createdTime>
+<ownerDesignName>HARC_SNN_Redesign_Data_Model</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="dxcc_id" id="B22FDDF0-9C36-F885-18AD-67B8E3BF2DE4">
+<createdBy>tcollier</createdBy>
+<createdTime>2020-10-28 19:34:38 UTC</createdTime>
+<ownerDesignName>HARC_SNN_Redesign_Data_Model</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="last_name" id="B74DA1B1-E886-C875-34DF-97F5BF52BC15">
+<createdBy>tcollier</createdBy>
+<createdTime>2020-10-28 19:34:38 UTC</createdTime>
+<ownerDesignName>HARC_SNN_Redesign_Data_Model</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="qso_start" id="B92AAF9F-0D5D-0193-D791-C7EE1B2F4A9F">
+<createdBy>tcollier</createdBy>
+<createdTime>2020-10-28 19:34:38 UTC</createdTime>
+<ownerDesignName>HARC_SNN_Redesign_Data_Model</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="cq_zone" id="BAADA7D1-5D97-84CC-37CE-9A238F09D3B8">
+<createdBy>tcollier</createdBy>
+<createdTime>2020-10-28 19:34:38 UTC</createdTime>
+<ownerDesignName>HARC_SNN_Redesign_Data_Model</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="state" id="BFD08F65-8AAD-89F9-DAC9-4DD620B00AE7">
+<createdBy>tcollier</createdBy>
+<createdTime>2020-10-28 19:34:38 UTC</createdTime>
+<ownerDesignName>HARC_SNN_Redesign_Data_Model</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="first_name" id="C007AFB5-8A18-5AE3-1515-61C6409DEBE7">
+<createdBy>tcollier</createdBy>
+<createdTime>2020-10-28 19:34:38 UTC</createdTime>
+<ownerDesignName>HARC_SNN_Redesign_Data_Model</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="sota" id="C3D0E4D2-61E9-4048-42C1-D7077E3451D9">
+<createdBy>tcollier</createdBy>
+<createdTime>2020-10-28 19:34:38 UTC</createdTime>
+<ownerDesignName>HARC_SNN_Redesign_Data_Model</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="my_sota" id="C4282700-ED9A-C90C-AD34-1F892887DFD9">
+<createdBy>tcollier</createdBy>
+<createdTime>2020-10-28 19:34:38 UTC</createdTime>
+<ownerDesignName>HARC_SNN_Redesign_Data_Model</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="latitude" id="D125D344-4F4B-F51B-F352-2CFF7318FABE">
+<createdBy>tcollier</createdBy>
+<createdTime>2020-10-28 19:34:38 UTC</createdTime>
+<ownerDesignName>HARC_SNN_Redesign_Data_Model</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="dxcc_country" id="DD879A8C-F4C2-5511-A553-76195CD732F2">
+<createdBy>tcollier</createdBy>
+<createdTime>2020-10-28 19:34:38 UTC</createdTime>
+<ownerDesignName>HARC_SNN_Redesign_Data_Model</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="contest_id" id="DEEF30C5-B139-1197-9022-5DFB90BEECB6">
+<createdBy>tcollier</createdBy>
+<createdTime>2020-10-28 19:34:38 UTC</createdTime>
+<ownerDesignName>HARC_SNN_Redesign_Data_Model</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="mode" id="E39ECFE2-3272-D4AE-1A99-D133F7160164">
+<createdBy>tcollier</createdBy>
+<createdTime>2020-10-28 19:34:38 UTC</createdTime>
+<ownerDesignName>HARC_SNN_Redesign_Data_Model</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="comments" id="E62EEEE7-32C5-843C-D5FE-12C88274E210">
+<createdBy>tcollier</createdBy>
+<createdTime>2020-10-28 19:34:38 UTC</createdTime>
+<ownerDesignName>HARC_SNN_Redesign_Data_Model</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="my_rig" id="ED63CA37-032A-55B1-8137-99FDDA417A3D">
+<createdBy>tcollier</createdBy>
+<createdTime>2020-10-28 19:34:38 UTC</createdTime>
+<ownerDesignName>HARC_SNN_Redesign_Data_Model</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="power" id="FF5B4D91-CEEC-932E-CACE-E4B62ADF07E8">
+<createdBy>tcollier</createdBy>
+<createdTime>2020-10-28 19:34:38 UTC</createdTime>
+<ownerDesignName>HARC_SNN_Redesign_Data_Model</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="qso_table_v007_PK" id="306F43AA-074E-156C-AE61-8D84AEDF9DBF">
+<createdBy>tcollier</createdBy>
+<createdTime>2020-10-28 19:34:38 UTC</createdTime>
+<ownerDesignName>HARC_SNN_Redesign_Data_Model</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev10g>

@@ -1,0 +1,6 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<StorageDesignOraclev9i class="oracle.dbtools.crest.model.design.storage.oracle.v9i.StorageDesignOraclev9i" name="Oracle9i" id="B57F1528-66C9-770C-6790-6A1AD5DF89B1" siteID="9807C1FA-0550-772D-1F14-16B19CA63681" siteName="Oracle9i" siteType="7">
+<createdBy>tcollier</createdBy>
+<createdTime>2023-12-23 00:10:09 UTC</createdTime>
+<ownerDesignName>HARC_SNN_Data_Model_V3</ownerDesignName>
+</StorageDesignOraclev9i>

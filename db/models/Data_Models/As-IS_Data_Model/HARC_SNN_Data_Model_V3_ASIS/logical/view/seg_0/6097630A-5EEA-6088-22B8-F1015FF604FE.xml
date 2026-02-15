@@ -1,0 +1,89 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<EntityView class="oracle.dbtools.crest.model.design.logical.EntityView" directorySegmentName="seg_0" id="6097630A-5EEA-6088-22B8-F1015FF604FE" name="v callsign suffix">
+<createdBy>tcollier</createdBy>
+<createdTime>2023-12-10 01:29:04 UTC</createdTime>
+<generatorID>73A8D841-A773-0183-DEBF-6B36228AC7BC</generatorID>
+<ownerDesignName>HARC_SNN_Data_Model_V3</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="FDFA065C-9B79-4768-D3A1-ACB9D4078B29" value="false"/>
+</engineerTo>
+<userDefined>true</userDefined>
+<userDefinedSQL><![CDATA[select distinct call as "Call"
+    ,first_name as "First_Name"
+    ,last_name as "Last_Name"
+    ,case cast(substr(call,2,1) as integer)
+        when 0 then substr(call,4,length(call))
+        else substr(call,3,length(call))
+    end as "Suffix"
+from v_net_qso
+order by 4]]></userDefinedSQL>
+<validSQL>false</validSQL>
+<viewType>EntityView</viewType>
+<viewElements>
+<viewElement class="oracle.dbtools.crest.model.design.logical.AttributeView" name="Call" id="10DCE1E5-7EBC-756A-CA5A-31A77C618894">
+<createdBy>tcollier</createdBy>
+<createdTime>2023-12-10 01:29:04 UTC</createdTime>
+<generatorID>C9755D81-76B1-A774-37E5-7136D194A2E8</generatorID>
+<ownerDesignName>HARC_SNN_Data_Model_V3</ownerDesignName>
+<engineerTo>
+<item key="FDFA065C-9B79-4768-D3A1-ACB9D4078B29" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<alias>&quot;Call&quot;</alias>
+<dataType>UNKNOWN</dataType>
+<reference>false</reference>
+<referencedColumn>02FF56CD-72A8-6DBD-C06E-6B336CB3FDDB</referencedColumn>
+<viewID>6097630A-5EEA-6088-22B8-F1015FF604FE</viewID>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.logical.AttributeView" name="First_Name" id="13D33078-F455-2E7C-8EE6-14863582F3F5">
+<createdBy>tcollier</createdBy>
+<createdTime>2023-12-10 01:29:04 UTC</createdTime>
+<generatorID>96491BA5-AE46-3E77-C1AF-DD844CB409BA</generatorID>
+<ownerDesignName>HARC_SNN_Data_Model_V3</ownerDesignName>
+<engineerTo>
+<item key="FDFA065C-9B79-4768-D3A1-ACB9D4078B29" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<alias>&quot;First_Name&quot;</alias>
+<dataType>UNKNOWN</dataType>
+<reference>false</reference>
+<referencedColumn>1C218194-17EE-C08F-D223-D056E415763F</referencedColumn>
+<viewID>6097630A-5EEA-6088-22B8-F1015FF604FE</viewID>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.logical.AttributeView" name="Last_Name" id="D94D03C6-2FDD-03EB-BB25-332D12466ACC">
+<createdBy>tcollier</createdBy>
+<createdTime>2023-12-10 01:29:04 UTC</createdTime>
+<generatorID>75439CF0-DD1B-D98E-352F-47DD5F2E80EB</generatorID>
+<ownerDesignName>HARC_SNN_Data_Model_V3</ownerDesignName>
+<engineerTo>
+<item key="FDFA065C-9B79-4768-D3A1-ACB9D4078B29" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<alias>&quot;Last_Name&quot;</alias>
+<dataType>UNKNOWN</dataType>
+<reference>false</reference>
+<referencedColumn>778A630A-198F-C8E0-777E-BC2CB3221DF7</referencedColumn>
+<viewID>6097630A-5EEA-6088-22B8-F1015FF604FE</viewID>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.logical.AttributeView" name="&quot;Suffix&quot;" id="8B2CCBDF-6404-9B73-248E-9B6F5FD571C3">
+<createdBy>tcollier</createdBy>
+<createdTime>2023-12-10 01:29:04 UTC</createdTime>
+<generatorID>CB62C3F3-8241-440E-34D5-45D6B5B4C768</generatorID>
+<ownerDesignName>HARC_SNN_Data_Model_V3</ownerDesignName>
+<engineerTo>
+<item key="FDFA065C-9B79-4768-D3A1-ACB9D4078B29" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<alias>&quot;Suffix&quot;</alias>
+<dataType>UNKNOWN</dataType>
+<expression>casecast(substr(call,2,1)asinteger)when0thensubstr(call,4,length(call))elsesubstr(call,3,length(call))end</expression>
+<reference>false</reference>
+<viewID>6097630A-5EEA-6088-22B8-F1015FF604FE</viewID>
+</viewElement>
+</viewElements>
+</EntityView>

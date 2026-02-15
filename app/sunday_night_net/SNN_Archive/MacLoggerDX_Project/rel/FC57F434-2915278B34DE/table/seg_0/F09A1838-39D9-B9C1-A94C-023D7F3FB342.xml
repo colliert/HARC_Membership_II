@@ -1,0 +1,74 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="F09A1838-39D9-B9C1-A94C-023D7F3FB342" name="t_harc_member">
+<createdBy>tcollier</createdBy>
+<createdTime>2019-07-12 16:48:06 UTC</createdTime>
+<generatorID>8C8F8A5C-7362-E268-F6B3-39F6C8F775A0</generatorID>
+<ownerDesignName>MacLoggerDX_Project</ownerDesignName>
+<abbreviation>t_harc_member</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="mem_call" id="0BD7B063-BE4E-1303-6807-98868241F6A6">
+<createdBy>tcollier</createdBy>
+<createdTime>2019-07-12 16:48:06 UTC</createdTime>
+<generatorID>1C452569-9A56-A0D9-EC9D-AE36384EA3A1</generatorID>
+<ownerDesignName>MacLoggerDX_Project</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="mem_f_nam" id="FF7FF045-947C-0007-B25C-6441DE99C253">
+<createdBy>tcollier</createdBy>
+<createdTime>2019-07-12 16:48:06 UTC</createdTime>
+<generatorID>9986AD63-E04F-EFF0-45CA-29B6D1E1D13F</generatorID>
+<ownerDesignName>MacLoggerDX_Project</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="mem_m_nam" id="4AA5C7E9-699C-AC3B-0C36-AC8130E31954">
+<createdBy>tcollier</createdBy>
+<createdTime>2019-07-12 16:48:06 UTC</createdTime>
+<generatorID>67F25766-7FE1-A8C7-AB73-BA7B47AFCF08</generatorID>
+<ownerDesignName>MacLoggerDX_Project</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="mem_l_nam" id="301222E6-B81E-26F3-AB7E-9748B22BCFC0">
+<createdBy>tcollier</createdBy>
+<createdTime>2019-07-12 16:48:06 UTC</createdTime>
+<generatorID>9D535688-3F56-43ED-7F15-4F9429F100AD</generatorID>
+<ownerDesignName>MacLoggerDX_Project</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="65E2410B-39D7-F73B-DDC2-9643D1058035" name="t_harc_member_PK">
+<createdBy>tcollier</createdBy>
+<createdTime>2019-07-12 16:48:06 UTC</createdTime>
+<generatorID>DB931814-9288-7C3F-E8BC-F4B8EDFB1277</generatorID>
+<ownerDesignName>MacLoggerDX_Project</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0BD7B063-BE4E-1303-6807-98868241F6A6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

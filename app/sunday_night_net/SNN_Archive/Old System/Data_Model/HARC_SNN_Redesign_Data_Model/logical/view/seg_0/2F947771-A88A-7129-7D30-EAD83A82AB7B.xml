@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<EntityView class="oracle.dbtools.crest.model.design.logical.EntityView" directorySegmentName="seg_0" id="2F947771-A88A-7129-7D30-EAD83A82AB7B" name="v checkin count">
+<createdBy>tcollier</createdBy>
+<createdTime>2020-10-28 21:46:01 UTC</createdTime>
+<generatorID>A4215B5B-A094-F966-8EEC-25DE41E95044</generatorID>
+<ownerDesignName>HARC_SNN_Redesign_Data_Model</ownerDesignName>
+<engineerTo>
+<item key="FC2407F3-F8D5-F415-2274-01B807491F5F" value="true"/>
+<item key="2D9F4731-903E-E966-6F91-381618624C38" value="true"/>
+</engineerTo>
+<userDefined>true</userDefined>
+<userDefinedSQL><![CDATA[SELECT date(qso_start, 'unixepoch')AS [Net Date],
+           count(qso_start)AS Checkins
+      FROM v_qso_table_v007
+     GROUP BY 1
+     ORDER BY 1]]></userDefinedSQL>
+<validSQL>false</validSQL>
+<viewType>EntityView</viewType>
+</EntityView>

@@ -1,0 +1,168 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableView class="oracle.dbtools.crest.model.design.relational.TableView" directorySegmentName="seg_0" id="761548BC-16F5-7947-295F-4FDBC7BB5AF2" name="v_net_qso">
+<createdBy>tcollier</createdBy>
+<createdTime>2024-02-13 23:23:43 UTC</createdTime>
+<ownerDesignName>HARC_SNN_Data_Model_V3_TOBE</ownerDesignName>
+<ordsAlias>v_t_net_qso</ordsAlias>
+<userDefined>true</userDefined>
+<userDefinedSQL><![CDATA[CREATE VIEW V_t_net_qso
+  ( QSO_Key
+   , call
+   , net_id
+   , f_nam
+   , l_nam
+   , qso_start
+   , qso_date
+   , qso_time )
+ AS SELECT
+    QSO_Key
+   , call
+   , net_id
+   , f_nam
+   , l_nam
+   , qso_start
+   , qso_date
+   , qso_time
+ FROM 
+    t_net_qso ;]]></userDefinedSQL>
+<validSQL>false</validSQL>
+<parsed>true</parsed>
+<originalTableID>949CAF85-0834-90EC-7045-DA386E53935A</originalTableID>
+<viewElements>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="QSO_Key" id="E12D48AE-E2D9-68FB-53FF-2F3F58937DED">
+<createdBy>tcollier</createdBy>
+<createdTime>2024-02-13 23:23:43 UTC</createdTime>
+<commentInRDBMS><![CDATA[Sequential primary key]]></commentInRDBMS>
+<ownerDesignName>HARC_SNN_Data_Model_V3_TOBE</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>NUMBER</dataType>
+<headerAlias>QSO_Key</headerAlias>
+<reference>false</reference>
+<referencedColumn>197CA04E-17F8-D9FB-8CE3-DF4B8CD2259B</referencedColumn>
+<table>949CAF85-0834-90EC-7045-DA386E53935A</table>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="callsign" id="F20F616F-9933-769C-86A9-04608B07A18A">
+<createdBy>tcollier</createdBy>
+<createdTime>2024-02-13 23:23:43 UTC</createdTime>
+<ownerDesignName>HARC_SNN_Data_Model_V3_TOBE</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>VARCHAR2 (6)</dataType>
+<headerAlias>call</headerAlias>
+<reference>false</reference>
+<referencedColumn>6BBD5849-4F34-5F95-E268-3CB273529C65</referencedColumn>
+<table>949CAF85-0834-90EC-7045-DA386E53935A</table>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="Net_ID" id="9472CAA7-BCF9-1FBF-F3B5-62E68EC8A3E4">
+<createdBy>tcollier</createdBy>
+<createdTime>2024-02-13 23:23:43 UTC</createdTime>
+<ownerDesignName>HARC_SNN_Data_Model_V3_TOBE</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>VARCHAR2 (20)</dataType>
+<headerAlias>net_id</headerAlias>
+<reference>false</reference>
+<referencedColumn>3E5E303E-45F2-B8E1-0A5A-D09B9E277D7C</referencedColumn>
+<table>949CAF85-0834-90EC-7045-DA386E53935A</table>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="First_Name" id="4A0589FD-311C-2677-E19D-68A17B5726D4">
+<createdBy>tcollier</createdBy>
+<createdTime>2024-02-13 23:23:43 UTC</createdTime>
+<ownerDesignName>HARC_SNN_Data_Model_V3_TOBE</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>VARCHAR2 (25)</dataType>
+<headerAlias>f_nam</headerAlias>
+<reference>false</reference>
+<referencedColumn>FA62CD22-8A99-9B76-3530-28D71FABCD89</referencedColumn>
+<table>949CAF85-0834-90EC-7045-DA386E53935A</table>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="Last_Name" id="554DBC15-1E27-7715-DDCA-B38D87144189">
+<createdBy>tcollier</createdBy>
+<createdTime>2024-02-13 23:23:43 UTC</createdTime>
+<ownerDesignName>HARC_SNN_Data_Model_V3_TOBE</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>VARCHAR2 (25)</dataType>
+<headerAlias>l_nam</headerAlias>
+<reference>false</reference>
+<referencedColumn>2B995947-0BC1-80F6-FB6F-413594CCB9A3</referencedColumn>
+<table>949CAF85-0834-90EC-7045-DA386E53935A</table>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="QSO_Start" id="A0A7CF46-23A8-549A-AE9B-0D189C8E1F8A">
+<createdBy>tcollier</createdBy>
+<createdTime>2024-02-13 23:23:43 UTC</createdTime>
+<ownerDesignName>HARC_SNN_Data_Model_V3_TOBE</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>TIMESTAMP</dataType>
+<headerAlias>qso_start</headerAlias>
+<reference>false</reference>
+<referencedColumn>8FEA8E87-0467-8FC9-40EB-C9B0047FBA13</referencedColumn>
+<table>949CAF85-0834-90EC-7045-DA386E53935A</table>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="qso_date" id="6EB8E15F-A3AD-1E40-4817-8A40D09F4026">
+<createdBy>tcollier</createdBy>
+<createdTime>2024-02-13 23:23:43 UTC</createdTime>
+<ownerDesignName>HARC_SNN_Data_Model_V3_TOBE</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>DATE</dataType>
+<headerAlias>qso_date</headerAlias>
+<reference>false</reference>
+<referencedColumn>FE9224E0-500E-94DE-E2A9-690D1AD0C4B6</referencedColumn>
+<table>949CAF85-0834-90EC-7045-DA386E53935A</table>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="qso_time" id="237FCC75-3ED0-64F2-33D5-69CE06F6428E">
+<createdBy>tcollier</createdBy>
+<createdTime>2024-02-13 23:23:43 UTC</createdTime>
+<ownerDesignName>HARC_SNN_Data_Model_V3_TOBE</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>DATE</dataType>
+<headerAlias>qso_time</headerAlias>
+<reference>false</reference>
+<referencedColumn>2374B506-B140-B469-0A19-620A1451864C</referencedColumn>
+<table>949CAF85-0834-90EC-7045-DA386E53935A</table>
+</viewElement>
+</viewElements>
+<usedObjects>
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="949CAF85-0834-90EC-7045-DA386E53935A">
+<container>true</container>
+<tableName>t_net_qso</tableName>
+</UsedObject>
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="197CA04E-17F8-D9FB-8CE3-DF4B8CD2259B">
+<columnName>qso_Key</columnName>
+<tableName>t_net_qso</tableName>
+</UsedObject>
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="6BBD5849-4F34-5F95-E268-3CB273529C65">
+<columnName>call</columnName>
+<tableName>t_net_qso</tableName>
+</UsedObject>
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="3E5E303E-45F2-B8E1-0A5A-D09B9E277D7C">
+<columnName>net_ID</columnName>
+<tableName>t_net_qso</tableName>
+</UsedObject>
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="FA62CD22-8A99-9B76-3530-28D71FABCD89">
+<columnName>f_nam</columnName>
+<tableName>t_net_qso</tableName>
+</UsedObject>
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="2B995947-0BC1-80F6-FB6F-413594CCB9A3">
+<columnName>l_nam</columnName>
+<tableName>t_net_qso</tableName>
+</UsedObject>
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="8FEA8E87-0467-8FC9-40EB-C9B0047FBA13">
+<columnName>qso_start</columnName>
+<tableName>t_net_qso</tableName>
+</UsedObject>
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="FE9224E0-500E-94DE-E2A9-690D1AD0C4B6">
+<columnName>qso_date</columnName>
+<tableName>t_net_qso</tableName>
+</UsedObject>
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="2374B506-B140-B469-0A19-620A1451864C">
+<columnName>qso_time</columnName>
+<tableName>t_net_qso</tableName>
+</UsedObject>
+</usedObjects>
+</TableView>

@@ -1,0 +1,33 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableView class="oracle.dbtools.crest.model.design.relational.TableView" directorySegmentName="seg_0" id="2F1E9D1A-FB47-18D1-B2AB-B2BEE31F49C3" name="v_harc_snn_callout_roster">
+<sourceDDLFile>MacLogger_Sqlite_import copy.sql</sourceDDLFile>
+<createdBy>tcollier</createdBy>
+<createdTime>2020-10-30 17:45:49 UTC</createdTime>
+<ownerDesignName>MacLoggerDX_SQLite_DB</ownerDesignName>
+<importedID>69319C53-D71B-FA4E-56B4-D8BB6246E259</importedID>
+<userDefined>true</userDefined>
+<userDefinedSQL><![CDATA[SELECT DISTINCT v_qso_table_v007.call AS Callsign,
+                    CASE WHEN mem_call IS NULL THEN v_qso_table_v007.first_name ELSE ifnull(mem_nicknam, mem_f_nam)END AS [First Name],
+                    last_name AS [Last Name],
+                    CASE WHEN ifnull(v_harc_member.mem_call, '0') = '0' THEN 'non-member' ELSE 'member' END AS Member,
+                    '                                                                    ' AS Comments
+      FROM v_qso_table_v007
+           LEFT JOIN
+           v_harc_member ON trim(upper(Call)) = trim(upper(v_harc_member.mem_call))/* * Select those records that show a contest id beginning with HARC-SNN (Sunday Night Net)
+* as well as those that are within the required number of days (probably 28 days).
+* There may be some special cases where a call sign is always included */
+     WHERE substr(contest_id, 1, 4) = 'HARC' AND 
+           date(qso_start, 'unixepoch') > 
+                                          (
+                                              SELECT date('now', '-' || 
+                                                                        (
+                                                                            SELECT current_num_days
+                                                                              FROM v_current_call_out_cutoff_days
+                                                                        ) || ' days')
+                                          ) OR 
+           call IN('KI7EWQ'/* Gage Calihan (monitoring) re Earl WB6AMT */, 'KI6CCW'/* Thomas Turner Net Control */, 'WB6AMT'/* Earl Lizardi Net Control */, 'N6YFN'/* Lawrence Roney Net Control */, 'K7JTC'/* Tim Collier Net Control */, 'WJ3EP'/* Jay Frumpkin Net Control */, 'KM7MLH'/* Mike Hargett Net Control */)-- insert comma-separated call signs that will always appear in call-out list
+     ORDER BY 4,
+              3,
+              2]]></userDefinedSQL>
+<validSQL>false</validSQL>
+</TableView>

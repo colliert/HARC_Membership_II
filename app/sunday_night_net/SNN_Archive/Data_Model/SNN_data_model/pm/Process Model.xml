@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<ProcessModel class="oracle.dbtools.crest.model.design.process.ProcessModel" name="Process Model" id="61412315-64E3-0ECC-C603-FD7DF9AA9987">
+<createdBy>tcollier</createdBy>
+<createdTime>2020-10-30 17:41:45 UTC</createdTime>
+<ownerDesignName>MacLoggerDX_SQLite_DB</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</ProcessModel>

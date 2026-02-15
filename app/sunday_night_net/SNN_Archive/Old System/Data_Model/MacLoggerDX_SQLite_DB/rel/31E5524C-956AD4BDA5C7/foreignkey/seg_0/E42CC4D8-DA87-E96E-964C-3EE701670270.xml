@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="E42CC4D8-DA87-E96E-964C-3EE701670270" containerWithKeyObject="F9DB7E22-09BA-F2C3-D37A-DB432A88B4D5" localFKIndex="96FBD218-902C-6FC8-18AD-D522F737C4AE" name="t_harc_add_qso_details_t_ant_typ_FK">
+<sourceDDLFile>MacLogger_Sqlite_import copy.sql</sourceDDLFile>
+<createdBy>tcollier</createdBy>
+<createdTime>2020-10-30 17:45:49 UTC</createdTime>
+<ownerDesignName>MacLoggerDX_SQLite_DB</ownerDesignName>
+<importedID>F07557D2-5876-BA34-F7BA-3FDCEA0E08AD</importedID>
+<referredTableLongName>t_ant_typ</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>4DEC0BE4-1A8F-145B-7F6F-2F092550B1A5</referredTableID>
+<keyObject>A576D341-C2EE-803E-7C69-82B904C3BB9D</keyObject>
+<referredKeyID>A576D341-C2EE-803E-7C69-82B904C3BB9D</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>ant_typ_cd</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

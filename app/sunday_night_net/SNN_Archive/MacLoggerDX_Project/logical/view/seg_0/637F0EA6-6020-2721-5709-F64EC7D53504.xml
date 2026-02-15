@@ -1,0 +1,60 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<EntityView class="oracle.dbtools.crest.model.design.logical.EntityView" directorySegmentName="seg_0" id="637F0EA6-6020-2721-5709-F64EC7D53504" name="Antenna Type View">
+<createdBy>tcollier</createdBy>
+<createdTime>2019-07-12 21:31:46 UTC</createdTime>
+<ownerDesignName>MacLoggerDX_Project</ownerDesignName>
+<engineerTo>
+<item key="FC57F434-133F-87AF-675A-2915278B34DE" value="true"/>
+</engineerTo>
+<userDefined>true</userDefined>
+<userDefinedSQL>select *&lt;br/&gt;from &quot;Antenna Type&quot;;</userDefinedSQL>
+<parsed>true</parsed>
+<viewType>EntityView</viewType>
+<usedContainers>
+<container containerID="95EE9719-6141-9716-C83E-7C5D9E598846"/>
+</usedContainers>
+<viewElements>
+<viewElement class="oracle.dbtools.crest.model.design.logical.AttributeView" name="Antenna Type Code" id="F1910D56-C389-3E26-4814-370BB5577082">
+<createdBy>tcollier</createdBy>
+<createdTime>2019-07-12 21:34:25 UTC</createdTime>
+<ownerDesignName>MacLoggerDX_Project</ownerDesignName>
+<engineerTo>
+<item key="FC57F434-133F-87AF-675A-2915278B34DE" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>INTEGER</dataType>
+<reference>false</reference>
+<referencedColumn>D5A867C5-509F-8320-E828-56EEA81F02F7</referencedColumn>
+<table>95EE9719-6141-9716-C83E-7C5D9E598846</table>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.logical.AttributeView" name="Antenna Type Description" id="0AEC3123-F50F-0496-425B-7CD54AB94054">
+<createdBy>tcollier</createdBy>
+<createdTime>2019-07-12 21:34:25 UTC</createdTime>
+<ownerDesignName>MacLoggerDX_Project</ownerDesignName>
+<engineerTo>
+<item key="FC57F434-133F-87AF-675A-2915278B34DE" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>CLOB</dataType>
+<reference>false</reference>
+<referencedColumn>0D0A5F0F-24B0-B317-A51A-09EAC3BC6DA8</referencedColumn>
+<table>95EE9719-6141-9716-C83E-7C5D9E598846</table>
+</viewElement>
+</viewElements>
+<usedObjects>
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="95EE9719-6141-9716-C83E-7C5D9E598846">
+<container>true</container>
+<tableName>Antenna Type</tableName>
+</UsedObject>
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="D5A867C5-509F-8320-E828-56EEA81F02F7">
+<columnName>Antenna Type Code</columnName>
+<tableName>Antenna Type</tableName>
+</UsedObject>
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="0D0A5F0F-24B0-B317-A51A-09EAC3BC6DA8">
+<columnName>Antenna Type Description</columnName>
+<tableName>Antenna Type</tableName>
+</UsedObject>
+</usedObjects>
+</EntityView>

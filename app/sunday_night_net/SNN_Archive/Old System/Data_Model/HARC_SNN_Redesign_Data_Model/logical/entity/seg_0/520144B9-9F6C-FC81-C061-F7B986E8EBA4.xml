@@ -1,0 +1,772 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="520144B9-9F6C-FC81-C061-F7B986E8EBA4" name="qso table v007">
+<createdBy>tcollier</createdBy>
+<createdTime>2020-10-28 21:46:01 UTC</createdTime>
+<generatorID>A378640F-CD9B-DAD4-AEAE-265B05F458FC</generatorID>
+<ownerDesignName>HARC_SNN_Redesign_Data_Model</ownerDesignName>
+<engineerTo>
+<item key="FC2407F3-F8D5-F415-2274-01B807491F5F" value="true"/>
+<item key="2D9F4731-903E-E966-6F91-381618624C38" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="pk" id="85712105-CF95-D82E-4126-816336C5E45B">
+<createdBy>tcollier</createdBy>
+<createdTime>2020-10-28 21:46:01 UTC</createdTime>
+<generatorID>0AAA2557-D678-B585-DF86-AA5801147B25</generatorID>
+<ownerDesignName>HARC_SNN_Redesign_Data_Model</ownerDesignName>
+<engineerTo>
+<item key="FC2407F3-F8D5-F415-2274-01B807491F5F" value="true"/>
+<item key="2D9F4731-903E-E966-6F91-381618624C38" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>109E6CCA-FE25-FBAD-AF39-A5BEDCCFD886</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="my grid" id="9389FEE0-D62B-DF04-0675-4EF1835C9AD0">
+<createdBy>tcollier</createdBy>
+<createdTime>2020-10-28 21:46:01 UTC</createdTime>
+<generatorID>2F649927-BD97-4FAD-7743-86DFE4595F7C</generatorID>
+<ownerDesignName>HARC_SNN_Redesign_Data_Model</ownerDesignName>
+<engineerTo>
+<item key="FC2407F3-F8D5-F415-2274-01B807491F5F" value="true"/>
+<item key="2D9F4731-903E-E966-6F91-381618624C38" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="my call" id="063837B3-6D26-73A1-613C-216B319D8E3B">
+<createdBy>tcollier</createdBy>
+<createdTime>2020-10-28 21:46:01 UTC</createdTime>
+<generatorID>1E845294-8327-AB12-0D0D-48AAEAE4DE21</generatorID>
+<ownerDesignName>HARC_SNN_Redesign_Data_Model</ownerDesignName>
+<engineerTo>
+<item key="FC2407F3-F8D5-F415-2274-01B807491F5F" value="true"/>
+<item key="2D9F4731-903E-E966-6F91-381618624C38" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT040</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="my rig" id="0B92306C-F65A-6239-A99A-71A4B3878461">
+<createdBy>tcollier</createdBy>
+<createdTime>2020-10-28 21:46:01 UTC</createdTime>
+<generatorID>ED63CA37-032A-55B1-8137-99FDDA417A3D</generatorID>
+<ownerDesignName>HARC_SNN_Redesign_Data_Model</ownerDesignName>
+<engineerTo>
+<item key="FC2407F3-F8D5-F415-2274-01B807491F5F" value="true"/>
+<item key="2D9F4731-903E-E966-6F91-381618624C38" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT040</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="call" id="033C4757-07E5-3712-4D09-82A3FAA36A09">
+<createdBy>tcollier</createdBy>
+<createdTime>2020-10-28 21:46:01 UTC</createdTime>
+<generatorID>25907D23-FD33-54DA-7950-7A09CD2A6655</generatorID>
+<ownerDesignName>HARC_SNN_Redesign_Data_Model</ownerDesignName>
+<engineerTo>
+<item key="FC2407F3-F8D5-F415-2274-01B807491F5F" value="true"/>
+<item key="2D9F4731-903E-E966-6F91-381618624C38" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT040</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="first name" id="33326A91-E736-9E95-454B-0BDDDA3E5F01">
+<createdBy>tcollier</createdBy>
+<createdTime>2020-10-28 21:46:01 UTC</createdTime>
+<generatorID>C007AFB5-8A18-5AE3-1515-61C6409DEBE7</generatorID>
+<ownerDesignName>HARC_SNN_Redesign_Data_Model</ownerDesignName>
+<engineerTo>
+<item key="FC2407F3-F8D5-F415-2274-01B807491F5F" value="true"/>
+<item key="2D9F4731-903E-E966-6F91-381618624C38" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT040</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="last name" id="FDDD895C-D73B-7F50-DE63-D5B1BDE2FD72">
+<createdBy>tcollier</createdBy>
+<createdTime>2020-10-28 21:46:01 UTC</createdTime>
+<generatorID>B74DA1B1-E886-C875-34DF-97F5BF52BC15</generatorID>
+<ownerDesignName>HARC_SNN_Redesign_Data_Model</ownerDesignName>
+<engineerTo>
+<item key="FC2407F3-F8D5-F415-2274-01B807491F5F" value="true"/>
+<item key="2D9F4731-903E-E966-6F91-381618624C38" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT040</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="street" id="AA131155-21B1-3F52-5F38-3137F5D63A4B">
+<createdBy>tcollier</createdBy>
+<createdTime>2020-10-28 21:46:01 UTC</createdTime>
+<generatorID>421A86BD-0782-7148-5B06-A71F90BEF3A5</generatorID>
+<ownerDesignName>HARC_SNN_Redesign_Data_Model</ownerDesignName>
+<engineerTo>
+<item key="FC2407F3-F8D5-F415-2274-01B807491F5F" value="true"/>
+<item key="2D9F4731-903E-E966-6F91-381618624C38" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT040</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="city" id="2CB568EE-D52C-C40A-7448-00F0500D5464">
+<createdBy>tcollier</createdBy>
+<createdTime>2020-10-28 21:46:01 UTC</createdTime>
+<generatorID>15C10ED7-97CA-2A5B-A3B9-03D973246DA0</generatorID>
+<ownerDesignName>HARC_SNN_Redesign_Data_Model</ownerDesignName>
+<engineerTo>
+<item key="FC2407F3-F8D5-F415-2274-01B807491F5F" value="true"/>
+<item key="2D9F4731-903E-E966-6F91-381618624C38" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT040</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="county" id="75660C0A-9570-0BA2-57B6-8D3925ECD2A8">
+<createdBy>tcollier</createdBy>
+<createdTime>2020-10-28 21:46:01 UTC</createdTime>
+<generatorID>3343037E-39E4-C6E6-3FEB-ACD55579EA89</generatorID>
+<ownerDesignName>HARC_SNN_Redesign_Data_Model</ownerDesignName>
+<engineerTo>
+<item key="FC2407F3-F8D5-F415-2274-01B807491F5F" value="true"/>
+<item key="2D9F4731-903E-E966-6F91-381618624C38" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT040</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="state" id="413A534C-40FA-0C0D-8394-9CB9688F40C1">
+<createdBy>tcollier</createdBy>
+<createdTime>2020-10-28 21:46:01 UTC</createdTime>
+<generatorID>BFD08F65-8AAD-89F9-DAC9-4DD620B00AE7</generatorID>
+<ownerDesignName>HARC_SNN_Redesign_Data_Model</ownerDesignName>
+<engineerTo>
+<item key="FC2407F3-F8D5-F415-2274-01B807491F5F" value="true"/>
+<item key="2D9F4731-903E-E966-6F91-381618624C38" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT040</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="postal country" id="C78E721A-FB55-FAC6-E430-2E1D24FC2382">
+<createdBy>tcollier</createdBy>
+<createdTime>2020-10-28 21:46:01 UTC</createdTime>
+<generatorID>93114DE9-9763-8A9F-D606-B43F6AF96C3A</generatorID>
+<ownerDesignName>HARC_SNN_Redesign_Data_Model</ownerDesignName>
+<engineerTo>
+<item key="FC2407F3-F8D5-F415-2274-01B807491F5F" value="true"/>
+<item key="2D9F4731-903E-E966-6F91-381618624C38" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT040</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="zip" id="43062D74-B773-1324-8A7B-4355FBD77C25">
+<createdBy>tcollier</createdBy>
+<createdTime>2020-10-28 21:46:01 UTC</createdTime>
+<generatorID>02CD49C2-7126-0F03-E103-CBA81C1F37A7</generatorID>
+<ownerDesignName>HARC_SNN_Redesign_Data_Model</ownerDesignName>
+<engineerTo>
+<item key="FC2407F3-F8D5-F415-2274-01B807491F5F" value="true"/>
+<item key="2D9F4731-903E-E966-6F91-381618624C38" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT040</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="grid" id="DA02F6B7-0F9D-DD6F-2FD7-901CFB3769EC">
+<createdBy>tcollier</createdBy>
+<createdTime>2020-10-28 21:46:01 UTC</createdTime>
+<generatorID>560DB41E-E0E5-390C-2DB0-DB8D65FED10C</generatorID>
+<ownerDesignName>HARC_SNN_Redesign_Data_Model</ownerDesignName>
+<engineerTo>
+<item key="FC2407F3-F8D5-F415-2274-01B807491F5F" value="true"/>
+<item key="2D9F4731-903E-E966-6F91-381618624C38" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT040</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="dxcc country" id="1C49E8FB-34DF-CE69-1BB3-BF4DBBAD0DFC">
+<createdBy>tcollier</createdBy>
+<createdTime>2020-10-28 21:46:01 UTC</createdTime>
+<generatorID>DD879A8C-F4C2-5511-A553-76195CD732F2</generatorID>
+<ownerDesignName>HARC_SNN_Redesign_Data_Model</ownerDesignName>
+<engineerTo>
+<item key="FC2407F3-F8D5-F415-2274-01B807491F5F" value="true"/>
+<item key="2D9F4731-903E-E966-6F91-381618624C38" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT040</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="iota" id="9B8177A0-BDF4-24B1-4804-6A5FD9048E3A">
+<createdBy>tcollier</createdBy>
+<createdTime>2020-10-28 21:46:01 UTC</createdTime>
+<generatorID>2CDA6D83-3C1A-BEED-51F1-D687E7513FF7</generatorID>
+<ownerDesignName>HARC_SNN_Redesign_Data_Model</ownerDesignName>
+<engineerTo>
+<item key="FC2407F3-F8D5-F415-2274-01B807491F5F" value="true"/>
+<item key="2D9F4731-903E-E966-6F91-381618624C38" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT040</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="sota" id="70F3038A-69F3-C555-AAAA-718B52B8B097">
+<createdBy>tcollier</createdBy>
+<createdTime>2020-10-28 21:46:01 UTC</createdTime>
+<generatorID>C3D0E4D2-61E9-4048-42C1-D7077E3451D9</generatorID>
+<ownerDesignName>HARC_SNN_Redesign_Data_Model</ownerDesignName>
+<engineerTo>
+<item key="FC2407F3-F8D5-F415-2274-01B807491F5F" value="true"/>
+<item key="2D9F4731-903E-E966-6F91-381618624C38" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT040</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cq zone" id="041F7725-5ADC-80C0-1FA8-D49A708338CD">
+<createdBy>tcollier</createdBy>
+<createdTime>2020-10-28 21:46:01 UTC</createdTime>
+<generatorID>BAADA7D1-5D97-84CC-37CE-9A238F09D3B8</generatorID>
+<ownerDesignName>HARC_SNN_Redesign_Data_Model</ownerDesignName>
+<engineerTo>
+<item key="FC2407F3-F8D5-F415-2274-01B807491F5F" value="true"/>
+<item key="2D9F4731-903E-E966-6F91-381618624C38" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT040</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="itu" id="2BC48B94-6C8F-0C7C-A22D-5F29A21145EB">
+<createdBy>tcollier</createdBy>
+<createdTime>2020-10-28 21:46:01 UTC</createdTime>
+<generatorID>3CE095E7-ED45-01CD-B91F-7385155A693A</generatorID>
+<ownerDesignName>HARC_SNN_Redesign_Data_Model</ownerDesignName>
+<engineerTo>
+<item key="FC2407F3-F8D5-F415-2274-01B807491F5F" value="true"/>
+<item key="2D9F4731-903E-E966-6F91-381618624C38" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT040</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ten ten" id="63D665AD-1DEC-0D69-BB03-11A28EBD1F26">
+<createdBy>tcollier</createdBy>
+<createdTime>2020-10-28 21:46:01 UTC</createdTime>
+<generatorID>2C52BC61-72B5-31C8-2FE5-11A057B4E1E0</generatorID>
+<ownerDesignName>HARC_SNN_Redesign_Data_Model</ownerDesignName>
+<engineerTo>
+<item key="FC2407F3-F8D5-F415-2274-01B807491F5F" value="true"/>
+<item key="2D9F4731-903E-E966-6F91-381618624C38" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT040</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="email" id="92C0F52A-FB8E-4AFA-A98C-DCB52F44B58E">
+<createdBy>tcollier</createdBy>
+<createdTime>2020-10-28 21:46:01 UTC</createdTime>
+<generatorID>7AE644E1-BE19-2501-F998-11F45D8AE8C8</generatorID>
+<ownerDesignName>HARC_SNN_Redesign_Data_Model</ownerDesignName>
+<engineerTo>
+<item key="FC2407F3-F8D5-F415-2274-01B807491F5F" value="true"/>
+<item key="2D9F4731-903E-E966-6F91-381618624C38" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT040</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="url" id="6DC6EC56-2241-6991-E4D1-CFB9A45CA76B">
+<createdBy>tcollier</createdBy>
+<createdTime>2020-10-28 21:46:01 UTC</createdTime>
+<generatorID>A039724A-35B4-2323-0992-20C3F9DEF57E</generatorID>
+<ownerDesignName>HARC_SNN_Redesign_Data_Model</ownerDesignName>
+<engineerTo>
+<item key="FC2407F3-F8D5-F415-2274-01B807491F5F" value="true"/>
+<item key="2D9F4731-903E-E966-6F91-381618624C38" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT040</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="mode" id="FE742847-56C1-A19E-8889-EE591ABC5AB7">
+<createdBy>tcollier</createdBy>
+<createdTime>2020-10-28 21:46:01 UTC</createdTime>
+<generatorID>E39ECFE2-3272-D4AE-1A99-D133F7160164</generatorID>
+<ownerDesignName>HARC_SNN_Redesign_Data_Model</ownerDesignName>
+<engineerTo>
+<item key="FC2407F3-F8D5-F415-2274-01B807491F5F" value="true"/>
+<item key="2D9F4731-903E-E966-6F91-381618624C38" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT040</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="band rx" id="EB972D6C-F04C-68F9-0B13-B77B5653B21E">
+<createdBy>tcollier</createdBy>
+<createdTime>2020-10-28 21:46:01 UTC</createdTime>
+<generatorID>66C37A24-25A6-0065-CECE-9671EA4360B0</generatorID>
+<ownerDesignName>HARC_SNN_Redesign_Data_Model</ownerDesignName>
+<engineerTo>
+<item key="FC2407F3-F8D5-F415-2274-01B807491F5F" value="true"/>
+<item key="2D9F4731-903E-E966-6F91-381618624C38" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT040</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="band tx" id="50CE23BF-43F6-6A4A-734E-5D66FFD6AEF7">
+<createdBy>tcollier</createdBy>
+<createdTime>2020-10-28 21:46:01 UTC</createdTime>
+<generatorID>0DFAEE8F-4763-E612-4002-DE3B4787DD88</generatorID>
+<ownerDesignName>HARC_SNN_Redesign_Data_Model</ownerDesignName>
+<engineerTo>
+<item key="FC2407F3-F8D5-F415-2274-01B807491F5F" value="true"/>
+<item key="2D9F4731-903E-E966-6F91-381618624C38" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT040</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="rst sent" id="8FB77C33-D099-3142-483C-36D17964D17B">
+<createdBy>tcollier</createdBy>
+<createdTime>2020-10-28 21:46:01 UTC</createdTime>
+<generatorID>29CB58E0-F070-89DC-8374-767288A363C4</generatorID>
+<ownerDesignName>HARC_SNN_Redesign_Data_Model</ownerDesignName>
+<engineerTo>
+<item key="FC2407F3-F8D5-F415-2274-01B807491F5F" value="true"/>
+<item key="2D9F4731-903E-E966-6F91-381618624C38" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT040</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="rst received" id="86A56F2B-0758-3A3E-8537-5B7EFB438939">
+<createdBy>tcollier</createdBy>
+<createdTime>2020-10-28 21:46:01 UTC</createdTime>
+<generatorID>B15682A9-AF76-9DA8-0F3F-64BE5D1E36E7</generatorID>
+<ownerDesignName>HARC_SNN_Redesign_Data_Model</ownerDesignName>
+<engineerTo>
+<item key="FC2407F3-F8D5-F415-2274-01B807491F5F" value="true"/>
+<item key="2D9F4731-903E-E966-6F91-381618624C38" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT040</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="qsl via" id="93C31D2B-A1A7-1AD9-37C4-BC67A10FE286">
+<createdBy>tcollier</createdBy>
+<createdTime>2020-10-28 21:46:01 UTC</createdTime>
+<generatorID>6A06A013-B847-2DD8-F4C0-C24050246C03</generatorID>
+<ownerDesignName>HARC_SNN_Redesign_Data_Model</ownerDesignName>
+<engineerTo>
+<item key="FC2407F3-F8D5-F415-2274-01B807491F5F" value="true"/>
+<item key="2D9F4731-903E-E966-6F91-381618624C38" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT040</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="qsl sent" id="A7245D80-1665-12A5-BDF4-DDEEA427468C">
+<createdBy>tcollier</createdBy>
+<createdTime>2020-10-28 21:46:01 UTC</createdTime>
+<generatorID>5DF4CAF5-CB7E-C801-B704-6FFCBD7A5EBC</generatorID>
+<ownerDesignName>HARC_SNN_Redesign_Data_Model</ownerDesignName>
+<engineerTo>
+<item key="FC2407F3-F8D5-F415-2274-01B807491F5F" value="true"/>
+<item key="2D9F4731-903E-E966-6F91-381618624C38" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT040</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="qsl received" id="9DC4FD29-9DAF-E10C-2807-4CBEE6564500">
+<createdBy>tcollier</createdBy>
+<createdTime>2020-10-28 21:46:01 UTC</createdTime>
+<generatorID>B0D7A867-F5D7-CE5C-4984-08FCA0C5ADB3</generatorID>
+<ownerDesignName>HARC_SNN_Redesign_Data_Model</ownerDesignName>
+<engineerTo>
+<item key="FC2407F3-F8D5-F415-2274-01B807491F5F" value="true"/>
+<item key="2D9F4731-903E-E966-6F91-381618624C38" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT040</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="srx" id="A7CA6D1B-1E8E-89F5-2E0C-2074BDDD80A6">
+<createdBy>tcollier</createdBy>
+<createdTime>2020-10-28 21:46:01 UTC</createdTime>
+<generatorID>AD939473-6DD8-B461-81BE-60BAFD96C8A2</generatorID>
+<ownerDesignName>HARC_SNN_Redesign_Data_Model</ownerDesignName>
+<engineerTo>
+<item key="FC2407F3-F8D5-F415-2274-01B807491F5F" value="true"/>
+<item key="2D9F4731-903E-E966-6F91-381618624C38" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT040</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="stx" id="FFBA1F5F-6454-048F-0DA1-7B7A7B70BC2B">
+<createdBy>tcollier</createdBy>
+<createdTime>2020-10-28 21:46:01 UTC</createdTime>
+<generatorID>6CCA9307-4B5A-A8AB-A6F9-0C37134948EB</generatorID>
+<ownerDesignName>HARC_SNN_Redesign_Data_Model</ownerDesignName>
+<engineerTo>
+<item key="FC2407F3-F8D5-F415-2274-01B807491F5F" value="true"/>
+<item key="2D9F4731-903E-E966-6F91-381618624C38" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT040</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="comments" id="61DE312B-49D8-AA76-C3F1-70E12522411B">
+<createdBy>tcollier</createdBy>
+<createdTime>2020-10-28 21:46:01 UTC</createdTime>
+<generatorID>E62EEEE7-32C5-843C-D5FE-12C88274E210</generatorID>
+<ownerDesignName>HARC_SNN_Redesign_Data_Model</ownerDesignName>
+<engineerTo>
+<item key="FC2407F3-F8D5-F415-2274-01B807491F5F" value="true"/>
+<item key="2D9F4731-903E-E966-6F91-381618624C38" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT040</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="satellite" id="900728E5-3D6D-26B1-5063-1F362B0E576E">
+<createdBy>tcollier</createdBy>
+<createdTime>2020-10-28 21:46:01 UTC</createdTime>
+<generatorID>31DBD116-695D-6C9C-9EE5-E8E31E591D87</generatorID>
+<ownerDesignName>HARC_SNN_Redesign_Data_Model</ownerDesignName>
+<engineerTo>
+<item key="FC2407F3-F8D5-F415-2274-01B807491F5F" value="true"/>
+<item key="2D9F4731-903E-E966-6F91-381618624C38" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT040</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="qso start" id="0014CF93-AB37-4A36-24E5-1C6CA471F237">
+<createdBy>tcollier</createdBy>
+<createdTime>2020-10-28 21:46:01 UTC</createdTime>
+<generatorID>B92AAF9F-0D5D-0193-D791-C7EE1B2F4A9F</generatorID>
+<ownerDesignName>HARC_SNN_Redesign_Data_Model</ownerDesignName>
+<engineerTo>
+<item key="FC2407F3-F8D5-F415-2274-01B807491F5F" value="true"/>
+<item key="2D9F4731-903E-E966-6F91-381618624C38" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT022</logicalDatatype>
+<domain>8A72B65E-BC42-9BD8-B2E6-DF6ECED9AC74</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="qso done" id="B1347FE2-541A-E3AD-2489-001B9D30A441">
+<createdBy>tcollier</createdBy>
+<createdTime>2020-10-28 21:46:01 UTC</createdTime>
+<generatorID>0CBB969D-EA1C-DACF-B140-A367DF7E9DBA</generatorID>
+<ownerDesignName>HARC_SNN_Redesign_Data_Model</ownerDesignName>
+<engineerTo>
+<item key="FC2407F3-F8D5-F415-2274-01B807491F5F" value="true"/>
+<item key="2D9F4731-903E-E966-6F91-381618624C38" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT022</logicalDatatype>
+<domain>8A72B65E-BC42-9BD8-B2E6-DF6ECED9AC74</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="latitude" id="389D6FCB-7511-8EA3-3998-F0FBF849BCF3">
+<createdBy>tcollier</createdBy>
+<createdTime>2020-10-28 21:46:01 UTC</createdTime>
+<generatorID>D125D344-4F4B-F51B-F352-2CFF7318FABE</generatorID>
+<ownerDesignName>HARC_SNN_Redesign_Data_Model</ownerDesignName>
+<engineerTo>
+<item key="FC2407F3-F8D5-F415-2274-01B807491F5F" value="true"/>
+<item key="2D9F4731-903E-E966-6F91-381618624C38" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT022</logicalDatatype>
+<domain>8A72B65E-BC42-9BD8-B2E6-DF6ECED9AC74</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="longitude" id="06B9EEAB-ADF1-7175-0D7E-C6A7793B0587">
+<createdBy>tcollier</createdBy>
+<createdTime>2020-10-28 21:46:01 UTC</createdTime>
+<generatorID>000E1C39-4BB1-7DF2-418C-0AA928CA6B36</generatorID>
+<ownerDesignName>HARC_SNN_Redesign_Data_Model</ownerDesignName>
+<engineerTo>
+<item key="FC2407F3-F8D5-F415-2274-01B807491F5F" value="true"/>
+<item key="2D9F4731-903E-E966-6F91-381618624C38" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT022</logicalDatatype>
+<domain>8A72B65E-BC42-9BD8-B2E6-DF6ECED9AC74</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="tx frequency" id="1AFDE02B-BA8D-DF70-4DDC-E582CAE117D0">
+<createdBy>tcollier</createdBy>
+<createdTime>2020-10-28 21:46:01 UTC</createdTime>
+<generatorID>85BF9E81-CDF0-50A7-DC6D-C4E798928035</generatorID>
+<ownerDesignName>HARC_SNN_Redesign_Data_Model</ownerDesignName>
+<engineerTo>
+<item key="FC2407F3-F8D5-F415-2274-01B807491F5F" value="true"/>
+<item key="2D9F4731-903E-E966-6F91-381618624C38" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT022</logicalDatatype>
+<domain>8A72B65E-BC42-9BD8-B2E6-DF6ECED9AC74</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="rx frequency" id="8E6934D2-8E95-5E34-ED0A-27E2CFA6CA9D">
+<createdBy>tcollier</createdBy>
+<createdTime>2020-10-28 21:46:01 UTC</createdTime>
+<generatorID>4768C50F-FB30-ED1B-503D-1BAEC9ED9D4E</generatorID>
+<ownerDesignName>HARC_SNN_Redesign_Data_Model</ownerDesignName>
+<engineerTo>
+<item key="FC2407F3-F8D5-F415-2274-01B807491F5F" value="true"/>
+<item key="2D9F4731-903E-E966-6F91-381618624C38" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT022</logicalDatatype>
+<domain>8A72B65E-BC42-9BD8-B2E6-DF6ECED9AC74</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="azimuth" id="F0953055-439C-7EFF-B2C4-60063A1060FB">
+<createdBy>tcollier</createdBy>
+<createdTime>2020-10-28 21:46:01 UTC</createdTime>
+<generatorID>16EF6068-5124-375F-C358-7514581920B6</generatorID>
+<ownerDesignName>HARC_SNN_Redesign_Data_Model</ownerDesignName>
+<engineerTo>
+<item key="FC2407F3-F8D5-F415-2274-01B807491F5F" value="true"/>
+<item key="2D9F4731-903E-E966-6F91-381618624C38" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT022</logicalDatatype>
+<domain>8A72B65E-BC42-9BD8-B2E6-DF6ECED9AC74</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="elevation" id="FB3055DB-4E96-AAB9-A44F-E58EA60FF355">
+<createdBy>tcollier</createdBy>
+<createdTime>2020-10-28 21:46:01 UTC</createdTime>
+<generatorID>A8644475-A06A-D793-C42B-95EA486E1AA6</generatorID>
+<ownerDesignName>HARC_SNN_Redesign_Data_Model</ownerDesignName>
+<engineerTo>
+<item key="FC2407F3-F8D5-F415-2274-01B807491F5F" value="true"/>
+<item key="2D9F4731-903E-E966-6F91-381618624C38" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT022</logicalDatatype>
+<domain>8A72B65E-BC42-9BD8-B2E6-DF6ECED9AC74</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="power" id="0C9B57B5-7053-35C7-EDAE-EC9FBC037CF4">
+<createdBy>tcollier</createdBy>
+<createdTime>2020-10-28 21:46:01 UTC</createdTime>
+<generatorID>FF5B4D91-CEEC-932E-CACE-E4B62ADF07E8</generatorID>
+<ownerDesignName>HARC_SNN_Redesign_Data_Model</ownerDesignName>
+<engineerTo>
+<item key="FC2407F3-F8D5-F415-2274-01B807491F5F" value="true"/>
+<item key="2D9F4731-903E-E966-6F91-381618624C38" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT022</logicalDatatype>
+<domain>8A72B65E-BC42-9BD8-B2E6-DF6ECED9AC74</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="srx numeric" id="811CD13F-C03A-22EB-B67B-167CE75327A8">
+<createdBy>tcollier</createdBy>
+<createdTime>2020-10-28 21:46:01 UTC</createdTime>
+<generatorID>B20E46D1-7581-B784-A480-093218CC4407</generatorID>
+<ownerDesignName>HARC_SNN_Redesign_Data_Model</ownerDesignName>
+<engineerTo>
+<item key="FC2407F3-F8D5-F415-2274-01B807491F5F" value="true"/>
+<item key="2D9F4731-903E-E966-6F91-381618624C38" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>109E6CCA-FE25-FBAD-AF39-A5BEDCCFD886</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="stx numeric" id="0F53E54A-D079-DC75-7436-01E9A2111ABA">
+<createdBy>tcollier</createdBy>
+<createdTime>2020-10-28 21:46:01 UTC</createdTime>
+<generatorID>B093D45F-9700-FB01-FF43-53AB2AE4BF6D</generatorID>
+<ownerDesignName>HARC_SNN_Redesign_Data_Model</ownerDesignName>
+<engineerTo>
+<item key="FC2407F3-F8D5-F415-2274-01B807491F5F" value="true"/>
+<item key="2D9F4731-903E-E966-6F91-381618624C38" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>109E6CCA-FE25-FBAD-AF39-A5BEDCCFD886</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="dxcc id" id="08FE5A7C-4304-DA67-E878-FBF0A5C1A58D">
+<createdBy>tcollier</createdBy>
+<createdTime>2020-10-28 21:46:01 UTC</createdTime>
+<generatorID>B22FDDF0-9C36-F885-18AD-67B8E3BF2DE4</generatorID>
+<ownerDesignName>HARC_SNN_Redesign_Data_Model</ownerDesignName>
+<engineerTo>
+<item key="FC2407F3-F8D5-F415-2274-01B807491F5F" value="true"/>
+<item key="2D9F4731-903E-E966-6F91-381618624C38" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>109E6CCA-FE25-FBAD-AF39-A5BEDCCFD886</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="contest id" id="78B44B60-6BDA-DEAD-74E0-6B76D5E1313B">
+<createdBy>tcollier</createdBy>
+<createdTime>2020-10-28 21:46:01 UTC</createdTime>
+<generatorID>DEEF30C5-B139-1197-9022-5DFB90BEECB6</generatorID>
+<ownerDesignName>HARC_SNN_Redesign_Data_Model</ownerDesignName>
+<engineerTo>
+<item key="FC2407F3-F8D5-F415-2274-01B807491F5F" value="true"/>
+<item key="2D9F4731-903E-E966-6F91-381618624C38" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT040</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="my sota" id="01AB2BED-6E8F-F94A-5F25-D72F60491D87">
+<createdBy>tcollier</createdBy>
+<createdTime>2020-10-28 21:46:01 UTC</createdTime>
+<generatorID>C4282700-ED9A-C90C-AD34-1F892887DFD9</generatorID>
+<ownerDesignName>HARC_SNN_Redesign_Data_Model</ownerDesignName>
+<engineerTo>
+<item key="FC2407F3-F8D5-F415-2274-01B807491F5F" value="true"/>
+<item key="2D9F4731-903E-E966-6F91-381618624C38" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT040</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="skcc" id="A05FBED1-6F6E-4736-37A1-0431579BEB11">
+<createdBy>tcollier</createdBy>
+<createdTime>2020-10-28 21:46:01 UTC</createdTime>
+<generatorID>6639AD3B-CC8E-85FB-7463-1C4B85D5630C</generatorID>
+<ownerDesignName>HARC_SNN_Redesign_Data_Model</ownerDesignName>
+<engineerTo>
+<item key="FC2407F3-F8D5-F415-2274-01B807491F5F" value="true"/>
+<item key="2D9F4731-903E-E966-6F91-381618624C38" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT040</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="10FC267B-6578-EF10-E5C2-176768A3C197" name="qso table v007 PK">
+<createdBy>tcollier</createdBy>
+<createdTime>2020-10-28 21:46:01 UTC</createdTime>
+<generatorID>306F43AA-074E-156C-AE61-8D84AEDF9DBF</generatorID>
+<ownerDesignName>HARC_SNN_Redesign_Data_Model</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="FC2407F3-F8D5-F415-2274-01B807491F5F" value="true"/>
+<item key="2D9F4731-903E-E966-6F91-381618624C38" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>85712105-CF95-D82E-4126-816336C5E45B</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

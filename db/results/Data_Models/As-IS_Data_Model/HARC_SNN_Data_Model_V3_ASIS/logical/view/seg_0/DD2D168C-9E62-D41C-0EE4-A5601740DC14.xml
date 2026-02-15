@@ -1,0 +1,52 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<EntityView class="oracle.dbtools.crest.model.design.logical.EntityView" directorySegmentName="seg_0" id="DD2D168C-9E62-D41C-0EE4-A5601740DC14" name="v ant typ">
+<createdBy>tcollier</createdBy>
+<createdTime>2023-12-10 01:29:04 UTC</createdTime>
+<generatorID>23A993A2-A4F4-ADF8-88FD-936498AC1597</generatorID>
+<ownerDesignName>HARC_SNN_Data_Model_V3</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="FDFA065C-9B79-4768-D3A1-ACB9D4078B29" value="false"/>
+</engineerTo>
+<userDefined>true</userDefined>
+<userDefinedSQL><![CDATA[select *
+	from t_ant_typ]]></userDefinedSQL>
+<validSQL>false</validSQL>
+<viewType>EntityView</viewType>
+<viewElements>
+<viewElement class="oracle.dbtools.crest.model.design.logical.AttributeView" name="ant_typ_cd" id="585ABCF0-6B2C-9B2D-7A47-34989EE4BCB5">
+<createdBy>tcollier</createdBy>
+<createdTime>2023-12-10 01:29:04 UTC</createdTime>
+<generatorID>2AD2762F-307E-397A-B9F1-AA18F582903B</generatorID>
+<ownerDesignName>HARC_SNN_Data_Model_V3</ownerDesignName>
+<engineerTo>
+<item key="FDFA065C-9B79-4768-D3A1-ACB9D4078B29" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>NUMBER</dataType>
+<reference>false</reference>
+<referencedColumn>8C422014-A450-6569-C20D-631536B3905B</referencedColumn>
+<table>38EDDB2B-9963-63C2-2F17-7324F5403EAE</table>
+<tableAlias>t_ant_typ</tableAlias>
+<viewID>DD2D168C-9E62-D41C-0EE4-A5601740DC14</viewID>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.logical.AttributeView" name="ant_typ_desc" id="700D5A12-FEAA-9D89-8529-4F6B8FD861A8">
+<createdBy>tcollier</createdBy>
+<createdTime>2023-12-10 01:29:04 UTC</createdTime>
+<generatorID>26D78000-5A91-3C80-B1DE-FA49ECF2454F</generatorID>
+<ownerDesignName>HARC_SNN_Data_Model_V3</ownerDesignName>
+<engineerTo>
+<item key="FDFA065C-9B79-4768-D3A1-ACB9D4078B29" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>UNKNOWN</dataType>
+<reference>false</reference>
+<referencedColumn>8BB1D0A7-83EF-DE13-F4E0-FB419FC4DECA</referencedColumn>
+<table>38EDDB2B-9963-63C2-2F17-7324F5403EAE</table>
+<tableAlias>t_ant_typ</tableAlias>
+<viewID>DD2D168C-9E62-D41C-0EE4-A5601740DC14</viewID>
+</viewElement>
+</viewElements>
+</EntityView>

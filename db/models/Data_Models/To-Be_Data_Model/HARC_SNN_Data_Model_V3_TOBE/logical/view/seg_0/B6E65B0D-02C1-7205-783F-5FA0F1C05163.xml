@@ -1,0 +1,82 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<EntityView class="oracle.dbtools.crest.model.design.logical.EntityView" directorySegmentName="seg_0" id="B6E65B0D-02C1-7205-783F-5FA0F1C05163" name="v checkin count">
+<createdBy>tcollier</createdBy>
+<createdTime>2023-12-10 01:29:04 UTC</createdTime>
+<commentInRDBMS><![CDATA[/*
+* v_checkin_count
+* ---------------
+*
+* Author:  Tim Collier
+*
+* Purpose:  Show the number of checkins by date.
+*/]]></commentInRDBMS>
+<generatorID>67C92A7F-69A9-61E3-44C7-00E224162A91</generatorID>
+<ownerDesignName>HARC_SNN_Data_Model_V3_TOBE</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="FDFA065C-9B79-4768-D3A1-ACB9D4078B29" value="false"/>
+</engineerTo>
+<userDefined>true</userDefined>
+<userDefinedSQL><![CDATA[/*
+* v_checkin_count
+* ---------------
+*
+* Author:  Tim Collier
+*
+* Purpose:  Show the number of checkins by date.
+*/
+select date(qso_start) as "Net Date"
+     , count(date(qso_start))             as "Checkins"
+from v_net_qso
+group by 1
+order by 1]]></userDefinedSQL>
+<validSQL>false</validSQL>
+<parsed>true</parsed>
+<incorrectSQL>true</incorrectSQL>
+<viewType>EntityView</viewType>
+<viewElements>
+<viewElement class="oracle.dbtools.crest.model.design.logical.AttributeView" name="&quot;Net Date&quot;" id="CFAE55C9-35D6-69F5-7408-946A4764162B">
+<createdBy>tcollier</createdBy>
+<createdTime>2023-12-10 01:29:04 UTC</createdTime>
+<generatorID>C2C49FFB-1B9D-E820-D43D-079FC763FDA2</generatorID>
+<ownerDesignName>HARC_SNN_Data_Model_V3</ownerDesignName>
+<engineerTo>
+<item key="FDFA065C-9B79-4768-D3A1-ACB9D4078B29" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<alias>&quot;Net Date&quot;</alias>
+<dataType>UNKNOWN</dataType>
+<expression>date(qso_start)</expression>
+<reference>false</reference>
+<viewID>B6E65B0D-02C1-7205-783F-5FA0F1C05163</viewID>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.logical.AttributeView" name="&quot;Checkins&quot;" id="E38CA1A2-73CC-0CAA-DF87-7F527037C758">
+<createdBy>tcollier</createdBy>
+<createdTime>2023-12-10 01:29:04 UTC</createdTime>
+<generatorID>69E22DAA-2C2F-12A7-28AD-739D8E82A2FA</generatorID>
+<ownerDesignName>HARC_SNN_Data_Model_V3</ownerDesignName>
+<engineerTo>
+<item key="FDFA065C-9B79-4768-D3A1-ACB9D4078B29" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<alias>&quot;Checkins&quot;</alias>
+<dataType>UNKNOWN</dataType>
+<expression>count(date(qso_start))</expression>
+<reference>false</reference>
+<viewID>B6E65B0D-02C1-7205-783F-5FA0F1C05163</viewID>
+</viewElement>
+</viewElements>
+<usedObjects>
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="7D2B7CCC-4EB3-05A2-8A61-A7E174D2E842">
+<container>true</container>
+<tableName>v_net_qso</tableName>
+<view>true</view>
+</UsedObject>
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="A3E41928-B237-B6B0-60F7-D60AB3E8BB2E">
+<columnName>qso_start</columnName>
+<tableName>v_net_qso</tableName>
+</UsedObject>
+</usedObjects>
+</EntityView>

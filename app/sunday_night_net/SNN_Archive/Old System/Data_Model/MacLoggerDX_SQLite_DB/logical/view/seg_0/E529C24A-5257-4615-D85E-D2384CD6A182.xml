@@ -1,0 +1,13 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<EntityView class="oracle.dbtools.crest.model.design.logical.EntityView" directorySegmentName="seg_0" id="E529C24A-5257-4615-D85E-D2384CD6A182" name="v_pers">
+<createdBy>tcollier</createdBy>
+<createdTime>2020-10-30 22:50:36 UTC</createdTime>
+<ownerDesignName>MacLoggerDX_SQLite_DB</ownerDesignName>
+<engineerTo>
+<item key="AF3E3F20-8AFD-D45A-FD64-95FBA8FAE7F0" value="true"/>
+<item key="31E5524C-62D2-47CA-ED22-956AD4BDA5C7" value="true"/>
+</engineerTo>
+<userDefined>true</userDefined>
+<userDefinedSQL><![CDATA[select * from t_pers]]></userDefinedSQL>
+<viewType>EntityView</viewType>
+</EntityView>

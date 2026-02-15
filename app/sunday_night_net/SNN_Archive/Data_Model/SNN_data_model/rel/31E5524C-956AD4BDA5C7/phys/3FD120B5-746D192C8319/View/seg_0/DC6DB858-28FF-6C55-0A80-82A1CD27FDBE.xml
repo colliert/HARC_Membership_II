@@ -1,0 +1,6 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableViewProxyOraclev10g class="oracle.dbtools.crest.model.design.storage.oracle.v10g.TableViewProxyOraclev10g" name="V_t_pers" directorySegmentName="seg_0" id="DC6DB858-28FF-6C55-0A80-82A1CD27FDBE">
+<createdBy>tcollier</createdBy>
+<createdTime>2022-04-30 02:35:52 UTC</createdTime>
+<ownerDesignName>SNN_data_model</ownerDesignName>
+</TableViewProxyOraclev10g>

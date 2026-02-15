@@ -1,0 +1,93 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="8C8F8A5C-7362-E268-F6B3-39F6C8F775A0" name="HARC Membership">
+<createdBy>tcollier</createdBy>
+<createdTime>2019-07-03 03:10:51 UTC</createdTime>
+<ownerDesignName>MacLoggerDX_Project</ownerDesignName>
+<engineerTo>
+<item key="FC57F434-133F-87AF-675A-2915278B34DE" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<preferredAbbreviation>t_harc_member</preferredAbbreviation>
+<shortName>t_harc_member</shortName>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Member Call Sign" id="1C452569-9A56-A0D9-EC9D-AE36384EA3A1">
+<createdBy>tcollier</createdBy>
+<createdTime>2019-07-03 03:11:13 UTC</createdTime>
+<ownerDesignName>MacLoggerDX_Project</ownerDesignName>
+<engineerTo>
+<item key="FC57F434-133F-87AF-675A-2915278B34DE" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<preferredAbbreviation>mem_call</preferredAbbreviation>
+</Attribute>
+<Attribute name="Member First Name" id="9986AD63-E04F-EFF0-45CA-29B6D1E1D13F">
+<createdBy>tcollier</createdBy>
+<createdTime>2019-07-03 03:11:56 UTC</createdTime>
+<ownerDesignName>MacLoggerDX_Project</ownerDesignName>
+<engineerTo>
+<item key="FC57F434-133F-87AF-675A-2915278B34DE" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<preferredAbbreviation>mem_f_nam</preferredAbbreviation>
+</Attribute>
+<Attribute name="Member Middle Name" id="67F25766-7FE1-A8C7-AB73-BA7B47AFCF08">
+<createdBy>tcollier</createdBy>
+<createdTime>2019-07-03 03:21:09 UTC</createdTime>
+<generatorID>46B40432-A8F6-FF33-B9B4-FD6DABFA6FE4</generatorID>
+<ownerDesignName>MacLoggerDX_Project</ownerDesignName>
+<engineerTo>
+<item key="FC57F434-133F-87AF-675A-2915278B34DE" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>5622EC61-2757-4973-157E-75A143DCE2F5</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<preferredAbbreviation>mem_m_nam</preferredAbbreviation>
+</Attribute>
+<Attribute name="Member Last Name" id="9D535688-3F56-43ED-7F15-4F9429F100AD">
+<createdBy>tcollier</createdBy>
+<createdTime>2019-07-11 23:25:33 UTC</createdTime>
+<ownerDesignName>MacLoggerDX_Project</ownerDesignName>
+<engineerTo>
+<item key="FC57F434-133F-87AF-675A-2915278B34DE" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<preferredAbbreviation>mem_l_nam</preferredAbbreviation>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="DB931814-9288-7C3F-E8BC-F4B8EDFB1277" name="HARC Membership PK">
+<createdBy>tcollier</createdBy>
+<createdTime>2019-07-03 03:15:41 UTC</createdTime>
+<ownerDesignName>MacLoggerDX_Project</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="FC57F434-133F-87AF-675A-2915278B34DE" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>1C452569-9A56-A0D9-EC9D-AE36384EA3A1</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,90 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<EntityView class="oracle.dbtools.crest.model.design.logical.EntityView" directorySegmentName="seg_0" id="BC7841AB-AAC3-0AC3-4A29-253EAD8FC043" name="v callsign suffix">
+<createdBy>tcollier</createdBy>
+<createdTime>2020-10-30 17:47:38 UTC</createdTime>
+<generatorID>089A3B31-283C-B7BC-54BC-EF4B032E5598</generatorID>
+<ownerDesignName>MacLoggerDX_SQLite_DB</ownerDesignName>
+<engineerTo>
+<item key="31E5524C-62D2-47CA-ED22-956AD4BDA5C7" value="true"/>
+<item key="AF3E3F20-8AFD-D45A-FD64-95FBA8FAE7F0" value="true"/>
+</engineerTo>
+<userDefined>true</userDefined>
+<userDefinedSQL><![CDATA[SELECT DISTINCT call AS Call,
+                    first_name AS First_Name,
+                    last_name AS Last_Name,
+                    CASE CAST(substr(call, 2, 1)AS INTEGER)WHEN 0 THEN substr(call, 4, length(call))ELSE substr(call, 3, length(call))END AS Suffix
+      FROM v_qso_table_v007
+     ORDER BY 4]]></userDefinedSQL>
+<validSQL>false</validSQL>
+<viewType>EntityView</viewType>
+<viewElements>
+<viewElement class="oracle.dbtools.crest.model.design.logical.AttributeView" name="Call" id="F5A75D57-7B4C-112C-BC8A-7D874A9B9077">
+<createdBy>tcollier</createdBy>
+<createdTime>2020-10-30 17:47:38 UTC</createdTime>
+<generatorID>D15413D7-D3AF-D8CB-93A0-99A7069D5959</generatorID>
+<ownerDesignName>MacLoggerDX_SQLite_DB</ownerDesignName>
+<engineerTo>
+<item key="31E5524C-62D2-47CA-ED22-956AD4BDA5C7" value="true"/>
+<item key="AF3E3F20-8AFD-D45A-FD64-95FBA8FAE7F0" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<alias>Call</alias>
+<dataType>CHAR</dataType>
+<reference>false</reference>
+<referencedColumn>1522D1E9-BC5E-7107-5C2D-B0DFABCDCF43</referencedColumn>
+<viewID>BC7841AB-AAC3-0AC3-4A29-253EAD8FC043</viewID>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.logical.AttributeView" name="First_Name" id="DC5A3D83-1A4B-D77D-2BAE-7016A61D22B9">
+<createdBy>tcollier</createdBy>
+<createdTime>2020-10-30 17:47:38 UTC</createdTime>
+<generatorID>3FFB7491-20E0-D61A-70D7-4867606AF2FC</generatorID>
+<ownerDesignName>MacLoggerDX_SQLite_DB</ownerDesignName>
+<engineerTo>
+<item key="31E5524C-62D2-47CA-ED22-956AD4BDA5C7" value="true"/>
+<item key="AF3E3F20-8AFD-D45A-FD64-95FBA8FAE7F0" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<alias>First_Name</alias>
+<dataType>CHAR</dataType>
+<reference>false</reference>
+<referencedColumn>3CE70E2B-361B-1F36-1349-BAED05244B03</referencedColumn>
+<viewID>BC7841AB-AAC3-0AC3-4A29-253EAD8FC043</viewID>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.logical.AttributeView" name="Last_Name" id="D4FF0BC4-8C2B-B548-DEE6-E2AAB3475BDD">
+<createdBy>tcollier</createdBy>
+<createdTime>2020-10-30 17:47:38 UTC</createdTime>
+<generatorID>8C30F9BB-DBA5-C207-DBD6-ACEA9D09C68C</generatorID>
+<ownerDesignName>MacLoggerDX_SQLite_DB</ownerDesignName>
+<engineerTo>
+<item key="31E5524C-62D2-47CA-ED22-956AD4BDA5C7" value="true"/>
+<item key="AF3E3F20-8AFD-D45A-FD64-95FBA8FAE7F0" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<alias>Last_Name</alias>
+<dataType>CHAR</dataType>
+<reference>false</reference>
+<referencedColumn>8AC918E9-F51B-8DA0-9E6F-B543B474DF0D</referencedColumn>
+<viewID>BC7841AB-AAC3-0AC3-4A29-253EAD8FC043</viewID>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.logical.AttributeView" name="Suffix" id="76D9581D-51E0-8D97-DCFB-51DE1077B179">
+<createdBy>tcollier</createdBy>
+<createdTime>2020-10-30 17:47:38 UTC</createdTime>
+<generatorID>64627147-D30B-78F8-1152-17C0143B951A</generatorID>
+<ownerDesignName>MacLoggerDX_SQLite_DB</ownerDesignName>
+<engineerTo>
+<item key="31E5524C-62D2-47CA-ED22-956AD4BDA5C7" value="true"/>
+<item key="AF3E3F20-8AFD-D45A-FD64-95FBA8FAE7F0" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<alias>Suffix</alias>
+<dataType>UNKNOWN</dataType>
+<expression>CASECAST(substr(call,2,1)ASINTEGER)WHEN0THENsubstr(call,4,length(call))ELSEsubstr(call,3,length(call))END</expression>
+<reference>false</reference>
+<viewID>BC7841AB-AAC3-0AC3-4A29-253EAD8FC043</viewID>
+</viewElement>
+</viewElements>
+</EntityView>

@@ -1,0 +1,5 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<oracle.dbtools.crest.model.design.relational.RelationalDesign objectID="FC57F434-133F-87AF-675A-2915278B34DE">
+   <object objectID="BE17FDB5-19BC-086F-4E03-965811365EA3" markedGenerate="false"/>
+   <object objectID="A4D84CD1-44D8-A8CB-304A-A7BDEDB98452" markedGenerate="false"/>
+</oracle.dbtools.crest.model.design.relational.RelationalDesign>

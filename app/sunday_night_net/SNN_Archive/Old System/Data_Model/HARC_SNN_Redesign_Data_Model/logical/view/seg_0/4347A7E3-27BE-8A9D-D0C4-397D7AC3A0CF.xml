@@ -1,0 +1,126 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<EntityView class="oracle.dbtools.crest.model.design.logical.EntityView" directorySegmentName="seg_0" id="4347A7E3-27BE-8A9D-D0C4-397D7AC3A0CF" name="v harc member">
+<createdBy>tcollier</createdBy>
+<createdTime>2020-10-28 21:46:01 UTC</createdTime>
+<generatorID>70788416-94C8-C74F-96EF-B8717EB44535</generatorID>
+<ownerDesignName>HARC_SNN_Redesign_Data_Model</ownerDesignName>
+<engineerTo>
+<item key="FC2407F3-F8D5-F415-2274-01B807491F5F" value="true"/>
+<item key="2D9F4731-903E-E966-6F91-381618624C38" value="true"/>
+</engineerTo>
+<userDefined>true</userDefined>
+<userDefinedSQL><![CDATA[SELECT *
+      FROM t_harc_member]]></userDefinedSQL>
+<validSQL>false</validSQL>
+<viewType>EntityView</viewType>
+<viewElements>
+<viewElement class="oracle.dbtools.crest.model.design.logical.AttributeView" name="mem_call" id="9683DD80-5E67-874E-79EC-C314709AEBD8">
+<createdBy>tcollier</createdBy>
+<createdTime>2020-10-28 21:46:01 UTC</createdTime>
+<generatorID>C63BFC2A-2940-C1AF-576B-BA9146BCA1D3</generatorID>
+<ownerDesignName>HARC_SNN_Redesign_Data_Model</ownerDesignName>
+<engineerTo>
+<item key="FC2407F3-F8D5-F415-2274-01B807491F5F" value="true"/>
+<item key="2D9F4731-903E-E966-6F91-381618624C38" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>UNKNOWN</dataType>
+<reference>false</reference>
+<referencedColumn>1212B5CC-298E-D887-7F9A-ED3151E0CD1B</referencedColumn>
+<table>7A15372E-F76A-C86F-F83A-56B4D09B823A</table>
+<tableAlias>t_harc_member</tableAlias>
+<viewID>4347A7E3-27BE-8A9D-D0C4-397D7AC3A0CF</viewID>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.logical.AttributeView" name="mem_f_nam" id="E602CDA0-E0CE-820A-3A25-6259CCBD4C27">
+<createdBy>tcollier</createdBy>
+<createdTime>2020-10-28 21:46:01 UTC</createdTime>
+<generatorID>78191F3A-51F1-87B2-E416-8B64D9B42B37</generatorID>
+<ownerDesignName>HARC_SNN_Redesign_Data_Model</ownerDesignName>
+<engineerTo>
+<item key="FC2407F3-F8D5-F415-2274-01B807491F5F" value="true"/>
+<item key="2D9F4731-903E-E966-6F91-381618624C38" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>UNKNOWN</dataType>
+<reference>false</reference>
+<referencedColumn>7CB8C1C9-676F-8F76-DD25-B5E2AE508EC5</referencedColumn>
+<table>7A15372E-F76A-C86F-F83A-56B4D09B823A</table>
+<tableAlias>t_harc_member</tableAlias>
+<viewID>4347A7E3-27BE-8A9D-D0C4-397D7AC3A0CF</viewID>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.logical.AttributeView" name="mem_m_nam" id="9C317714-A998-5637-ABA2-D7D6F4DE0599">
+<createdBy>tcollier</createdBy>
+<createdTime>2020-10-28 21:46:01 UTC</createdTime>
+<generatorID>B6C7EAFA-6A78-8018-D552-E5458FB36F7C</generatorID>
+<ownerDesignName>HARC_SNN_Redesign_Data_Model</ownerDesignName>
+<engineerTo>
+<item key="FC2407F3-F8D5-F415-2274-01B807491F5F" value="true"/>
+<item key="2D9F4731-903E-E966-6F91-381618624C38" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>UNKNOWN</dataType>
+<reference>false</reference>
+<referencedColumn>233619D6-90DA-839B-D7BB-412C16EF714F</referencedColumn>
+<table>7A15372E-F76A-C86F-F83A-56B4D09B823A</table>
+<tableAlias>t_harc_member</tableAlias>
+<viewID>4347A7E3-27BE-8A9D-D0C4-397D7AC3A0CF</viewID>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.logical.AttributeView" name="mem_l_nam" id="FA1BF8FA-7374-5EAA-D49D-046F2BC83ECD">
+<createdBy>tcollier</createdBy>
+<createdTime>2020-10-28 21:46:01 UTC</createdTime>
+<generatorID>78FB6DDB-4E99-BD09-3AB5-F785A9DC4A42</generatorID>
+<ownerDesignName>HARC_SNN_Redesign_Data_Model</ownerDesignName>
+<engineerTo>
+<item key="FC2407F3-F8D5-F415-2274-01B807491F5F" value="true"/>
+<item key="2D9F4731-903E-E966-6F91-381618624C38" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>UNKNOWN</dataType>
+<reference>false</reference>
+<referencedColumn>807BE308-1585-3802-2F7C-9DBBE27491F5</referencedColumn>
+<table>7A15372E-F76A-C86F-F83A-56B4D09B823A</table>
+<tableAlias>t_harc_member</tableAlias>
+<viewID>4347A7E3-27BE-8A9D-D0C4-397D7AC3A0CF</viewID>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.logical.AttributeView" name="mem_nicknam" id="0DBFFCE0-C2E9-6790-657D-94E9C9367484">
+<createdBy>tcollier</createdBy>
+<createdTime>2020-10-28 21:46:01 UTC</createdTime>
+<generatorID>441F1A0F-B2A3-CD56-F3BE-A46F294A8D4F</generatorID>
+<ownerDesignName>HARC_SNN_Redesign_Data_Model</ownerDesignName>
+<engineerTo>
+<item key="FC2407F3-F8D5-F415-2274-01B807491F5F" value="true"/>
+<item key="2D9F4731-903E-E966-6F91-381618624C38" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>UNKNOWN</dataType>
+<reference>false</reference>
+<referencedColumn>8FE80D17-9643-753C-70E8-D8643BA32C52</referencedColumn>
+<table>7A15372E-F76A-C86F-F83A-56B4D09B823A</table>
+<tableAlias>t_harc_member</tableAlias>
+<viewID>4347A7E3-27BE-8A9D-D0C4-397D7AC3A0CF</viewID>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.logical.AttributeView" name="mem_lic_class" id="2792AC9E-3542-799E-94E7-B76E4B8F4690">
+<createdBy>tcollier</createdBy>
+<createdTime>2020-10-28 21:46:01 UTC</createdTime>
+<generatorID>58B6F039-441B-97EE-1828-1CA6FCE9F719</generatorID>
+<ownerDesignName>HARC_SNN_Redesign_Data_Model</ownerDesignName>
+<engineerTo>
+<item key="FC2407F3-F8D5-F415-2274-01B807491F5F" value="true"/>
+<item key="2D9F4731-903E-E966-6F91-381618624C38" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>UNKNOWN</dataType>
+<reference>false</reference>
+<referencedColumn>36FAD923-9E2D-BDF2-5E85-DA20010C2EE1</referencedColumn>
+<table>7A15372E-F76A-C86F-F83A-56B4D09B823A</table>
+<tableAlias>t_harc_member</tableAlias>
+<viewID>4347A7E3-27BE-8A9D-D0C4-397D7AC3A0CF</viewID>
+</viewElement>
+</viewElements>
+</EntityView>

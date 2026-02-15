@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="1E6CEB4B-AE8E-9386-758C-4DFFD653B13C" containerWithKeyObject="F9DB7E22-09BA-F2C3-D37A-DB432A88B4D5" localFKIndex="B617DF69-F9EC-091E-2A4F-903AFDB15984" name="t_harc_add_qso_details_t_rad_typ_FK">
+<sourceDDLFile>MacLogger_Sqlite_import copy.sql</sourceDDLFile>
+<createdBy>tcollier</createdBy>
+<createdTime>2020-10-30 17:45:49 UTC</createdTime>
+<ownerDesignName>SNN_data_model</ownerDesignName>
+<importedID>B0C7CE53-F2BE-F478-EB4C-622AE34031FE</importedID>
+<referredTableLongName>t rad typ</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>11CCA1A8-829E-02E9-0119-70D14B799A7C</referredTableID>
+<keyObject>529AD4A8-6AB5-A06E-0C63-A2001E2C3F0E</keyObject>
+<referredKeyID>529AD4A8-6AB5-A06E-0C63-A2001E2C3F0E</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>rad_typ_cd</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

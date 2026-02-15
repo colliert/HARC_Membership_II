@@ -1,0 +1,18 @@
+digraph "qso_table_v008" {
+
+splines  = ortho;
+fontname = "Inconsolata";
+
+node [colorscheme = ylgnbu4];
+edge [colorscheme = dark28, dir = both];
+
+qso_table_v008         [shape = record, label = "{ qso_table_v008 |  my_grid : text\l  my_call : text\l  my_rig : text\l  call : text\l  first_name : text\l  last_name : text\l  street : text\l  city : text\l  county : text\l  state : text\l  postal_country : text\l  zip : text\l  grid : text\l  dxcc_country : text\l  iota : text\l  sota : text\l  cq_zone : text\l  itu : text\l  ten_ten : text\l  email : text\l  url : text\l  mode : text\l  band_rx : text\l  band_tx : text\l  rst_sent : text\l  rst_received : text\l  qsl_via : text\l  qsl_sent : text\l  qsl_received : text\l  srx : text\l  stx : text\l  comments : text\l  satellite : text\l  qso_start : real\l  qso_done : real\l  latitude : real\l  longitude : real\l  tx_frequency : real\l  rx_frequency : real\l  azimuth : real\l  elevation : real\l  power : real\l  srx_numeric : integer\l  stx_numeric : integer\l  dxcc_id : integer\l  contest_id : text\l  my_sota : text\l  skcc : text\l  pota : text\l  my_pota : text\l  wwff : text\l  my_wwff : text\l  sig : text\l  my_sig : text\l  sig_info : text\l  my_sig_info : text\l  ext_val_1 : text\l  ext_val_2 : text\l  ext_val_3 : text\l  ext_val_4 : text\l  distance : real\l| pk : integer\l }"];
+t_call_out_cutoff_days [shape = record, label = "{ t_call_out_cutoff_days |  num_days : integer\l| dat_est : text\l }"];
+t_hcol_export          [shape = record, label = "{ t_hcol_export |  mem_num : numeric\l  roster : text\l  f_nam : text\l  pref_nam : text\l  l_nam : text\l  call : text\l  lic_cls : text\l  lic_exp_dat : text\l  lic_num : text\l  lic_agncy : text\l  street : text\l  city : text\l  st : text\l  zip : text\l  country_cd : text\l  lat : numeric\l  lon : numeric\l  elev : numeric\l  hcol_emal : text\l  hcol_email_stat : text\l  club_email : text\l  club_email_stat : text\l  phone_pri : text\l  phone_pri_typ : text\l  phone_pri_pub : text\l  phone_alt : text\l  phone_alt_typ : text\l  phone_alt_pub : text\l  emer_cntct : text\l  join_dat : text\l  left_dat : text\l  club_rank : text\l  club_pos : text\l  dele : text\l  mem_typ : text\l  mem_exp_dat : text\l  club_bal : numeric\l  dob : text\l  priv_mem : numeric\l  tz : text\l  lst_login : text\l  role_cnt : numeric\l }"];
+t_net_qso              [shape = record, label = "{ t_net_qso |  call : text\l  net_id : text\l  f_nam : text\l  l_nam : text\l  qso_date : text\l  qso_time : text\l| qso_key : numeric\l }"];
+t_pers                 [shape = record, label = "{ t_pers |  pers_f_nam : text\l  pers_m_nam : text\l  pers_l_nam : text\l  pers_pref_nam : text\l  pers_typ_cd : number\l| pers_call : text\l }"];
+t_pers_typ             [shape = record, label = "{ t_pers_typ |  pers_typ_desc : text\l| pers_typ_cd : numeric\l }"];
+
+t_pers                 -> t_pers_typ             [color = "#595959", style = solid , arrowtail = none    , arrowhead = normal  , taillabel = "", label = "pers_typ_cd", headlabel = ""];
+
+}

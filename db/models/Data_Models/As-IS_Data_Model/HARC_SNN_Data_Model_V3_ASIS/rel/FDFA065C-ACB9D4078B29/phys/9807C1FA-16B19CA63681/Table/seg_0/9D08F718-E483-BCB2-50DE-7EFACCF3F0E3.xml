@@ -1,0 +1,91 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev9i class="oracle.dbtools.crest.model.design.storage.oracle.v9i.TableProxyOraclev9i" name="t_harc_member_allstar" directorySegmentName="seg_0" id="9D08F718-E483-BCB2-50DE-7EFACCF3F0E3">
+<createdBy>tcollier</createdBy>
+<createdTime>2023-12-10 01:28:01 UTC</createdTime>
+<ownerDesignName>HARC_SNN_Data_Model_V3</ownerDesignName>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="node_tone" id="03515572-DF01-F88A-3E90-A793C3786BFC">
+<createdBy>tcollier</createdBy>
+<createdTime>2023-12-10 01:28:01 UTC</createdTime>
+<ownerDesignName>HARC_SNN_Data_Model_V3</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="node_affiliation" id="359DDBDB-7A9B-4C22-5291-517BE1C0AB19">
+<createdBy>tcollier</createdBy>
+<createdTime>2023-12-10 01:28:01 UTC</createdTime>
+<ownerDesignName>HARC_SNN_Data_Model_V3</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="node_site_nam" id="3AE741C6-4EC4-C42D-40E6-06437EB88A3C">
+<createdBy>tcollier</createdBy>
+<createdTime>2023-12-10 01:28:01 UTC</createdTime>
+<ownerDesignName>HARC_SNN_Data_Model_V3</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="node_num" id="3B1E6D43-5BDA-0861-CDDA-1EC7A85220D6">
+<createdBy>tcollier</createdBy>
+<createdTime>2023-12-10 01:28:01 UTC</createdTime>
+<ownerDesignName>HARC_SNN_Data_Model_V3</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="node_ext" id="4FBCA340-EA57-3023-49BF-FE9917A1095C">
+<createdBy>tcollier</createdBy>
+<createdTime>2023-12-10 01:28:01 UTC</createdTime>
+<ownerDesignName>HARC_SNN_Data_Model_V3</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="mem_call" id="773F1BEF-40BC-FB60-9C87-87F6CC455304">
+<createdBy>tcollier</createdBy>
+<createdTime>2023-12-10 01:28:01 UTC</createdTime>
+<ownerDesignName>HARC_SNN_Data_Model_V3</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="node_id" id="B19E6005-57EB-C933-3651-D40DF5C3FB95">
+<createdBy>tcollier</createdBy>
+<createdTime>2023-12-10 01:28:01 UTC</createdTime>
+<ownerDesignName>HARC_SNN_Data_Model_V3</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="node_eff_dat" id="C7FF6345-B600-5866-9241-9892693DDDFD">
+<createdBy>tcollier</createdBy>
+<createdTime>2023-12-10 01:28:01 UTC</createdTime>
+<ownerDesignName>HARC_SNN_Data_Model_V3</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="node_location" id="D927C1C5-B66B-ED38-5525-5227ACBA1210">
+<createdBy>tcollier</createdBy>
+<createdTime>2023-12-10 01:28:01 UTC</createdTime>
+<ownerDesignName>HARC_SNN_Data_Model_V3</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="node_country" id="DEB8ED61-D4FF-AD57-C60D-A47AA60741D2">
+<createdBy>tcollier</createdBy>
+<createdTime>2023-12-10 01:28:01 UTC</createdTime>
+<ownerDesignName>HARC_SNN_Data_Model_V3</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="node_freq" id="E04DE8B6-E0FE-9E9D-D3FB-AC6B208C764A">
+<createdBy>tcollier</createdBy>
+<createdTime>2023-12-10 01:28:01 UTC</createdTime>
+<ownerDesignName>HARC_SNN_Data_Model_V3</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v9i.FKProxyOraclev9i" name="t_harc_member_allstar_t_harc_member_FK" id="2B07C54E-E932-83BA-BDB5-B16266FC102A">
+<createdBy>tcollier</createdBy>
+<createdTime>2023-12-10 01:28:01 UTC</createdTime>
+<ownerDesignName>HARC_SNN_Data_Model_V3</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v9i.PKProxyOraclev9i" name="t_harc_member_allstar_PK" id="BEEE2492-05EF-DDFA-0678-471A29A79127">
+<createdBy>tcollier</createdBy>
+<createdTime>2023-12-10 01:28:01 UTC</createdTime>
+<ownerDesignName>HARC_SNN_Data_Model_V3</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+<uniqueKeys>
+<UniqueKey class="oracle.dbtools.crest.model.design.storage.oracle.v9i.UniqueOraclev9i" name="INDEX_1" id="72D9F147-C25B-7E9A-A947-38153E4443E9">
+<createdBy>tcollier</createdBy>
+<createdTime>2023-12-10 01:28:01 UTC</createdTime>
+<ownerDesignName>HARC_SNN_Data_Model_V3</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</UniqueKey>
+</uniqueKeys>
+</TableProxyOraclev9i>

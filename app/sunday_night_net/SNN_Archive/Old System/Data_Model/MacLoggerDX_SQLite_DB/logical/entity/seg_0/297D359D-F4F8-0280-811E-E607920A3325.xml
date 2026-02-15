@@ -1,0 +1,68 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="297D359D-F4F8-0280-811E-E607920A3325" name="Power Type">
+<createdBy>tcollier</createdBy>
+<createdTime>2020-10-30 17:47:38 UTC</createdTime>
+<generatorID>59C709FC-E8D9-17A5-22C3-DCA4A7FDDBEE</generatorID>
+<ownerDesignName>MacLoggerDX_SQLite_DB</ownerDesignName>
+<engineerTo>
+<item key="AF3E3F20-8AFD-D45A-FD64-95FBA8FAE7F0" value="true"/>
+<item key="31E5524C-62D2-47CA-ED22-956AD4BDA5C7" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<preferredAbbreviation>t pwr typ</preferredAbbreviation>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="pwr typ cd" id="8A737913-F7C4-5C38-6B7E-7F99737DCB70">
+<createdBy>tcollier</createdBy>
+<createdTime>2020-10-30 17:47:38 UTC</createdTime>
+<generatorID>995CB788-7D38-C04A-0889-C022E0AD9F7E</generatorID>
+<ownerDesignName>MacLoggerDX_SQLite_DB</ownerDesignName>
+<engineerTo>
+<item key="31E5524C-62D2-47CA-ED22-956AD4BDA5C7" value="true"/>
+<item key="AF3E3F20-8AFD-D45A-FD64-95FBA8FAE7F0" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>75599A16-9423-40CF-D409-4542E3B2ADCC</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="pwr typ desc" id="323FBFA1-17C7-F1F2-F6C2-6C9293969E68">
+<createdBy>tcollier</createdBy>
+<createdTime>2020-10-30 17:47:38 UTC</createdTime>
+<generatorID>924F5F4D-BAB1-7BCD-B694-E7E7D1008B20</generatorID>
+<ownerDesignName>MacLoggerDX_SQLite_DB</ownerDesignName>
+<engineerTo>
+<item key="31E5524C-62D2-47CA-ED22-956AD4BDA5C7" value="true"/>
+<item key="AF3E3F20-8AFD-D45A-FD64-95FBA8FAE7F0" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<domain>4FF2D893-9BFF-F8A4-D679-A37B572F47ED</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="0C40239F-6406-9B39-E6F5-778E4A3047DC" name="t pwr typ PK">
+<createdBy>tcollier</createdBy>
+<createdTime>2020-10-30 17:47:38 UTC</createdTime>
+<generatorID>F5245F11-A010-2687-2239-2CA36EF8F7CF</generatorID>
+<ownerDesignName>MacLoggerDX_SQLite_DB</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="31E5524C-62D2-47CA-ED22-956AD4BDA5C7" value="false"/>
+<item key="AF3E3F20-8AFD-D45A-FD64-95FBA8FAE7F0" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>8A737913-F7C4-5C38-6B7E-7F99737DCB70</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

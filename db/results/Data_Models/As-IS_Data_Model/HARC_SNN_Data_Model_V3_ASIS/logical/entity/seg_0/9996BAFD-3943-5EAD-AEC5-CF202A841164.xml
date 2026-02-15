@@ -1,0 +1,122 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="9996BAFD-3943-5EAD-AEC5-CF202A841164" name="t_pers">
+<createdBy>tcollier</createdBy>
+<createdTime>2023-12-10 01:29:04 UTC</createdTime>
+<generatorID>3FF2E432-D240-9C53-CBA2-AC62DDAC01CC</generatorID>
+<ownerDesignName>HARC_SNN_Data_Model_V3</ownerDesignName>
+<engineerTo>
+<item key="FDFA065C-9B79-4768-D3A1-ACB9D4078B29" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<synonymToDisplay>Person</synonymToDisplay>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="pers call" id="B21F0822-079D-A73E-E5F4-7072DCC1A793">
+<createdBy>tcollier</createdBy>
+<createdTime>2023-12-10 01:29:04 UTC</createdTime>
+<generatorID>4CADB3D9-834B-1832-102C-1C4E69D1904F</generatorID>
+<ownerDesignName>HARC_SNN_Data_Model_V3</ownerDesignName>
+<engineerTo>
+<item key="FDFA065C-9B79-4768-D3A1-ACB9D4078B29" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="pers f nam" id="A5ED5B0E-4BA5-1E8F-D8AB-2697214D87D3">
+<createdBy>tcollier</createdBy>
+<createdTime>2023-12-10 01:29:04 UTC</createdTime>
+<generatorID>D1D53D89-3A85-0B05-ED17-1BEFE36EC133</generatorID>
+<ownerDesignName>HARC_SNN_Data_Model_V3</ownerDesignName>
+<engineerTo>
+<item key="FDFA065C-9B79-4768-D3A1-ACB9D4078B29" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="pers m nam" id="154C71AC-B5C7-AB44-1BCF-6A54F4FD0A2F">
+<createdBy>tcollier</createdBy>
+<createdTime>2023-12-10 01:29:04 UTC</createdTime>
+<generatorID>EA6926C9-FBB4-634B-FF07-48C0E6022A99</generatorID>
+<ownerDesignName>HARC_SNN_Data_Model_V3</ownerDesignName>
+<engineerTo>
+<item key="FDFA065C-9B79-4768-D3A1-ACB9D4078B29" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="pers l nam" id="5A4E66F6-B952-BA7B-53B7-97DE3B263B33">
+<createdBy>tcollier</createdBy>
+<createdTime>2023-12-10 01:29:04 UTC</createdTime>
+<generatorID>92E25EC1-0D9E-9589-F09C-108077A81619</generatorID>
+<ownerDesignName>HARC_SNN_Data_Model_V3</ownerDesignName>
+<engineerTo>
+<item key="FDFA065C-9B79-4768-D3A1-ACB9D4078B29" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="pers nicknam" id="E4861035-6455-A1EC-B878-24E6BAA3D115">
+<createdBy>tcollier</createdBy>
+<createdTime>2023-12-10 01:29:04 UTC</createdTime>
+<generatorID>AD2CA88E-B12C-0476-AED0-07D39B864A6A</generatorID>
+<ownerDesignName>HARC_SNN_Data_Model_V3</ownerDesignName>
+<engineerTo>
+<item key="FDFA065C-9B79-4768-D3A1-ACB9D4078B29" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="pers lic class" id="DA3D7EFE-0806-7C02-F52A-BE1DCE6DFA55">
+<createdBy>tcollier</createdBy>
+<createdTime>2023-12-10 01:29:04 UTC</createdTime>
+<generatorID>6BA51050-C610-9306-8C60-F1DB43028711</generatorID>
+<ownerDesignName>HARC_SNN_Data_Model_V3</ownerDesignName>
+<engineerTo>
+<item key="FDFA065C-9B79-4768-D3A1-ACB9D4078B29" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="pers typ" id="54BEA65B-DBC7-3A5B-914E-E1EC8FCA573F">
+<createdBy>tcollier</createdBy>
+<createdTime>2023-12-10 01:29:04 UTC</createdTime>
+<generatorID>D6DFB612-5FC4-AC86-C606-C511D5B9A264</generatorID>
+<ownerDesignName>HARC_SNN_Data_Model_V3</ownerDesignName>
+<engineerTo>
+<item key="FDFA065C-9B79-4768-D3A1-ACB9D4078B29" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>1150E022-F3A0-F948-C01B-3FD4B9F6B5F6</referedAttribute>
+<use>0</use>
+<logicalDatatype>90015BD8-66C0-24AE-0278-E3E87E938D9F</logicalDatatype>
+<domain>7D33A781-C809-60DB-2F9C-E912B331C652</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="CC9D566D-AD75-ECB8-8A95-FD860E74B17D" name="t pers PK">
+<createdBy>tcollier</createdBy>
+<createdTime>2023-12-10 01:29:04 UTC</createdTime>
+<generatorID>73EAC9BF-5B85-28D4-BE73-42085B34A46F</generatorID>
+<ownerDesignName>HARC_SNN_Data_Model_V3</ownerDesignName>
+<engineerTo>
+<item key="FDFA065C-9B79-4768-D3A1-ACB9D4078B29" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>B21F0822-079D-A73E-E5F4-7072DCC1A793</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

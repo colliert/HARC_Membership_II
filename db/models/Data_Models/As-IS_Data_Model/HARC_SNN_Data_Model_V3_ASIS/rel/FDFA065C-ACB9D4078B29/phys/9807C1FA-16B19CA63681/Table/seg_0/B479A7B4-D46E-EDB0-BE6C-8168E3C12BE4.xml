@@ -1,0 +1,48 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev9i class="oracle.dbtools.crest.model.design.storage.oracle.v9i.TableProxyOraclev9i" name="HARC_mem_official" directorySegmentName="seg_0" id="B479A7B4-D46E-EDB0-BE6C-8168E3C12BE4">
+<createdBy>tcollier</createdBy>
+<createdTime>2023-12-10 01:28:01 UTC</createdTime>
+<ownerDesignName>HARC_SNN_Data_Model_V3</ownerDesignName>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="email" id="116B75D0-40BD-F812-B2C1-627F7C513E38">
+<createdBy>tcollier</createdBy>
+<createdTime>2023-12-10 01:28:01 UTC</createdTime>
+<ownerDesignName>HARC_SNN_Data_Model_V3</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="license" id="5F53CB41-5BF0-364D-EAC3-486FD78F3652">
+<createdBy>tcollier</createdBy>
+<createdTime>2023-12-10 01:28:01 UTC</createdTime>
+<ownerDesignName>HARC_SNN_Data_Model_V3</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="l_nam" id="6D6A098E-B8D7-6905-76FB-23269095F207">
+<createdBy>tcollier</createdBy>
+<createdTime>2023-12-10 01:28:01 UTC</createdTime>
+<ownerDesignName>HARC_SNN_Data_Model_V3</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="status" id="A520A9CC-50EA-F15F-5694-28B0163AE131">
+<createdBy>tcollier</createdBy>
+<createdTime>2023-12-10 01:28:01 UTC</createdTime>
+<ownerDesignName>HARC_SNN_Data_Model_V3</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="m_NAM" id="AA6186CE-AD75-003B-97C3-FB77604277AE">
+<createdBy>tcollier</createdBy>
+<createdTime>2023-12-10 01:28:01 UTC</createdTime>
+<ownerDesignName>HARC_SNN_Data_Model_V3</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="callsign" id="C0FF975C-43FD-75EA-1BBC-D933EF1E99DD">
+<createdBy>tcollier</createdBy>
+<createdTime>2023-12-10 01:28:01 UTC</createdTime>
+<ownerDesignName>HARC_SNN_Data_Model_V3</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="f_nam" id="F47AE8FB-AD35-24C0-322E-6C1DC37DA8EC">
+<createdBy>tcollier</createdBy>
+<createdTime>2023-12-10 01:28:01 UTC</createdTime>
+<ownerDesignName>HARC_SNN_Data_Model_V3</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+</TableProxyOraclev9i>

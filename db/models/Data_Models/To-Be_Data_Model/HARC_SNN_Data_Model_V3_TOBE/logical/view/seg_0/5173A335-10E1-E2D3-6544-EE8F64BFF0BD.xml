@@ -1,0 +1,151 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<EntityView class="oracle.dbtools.crest.model.design.logical.EntityView" directorySegmentName="seg_0" id="5173A335-10E1-E2D3-6544-EE8F64BFF0BD" name="v_harc_snn_callout_roster_suf">
+<createdBy>tcollier</createdBy>
+<createdTime>2023-12-10 01:29:04 UTC</createdTime>
+<commentInRDBMS><![CDATA[/*
+* v_harc_snn_callout_roster_suffix
+* --------------------------------
+*
+* Author:  Tim Collier
+*
+* Purpose:  Using the basic callout roster (v_harc_snn_callout_roster) as a basis, list the roster in
+* order of callsign suffix (ascending).
+*/]]></commentInRDBMS>
+<generatorID>FB70E95B-1256-AC37-4CB0-8D6AE5392D4C</generatorID>
+<ownerDesignName>HARC_SNN_Data_Model_V3_TOBE</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="FDFA065C-9B79-4768-D3A1-ACB9D4078B29" value="false"/>
+</engineerTo>
+<userDefined>true</userDefined>
+<userDefinedSQL><![CDATA[/*
+* v_harc_snn_callout_roster_suffix
+* --------------------------------
+*
+* Author:  Tim Collier
+*
+* Purpose:  Using the basic callout roster (v_harc_snn_callout_roster) as a basis, list the roster in
+* order of callsign suffix (ascending).
+*/
+select callsign
+ --        ,suffix
+    ,"first name"
+    ,"last name"
+    ,member
+    ,comments
+    ,Cutoff_Days
+from (select callsign
+            ,case cast(substr(callsign,2,1) as integer)
+                    when 0 then substr(callsign,4,length(callsign))
+                else substr(callsign,3,length(callsign))
+            end as "Suffix"
+            ,"first name"
+            ,"last name"
+            ,member
+            ,comments
+            ,Cutoff_Days
+from (select * from v_harc_snn_callout_roster)
+order by 5,2)]]></userDefinedSQL>
+<validSQL>false</validSQL>
+<parsed>true</parsed>
+<viewType>EntityView</viewType>
+<viewElements>
+<viewElement class="oracle.dbtools.crest.model.design.logical.AttributeView" name="callsign" id="657554F0-C6E4-9A3D-515A-A731B82D3165">
+<createdBy>tcollier</createdBy>
+<createdTime>2023-12-10 01:29:04 UTC</createdTime>
+<generatorID>1F05E787-C106-F0D7-9F15-3F9850F585E4</generatorID>
+<ownerDesignName>HARC_SNN_Data_Model_V3</ownerDesignName>
+<engineerTo>
+<item key="FDFA065C-9B79-4768-D3A1-ACB9D4078B29" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>UNKNOWN</dataType>
+<expression>callsign</expression>
+<reference>false</reference>
+<viewID>5173A335-10E1-E2D3-6544-EE8F64BFF0BD</viewID>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.logical.AttributeView" name="first name" id="12C7A6A3-4227-AE18-18AF-FD65D90F8C8D">
+<createdBy>tcollier</createdBy>
+<createdTime>2023-12-10 01:29:04 UTC</createdTime>
+<generatorID>1BC2E6DD-7B0E-5975-B84B-06BFEF7B513C</generatorID>
+<ownerDesignName>HARC_SNN_Data_Model_V3</ownerDesignName>
+<engineerTo>
+<item key="FDFA065C-9B79-4768-D3A1-ACB9D4078B29" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>UNKNOWN</dataType>
+<expression>&quot;first name&quot;</expression>
+<reference>false</reference>
+<viewID>5173A335-10E1-E2D3-6544-EE8F64BFF0BD</viewID>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.logical.AttributeView" name="last name" id="8C038D1A-C0AF-F263-9BF5-1EB82E3601E6">
+<createdBy>tcollier</createdBy>
+<createdTime>2023-12-10 01:29:04 UTC</createdTime>
+<generatorID>DA1DD7A9-18A4-8D88-46AC-E31F40B01CAD</generatorID>
+<ownerDesignName>HARC_SNN_Data_Model_V3</ownerDesignName>
+<engineerTo>
+<item key="FDFA065C-9B79-4768-D3A1-ACB9D4078B29" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>UNKNOWN</dataType>
+<expression>&quot;last name&quot;</expression>
+<reference>false</reference>
+<viewID>5173A335-10E1-E2D3-6544-EE8F64BFF0BD</viewID>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.logical.AttributeView" name="member" id="334B874C-38FA-7270-CB28-A0DAE67D0EC9">
+<createdBy>tcollier</createdBy>
+<createdTime>2023-12-10 01:29:04 UTC</createdTime>
+<generatorID>FEAA4330-5625-D4BF-9020-969B548B7FE6</generatorID>
+<ownerDesignName>HARC_SNN_Data_Model_V3</ownerDesignName>
+<engineerTo>
+<item key="FDFA065C-9B79-4768-D3A1-ACB9D4078B29" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>UNKNOWN</dataType>
+<expression>member</expression>
+<reference>false</reference>
+<viewID>5173A335-10E1-E2D3-6544-EE8F64BFF0BD</viewID>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.logical.AttributeView" name="comments" id="FF5024F2-7C9D-45BB-3A7F-288263CDF9FD">
+<createdBy>tcollier</createdBy>
+<createdTime>2023-12-10 01:29:04 UTC</createdTime>
+<generatorID>251FC6C2-953E-F2C8-2AAA-B412738380C4</generatorID>
+<ownerDesignName>HARC_SNN_Data_Model_V3</ownerDesignName>
+<engineerTo>
+<item key="FDFA065C-9B79-4768-D3A1-ACB9D4078B29" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>UNKNOWN</dataType>
+<expression>comments</expression>
+<reference>false</reference>
+<viewID>5173A335-10E1-E2D3-6544-EE8F64BFF0BD</viewID>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.logical.AttributeView" name="Cutoff_Days" id="B1913134-0E8B-1051-CCE2-2155D4780771">
+<createdBy>tcollier</createdBy>
+<createdTime>2023-12-10 01:29:04 UTC</createdTime>
+<generatorID>BAE74C2B-F936-2C91-CD99-758E207DFE2D</generatorID>
+<ownerDesignName>HARC_SNN_Data_Model_V3</ownerDesignName>
+<engineerTo>
+<item key="FDFA065C-9B79-4768-D3A1-ACB9D4078B29" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>UNKNOWN</dataType>
+<expression>Cutoff_Days</expression>
+<reference>false</reference>
+<viewID>5173A335-10E1-E2D3-6544-EE8F64BFF0BD</viewID>
+</viewElement>
+</viewElements>
+<usedObjects>
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="EB70A019-A2A3-270F-6FB8-20C9D8AA6589">
+<container>true</container>
+<tableName>v_harc_snn_callout_roster</tableName>
+<view>true</view>
+</UsedObject>
+</usedObjects>
+</EntityView>

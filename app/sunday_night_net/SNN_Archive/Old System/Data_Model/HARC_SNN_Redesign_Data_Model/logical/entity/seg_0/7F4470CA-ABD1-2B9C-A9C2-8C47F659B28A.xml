@@ -1,0 +1,66 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="7F4470CA-ABD1-2B9C-A9C2-8C47F659B28A" name="t ant typ">
+<createdBy>tcollier</createdBy>
+<createdTime>2020-10-28 21:46:01 UTC</createdTime>
+<generatorID>8FAEF211-465C-4E4C-2CC7-82B6979E671A</generatorID>
+<ownerDesignName>HARC_SNN_Redesign_Data_Model</ownerDesignName>
+<engineerTo>
+<item key="FC2407F3-F8D5-F415-2274-01B807491F5F" value="true"/>
+<item key="2D9F4731-903E-E966-6F91-381618624C38" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ant typ cd" id="2122A879-0940-24D8-7A38-4D576E309EAA">
+<createdBy>tcollier</createdBy>
+<createdTime>2020-10-28 21:46:01 UTC</createdTime>
+<generatorID>DBA5024C-F7AC-0044-3659-69406438CA1D</generatorID>
+<ownerDesignName>HARC_SNN_Redesign_Data_Model</ownerDesignName>
+<engineerTo>
+<item key="FC2407F3-F8D5-F415-2274-01B807491F5F" value="true"/>
+<item key="2D9F4731-903E-E966-6F91-381618624C38" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ant typ desc" id="02F7E039-81FE-1F33-832C-36E9E83177C0">
+<createdBy>tcollier</createdBy>
+<createdTime>2020-10-28 21:46:01 UTC</createdTime>
+<generatorID>00B4149A-B710-4D14-8CFE-42887246D998</generatorID>
+<ownerDesignName>HARC_SNN_Redesign_Data_Model</ownerDesignName>
+<engineerTo>
+<item key="FC2407F3-F8D5-F415-2274-01B807491F5F" value="true"/>
+<item key="2D9F4731-903E-E966-6F91-381618624C38" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT040</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="3D9D4112-0C83-7ED1-D95E-919329798BE1" name="t ant typ PK">
+<createdBy>tcollier</createdBy>
+<createdTime>2020-10-28 21:46:01 UTC</createdTime>
+<generatorID>3FE598F5-6020-D303-32D8-DEA68E6614D5</generatorID>
+<ownerDesignName>HARC_SNN_Redesign_Data_Model</ownerDesignName>
+<engineerTo>
+<item key="FC2407F3-F8D5-F415-2274-01B807491F5F" value="true"/>
+<item key="2D9F4731-903E-E966-6F91-381618624C38" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>2122A879-0940-24D8-7A38-4D576E309EAA</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

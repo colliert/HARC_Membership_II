@@ -1,0 +1,122 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="7F6899A9-D330-6EBB-B413-FA52DD0B1A31" name="Person">
+<createdBy>tcollier</createdBy>
+<createdTime>2020-10-30 22:36:30 UTC</createdTime>
+<generatorID>0D637EC0-346B-3F06-6F64-0433132969CA</generatorID>
+<ownerDesignName>MacLoggerDX_SQLite_DB</ownerDesignName>
+<engineerTo>
+<item key="AF3E3F20-8AFD-D45A-FD64-95FBA8FAE7F0" value="true"/>
+<item key="31E5524C-62D2-47CA-ED22-956AD4BDA5C7" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<preferredAbbreviation>t_pers</preferredAbbreviation>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="mem call" id="3C661828-F0E3-2C0F-BC1D-D5822668B020">
+<createdBy>tcollier</createdBy>
+<createdTime>2020-10-30 22:36:30 UTC</createdTime>
+<ownerDesignName>MacLoggerDX_SQLite_DB</ownerDesignName>
+<engineerTo>
+<item key="31E5524C-62D2-47CA-ED22-956AD4BDA5C7" value="true"/>
+<item key="AF3E3F20-8AFD-D45A-FD64-95FBA8FAE7F0" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="mem f nam" id="15D3FE5A-468F-C922-F409-C68FA46FF61C">
+<createdBy>tcollier</createdBy>
+<createdTime>2020-10-30 22:36:30 UTC</createdTime>
+<ownerDesignName>MacLoggerDX_SQLite_DB</ownerDesignName>
+<engineerTo>
+<item key="31E5524C-62D2-47CA-ED22-956AD4BDA5C7" value="true"/>
+<item key="AF3E3F20-8AFD-D45A-FD64-95FBA8FAE7F0" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="mem m nam" id="6E573F9C-1FCB-B9C1-67DC-B905F4DBBFB9">
+<createdBy>tcollier</createdBy>
+<createdTime>2020-10-30 22:36:30 UTC</createdTime>
+<ownerDesignName>MacLoggerDX_SQLite_DB</ownerDesignName>
+<engineerTo>
+<item key="31E5524C-62D2-47CA-ED22-956AD4BDA5C7" value="true"/>
+<item key="AF3E3F20-8AFD-D45A-FD64-95FBA8FAE7F0" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="mem l nam" id="594458D6-BA3B-85BB-507D-55F70F452E0D">
+<createdBy>tcollier</createdBy>
+<createdTime>2020-10-30 22:36:30 UTC</createdTime>
+<ownerDesignName>MacLoggerDX_SQLite_DB</ownerDesignName>
+<engineerTo>
+<item key="31E5524C-62D2-47CA-ED22-956AD4BDA5C7" value="true"/>
+<item key="AF3E3F20-8AFD-D45A-FD64-95FBA8FAE7F0" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="mem nicknam" id="1D6B4D1D-CC3C-B9E6-279B-6A898A7DE617">
+<createdBy>tcollier</createdBy>
+<createdTime>2020-10-30 22:36:30 UTC</createdTime>
+<ownerDesignName>MacLoggerDX_SQLite_DB</ownerDesignName>
+<engineerTo>
+<item key="31E5524C-62D2-47CA-ED22-956AD4BDA5C7" value="true"/>
+<item key="AF3E3F20-8AFD-D45A-FD64-95FBA8FAE7F0" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="mem lic class" id="D597FB9A-64D9-1C42-994E-90D011644809">
+<createdBy>tcollier</createdBy>
+<createdTime>2020-10-30 22:36:30 UTC</createdTime>
+<ownerDesignName>MacLoggerDX_SQLite_DB</ownerDesignName>
+<engineerTo>
+<item key="31E5524C-62D2-47CA-ED22-956AD4BDA5C7" value="true"/>
+<item key="AF3E3F20-8AFD-D45A-FD64-95FBA8FAE7F0" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="19EB4883-F0A4-DBFB-407D-B32761F49306" name="t harc member PK">
+<createdBy>tcollier</createdBy>
+<createdTime>2020-10-30 22:36:30 UTC</createdTime>
+<generatorID>89E272F3-9298-7588-EC69-320FB5622CE0</generatorID>
+<ownerDesignName>MacLoggerDX_SQLite_DB</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="31E5524C-62D2-47CA-ED22-956AD4BDA5C7" value="false"/>
+<item key="AF3E3F20-8AFD-D45A-FD64-95FBA8FAE7F0" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>3C661828-F0E3-2C0F-BC1D-D5822668B020</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

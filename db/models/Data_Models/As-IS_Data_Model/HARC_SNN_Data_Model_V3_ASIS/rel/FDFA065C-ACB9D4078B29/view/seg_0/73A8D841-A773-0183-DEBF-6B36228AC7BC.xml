@@ -1,0 +1,73 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableView class="oracle.dbtools.crest.model.design.relational.TableView" directorySegmentName="seg_0" id="73A8D841-A773-0183-DEBF-6B36228AC7BC" name="v_callsign_suffix">
+<sourceDDLFile>HARC_SNN_DDL_Modified.sql</sourceDDLFile>
+<createdBy>tcollier</createdBy>
+<createdTime>2023-12-10 01:28:01 UTC</createdTime>
+<ownerDesignName>HARC_SNN_Data_Model_V3</ownerDesignName>
+<importedID>42898E5F-FB69-8D1F-BED1-23B770CDF0C7</importedID>
+<userDefined>true</userDefined>
+<userDefinedSQL><![CDATA[select distinct call as "Call"
+    ,first_name as "First_Name"
+    ,last_name as "Last_Name"
+    ,case cast(substr(call,2,1) as integer)
+        when 0 then substr(call,4,length(call))
+        else substr(call,3,length(call))
+    end as "Suffix"
+from v_net_qso
+order by 4]]></userDefinedSQL>
+<validSQL>false</validSQL>
+<viewElements>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="Call" id="C9755D81-76B1-A774-37E5-7136D194A2E8">
+<createdBy>tcollier</createdBy>
+<createdTime>2023-12-10 01:28:01 UTC</createdTime>
+<ownerDesignName>HARC_SNN_Data_Model_V3</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<alias>&quot;Call&quot;</alias>
+<dataType>UNKNOWN</dataType>
+<headerAlias>&quot;Call&quot;</headerAlias>
+<reference>false</reference>
+<referencedColumn>1CE2C25A-A077-2DAF-7977-209B38A067EB</referencedColumn>
+<viewID>73A8D841-A773-0183-DEBF-6B36228AC7BC</viewID>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="First_Name" id="96491BA5-AE46-3E77-C1AF-DD844CB409BA">
+<createdBy>tcollier</createdBy>
+<createdTime>2023-12-10 01:28:01 UTC</createdTime>
+<ownerDesignName>HARC_SNN_Data_Model_V3</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<alias>&quot;First_Name&quot;</alias>
+<dataType>UNKNOWN</dataType>
+<headerAlias>&quot;First_Name&quot;</headerAlias>
+<reference>false</reference>
+<referencedColumn>454234FB-DEB4-1AFA-C675-E23C1384A972</referencedColumn>
+<viewID>73A8D841-A773-0183-DEBF-6B36228AC7BC</viewID>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="Last_Name" id="75439CF0-DD1B-D98E-352F-47DD5F2E80EB">
+<createdBy>tcollier</createdBy>
+<createdTime>2023-12-10 01:28:01 UTC</createdTime>
+<ownerDesignName>HARC_SNN_Data_Model_V3</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<alias>&quot;Last_Name&quot;</alias>
+<dataType>UNKNOWN</dataType>
+<headerAlias>&quot;Last_Name&quot;</headerAlias>
+<reference>false</reference>
+<referencedColumn>68272484-B8AD-0F34-4593-7EFC1101D67D</referencedColumn>
+<viewID>73A8D841-A773-0183-DEBF-6B36228AC7BC</viewID>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="&quot;Suffix&quot;" id="CB62C3F3-8241-440E-34D5-45D6B5B4C768">
+<createdBy>tcollier</createdBy>
+<createdTime>2023-12-10 01:28:01 UTC</createdTime>
+<ownerDesignName>HARC_SNN_Data_Model_V3</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<alias>&quot;Suffix&quot;</alias>
+<dataType>UNKNOWN</dataType>
+<headerAlias>&quot;Suffix&quot;</headerAlias>
+<expression>casecast(substr(call,2,1)asinteger)when0thensubstr(call,4,length(call))elsesubstr(call,3,length(call))end</expression>
+<reference>false</reference>
+<viewID>73A8D841-A773-0183-DEBF-6B36228AC7BC</viewID>
+</viewElement>
+</viewElements>
+</TableView>

@@ -1,0 +1,51 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev10g class="oracle.dbtools.crest.model.design.storage.oracle.v10g.TableProxyOraclev10g" name="t_harc_member" directorySegmentName="seg_0" id="0D637EC0-346B-3F06-6F64-0433132969CA">
+<createdBy>tcollier</createdBy>
+<createdTime>2020-10-28 19:34:38 UTC</createdTime>
+<ownerDesignName>HARC_SNN_Redesign_Data_Model</ownerDesignName>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="mem_f_nam" id="0722CD71-DACC-C869-BBF5-56E77B8F431C">
+<createdBy>tcollier</createdBy>
+<createdTime>2020-10-28 19:34:38 UTC</createdTime>
+<ownerDesignName>HARC_SNN_Redesign_Data_Model</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="mem_lic_class" id="27F37439-5DAA-7EE9-DBA8-E748E7D6AEA2">
+<createdBy>tcollier</createdBy>
+<createdTime>2020-10-28 19:34:38 UTC</createdTime>
+<ownerDesignName>HARC_SNN_Redesign_Data_Model</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="mem_call" id="3D5444B7-DB48-1D16-32A4-AB1E652D82F7">
+<createdBy>tcollier</createdBy>
+<createdTime>2020-10-28 19:34:38 UTC</createdTime>
+<ownerDesignName>HARC_SNN_Redesign_Data_Model</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="mem_l_nam" id="4157E4A1-A8C0-029A-FFDC-2B66A54C2DA1">
+<createdBy>tcollier</createdBy>
+<createdTime>2020-10-28 19:34:38 UTC</createdTime>
+<ownerDesignName>HARC_SNN_Redesign_Data_Model</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="mem_nicknam" id="66F23271-BB78-715C-DAF9-9B1D14ED084C">
+<createdBy>tcollier</createdBy>
+<createdTime>2020-10-28 19:34:38 UTC</createdTime>
+<ownerDesignName>HARC_SNN_Redesign_Data_Model</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="mem_m_nam" id="C235E653-B0F6-3561-CF8B-A9DA9C1FAFCD">
+<createdBy>tcollier</createdBy>
+<createdTime>2020-10-28 19:34:38 UTC</createdTime>
+<ownerDesignName>HARC_SNN_Redesign_Data_Model</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="t_harc_member_PK" id="89E272F3-9298-7588-EC69-320FB5622CE0">
+<createdBy>tcollier</createdBy>
+<createdTime>2020-10-28 19:34:38 UTC</createdTime>
+<ownerDesignName>HARC_SNN_Redesign_Data_Model</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev10g>

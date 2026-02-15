@@ -1,0 +1,727 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="70BDB6F6-659F-843B-4E5C-53BE99AB0C1C" name="qso_table_v008">
+<sourceDDLFile>HARC_SNN_DDL_Modified.sql</sourceDDLFile>
+<createdBy>tcollier</createdBy>
+<createdTime>2023-12-10 01:28:01 UTC</createdTime>
+<ownerDesignName>HARC_SNN_Data_Model_V3</ownerDesignName>
+<importedID>BE2311DE-AB3F-5E18-A2C9-6020E3CAC682</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="&apos;pk&apos;" id="4D02FFBF-8F9F-4E04-EE4E-4ECA3B339411">
+<sourceDDLFile>HARC_SNN_DDL_Modified.sql</sourceDDLFile>
+<createdBy>tcollier</createdBy>
+<createdTime>2023-12-10 01:28:01 UTC</createdTime>
+<ownerDesignName>HARC_SNN_Data_Model_V3</ownerDesignName>
+<importedID>E5F8A492-E2DB-B02C-D27A-CC81AC09081B</importedID>
+<use>0</use>
+<logicalDatatype>90015BD8-66C0-24AE-0278-E3E87E938D9F</logicalDatatype>
+<domain>7D33A781-C809-60DB-2F9C-E912B331C652</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="&apos;my_grid&apos;" id="81A8B2F1-F634-F713-5719-E1C521BD42E6">
+<sourceDDLFile>HARC_SNN_DDL_Modified.sql</sourceDDLFile>
+<createdBy>tcollier</createdBy>
+<createdTime>2023-12-10 01:28:01 UTC</createdTime>
+<ownerDesignName>HARC_SNN_Data_Model_V3</ownerDesignName>
+<importedID>E6E8B9AA-74DE-BAE6-DD8D-770E2B39BDCF</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="&apos;my_call&apos;" id="62C05887-653A-628F-54E6-8117C988D9D2">
+<sourceDDLFile>HARC_SNN_DDL_Modified.sql</sourceDDLFile>
+<createdBy>tcollier</createdBy>
+<createdTime>2023-12-10 01:28:01 UTC</createdTime>
+<ownerDesignName>HARC_SNN_Data_Model_V3</ownerDesignName>
+<importedID>3D477405-DF34-BF2D-444B-8C55C25A7109</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="&apos;my_rig&apos;" id="8A4FFBA9-AD42-19BF-2AA9-60E42688310B">
+<sourceDDLFile>HARC_SNN_DDL_Modified.sql</sourceDDLFile>
+<createdBy>tcollier</createdBy>
+<createdTime>2023-12-10 01:28:01 UTC</createdTime>
+<ownerDesignName>HARC_SNN_Data_Model_V3</ownerDesignName>
+<importedID>AD54ED12-7302-CB6A-3BF6-4BCA43274C53</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="&apos;call&apos;" id="2CE7FF46-334E-C5B9-D296-92C1EC04B924">
+<sourceDDLFile>HARC_SNN_DDL_Modified.sql</sourceDDLFile>
+<createdBy>tcollier</createdBy>
+<createdTime>2023-12-10 01:28:01 UTC</createdTime>
+<ownerDesignName>HARC_SNN_Data_Model_V3</ownerDesignName>
+<importedID>711A39D1-80EF-FE47-8126-B56B733EF131</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="&apos;first_name&apos;" id="DE6EF203-110C-D175-A22C-31843EA75BA1">
+<sourceDDLFile>HARC_SNN_DDL_Modified.sql</sourceDDLFile>
+<createdBy>tcollier</createdBy>
+<createdTime>2023-12-10 01:28:01 UTC</createdTime>
+<ownerDesignName>HARC_SNN_Data_Model_V3</ownerDesignName>
+<importedID>3D4FB543-C2C2-3102-BC0B-B1B726D74307</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="&apos;last_name&apos;" id="E1498397-6411-617F-3432-A48A80508054">
+<sourceDDLFile>HARC_SNN_DDL_Modified.sql</sourceDDLFile>
+<createdBy>tcollier</createdBy>
+<createdTime>2023-12-10 01:28:01 UTC</createdTime>
+<ownerDesignName>HARC_SNN_Data_Model_V3</ownerDesignName>
+<importedID>3F69BD34-6E6B-61FE-CF90-D1A4EB2E1B35</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="&apos;street&apos;" id="C57CE19E-57DD-B8DE-7E5E-1D49966F28C9">
+<sourceDDLFile>HARC_SNN_DDL_Modified.sql</sourceDDLFile>
+<createdBy>tcollier</createdBy>
+<createdTime>2023-12-10 01:28:01 UTC</createdTime>
+<ownerDesignName>HARC_SNN_Data_Model_V3</ownerDesignName>
+<importedID>EF9843D1-F3B2-CC63-7AC4-9406912A7BCB</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="&apos;city&apos;" id="2C850262-81E5-3EF7-74F9-AF06BA8F88C8">
+<sourceDDLFile>HARC_SNN_DDL_Modified.sql</sourceDDLFile>
+<createdBy>tcollier</createdBy>
+<createdTime>2023-12-10 01:28:01 UTC</createdTime>
+<ownerDesignName>HARC_SNN_Data_Model_V3</ownerDesignName>
+<importedID>61802524-3D18-A7F5-86C3-09B662A553D9</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="&apos;county&apos;" id="CD5CE3FE-692B-4CE7-AF3A-DCA7851C8404">
+<sourceDDLFile>HARC_SNN_DDL_Modified.sql</sourceDDLFile>
+<createdBy>tcollier</createdBy>
+<createdTime>2023-12-10 01:28:01 UTC</createdTime>
+<ownerDesignName>HARC_SNN_Data_Model_V3</ownerDesignName>
+<importedID>44641A3D-64B5-6F01-3C7E-9865CF15F4F8</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="&apos;state&apos;" id="60296DF6-ACCC-897A-A7E9-B0F5C9AD238F">
+<sourceDDLFile>HARC_SNN_DDL_Modified.sql</sourceDDLFile>
+<createdBy>tcollier</createdBy>
+<createdTime>2023-12-10 01:28:01 UTC</createdTime>
+<ownerDesignName>HARC_SNN_Data_Model_V3</ownerDesignName>
+<importedID>ECE4FB7C-E2AB-B812-6158-59464AF317D5</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="&apos;postal_country&apos;" id="FAF841E8-DD1F-C708-5777-834D2BAABF56">
+<sourceDDLFile>HARC_SNN_DDL_Modified.sql</sourceDDLFile>
+<createdBy>tcollier</createdBy>
+<createdTime>2023-12-10 01:28:01 UTC</createdTime>
+<ownerDesignName>HARC_SNN_Data_Model_V3</ownerDesignName>
+<importedID>25F3FA8E-BD4A-F69F-DDA7-27736D8C227A</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="&apos;zip&apos;" id="E179D618-CD2D-A482-0C71-A088F23EB99B">
+<sourceDDLFile>HARC_SNN_DDL_Modified.sql</sourceDDLFile>
+<createdBy>tcollier</createdBy>
+<createdTime>2023-12-10 01:28:01 UTC</createdTime>
+<ownerDesignName>HARC_SNN_Data_Model_V3</ownerDesignName>
+<importedID>41394A31-B87D-8253-FF38-2B1693509541</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="&apos;grid&apos;" id="96B01FEC-B1DF-4986-B316-53C87598772F">
+<sourceDDLFile>HARC_SNN_DDL_Modified.sql</sourceDDLFile>
+<createdBy>tcollier</createdBy>
+<createdTime>2023-12-10 01:28:01 UTC</createdTime>
+<ownerDesignName>HARC_SNN_Data_Model_V3</ownerDesignName>
+<importedID>21BABC92-BDBD-CE14-6EBF-7637AB9AB4D6</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="&apos;dxcc_country&apos;" id="BEA43C59-3079-FB82-D770-2881096E4497">
+<sourceDDLFile>HARC_SNN_DDL_Modified.sql</sourceDDLFile>
+<createdBy>tcollier</createdBy>
+<createdTime>2023-12-10 01:28:01 UTC</createdTime>
+<ownerDesignName>HARC_SNN_Data_Model_V3</ownerDesignName>
+<importedID>AF358D89-9B11-9520-47BB-FB8E4D9809D1</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="&apos;iota&apos;" id="B602617F-EC1F-1826-E865-5D875FFC81B4">
+<sourceDDLFile>HARC_SNN_DDL_Modified.sql</sourceDDLFile>
+<createdBy>tcollier</createdBy>
+<createdTime>2023-12-10 01:28:01 UTC</createdTime>
+<ownerDesignName>HARC_SNN_Data_Model_V3</ownerDesignName>
+<importedID>D7203B73-98D9-7D2F-FA37-D98038DCF98C</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="&apos;sota&apos;" id="31AB0F2F-F204-D4DD-C17E-AD1CCB66A9CC">
+<sourceDDLFile>HARC_SNN_DDL_Modified.sql</sourceDDLFile>
+<createdBy>tcollier</createdBy>
+<createdTime>2023-12-10 01:28:01 UTC</createdTime>
+<ownerDesignName>HARC_SNN_Data_Model_V3</ownerDesignName>
+<importedID>BC7EC88D-2A44-A8F6-BAA8-0A06F15B1709</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="&apos;cq_zone&apos;" id="41E20F18-A8C7-B132-478A-E71E20A0CA0C">
+<sourceDDLFile>HARC_SNN_DDL_Modified.sql</sourceDDLFile>
+<createdBy>tcollier</createdBy>
+<createdTime>2023-12-10 01:28:01 UTC</createdTime>
+<ownerDesignName>HARC_SNN_Data_Model_V3</ownerDesignName>
+<importedID>F78A090C-967B-F5BA-0058-BA389DA0BA2A</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="&apos;itu&apos;" id="9931BC25-0AA2-5852-DFD1-671306061BD4">
+<sourceDDLFile>HARC_SNN_DDL_Modified.sql</sourceDDLFile>
+<createdBy>tcollier</createdBy>
+<createdTime>2023-12-10 01:28:01 UTC</createdTime>
+<ownerDesignName>HARC_SNN_Data_Model_V3</ownerDesignName>
+<importedID>DF8D4EB3-3C5E-D9D6-E2E9-7C8D68E49762</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="&apos;ten_ten&apos;" id="97016B83-8781-A54D-041B-32F8C53DA380">
+<sourceDDLFile>HARC_SNN_DDL_Modified.sql</sourceDDLFile>
+<createdBy>tcollier</createdBy>
+<createdTime>2023-12-10 01:28:01 UTC</createdTime>
+<ownerDesignName>HARC_SNN_Data_Model_V3</ownerDesignName>
+<importedID>80F6513C-E389-36C3-5F5F-5E15DF5282BE</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="&apos;email&apos;" id="48B4D611-AE15-FC9F-AAD3-52788A43FCF0">
+<sourceDDLFile>HARC_SNN_DDL_Modified.sql</sourceDDLFile>
+<createdBy>tcollier</createdBy>
+<createdTime>2023-12-10 01:28:01 UTC</createdTime>
+<ownerDesignName>HARC_SNN_Data_Model_V3</ownerDesignName>
+<importedID>D9C1896C-67C1-9721-0232-70E42FA15EE8</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="&apos;url&apos;" id="9ECB2B2B-8AC1-3607-A1D9-ABEBF4AAB19A">
+<sourceDDLFile>HARC_SNN_DDL_Modified.sql</sourceDDLFile>
+<createdBy>tcollier</createdBy>
+<createdTime>2023-12-10 01:28:01 UTC</createdTime>
+<ownerDesignName>HARC_SNN_Data_Model_V3</ownerDesignName>
+<importedID>863E941E-1F02-A221-D47A-BECE05DEA559</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="&apos;mode&apos;" id="5B18E69F-6AC3-55FD-6C02-4BCB49F361A8">
+<sourceDDLFile>HARC_SNN_DDL_Modified.sql</sourceDDLFile>
+<createdBy>tcollier</createdBy>
+<createdTime>2023-12-10 01:28:01 UTC</createdTime>
+<ownerDesignName>HARC_SNN_Data_Model_V3</ownerDesignName>
+<importedID>57EFE123-F26C-ED3C-5C4E-BB96112F8856</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="&apos;band_rx&apos;" id="46E8471F-C313-A940-959A-C031A71958C0">
+<sourceDDLFile>HARC_SNN_DDL_Modified.sql</sourceDDLFile>
+<createdBy>tcollier</createdBy>
+<createdTime>2023-12-10 01:28:01 UTC</createdTime>
+<ownerDesignName>HARC_SNN_Data_Model_V3</ownerDesignName>
+<importedID>9B7BE2EA-1CE4-5191-734A-9EE10717F97F</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="&apos;band_tx&apos;" id="517B81C9-FF7C-708E-4B8C-2973D6C65191">
+<sourceDDLFile>HARC_SNN_DDL_Modified.sql</sourceDDLFile>
+<createdBy>tcollier</createdBy>
+<createdTime>2023-12-10 01:28:01 UTC</createdTime>
+<ownerDesignName>HARC_SNN_Data_Model_V3</ownerDesignName>
+<importedID>B0A2EAA2-A4DA-2F73-3EAD-86C4DB5105F1</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="&apos;rst_sent&apos;" id="FD963155-DD61-ADCC-E546-F4C47FD6CCCA">
+<sourceDDLFile>HARC_SNN_DDL_Modified.sql</sourceDDLFile>
+<createdBy>tcollier</createdBy>
+<createdTime>2023-12-10 01:28:01 UTC</createdTime>
+<ownerDesignName>HARC_SNN_Data_Model_V3</ownerDesignName>
+<importedID>F5021577-A8B7-08E9-3CA8-6B7A5C2C4240</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="&apos;rst_received&apos;" id="F8842260-0B33-59DA-23C3-66D347FFAFCB">
+<sourceDDLFile>HARC_SNN_DDL_Modified.sql</sourceDDLFile>
+<createdBy>tcollier</createdBy>
+<createdTime>2023-12-10 01:28:01 UTC</createdTime>
+<ownerDesignName>HARC_SNN_Data_Model_V3</ownerDesignName>
+<importedID>FEE7797C-1CEF-D141-BDAC-6E340240AF92</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="&apos;qsl_via&apos;" id="D8CDA93F-51B1-D795-7545-BE973A4842B2">
+<sourceDDLFile>HARC_SNN_DDL_Modified.sql</sourceDDLFile>
+<createdBy>tcollier</createdBy>
+<createdTime>2023-12-10 01:28:01 UTC</createdTime>
+<ownerDesignName>HARC_SNN_Data_Model_V3</ownerDesignName>
+<importedID>524360A8-8766-7581-0AF8-B589ED44E925</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="&apos;qsl_sent&apos;" id="D96403A2-9758-B630-A6E2-9DB0448B59AE">
+<sourceDDLFile>HARC_SNN_DDL_Modified.sql</sourceDDLFile>
+<createdBy>tcollier</createdBy>
+<createdTime>2023-12-10 01:28:01 UTC</createdTime>
+<ownerDesignName>HARC_SNN_Data_Model_V3</ownerDesignName>
+<importedID>AB282179-58BE-8584-1486-A68633968C35</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="&apos;qsl_received&apos;" id="5B2EC217-5350-1A9C-14D9-CBB6C284D196">
+<sourceDDLFile>HARC_SNN_DDL_Modified.sql</sourceDDLFile>
+<createdBy>tcollier</createdBy>
+<createdTime>2023-12-10 01:28:01 UTC</createdTime>
+<ownerDesignName>HARC_SNN_Data_Model_V3</ownerDesignName>
+<importedID>A1F05862-144D-8664-EF59-8A146F0A41D6</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="&apos;srx&apos;" id="0E0A048B-9E77-269B-B7AC-65D5A14A9889">
+<sourceDDLFile>HARC_SNN_DDL_Modified.sql</sourceDDLFile>
+<createdBy>tcollier</createdBy>
+<createdTime>2023-12-10 01:28:01 UTC</createdTime>
+<ownerDesignName>HARC_SNN_Data_Model_V3</ownerDesignName>
+<importedID>43E87259-026C-D2B4-8652-C7E94E23992D</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="&apos;stx&apos;" id="27E20B31-994C-72F3-26B6-562695773BD6">
+<sourceDDLFile>HARC_SNN_DDL_Modified.sql</sourceDDLFile>
+<createdBy>tcollier</createdBy>
+<createdTime>2023-12-10 01:28:01 UTC</createdTime>
+<ownerDesignName>HARC_SNN_Data_Model_V3</ownerDesignName>
+<importedID>93473A93-07F3-AF92-2864-58A320867FF5</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="&apos;comments&apos;" id="621F4A7E-FE44-4D82-81FB-552DFC522628">
+<sourceDDLFile>HARC_SNN_DDL_Modified.sql</sourceDDLFile>
+<createdBy>tcollier</createdBy>
+<createdTime>2023-12-10 01:28:01 UTC</createdTime>
+<ownerDesignName>HARC_SNN_Data_Model_V3</ownerDesignName>
+<importedID>1F1A876F-8C26-4EF8-6F8E-270DBB7ACC00</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="&apos;satellite&apos;" id="D49D2AC3-725B-8A40-B55E-F2FA20800DA7">
+<sourceDDLFile>HARC_SNN_DDL_Modified.sql</sourceDDLFile>
+<createdBy>tcollier</createdBy>
+<createdTime>2023-12-10 01:28:01 UTC</createdTime>
+<ownerDesignName>HARC_SNN_Data_Model_V3</ownerDesignName>
+<importedID>32C5554A-8678-1931-BB6F-90207AF8B73D</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="&apos;qso_start&apos;" id="8AE41FC2-5E7E-8705-BFF2-CA88D7931E41">
+<sourceDDLFile>HARC_SNN_DDL_Modified.sql</sourceDDLFile>
+<createdBy>tcollier</createdBy>
+<createdTime>2023-12-10 01:28:01 UTC</createdTime>
+<ownerDesignName>HARC_SNN_Data_Model_V3</ownerDesignName>
+<importedID>C39609E0-310C-63E9-40EA-2D3D8D20430B</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<domain>77B93432-E724-FF9D-2440-C24CFF7A9F97</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="&apos;qso_done&apos;" id="29D2712B-022B-222A-B60E-123F76B4E934">
+<sourceDDLFile>HARC_SNN_DDL_Modified.sql</sourceDDLFile>
+<createdBy>tcollier</createdBy>
+<createdTime>2023-12-10 01:28:01 UTC</createdTime>
+<ownerDesignName>HARC_SNN_Data_Model_V3</ownerDesignName>
+<importedID>F89E093C-15DE-ECFE-8638-AAAF46BFCB4C</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<domain>77B93432-E724-FF9D-2440-C24CFF7A9F97</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="&apos;latitude&apos;" id="BEC89FFE-3411-C003-B85C-06E6ADC88948">
+<sourceDDLFile>HARC_SNN_DDL_Modified.sql</sourceDDLFile>
+<createdBy>tcollier</createdBy>
+<createdTime>2023-12-10 01:28:01 UTC</createdTime>
+<ownerDesignName>HARC_SNN_Data_Model_V3</ownerDesignName>
+<importedID>72C75739-2541-D24A-71BA-52E0C8B1E2E2</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<domain>77B93432-E724-FF9D-2440-C24CFF7A9F97</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="&apos;longitude&apos;" id="51889936-7A1F-A051-F3B2-54DC235067D9">
+<sourceDDLFile>HARC_SNN_DDL_Modified.sql</sourceDDLFile>
+<createdBy>tcollier</createdBy>
+<createdTime>2023-12-10 01:28:01 UTC</createdTime>
+<ownerDesignName>HARC_SNN_Data_Model_V3</ownerDesignName>
+<importedID>CBC060DF-BC38-1890-0CBA-5CE1AE91A2C8</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<domain>77B93432-E724-FF9D-2440-C24CFF7A9F97</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="&apos;tx_frequency&apos;" id="1E92B63B-57C2-A633-017E-26149C1E0E90">
+<sourceDDLFile>HARC_SNN_DDL_Modified.sql</sourceDDLFile>
+<createdBy>tcollier</createdBy>
+<createdTime>2023-12-10 01:28:01 UTC</createdTime>
+<ownerDesignName>HARC_SNN_Data_Model_V3</ownerDesignName>
+<importedID>3DAE8FBD-F421-5713-A725-FB5B1A4D75B7</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<domain>77B93432-E724-FF9D-2440-C24CFF7A9F97</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="&apos;rx_frequency&apos;" id="CFBFD6D2-D42C-AAB9-CEF0-91774704478E">
+<sourceDDLFile>HARC_SNN_DDL_Modified.sql</sourceDDLFile>
+<createdBy>tcollier</createdBy>
+<createdTime>2023-12-10 01:28:01 UTC</createdTime>
+<ownerDesignName>HARC_SNN_Data_Model_V3</ownerDesignName>
+<importedID>A9BEADB6-B166-63D1-01B6-DEB416EBB928</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<domain>77B93432-E724-FF9D-2440-C24CFF7A9F97</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="&apos;azimuth&apos;" id="69B60D4A-3A5E-849F-9F15-8CF258E99377">
+<sourceDDLFile>HARC_SNN_DDL_Modified.sql</sourceDDLFile>
+<createdBy>tcollier</createdBy>
+<createdTime>2023-12-10 01:28:01 UTC</createdTime>
+<ownerDesignName>HARC_SNN_Data_Model_V3</ownerDesignName>
+<importedID>26240CBE-DFDC-EA6A-29E3-7E8FB3F18E91</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<domain>77B93432-E724-FF9D-2440-C24CFF7A9F97</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="&apos;elevation&apos;" id="26241BD2-C773-47CA-3EA8-700FD3D155C6">
+<sourceDDLFile>HARC_SNN_DDL_Modified.sql</sourceDDLFile>
+<createdBy>tcollier</createdBy>
+<createdTime>2023-12-10 01:28:01 UTC</createdTime>
+<ownerDesignName>HARC_SNN_Data_Model_V3</ownerDesignName>
+<importedID>01F6A332-C4DD-EE23-3883-E58E32BDF9D5</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<domain>77B93432-E724-FF9D-2440-C24CFF7A9F97</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="&apos;power&apos;" id="EE3C41B9-BEC8-D415-CAA7-F686FCCBF60E">
+<sourceDDLFile>HARC_SNN_DDL_Modified.sql</sourceDDLFile>
+<createdBy>tcollier</createdBy>
+<createdTime>2023-12-10 01:28:01 UTC</createdTime>
+<ownerDesignName>HARC_SNN_Data_Model_V3</ownerDesignName>
+<importedID>E97ABD44-AA23-7EC2-E6BA-E0B571D49886</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<domain>77B93432-E724-FF9D-2440-C24CFF7A9F97</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="&apos;srx_numeric&apos;" id="E955D4F6-2BFE-E7BD-B111-C01A4B2361C4">
+<sourceDDLFile>HARC_SNN_DDL_Modified.sql</sourceDDLFile>
+<createdBy>tcollier</createdBy>
+<createdTime>2023-12-10 01:28:01 UTC</createdTime>
+<ownerDesignName>HARC_SNN_Data_Model_V3</ownerDesignName>
+<importedID>6C4FC27B-613D-CC75-86B4-681DE7BCABDA</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>90015BD8-66C0-24AE-0278-E3E87E938D9F</logicalDatatype>
+<domain>7D33A781-C809-60DB-2F9C-E912B331C652</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="&apos;stx_numeric&apos;" id="0418DDDC-115F-22EC-1F5E-7B563A082F42">
+<sourceDDLFile>HARC_SNN_DDL_Modified.sql</sourceDDLFile>
+<createdBy>tcollier</createdBy>
+<createdTime>2023-12-10 01:28:01 UTC</createdTime>
+<ownerDesignName>HARC_SNN_Data_Model_V3</ownerDesignName>
+<importedID>848955EF-6776-5F33-79A1-9C10F2A5AAAB</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>90015BD8-66C0-24AE-0278-E3E87E938D9F</logicalDatatype>
+<domain>7D33A781-C809-60DB-2F9C-E912B331C652</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="&apos;dxcc_id&apos;" id="E24E1344-FDE7-675B-1C88-7DE1A70E8A54">
+<sourceDDLFile>HARC_SNN_DDL_Modified.sql</sourceDDLFile>
+<createdBy>tcollier</createdBy>
+<createdTime>2023-12-10 01:28:01 UTC</createdTime>
+<ownerDesignName>HARC_SNN_Data_Model_V3</ownerDesignName>
+<importedID>594695E4-47F1-3BDE-6BF3-C379277EA4E6</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>90015BD8-66C0-24AE-0278-E3E87E938D9F</logicalDatatype>
+<domain>7D33A781-C809-60DB-2F9C-E912B331C652</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="&apos;contest_id&apos;" id="07BC4202-81C2-30B5-EF42-C1BBF58F789F">
+<sourceDDLFile>HARC_SNN_DDL_Modified.sql</sourceDDLFile>
+<createdBy>tcollier</createdBy>
+<createdTime>2023-12-10 01:28:01 UTC</createdTime>
+<ownerDesignName>HARC_SNN_Data_Model_V3</ownerDesignName>
+<importedID>1B166DC6-FC78-0C80-6BF7-53D99F71ABE2</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="&apos;my_sota&apos;" id="77313A68-1BB8-6F67-8B27-739645533AAB">
+<sourceDDLFile>HARC_SNN_DDL_Modified.sql</sourceDDLFile>
+<createdBy>tcollier</createdBy>
+<createdTime>2023-12-10 01:28:01 UTC</createdTime>
+<ownerDesignName>HARC_SNN_Data_Model_V3</ownerDesignName>
+<importedID>3CFC47D2-E9B2-779D-0EAB-821E7C7643A3</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="&apos;skcc&apos;" id="6B23FD00-EE5F-8A7E-40F2-702ECB22AA1A">
+<sourceDDLFile>HARC_SNN_DDL_Modified.sql</sourceDDLFile>
+<createdBy>tcollier</createdBy>
+<createdTime>2023-12-10 01:28:01 UTC</createdTime>
+<ownerDesignName>HARC_SNN_Data_Model_V3</ownerDesignName>
+<importedID>131454B7-9D51-990F-A7D9-5D315717274A</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="&apos;pota&apos;" id="BA8F8603-640F-B820-77E6-A824C17C2B81">
+<sourceDDLFile>HARC_SNN_DDL_Modified.sql</sourceDDLFile>
+<createdBy>tcollier</createdBy>
+<createdTime>2023-12-10 01:28:01 UTC</createdTime>
+<ownerDesignName>HARC_SNN_Data_Model_V3</ownerDesignName>
+<importedID>8AA430BC-C169-6C3D-4AAF-C23C032E78A0</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="&apos;my_pota&apos;" id="CCD92114-F8AD-56CE-5F6F-249235CF4168">
+<sourceDDLFile>HARC_SNN_DDL_Modified.sql</sourceDDLFile>
+<createdBy>tcollier</createdBy>
+<createdTime>2023-12-10 01:28:01 UTC</createdTime>
+<ownerDesignName>HARC_SNN_Data_Model_V3</ownerDesignName>
+<importedID>DDBEDBF5-D62A-7173-75C5-5855FE70636C</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="&apos;wwff&apos;" id="8349D5EC-FFBB-19A1-2E61-D4AB8885E05D">
+<sourceDDLFile>HARC_SNN_DDL_Modified.sql</sourceDDLFile>
+<createdBy>tcollier</createdBy>
+<createdTime>2023-12-10 01:28:01 UTC</createdTime>
+<ownerDesignName>HARC_SNN_Data_Model_V3</ownerDesignName>
+<importedID>6088B3DA-D0EE-8D1C-DB98-AC724F116B18</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="&apos;my_wwff&apos;" id="09065A93-7DD7-798E-D59C-187524E6C9C1">
+<sourceDDLFile>HARC_SNN_DDL_Modified.sql</sourceDDLFile>
+<createdBy>tcollier</createdBy>
+<createdTime>2023-12-10 01:28:01 UTC</createdTime>
+<ownerDesignName>HARC_SNN_Data_Model_V3</ownerDesignName>
+<importedID>2CA49ABD-6845-77EA-652F-FEFC26DA1FD5</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="&apos;sig&apos;" id="11977647-D23F-3C33-E788-9645F1081AE5">
+<sourceDDLFile>HARC_SNN_DDL_Modified.sql</sourceDDLFile>
+<createdBy>tcollier</createdBy>
+<createdTime>2023-12-10 01:28:01 UTC</createdTime>
+<ownerDesignName>HARC_SNN_Data_Model_V3</ownerDesignName>
+<importedID>1D6260CC-8DE7-59B3-9086-D4615D9D7829</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="&apos;my_sig&apos;" id="5AC01851-4DA1-9BFA-6861-1006F690D8A2">
+<sourceDDLFile>HARC_SNN_DDL_Modified.sql</sourceDDLFile>
+<createdBy>tcollier</createdBy>
+<createdTime>2023-12-10 01:28:01 UTC</createdTime>
+<ownerDesignName>HARC_SNN_Data_Model_V3</ownerDesignName>
+<importedID>15B6571F-AFEF-5C6E-2E97-0CD47D61F944</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="&apos;sig_info&apos;" id="D5B141C2-6C07-BFE6-6095-44BF508EA336">
+<sourceDDLFile>HARC_SNN_DDL_Modified.sql</sourceDDLFile>
+<createdBy>tcollier</createdBy>
+<createdTime>2023-12-10 01:28:01 UTC</createdTime>
+<ownerDesignName>HARC_SNN_Data_Model_V3</ownerDesignName>
+<importedID>4E091050-2D63-7FA2-A327-E08F861CDFED</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="&apos;my_sig_info&apos;" id="92414162-CCC3-C909-EEDA-49A7953EAC2C">
+<sourceDDLFile>HARC_SNN_DDL_Modified.sql</sourceDDLFile>
+<createdBy>tcollier</createdBy>
+<createdTime>2023-12-10 01:28:01 UTC</createdTime>
+<ownerDesignName>HARC_SNN_Data_Model_V3</ownerDesignName>
+<importedID>262C777B-924B-B576-9633-9F03A9FC7310</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="&apos;ext_val_1&apos;" id="937A3EF3-7FE3-4F3C-1A90-2BAFFC6DF75A">
+<sourceDDLFile>HARC_SNN_DDL_Modified.sql</sourceDDLFile>
+<createdBy>tcollier</createdBy>
+<createdTime>2023-12-10 01:28:01 UTC</createdTime>
+<ownerDesignName>HARC_SNN_Data_Model_V3</ownerDesignName>
+<importedID>BE3D7C4D-BF81-3A23-17FE-776821057107</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="&apos;ext_val_2&apos;" id="E75EFB94-F5E6-64E1-BCF1-4B3EA734A553">
+<sourceDDLFile>HARC_SNN_DDL_Modified.sql</sourceDDLFile>
+<createdBy>tcollier</createdBy>
+<createdTime>2023-12-10 01:28:01 UTC</createdTime>
+<ownerDesignName>HARC_SNN_Data_Model_V3</ownerDesignName>
+<importedID>201B4795-FAD6-B416-46F3-EC96F711190F</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="&apos;ext_val_3&apos;" id="7A945CE7-6EBE-18B6-92B5-AAD844B23A25">
+<sourceDDLFile>HARC_SNN_DDL_Modified.sql</sourceDDLFile>
+<createdBy>tcollier</createdBy>
+<createdTime>2023-12-10 01:28:01 UTC</createdTime>
+<ownerDesignName>HARC_SNN_Data_Model_V3</ownerDesignName>
+<importedID>271E5A8F-6CCC-CF4E-2181-5F4607DC7A6E</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="&apos;ext_val_4&apos;" id="4A010FCF-FBBF-75C5-280E-012E48E2DFC8">
+<sourceDDLFile>HARC_SNN_DDL_Modified.sql</sourceDDLFile>
+<createdBy>tcollier</createdBy>
+<createdTime>2023-12-10 01:28:01 UTC</createdTime>
+<ownerDesignName>HARC_SNN_Data_Model_V3</ownerDesignName>
+<importedID>CD15445A-CFBB-FC93-902E-E9132D8278CE</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="&apos;distance&apos;" id="5DDB00D1-3816-C841-11EF-9CB58F4539D4">
+<sourceDDLFile>HARC_SNN_DDL_Modified.sql</sourceDDLFile>
+<createdBy>tcollier</createdBy>
+<createdTime>2023-12-10 01:28:01 UTC</createdTime>
+<ownerDesignName>HARC_SNN_Data_Model_V3</ownerDesignName>
+<importedID>9DC3367C-F058-3B47-3703-CF4121710B82</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<domain>77B93432-E724-FF9D-2440-C24CFF7A9F97</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="810F520B-2024-EA86-B088-D6FA4CC5D0E2" name="qso_table_v008_PK">
+<sourceDDLFile>HARC_SNN_DDL_Modified.sql</sourceDDLFile>
+<createdBy>tcollier</createdBy>
+<createdTime>2023-12-10 01:28:01 UTC</createdTime>
+<ownerDesignName>HARC_SNN_Data_Model_V3</ownerDesignName>
+<importedID>50C23AF4-00E7-4AE1-93FD-69E2DFDF9533</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4D02FFBF-8F9F-4E04-EE4E-4ECA3B339411"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

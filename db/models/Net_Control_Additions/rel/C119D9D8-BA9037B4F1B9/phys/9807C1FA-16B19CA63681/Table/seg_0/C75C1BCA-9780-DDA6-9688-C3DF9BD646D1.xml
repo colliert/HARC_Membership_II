@@ -1,0 +1,31 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev9i class="oracle.dbtools.crest.model.design.storage.oracle.v9i.TableProxyOraclev9i" name="t_pers_typ" directorySegmentName="seg_0" id="C75C1BCA-9780-DDA6-9688-C3DF9BD646D1">
+<createdBy>tcollier</createdBy>
+<createdTime>2025-10-21 20:47:14 UTC</createdTime>
+<ownerDesignName>Net_Control_Additions</ownerDesignName>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="pers_typ_desc" id="1DF3D198-41FF-389D-545C-51E60A63D230">
+<createdBy>tcollier</createdBy>
+<createdTime>2025-10-21 20:47:14 UTC</createdTime>
+<ownerDesignName>Net_Control_Additions</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="pers_typ_cd" id="94ABC07C-6120-50E6-30A5-E962B3FC60E2">
+<createdBy>tcollier</createdBy>
+<createdTime>2025-10-21 20:47:14 UTC</createdTime>
+<ownerDesignName>Net_Control_Additions</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v9i.PKProxyOraclev9i" name="t_pers_typ_PK" id="4CE6EB01-A61E-7E4C-3142-87466B16D111">
+<createdBy>tcollier</createdBy>
+<createdTime>2025-10-21 20:47:14 UTC</createdTime>
+<ownerDesignName>Net_Control_Additions</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev9i>

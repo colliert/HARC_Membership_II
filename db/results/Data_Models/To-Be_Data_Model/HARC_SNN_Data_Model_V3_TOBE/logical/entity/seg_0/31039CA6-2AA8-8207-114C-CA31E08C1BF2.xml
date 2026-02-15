@@ -1,0 +1,65 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="31039CA6-2AA8-8207-114C-CA31E08C1BF2" name="t_pers_typ">
+<createdBy>tcollier</createdBy>
+<createdTime>2024-02-08 23:25:32 UTC</createdTime>
+<ownerDesignName>HARC_SNN_Data_Model_V3_TOBE</ownerDesignName>
+<engineerTo>
+<item key="FDFA065C-9B79-4768-D3A1-ACB9D4078B29" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<shortName>t_pers_typ</shortName>
+<synonymToDisplay>Person Type</synonymToDisplay>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Person Type Code" id="0EA8EA7D-A426-4B9E-763A-6DD238589018">
+<createdBy>tcollier</createdBy>
+<createdTime>2024-02-08 23:25:42 UTC</createdTime>
+<ownerDesignName>HARC_SNN_Data_Model_V3_TOBE</ownerDesignName>
+<engineerTo>
+<item key="FDFA065C-9B79-4768-D3A1-ACB9D4078B29" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>90015BD8-66C0-24AE-0278-E3E87E938D9F</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Person Type Description" id="FC8C53A1-C9E5-4839-EAF3-6E465AF3ED5E">
+<createdBy>tcollier</createdBy>
+<createdTime>2024-02-08 23:25:58 UTC</createdTime>
+<commentInRDBMS><![CDATA[0 non-member
+1 member
+2 member but old callsign]]></commentInRDBMS>
+<ownerDesignName>HARC_SNN_Data_Model_V3_TOBE</ownerDesignName>
+<engineerTo>
+<item key="FDFA065C-9B79-4768-D3A1-ACB9D4078B29" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>B2E81DEA-F097-0C6E-D82D-2109375E9C22</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="5FF12390-3B7F-11F2-99AA-69B1B1BC1D86" name="Person Type PK">
+<createdBy>tcollier</createdBy>
+<createdTime>2024-02-08 23:25:56 UTC</createdTime>
+<ownerDesignName>HARC_SNN_Data_Model_V3_TOBE</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="FDFA065C-9B79-4768-D3A1-ACB9D4078B29" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>0EA8EA7D-A426-4B9E-763A-6DD238589018</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

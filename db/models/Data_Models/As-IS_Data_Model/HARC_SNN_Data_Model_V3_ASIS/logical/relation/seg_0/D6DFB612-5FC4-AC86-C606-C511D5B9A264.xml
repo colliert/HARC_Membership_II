@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="t_pers_t_pers_typ_FK" directorySegmentName="seg_0" id="D6DFB612-5FC4-AC86-C606-C511D5B9A264">
+<createdBy>tcollier</createdBy>
+<createdTime>2023-12-10 01:29:04 UTC</createdTime>
+<generatorID>B85CA907-B05A-EA8B-C914-5DDD3D2DC25A</generatorID>
+<ownerDesignName>HARC_SNN_Data_Model_V3</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="FDFA065C-9B79-4768-D3A1-ACB9D4078B29" value="false"/>
+</engineerTo>
+<sourcePk>767546AC-20B7-2F51-942B-56471C167662</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>F109A2E0-322E-A46E-7B9C-5CD2D019E7CE</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>9996BAFD-3943-5EAD-AEC5-CF202A841164</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

@@ -1,0 +1,109 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="9FFC62F3-A9C1-F68E-AED7-ACA73DDC5C8B" name="t pers">
+<createdBy>tcollier</createdBy>
+<createdTime>2025-10-21 20:20:08 UTC</createdTime>
+<generatorID>919CDCFB-BB48-CFEE-297C-9B1D0BD81790</generatorID>
+<ownerDesignName>Net_Control_Additions</ownerDesignName>
+<engineerTo>
+<item key="C119D9D8-C824-B40C-12F8-BA9037B4F1B9" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="pers call" id="4FE2B929-5122-448B-C6AA-D564CBFA752C">
+<createdBy>tcollier</createdBy>
+<createdTime>2025-10-21 20:20:08 UTC</createdTime>
+<generatorID>AF399796-816C-A58C-2C47-1C33E801D179</generatorID>
+<ownerDesignName>Net_Control_Additions</ownerDesignName>
+<engineerTo>
+<item key="C119D9D8-C824-B40C-12F8-BA9037B4F1B9" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="pers f nam" id="164D76A0-9EFD-EE0A-AC3E-D6890E6ACBBD">
+<createdBy>tcollier</createdBy>
+<createdTime>2025-10-21 20:20:08 UTC</createdTime>
+<generatorID>CA518DEB-A659-B1F4-02E9-DA02B7AE70EC</generatorID>
+<ownerDesignName>Net_Control_Additions</ownerDesignName>
+<engineerTo>
+<item key="C119D9D8-C824-B40C-12F8-BA9037B4F1B9" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="pers m nam" id="C6AF5688-9A7D-4D3E-2346-4859F58ACC57">
+<createdBy>tcollier</createdBy>
+<createdTime>2025-10-21 20:20:08 UTC</createdTime>
+<generatorID>A3368253-CE5A-6E0A-5827-E5FAC4C0F26A</generatorID>
+<ownerDesignName>Net_Control_Additions</ownerDesignName>
+<engineerTo>
+<item key="C119D9D8-C824-B40C-12F8-BA9037B4F1B9" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="pers l nam" id="245A51DE-43B8-1A33-9074-48952C78113C">
+<createdBy>tcollier</createdBy>
+<createdTime>2025-10-21 20:20:08 UTC</createdTime>
+<generatorID>A81D0719-048B-5F04-8562-B55F8CA3AFDB</generatorID>
+<ownerDesignName>Net_Control_Additions</ownerDesignName>
+<engineerTo>
+<item key="C119D9D8-C824-B40C-12F8-BA9037B4F1B9" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="pers pref nam" id="45842B9D-E010-C599-F3D0-9854E99B0273">
+<createdBy>tcollier</createdBy>
+<createdTime>2025-10-21 20:20:08 UTC</createdTime>
+<generatorID>525C6AAE-2E6C-11A6-641A-0AA1998EE781</generatorID>
+<ownerDesignName>Net_Control_Additions</ownerDesignName>
+<engineerTo>
+<item key="C119D9D8-C824-B40C-12F8-BA9037B4F1B9" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="pers typ cd" id="E406F750-36B8-B55B-7A17-FFA5A17AF5A5">
+<createdBy>tcollier</createdBy>
+<createdTime>2025-10-21 20:20:08 UTC</createdTime>
+<generatorID>B13DC269-D709-47C8-A80F-346F0AB5B862</generatorID>
+<ownerDesignName>Net_Control_Additions</ownerDesignName>
+<engineerTo>
+<item key="C119D9D8-C824-B40C-12F8-BA9037B4F1B9" value="true"/>
+</engineerTo>
+<referedAttribute>4AA69910-1D58-326B-8E2F-B42689B91DDE</referedAttribute>
+<use>0</use>
+<logicalDatatype>90015BD8-66C0-24AE-0278-E3E87E938D9F</logicalDatatype>
+<domain>B9C55F62-FDB7-1925-02A7-A963DC0653AE</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="6D4F6EC6-E863-F5EC-7B8D-C1A12EBA13CD" name="t pers PK">
+<createdBy>tcollier</createdBy>
+<createdTime>2025-10-21 20:20:08 UTC</createdTime>
+<generatorID>67C77EE9-F62D-BF23-DCF6-25B3EDBD2A05</generatorID>
+<ownerDesignName>Net_Control_Additions</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="C119D9D8-C824-B40C-12F8-BA9037B4F1B9" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>4FE2B929-5122-448B-C6AA-D564CBFA752C</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

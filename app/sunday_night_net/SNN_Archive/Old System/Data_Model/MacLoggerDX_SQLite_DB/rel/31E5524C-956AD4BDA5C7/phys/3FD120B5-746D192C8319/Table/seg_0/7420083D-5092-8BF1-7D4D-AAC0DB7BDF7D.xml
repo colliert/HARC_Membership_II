@@ -1,0 +1,266 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev12c class="oracle.dbtools.crest.model.design.storage.oracle.v12c.TableProxyOraclev12c" name="qso_table_v007" directorySegmentName="seg_0" id="7420083D-5092-8BF1-7D4D-AAC0DB7BDF7D">
+<createdBy>tcollier</createdBy>
+<createdTime>2020-10-30 17:45:48 UTC</createdTime>
+<ownerDesignName>MacLoggerDX_SQLite_DB</ownerDesignName>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="rst_sent" id="06D65EDB-7540-06B1-D5A3-8EA6D0497001">
+<createdBy>tcollier</createdBy>
+<createdTime>2020-10-30 17:45:49 UTC</createdTime>
+<ownerDesignName>MacLoggerDX_SQLite_DB</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="my_grid" id="0B7A4891-A639-EB06-1EAD-4353FFAFA8AE">
+<createdBy>tcollier</createdBy>
+<createdTime>2020-10-30 17:45:49 UTC</createdTime>
+<ownerDesignName>MacLoggerDX_SQLite_DB</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="band_tx" id="16B9A8F7-B624-8C60-1AA6-85D90FF1D91E">
+<createdBy>tcollier</createdBy>
+<createdTime>2020-10-30 17:45:49 UTC</createdTime>
+<ownerDesignName>MacLoggerDX_SQLite_DB</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="qso_start" id="1ADA2A70-6B31-5DEC-C455-EE76B70D4FCC">
+<createdBy>tcollier</createdBy>
+<createdTime>2020-10-30 17:45:49 UTC</createdTime>
+<ownerDesignName>MacLoggerDX_SQLite_DB</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="srx" id="28C9EAA6-A312-478B-1BE6-AB379691D41F">
+<createdBy>tcollier</createdBy>
+<createdTime>2020-10-30 17:45:49 UTC</createdTime>
+<ownerDesignName>MacLoggerDX_SQLite_DB</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="grid" id="294D1792-08DE-F875-3401-C53C690726C6">
+<createdBy>tcollier</createdBy>
+<createdTime>2020-10-30 17:45:49 UTC</createdTime>
+<ownerDesignName>MacLoggerDX_SQLite_DB</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="srx_numeric" id="33AA2271-0112-2BFF-935F-8B6E7D1342EC">
+<createdBy>tcollier</createdBy>
+<createdTime>2020-10-30 17:45:49 UTC</createdTime>
+<ownerDesignName>MacLoggerDX_SQLite_DB</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="zip" id="3669CCFE-5206-7BBB-29BB-E55BA04E4DD8">
+<createdBy>tcollier</createdBy>
+<createdTime>2020-10-30 17:45:49 UTC</createdTime>
+<ownerDesignName>MacLoggerDX_SQLite_DB</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="state" id="40209336-A96E-2E23-5438-C38C3C9EAC11">
+<createdBy>tcollier</createdBy>
+<createdTime>2020-10-30 17:45:49 UTC</createdTime>
+<ownerDesignName>MacLoggerDX_SQLite_DB</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="rx_frequency" id="41BD2D79-C0A0-52DA-FF6D-113EB70C98A3">
+<createdBy>tcollier</createdBy>
+<createdTime>2020-10-30 17:45:49 UTC</createdTime>
+<ownerDesignName>MacLoggerDX_SQLite_DB</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="postal_country" id="4296E193-59E0-8BD2-3D0B-1A2CC62F0CF5">
+<createdBy>tcollier</createdBy>
+<createdTime>2020-10-30 17:45:49 UTC</createdTime>
+<ownerDesignName>MacLoggerDX_SQLite_DB</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="my_rig" id="5CD2C511-C2C4-FE99-1C6D-DCF7C664AF95">
+<createdBy>tcollier</createdBy>
+<createdTime>2020-10-30 17:45:49 UTC</createdTime>
+<ownerDesignName>MacLoggerDX_SQLite_DB</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="call" id="63E66700-E6D2-C3C4-D674-BF424E20A67C">
+<createdBy>tcollier</createdBy>
+<createdTime>2020-10-30 17:45:49 UTC</createdTime>
+<ownerDesignName>MacLoggerDX_SQLite_DB</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="itu" id="69F8998D-1800-931E-88E5-651B1D611831">
+<createdBy>tcollier</createdBy>
+<createdTime>2020-10-30 17:45:49 UTC</createdTime>
+<ownerDesignName>MacLoggerDX_SQLite_DB</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="last_name" id="6D7AD34F-1700-9A50-A881-A39F359B7B6C">
+<createdBy>tcollier</createdBy>
+<createdTime>2020-10-30 17:45:49 UTC</createdTime>
+<ownerDesignName>MacLoggerDX_SQLite_DB</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="qsl_via" id="7DCD58B5-47A3-C0D4-1F8A-E0C1F041FF09">
+<createdBy>tcollier</createdBy>
+<createdTime>2020-10-30 17:45:49 UTC</createdTime>
+<ownerDesignName>MacLoggerDX_SQLite_DB</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="contest_id" id="7DF75C82-82A2-A13F-C1D5-5DA88A425E3B">
+<createdBy>tcollier</createdBy>
+<createdTime>2020-10-30 17:45:49 UTC</createdTime>
+<ownerDesignName>MacLoggerDX_SQLite_DB</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="band_rx" id="805E0358-D3C5-8B94-ABB1-43DB8B33C603">
+<createdBy>tcollier</createdBy>
+<createdTime>2020-10-30 17:45:49 UTC</createdTime>
+<ownerDesignName>MacLoggerDX_SQLite_DB</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="dxcc_country" id="8ACD45A3-023B-0182-6482-8BD31E622845">
+<createdBy>tcollier</createdBy>
+<createdTime>2020-10-30 17:45:49 UTC</createdTime>
+<ownerDesignName>MacLoggerDX_SQLite_DB</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="url" id="8B422B78-6C4F-10E1-2360-568AFC079D54">
+<createdBy>tcollier</createdBy>
+<createdTime>2020-10-30 17:45:49 UTC</createdTime>
+<ownerDesignName>MacLoggerDX_SQLite_DB</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="latitude" id="8D8F99B6-4CAE-81AF-7246-D29548A582F7">
+<createdBy>tcollier</createdBy>
+<createdTime>2020-10-30 17:45:49 UTC</createdTime>
+<ownerDesignName>MacLoggerDX_SQLite_DB</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="my_call" id="8F5881C4-F792-5610-813A-FB309E2ADEB2">
+<createdBy>tcollier</createdBy>
+<createdTime>2020-10-30 17:45:49 UTC</createdTime>
+<ownerDesignName>MacLoggerDX_SQLite_DB</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="first_name" id="96CCEA5B-F1A8-BE2B-2223-C79513F25F10">
+<createdBy>tcollier</createdBy>
+<createdTime>2020-10-30 17:45:49 UTC</createdTime>
+<ownerDesignName>MacLoggerDX_SQLite_DB</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="street" id="984E2EBD-ACF4-9DD1-2E02-4C8F5EBBA759">
+<createdBy>tcollier</createdBy>
+<createdTime>2020-10-30 17:45:49 UTC</createdTime>
+<ownerDesignName>MacLoggerDX_SQLite_DB</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="tx_frequency" id="9A961E6F-CA0C-EA33-7DB8-96C0C4E6B1BE">
+<createdBy>tcollier</createdBy>
+<createdTime>2020-10-30 17:45:49 UTC</createdTime>
+<ownerDesignName>MacLoggerDX_SQLite_DB</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="mode" id="9DD8C312-D9AF-2FC8-FA16-E7ED4EC724FD">
+<createdBy>tcollier</createdBy>
+<createdTime>2020-10-30 17:45:49 UTC</createdTime>
+<ownerDesignName>MacLoggerDX_SQLite_DB</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="iota" id="A2B24A8C-8A4D-7376-AB83-3886AA0C22F6">
+<createdBy>tcollier</createdBy>
+<createdTime>2020-10-30 17:45:49 UTC</createdTime>
+<ownerDesignName>MacLoggerDX_SQLite_DB</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="pk" id="AF8CA556-5CE4-D8C1-26B5-1D357F5167B4">
+<createdBy>tcollier</createdBy>
+<createdTime>2020-10-30 17:45:49 UTC</createdTime>
+<ownerDesignName>MacLoggerDX_SQLite_DB</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="sota" id="B0E76160-30E7-0E47-67B8-A929BE181033">
+<createdBy>tcollier</createdBy>
+<createdTime>2020-10-30 17:45:49 UTC</createdTime>
+<ownerDesignName>MacLoggerDX_SQLite_DB</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="elevation" id="B2EBB3F1-A5A0-7B5C-9CEF-6E69A7A33EB8">
+<createdBy>tcollier</createdBy>
+<createdTime>2020-10-30 17:45:49 UTC</createdTime>
+<ownerDesignName>MacLoggerDX_SQLite_DB</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="email" id="B61BC611-D51B-F9E6-3981-C17EF13C75F3">
+<createdBy>tcollier</createdBy>
+<createdTime>2020-10-30 17:45:49 UTC</createdTime>
+<ownerDesignName>MacLoggerDX_SQLite_DB</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="satellite" id="BA9E555E-E39C-6120-F9E3-23ABA777AED9">
+<createdBy>tcollier</createdBy>
+<createdTime>2020-10-30 17:45:49 UTC</createdTime>
+<ownerDesignName>MacLoggerDX_SQLite_DB</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="azimuth" id="BB45B523-7160-4604-3083-0FEF1DB054B7">
+<createdBy>tcollier</createdBy>
+<createdTime>2020-10-30 17:45:49 UTC</createdTime>
+<ownerDesignName>MacLoggerDX_SQLite_DB</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="longitude" id="BC30AA91-CB24-940B-3E7F-57BBCE49F5CE">
+<createdBy>tcollier</createdBy>
+<createdTime>2020-10-30 17:45:49 UTC</createdTime>
+<ownerDesignName>MacLoggerDX_SQLite_DB</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="county" id="BC831831-71EE-1AEC-C45D-1AE1F1C25A9F">
+<createdBy>tcollier</createdBy>
+<createdTime>2020-10-30 17:45:49 UTC</createdTime>
+<ownerDesignName>MacLoggerDX_SQLite_DB</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="comments" id="C36EDA25-BC55-65D7-F4C0-E0B7FC492A4C">
+<createdBy>tcollier</createdBy>
+<createdTime>2020-10-30 17:45:49 UTC</createdTime>
+<ownerDesignName>MacLoggerDX_SQLite_DB</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="stx_numeric" id="D2D948DD-CCAF-6A7A-13E5-71E1288ACE92">
+<createdBy>tcollier</createdBy>
+<createdTime>2020-10-30 17:45:49 UTC</createdTime>
+<ownerDesignName>MacLoggerDX_SQLite_DB</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="city" id="D5D90E8A-DBC4-318A-37E6-435FBA507592">
+<createdBy>tcollier</createdBy>
+<createdTime>2020-10-30 17:45:49 UTC</createdTime>
+<ownerDesignName>MacLoggerDX_SQLite_DB</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="power" id="DC5E8403-A824-0963-284B-CFC5DC8CE756">
+<createdBy>tcollier</createdBy>
+<createdTime>2020-10-30 17:45:49 UTC</createdTime>
+<ownerDesignName>MacLoggerDX_SQLite_DB</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="rst_received" id="DEFA0C22-79F2-0F2C-6441-7D7E224F2633">
+<createdBy>tcollier</createdBy>
+<createdTime>2020-10-30 17:45:49 UTC</createdTime>
+<ownerDesignName>MacLoggerDX_SQLite_DB</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="qsl_received" id="E07B1358-BE7A-46BF-DFC1-F2F78C861680">
+<createdBy>tcollier</createdBy>
+<createdTime>2020-10-30 17:45:49 UTC</createdTime>
+<ownerDesignName>MacLoggerDX_SQLite_DB</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="skcc" id="E2A3CFE1-0A95-2E26-DFD3-D38955B38B46">
+<createdBy>tcollier</createdBy>
+<createdTime>2020-10-30 17:45:49 UTC</createdTime>
+<ownerDesignName>MacLoggerDX_SQLite_DB</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="qso_done" id="E42C9431-1C47-52A7-13EF-16C13F1B2046">
+<createdBy>tcollier</createdBy>
+<createdTime>2020-10-30 17:45:49 UTC</createdTime>
+<ownerDesignName>MacLoggerDX_SQLite_DB</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="qsl_sent" id="E5B1CDF2-2EB0-2D62-5B03-3021E6F6DA16">
+<createdBy>tcollier</createdBy>
+<createdTime>2020-10-30 17:45:49 UTC</createdTime>
+<ownerDesignName>MacLoggerDX_SQLite_DB</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="stx" id="E8503083-A83A-DAC2-D1B1-409BF34E34F1">
+<createdBy>tcollier</createdBy>
+<createdTime>2020-10-30 17:45:49 UTC</createdTime>
+<ownerDesignName>MacLoggerDX_SQLite_DB</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="dxcc_id" id="F20C3CD6-569A-5E97-1474-354A8CD0CB0A">
+<createdBy>tcollier</createdBy>
+<createdTime>2020-10-30 17:45:49 UTC</createdTime>
+<ownerDesignName>MacLoggerDX_SQLite_DB</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="my_sota" id="F2D1C0EF-8CF0-1CE5-E777-D3C699E47A7D">
+<createdBy>tcollier</createdBy>
+<createdTime>2020-10-30 17:45:49 UTC</createdTime>
+<ownerDesignName>MacLoggerDX_SQLite_DB</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ten_ten" id="F2E49BAB-9FC7-5A26-47E9-4C506A80CE64">
+<createdBy>tcollier</createdBy>
+<createdTime>2020-10-30 17:45:49 UTC</createdTime>
+<ownerDesignName>MacLoggerDX_SQLite_DB</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="cq_zone" id="FD4A612C-8FDA-0C6D-BAD2-06023AEA43C7">
+<createdBy>tcollier</createdBy>
+<createdTime>2020-10-30 17:45:49 UTC</createdTime>
+<ownerDesignName>MacLoggerDX_SQLite_DB</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="qso_table_v007_PK" id="D7462BCE-EAE4-0434-0A4C-0898824AB243">
+<createdBy>tcollier</createdBy>
+<createdTime>2020-10-30 17:45:49 UTC</createdTime>
+<ownerDesignName>MacLoggerDX_SQLite_DB</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev12c>

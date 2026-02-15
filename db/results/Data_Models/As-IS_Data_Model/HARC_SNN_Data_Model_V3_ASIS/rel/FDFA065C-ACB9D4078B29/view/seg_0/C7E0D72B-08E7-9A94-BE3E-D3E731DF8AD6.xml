@@ -1,0 +1,42 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableView class="oracle.dbtools.crest.model.design.relational.TableView" directorySegmentName="seg_0" id="C7E0D72B-08E7-9A94-BE3E-D3E731DF8AD6" name="v_call_out_cutoff_days">
+<sourceDDLFile>HARC_SNN_DDL_Modified.sql</sourceDDLFile>
+<createdBy>tcollier</createdBy>
+<createdTime>2023-12-10 01:28:01 UTC</createdTime>
+<ownerDesignName>HARC_SNN_Data_Model_V3</ownerDesignName>
+<importedID>14E9848C-E768-B8C7-DEE7-F971C9C12BDC</importedID>
+<userDefined>true</userDefined>
+<userDefinedSQL><![CDATA[select *
+from t_call_out_cutoff_days]]></userDefinedSQL>
+<validSQL>false</validSQL>
+<viewElements>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="dat_est" id="6B49FFF6-7652-C6A3-07DD-233C88AD2262">
+<createdBy>tcollier</createdBy>
+<createdTime>2023-12-10 01:28:01 UTC</createdTime>
+<ownerDesignName>HARC_SNN_Data_Model_V3</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>UNKNOWN</dataType>
+<headerAlias>dat_est</headerAlias>
+<reference>false</reference>
+<referencedColumn>2FDB4757-6934-D7EC-46B4-18E2AF92D217</referencedColumn>
+<table>09065D76-EF01-CE80-ABE5-74B1417DE4AD</table>
+<tableAlias>t_call_out_cutoff_days</tableAlias>
+<viewID>C7E0D72B-08E7-9A94-BE3E-D3E731DF8AD6</viewID>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="num_days" id="1444C088-94C3-CB69-DEFC-76A5DB0D1543">
+<createdBy>tcollier</createdBy>
+<createdTime>2023-12-10 01:28:01 UTC</createdTime>
+<ownerDesignName>HARC_SNN_Data_Model_V3</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>NUMBER</dataType>
+<headerAlias>num_days</headerAlias>
+<reference>false</reference>
+<referencedColumn>720395D9-164E-E462-B853-26393E1B9559</referencedColumn>
+<table>09065D76-EF01-CE80-ABE5-74B1417DE4AD</table>
+<tableAlias>t_call_out_cutoff_days</tableAlias>
+<viewID>C7E0D72B-08E7-9A94-BE3E-D3E731DF8AD6</viewID>
+</viewElement>
+</viewElements>
+</TableView>

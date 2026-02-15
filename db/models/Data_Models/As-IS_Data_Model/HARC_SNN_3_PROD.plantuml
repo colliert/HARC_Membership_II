@@ -1,0 +1,444 @@
+@startuml
+
+!theme plain
+top to bottom direction
+skinparam linetype ortho
+
+class qso_table_v008 {
+   my_grid: text
+   my_call: text
+   my_rig: text
+   call: text
+   first_name: text
+   last_name: text
+   street: text
+   city: text
+   county: text
+   state: text
+   postal_country: text
+   zip: text
+   grid: text
+   dxcc_country: text
+   iota: text
+   sota: text
+   cq_zone: text
+   itu: text
+   ten_ten: text
+   email: text
+   url: text
+   mode: text
+   band_rx: text
+   band_tx: text
+   rst_sent: text
+   rst_received: text
+   qsl_via: text
+   qsl_sent: text
+   qsl_received: text
+   srx: text
+   stx: text
+   comments: text
+   satellite: text
+   qso_start: real
+   qso_done: real
+   latitude: real
+   longitude: real
+   tx_frequency: real
+   rx_frequency: real
+   azimuth: real
+   elevation: real
+   power: real
+   srx_numeric: integer
+   stx_numeric: integer
+   dxcc_id: integer
+   contest_id: text
+   my_sota: text
+   skcc: text
+   pota: text
+   my_pota: text
+   wwff: text
+   my_wwff: text
+   sig: text
+   my_sig: text
+   sig_info: text
+   my_sig_info: text
+   ext_val_1: text
+   ext_val_2: text
+   ext_val_3: text
+   ext_val_4: text
+   distance: real
+   pk: integer
+}
+class qso_table_v008_backup {
+   pk: int
+   my_grid: text
+   my_call: text
+   my_rig: text
+   call: text
+   first_name: text
+   last_name: text
+   street: text
+   city: text
+   county: text
+   state: text
+   postal_country: text
+   zip: text
+   grid: text
+   dxcc_country: text
+   iota: text
+   sota: text
+   cq_zone: text
+   itu: text
+   ten_ten: text
+   email: text
+   url: text
+   mode: text
+   band_rx: text
+   band_tx: text
+   rst_sent: text
+   rst_received: text
+   qsl_via: text
+   qsl_sent: text
+   qsl_received: text
+   srx: text
+   stx: text
+   comments: text
+   satellite: text
+   qso_start: real
+   qso_done: real
+   latitude: real
+   longitude: real
+   tx_frequency: real
+   rx_frequency: real
+   azimuth: real
+   elevation: real
+   power: real
+   srx_numeric: int
+   stx_numeric: int
+   dxcc_id: int
+   contest_id: text
+   my_sota: text
+   skcc: text
+   pota: text
+   my_pota: text
+   wwff: text
+   my_wwff: text
+   sig: text
+   my_sig: text
+   sig_info: text
+   my_sig_info: text
+   ext_val_1: text
+   ext_val_2: text
+   ext_val_3: text
+   ext_val_4: text
+   distance: real
+}
+class sqlite_master {
+   type: text
+   name: text
+   tbl_name: text
+   rootpage: int
+   sql: text
+}
+class t_call_out_cutoff_days {
+   num_days: integer
+   dat_est: text
+}
+class t_hcol_export {
+   mem_num: numeric
+   roster: text
+   f_nam: text
+   pref_nam: text
+   l_nam: text
+   call: text
+   lic_cls: text
+   lic_exp_dat: text
+   lic_num: text
+   lic_agncy: text
+   street: text
+   city: text
+   st: text
+   zip: text
+   country_cd: text
+   lat: numeric
+   lon: numeric
+   elev: numeric
+   hcol_emal: text
+   hcol_email_stat: text
+   club_email: text
+   club_email_stat: text
+   phone_pri: text
+   phone_pri_typ: text
+   phone_pri_pub: text
+   phone_alt: text
+   phone_alt_typ: text
+   phone_alt_pub: text
+   emer_cntct: text
+   join_dat: text
+   left_dat: text
+   club_rank: text
+   club_pos: text
+   dele: text
+   mem_typ: text
+   mem_exp_dat: text
+   club_bal: numeric
+   dob: text
+   priv_mem: numeric
+   tz: text
+   lst_login: text
+   role_cnt: numeric
+}
+class t_net_qso {
+   call: text
+   net_id: text
+   f_nam: text
+   l_nam: text
+   qso_date: text
+   qso_time: text
+   qso_key: numeric
+}
+class t_pers {
+   pers_f_nam: text
+   pers_m_nam: text
+   pers_l_nam: text
+   pers_pref_nam: text
+   pers_typ_cd: number
+   pers_call: text
+}
+class t_pers_typ {
+   pers_typ_desc: text
+   pers_typ_cd: numeric
+}
+class v_call_out_cutoff_days {
+   dat_est: text
+   num_days: integer
+}
+class node8 as "v_check-ins_for_web_display" {
+   Callsign: text
+   First_Name: unknown
+   Last_Name: text
+   Checkin_Date(UTC): text
+}
+class v_checkins_most_recent_net {
+   call: text
+   first_name: text
+   last_name: text
+   UTC_Checkin_Date: text
+   UTC_Time: text
+   Member_Status: number
+}
+class v_count_qso_by_date {
+   qso_date: text
+   count(qso_date): unknown
+}
+class v_current_call_out_cutoff_days {
+   current_num_days: integer
+}
+class v_harc_snn_callout_roster {
+   Callsign: text
+   First Name: unknown
+   Last Name: text
+   Member: unknown
+   Comments: unknown
+   Cutoff_Days: integer
+}
+class v_harc_snn_callout_roster_random {
+   callsign: text
+   first name: unknown
+   last name: text
+   member: unknown
+   comments: unknown
+   Cutoff_Days: integer
+}
+class v_harc_snn_callout_roster_reverse {
+   callsign: text
+   first name: unknown
+   last name: text
+   member: unknown
+   comments: unknown
+   Cutoff_Days: integer
+}
+class v_harc_snn_callout_roster_suffix {
+   callsign: text
+   first name: unknown
+   last name: text
+   member: unknown
+   comments: unknown
+   Cutoff_Days: integer
+}
+class v_hcol_export {
+   mem_num: numeric
+   roster: text
+   f_nam: text
+   pref_nam: text
+   l_nam: text
+   call: text
+   lic_cls: text
+   lic_exp_dat: text
+   lic_num: text
+   lic_agncy: text
+   street: text
+   city: text
+   st: text
+   zip: text
+   country_cd: text
+   lat: numeric
+   lon: numeric
+   elev: numeric
+   hcol_emal: text
+   hcol_email_stat: text
+   club_email: text
+   club_email_stat: text
+   phone_pri: text
+   phone_pri_typ: text
+   phone_pri_pub: text
+   phone_alt: text
+   phone_alt_typ: text
+   phone_alt_pub: text
+   emer_cntct: text
+   join_dat: text
+   left_dat: text
+   club_rank: text
+   club_pos: text
+   dele: text
+   mem_typ: text
+   mem_exp_dat: text
+   club_bal: numeric
+   dob: text
+   priv_mem: numeric
+   tz: text
+   lst_login: text
+   role_cnt: numeric
+}
+class v_maint_add_as_mem {
+   call: text
+   f_nam: text
+   l_nam: text
+   roster: text
+}
+class v_maint_add_person_to_pers {
+   call: text
+   net_id: text
+   f_nam: text
+   l_nam: text
+   qso_date: text
+}
+class v_maint_cha_nonmember_to_member {
+   call: text
+   f_nam: text
+   l_nam: text
+   roster: text
+}
+class v_maint_latest_hcol_join_date {
+   call: text
+   First_Name: text
+   Last_Name: text
+   Latest_Join_Date: unknown
+}
+class v_maint_remove_as_member {
+   pers_call: text
+   pers_f_nam: text
+   pers_l_nam: text
+}
+class v_maint_show_dupes {
+   item_checked: blob
+   dupe_type: unknown
+   num_found: unknown
+}
+class v_net_qso {
+   QSO_Key: numeric
+   call: text
+   net_id: text
+   f_nam: text
+   l_nam: text
+   qso_date: text
+   qso_time: text
+}
+class v_pers {
+   pers_call: text
+   pers_f_nam: text
+   pers_m_nam: text
+   pers_l_nam: text
+   pers_pref_nam: text
+   pers_typ_cd: number
+}
+class v_pers_typ {
+   pers_typ_cd: numeric
+   pers_typ_desc: text
+}
+class v_potential_callout_roster_size {
+   Days_since_last_checkin: unknown
+   Potential_number_of_callouts: unknown
+}
+class v_qso_table_v008 {
+   pk: integer
+   my_grid: text
+   my_call: text
+   my_rig: text
+   call: text
+   first_name: text
+   last_name: text
+   street: text
+   city: text
+   county: text
+   state: text
+   postal_country: text
+   zip: text
+   grid: text
+   dxcc_country: text
+   iota: text
+   sota: text
+   cq_zone: text
+   itu: text
+   ten_ten: text
+   email: text
+   url: text
+   mode: text
+   band_rx: text
+   band_tx: text
+   rst_sent: text
+   rst_received: text
+   qsl_via: text
+   qsl_sent: text
+   qsl_received: text
+   srx: text
+   stx: text
+   comments: text
+   satellite: text
+   qso_start: real
+   qso_done: real
+   latitude: real
+   longitude: real
+   tx_frequency: real
+   rx_frequency: real
+   azimuth: real
+   elevation: real
+   power: real
+   srx_numeric: integer
+   stx_numeric: integer
+   dxcc_id: integer
+   contest_id: text
+   my_sota: text
+   skcc: text
+   pota: text
+   my_pota: text
+   wwff: text
+   my_wwff: text
+   sig: text
+   my_sig: text
+   sig_info: text
+   my_sig_info: text
+   ext_val_1: text
+   ext_val_2: text
+   ext_val_3: text
+   ext_val_4: text
+   distance: real
+}
+class v_suffix_listing {
+   call: text
+   First_Name: unknown
+   Last_Name: text
+   Suffix: unknown
+}
+
+t_pers                             -[#595959,plain]-^  t_pers_typ                        : "pers_typ_cd"
+@enduml

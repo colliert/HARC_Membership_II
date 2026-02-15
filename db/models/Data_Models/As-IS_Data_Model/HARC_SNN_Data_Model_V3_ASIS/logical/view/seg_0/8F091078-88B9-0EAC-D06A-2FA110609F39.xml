@@ -1,0 +1,144 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<EntityView class="oracle.dbtools.crest.model.design.logical.EntityView" directorySegmentName="seg_0" id="8F091078-88B9-0EAC-D06A-2FA110609F39" name="v harc member">
+<createdBy>tcollier</createdBy>
+<createdTime>2023-12-10 01:29:04 UTC</createdTime>
+<generatorID>B03A247A-8C46-5F12-D699-36ECA83BD294</generatorID>
+<ownerDesignName>HARC_SNN_Data_Model_V3</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="FDFA065C-9B79-4768-D3A1-ACB9D4078B29" value="false"/>
+</engineerTo>
+<userDefined>true</userDefined>
+<userDefinedSQL><![CDATA[select a.pers_call
+     , a.pers_f_nam
+     , a.pers_m_nam
+     , a.pers_l_nam
+     , a.pers_nicknam
+     , a.pers_lic_class
+     , pers_typ
+from t_pers a
+where pers_typ = 1
+order by a.pers_l_nam]]></userDefinedSQL>
+<validSQL>false</validSQL>
+<viewType>NAMED QUERY</viewType>
+<viewElements>
+<viewElement class="oracle.dbtools.crest.model.design.logical.AttributeView" name="pers_call" id="AD1B85D3-869B-23F2-4795-6FFA87739D32">
+<createdBy>tcollier</createdBy>
+<createdTime>2023-12-10 01:29:04 UTC</createdTime>
+<generatorID>DBD4CAF6-5C62-856D-C165-1CEB82DD7D59</generatorID>
+<ownerDesignName>HARC_SNN_Data_Model_V3</ownerDesignName>
+<engineerTo>
+<item key="FDFA065C-9B79-4768-D3A1-ACB9D4078B29" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>UNKNOWN</dataType>
+<reference>false</reference>
+<referencedColumn>B21F0822-079D-A73E-E5F4-7072DCC1A793</referencedColumn>
+<table>9996BAFD-3943-5EAD-AEC5-CF202A841164</table>
+<tableAlias>a</tableAlias>
+<viewID>8F091078-88B9-0EAC-D06A-2FA110609F39</viewID>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.logical.AttributeView" name="pers_f_nam" id="C28A106B-9F9B-A04B-5792-B28EE9D8FE08">
+<createdBy>tcollier</createdBy>
+<createdTime>2023-12-10 01:29:04 UTC</createdTime>
+<generatorID>48CC023E-794F-A64A-807F-F82661C97475</generatorID>
+<ownerDesignName>HARC_SNN_Data_Model_V3</ownerDesignName>
+<engineerTo>
+<item key="FDFA065C-9B79-4768-D3A1-ACB9D4078B29" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>UNKNOWN</dataType>
+<reference>false</reference>
+<referencedColumn>A5ED5B0E-4BA5-1E8F-D8AB-2697214D87D3</referencedColumn>
+<table>9996BAFD-3943-5EAD-AEC5-CF202A841164</table>
+<tableAlias>a</tableAlias>
+<viewID>8F091078-88B9-0EAC-D06A-2FA110609F39</viewID>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.logical.AttributeView" name="pers_m_nam" id="E821F382-C354-9606-9377-AF74D195E7E0">
+<createdBy>tcollier</createdBy>
+<createdTime>2023-12-10 01:29:04 UTC</createdTime>
+<generatorID>73C7B351-DBDA-3A5D-EA1E-E396C99ECAAC</generatorID>
+<ownerDesignName>HARC_SNN_Data_Model_V3</ownerDesignName>
+<engineerTo>
+<item key="FDFA065C-9B79-4768-D3A1-ACB9D4078B29" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>UNKNOWN</dataType>
+<reference>false</reference>
+<referencedColumn>154C71AC-B5C7-AB44-1BCF-6A54F4FD0A2F</referencedColumn>
+<table>9996BAFD-3943-5EAD-AEC5-CF202A841164</table>
+<tableAlias>a</tableAlias>
+<viewID>8F091078-88B9-0EAC-D06A-2FA110609F39</viewID>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.logical.AttributeView" name="pers_l_nam" id="4EFA83AD-9BAA-18CF-9E89-395ABD938324">
+<createdBy>tcollier</createdBy>
+<createdTime>2023-12-10 01:29:04 UTC</createdTime>
+<generatorID>AEF0B82B-718C-D92C-30A4-202F1DE6484F</generatorID>
+<ownerDesignName>HARC_SNN_Data_Model_V3</ownerDesignName>
+<engineerTo>
+<item key="FDFA065C-9B79-4768-D3A1-ACB9D4078B29" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>UNKNOWN</dataType>
+<reference>false</reference>
+<referencedColumn>5A4E66F6-B952-BA7B-53B7-97DE3B263B33</referencedColumn>
+<table>9996BAFD-3943-5EAD-AEC5-CF202A841164</table>
+<tableAlias>a</tableAlias>
+<viewID>8F091078-88B9-0EAC-D06A-2FA110609F39</viewID>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.logical.AttributeView" name="pers_nicknam" id="8970D3B6-E37C-BA68-AA76-927069566F02">
+<createdBy>tcollier</createdBy>
+<createdTime>2023-12-10 01:29:04 UTC</createdTime>
+<generatorID>21CE4D4D-886B-4B39-4711-FE31B4CA0B25</generatorID>
+<ownerDesignName>HARC_SNN_Data_Model_V3</ownerDesignName>
+<engineerTo>
+<item key="FDFA065C-9B79-4768-D3A1-ACB9D4078B29" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>UNKNOWN</dataType>
+<reference>false</reference>
+<referencedColumn>E4861035-6455-A1EC-B878-24E6BAA3D115</referencedColumn>
+<table>9996BAFD-3943-5EAD-AEC5-CF202A841164</table>
+<tableAlias>a</tableAlias>
+<viewID>8F091078-88B9-0EAC-D06A-2FA110609F39</viewID>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.logical.AttributeView" name="pers_lic_class" id="72EAA0D3-4CEF-AF32-410F-F94693332117">
+<createdBy>tcollier</createdBy>
+<createdTime>2023-12-10 01:29:04 UTC</createdTime>
+<generatorID>3EBC188D-F30E-2931-524F-3E86B318A9BB</generatorID>
+<ownerDesignName>HARC_SNN_Data_Model_V3</ownerDesignName>
+<engineerTo>
+<item key="FDFA065C-9B79-4768-D3A1-ACB9D4078B29" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>UNKNOWN</dataType>
+<reference>false</reference>
+<referencedColumn>DA3D7EFE-0806-7C02-F52A-BE1DCE6DFA55</referencedColumn>
+<table>9996BAFD-3943-5EAD-AEC5-CF202A841164</table>
+<tableAlias>a</tableAlias>
+<viewID>8F091078-88B9-0EAC-D06A-2FA110609F39</viewID>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.logical.AttributeView" name="pers_typ" id="F9A65211-FCA9-8972-4744-617FA64309A0">
+<createdBy>tcollier</createdBy>
+<createdTime>2023-12-10 01:29:04 UTC</createdTime>
+<generatorID>DD8AAA9F-F05B-BDFE-600E-C1DBA87C4267</generatorID>
+<ownerDesignName>HARC_SNN_Data_Model_V3</ownerDesignName>
+<engineerTo>
+<item key="FDFA065C-9B79-4768-D3A1-ACB9D4078B29" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>NUMBER</dataType>
+<reference>false</reference>
+<referencedColumn>54BEA65B-DBC7-3A5B-914E-E1EC8FCA573F</referencedColumn>
+<table>9996BAFD-3943-5EAD-AEC5-CF202A841164</table>
+<viewID>8F091078-88B9-0EAC-D06A-2FA110609F39</viewID>
+</viewElement>
+</viewElements>
+</EntityView>

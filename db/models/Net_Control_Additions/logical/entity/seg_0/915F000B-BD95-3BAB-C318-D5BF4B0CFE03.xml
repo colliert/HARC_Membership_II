@@ -1,0 +1,62 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="915F000B-BD95-3BAB-C318-D5BF4B0CFE03" name="t nco date">
+<createdBy>tcollier</createdBy>
+<createdTime>2025-10-21 20:20:08 UTC</createdTime>
+<generatorID>64CECF2E-25F7-34AB-A139-E4AB1630D24D</generatorID>
+<ownerDesignName>Net_Control_Additions</ownerDesignName>
+<engineerTo>
+<item key="C119D9D8-C824-B40C-12F8-BA9037B4F1B9" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="net_date" id="283813CE-D7B3-6CC3-49D0-807C63E2450F">
+<createdBy>tcollier</createdBy>
+<createdTime>2025-10-21 20:20:08 UTC</createdTime>
+<generatorID>12039F73-3ABD-5601-BE73-E1B3EB8A5FC0</generatorID>
+<ownerDesignName>Net_Control_Additions</ownerDesignName>
+<engineerTo>
+<item key="C119D9D8-C824-B40C-12F8-BA9037B4F1B9" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>161A90A6-CA3A-1525-7F0C-0703C95370A2</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="quarter" id="DC881317-F9A0-7669-A4F1-2F8D8857B784">
+<createdBy>tcollier</createdBy>
+<createdTime>2025-10-21 20:20:08 UTC</createdTime>
+<generatorID>B3FFE2ED-1490-9971-237A-D5A79E0FC345</generatorID>
+<ownerDesignName>Net_Control_Additions</ownerDesignName>
+<engineerTo>
+<item key="C119D9D8-C824-B40C-12F8-BA9037B4F1B9" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>90015BD8-66C0-24AE-0278-E3E87E938D9F</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="E5B98226-C39A-E115-C73D-B4DA17E34AF5" name="t nco dates PK">
+<createdBy>tcollier</createdBy>
+<createdTime>2025-10-21 20:20:08 UTC</createdTime>
+<generatorID>84612494-0110-9F10-E9A2-3E382AF2814F</generatorID>
+<ownerDesignName>Net_Control_Additions</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="C119D9D8-C824-B40C-12F8-BA9037B4F1B9" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>283813CE-D7B3-6CC3-49D0-807C63E2450F</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

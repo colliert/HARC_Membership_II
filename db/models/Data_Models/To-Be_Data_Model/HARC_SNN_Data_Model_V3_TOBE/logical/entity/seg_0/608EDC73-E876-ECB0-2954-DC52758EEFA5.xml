@@ -1,0 +1,22 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="608EDC73-E876-ECB0-2954-DC52758EEFA5" name="is Club Member">
+<createdBy>tcollier</createdBy>
+<createdTime>2024-02-05 23:50:42 UTC</createdTime>
+<ownerDesignName>HARC_SNN_Data_Model_V3_TOBE</ownerDesignName>
+<engineerTo>
+<item key="FDFA065C-9B79-4768-D3A1-ACB9D4078B29" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<hierarchicalParent>98C91E27-7E02-7E4E-AA7F-FED1B5D7AA40</hierarchicalParent>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<subtypesRefType>Arc implementation</subtypesRefType>
+<generateDiscrimColumn>true</generateDiscrimColumn>
+<discriminatorColumnName>Person Type</discriminatorColumnName>
+<discriminatorValue>1</discriminatorValue>
+</Entity>

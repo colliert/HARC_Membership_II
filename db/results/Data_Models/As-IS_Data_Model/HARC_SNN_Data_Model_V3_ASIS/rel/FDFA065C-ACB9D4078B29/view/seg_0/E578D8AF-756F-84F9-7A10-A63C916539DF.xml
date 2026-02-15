@@ -1,0 +1,153 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableView class="oracle.dbtools.crest.model.design.relational.TableView" directorySegmentName="seg_0" id="E578D8AF-756F-84F9-7A10-A63C916539DF" name="v_data_maint_required">
+<sourceDDLFile>HARC_SNN_DDL_Modified.sql</sourceDDLFile>
+<createdBy>tcollier</createdBy>
+<createdTime>2023-12-10 01:28:01 UTC</createdTime>
+<ownerDesignName>HARC_SNN_Data_Model_V3</ownerDesignName>
+<importedID>70435A92-0C74-6D9E-C689-EFF1B9D1EE7F</importedID>
+<userDefined>true</userDefined>
+<userDefinedSQL><![CDATA[select '01 - Add new member' as action_needed
+     , call_sign             as callsign
+     , first_name            as first_name
+     , last_name             as last_name
+     , 999                   as pers_typ
+from daylite_harc_mem
+where trim(call_sign) not in (select trim(v_pers.pers_call) from v_pers)
+union
+-- Next select all members (from daylite_harc_mem) who appear in
+-- t_pers as non-members.  Display their call, names, and pers_typ code.
+select '02 - Change from non-member to member' as action_needed
+     , call_sign                               as callsign
+     , first_name                              as first_name
+     , last_name                               as last_name
+     , t_pers.pers_typ                         as per_typ
+from daylite_harc_mem
+         join t_pers on call_sign = t_pers.pers_call
+where pers_typ = 0
+union
+-- Next find all HARC members from t_pers who do not appear at
+-- all in Daylite_HARC_Mem. but who do appear in t_pers.
+-- They used to be members but are no longer members.
+-- List the pers_typ
+select '03 - Change from member to non-member' as action_needed
+     , v_pers.pers_call                        as callsign
+     , v_pers.pers_f_nam                       as first_name
+     , v_pers.pers_l_nam                       as last_name
+     , v_pers.pers_typ                         as pers_typ
+from v_pers
+where pers_typ = 1
+  and v_pers.pers_call not in
+      (select Daylite_HARC_Mem.call_sign from Daylite_HARC_Mem where Daylite_HARC_Mem.call_sign is not null)
+Union
+-- Find all call signs in the log file that have not been accounted for in the
+-- t_pers file.  This is to keep track of callsigns, suffixes, and nicknames.
+select distinct '04 - Add non-member' as action_needed
+              , call                  as callsign
+              , first_name            as first_name
+              , last_name             as last_name
+              , 0                     as pers_typ
+from v_net_qso
+where call not in (select v_pers.pers_call from v_pers)
+Union
+select '05 - Possible call sign change'
+    ,pers_call
+    ,pers_f_nam
+    ,pers_l_nam
+    ,1
+from v_pers
+where pers_l_nam in
+      (select a.last_name
+       from Daylite_HARC_Mem a
+       where a.call_sign not in
+             (select pers_call from v_pers))
+Union
+select '06 - Members with Multiple Call signs'
+     , pers_call
+     , pers_f_nam
+     , pers_l_nam
+     , pers_typ
+from v_pers
+where pers_typ = 1
+  and pers_l_nam in
+      (select pers_l_nam
+       from (select v_pers.pers_l_nam || ' ' || v_pers.pers_f_nam as 'full_name'
+                  , pers_f_nam
+                  , pers_l_nam
+                  , count(v_pers.pers_call)                       as num_call
+             from v_pers
+             group by 1)
+       where num_call > 1)
+order by action_needed
+        ,pers_l_nam]]></userDefinedSQL>
+<validSQL>false</validSQL>
+<viewElements>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="action_needed" id="24C6D814-4BA2-714A-F117-4261247ECA3C">
+<createdBy>tcollier</createdBy>
+<createdTime>2023-12-10 01:28:01 UTC</createdTime>
+<ownerDesignName>HARC_SNN_Data_Model_V3</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<alias>action_needed</alias>
+<dataType>UNKNOWN</dataType>
+<headerAlias>action_needed</headerAlias>
+<expression>&apos;01 - Add new member&apos;</expression>
+<reference>false</reference>
+<viewID>E578D8AF-756F-84F9-7A10-A63C916539DF</viewID>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="callsign" id="F16B9675-CAB9-4C68-E59A-C50255DC97FE">
+<createdBy>tcollier</createdBy>
+<createdTime>2023-12-10 01:28:01 UTC</createdTime>
+<ownerDesignName>HARC_SNN_Data_Model_V3</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<alias>callsign</alias>
+<dataType>UNKNOWN</dataType>
+<headerAlias>callsign</headerAlias>
+<reference>false</reference>
+<referencedColumn>5E37888A-CDDA-2B00-6BFF-7729D4533DE6</referencedColumn>
+<table>07BC42F4-B911-1465-447F-60B73539386C</table>
+<viewID>E578D8AF-756F-84F9-7A10-A63C916539DF</viewID>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="first_name" id="F8839B22-953E-CB87-6992-9D10784283BC">
+<createdBy>tcollier</createdBy>
+<createdTime>2023-12-10 01:28:01 UTC</createdTime>
+<ownerDesignName>HARC_SNN_Data_Model_V3</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<alias>first_name</alias>
+<dataType>UNKNOWN</dataType>
+<headerAlias>first_name</headerAlias>
+<reference>false</reference>
+<referencedColumn>51861F00-BB69-62E9-17FE-D6901A9D8462</referencedColumn>
+<table>07BC42F4-B911-1465-447F-60B73539386C</table>
+<viewID>E578D8AF-756F-84F9-7A10-A63C916539DF</viewID>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="last_name" id="C36E05BA-CDC3-290C-7B69-7CB03A094641">
+<createdBy>tcollier</createdBy>
+<createdTime>2023-12-10 01:28:01 UTC</createdTime>
+<ownerDesignName>HARC_SNN_Data_Model_V3</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<alias>last_name</alias>
+<dataType>UNKNOWN</dataType>
+<headerAlias>last_name</headerAlias>
+<reference>false</reference>
+<referencedColumn>C6083F43-748B-0882-5D6D-44A8785953BE</referencedColumn>
+<table>07BC42F4-B911-1465-447F-60B73539386C</table>
+<viewID>E578D8AF-756F-84F9-7A10-A63C916539DF</viewID>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="pers_typ" id="78EEE09C-4F55-F09B-3B1E-595EBCCFC540">
+<createdBy>tcollier</createdBy>
+<createdTime>2023-12-10 01:28:01 UTC</createdTime>
+<ownerDesignName>HARC_SNN_Data_Model_V3</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<alias>pers_typ</alias>
+<dataType>UNKNOWN</dataType>
+<headerAlias>pers_typ</headerAlias>
+<expression>999</expression>
+<reference>false</reference>
+<viewID>E578D8AF-756F-84F9-7A10-A63C916539DF</viewID>
+</viewElement>
+</viewElements>
+</TableView>

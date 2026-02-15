@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?><sqlb_project><db path="/Users/jtimothycollier/Documents/Amateur Radio/MLDX_Logs/MacLoggerDX.sql" foreign_keys="1" case_sensitive_like="0" temp_store="0" wal_autocheckpoint="1000" synchronous="2"/><attached/><window><current_tab id="3"/></window><tab_structure><column_width id="0" width="300"/><column_width id="1" width="0"/><column_width id="2" width="100"/><column_width id="3" width="12111"/><column_width id="4" width="0"/><expanded_item id="0" parent="1"/><expanded_item id="1" parent="1"/><expanded_item id="2" parent="1"/><expanded_item id="3" parent="1"/></tab_structure><tab_browse><current_table name="v_qso_table_expanded"/><default_encoding codec=""/><browse_table_settings><table schema="main" name="HARC_SNN_Call_Out_Roster" show_row_id="0" encoding="" plot_x_axis="" unlock_view_pk=""><sort/><column_widths/><filter_values/><display_formats/><hidden_columns/><plot_y_axes/></table><table schema="main" name="t_harc_add_qso_details" show_row_id="0" encoding="" plot_x_axis="" unlock_view_pk=""><sort/><column_widths/><filter_values/><display_formats/><hidden_columns/><plot_y_axes/></table><table schema="main" name="t_harc_member" show_row_id="0" encoding="" plot_x_axis="" unlock_view_pk=""><sort><column index="4" mode="0"/></sort><column_widths/><filter_values/><display_formats/><hidden_columns/><plot_y_axes/></table><table schema="main" name="v_qso_table_expanded" show_row_id="0" encoding="" plot_x_axis="" unlock_view_pk=""><sort/><column_widths/><filter_values/><display_formats/><hidden_columns/><plot_y_axes/></table></browse_table_settings></tab_browse><tab_sql><sql name="q_call_out_roster.sql">/**************************************************
+* HARC_Call_Out_Roster                            *
+* --------------------                            *
+* Date:		7/16/2019                             *
+* Author:	Tim Collier                           *
+*                                                 *
+* List of stations who have called into the net   *
+* since the date listed in the 'where' statement. *
+*                                                 *
+**************************************************/
+select distinct v_qso_table_v007.call as 'Callsign'
+	,first_name as 'First Name'
+	,last_name as 'Last Name'
+	,CASE
+			when ifnull(v_harc_member.mem_call,'0') = '0' then 'non-member'
+			else 'member'
+			END as 'HARC_member'
+from v_qso_table_v007
+LEFT JOIN v_harc_member on trim(upper(Call))=trim(upper(v_harc_member.mem_call))
+where 	contest_id='HARC-SNN' and
+		datetime(qso_start) &gt; '2019-06-01'
+order by harc_member, last_name, first_name</sql><sql name="HARC_SNN_Participation_Rpt.sql">/***********************************************************************
+* HARC_SNN_Participation_RPT.sql                                       *
+* ------------------------------                                       *
+*                                                                      *
+* Date:		7/16/2019                                                  *
+* Author:	Tim Collier                                                *
+* List HARC Sunday Night Net Participation for a particular date range *
+*                                                                      *
+***********************************************************************/
+select pk
+	,julian_qso_start as QSO_Date
+	,call 			as 'Call'
+	,first_name 	as 'First Name'
+	,last_name 		as 'Last Name'
+	,HARC_member as 'Member Status'
+	,rptr_cd 		as 'Repeater Code'
+	,rptr_desc 		as 'Repeater Desc.'
+	,rad_typ_desc 	as 'Radio'
+	,pwr_typ_desc 	as 'Power Type'
+	,ant_typ_desc	as 'Antenna'
+	,qso_comment 	as 'Comment'
+from v_qso_table_expanded
+where julian_qso_start between '2019-08-04' and '2019-08-06'</sql><sql name="HARC_SNN_QSO_List.sql">/****************************************
+* HARC_SNN_QSO_LIST.sql                 *
+* ---------------------                 *
+*                                       *
+* Date:  	7/16/2019                   *
+* Author:	Tim Collier                 *
+*                                       *
+* List the HARC Sunday Night Net        *
+* participant list.  The PK is used     *
+* if additional details are to be added *
+* to the t_add_qso_detail table.        *
+****************************************/
+
+select pk
+	,call
+	,first_name,last_name
+	,datetime(qso_start) as QSO_Start
+	,datetime(qso_done) as QSO_Done
+from qso_table_v007
+where datetime(qso_start,'unixepoch') between '2019-08-04' and '2019-08-06';</sql><sql name="Update_HARCSNN_Net_Time.sql">/**********************************************************
+* HARC_SNN_QSO_LIST.sql                                   *
+* ----------------------                                  *
+* Date:  July 16, 2019                                    *
+* Author:  Tim Collier                                    *
+*                                                         *
+* Set the qso_start to the actual net time.               * 
+*                                                         *
+* UNIXepoch date = ([Julian Date] - 2440587.5 ) * 86400   *
+*                                                         *
+* Usually, the roll call starts at 19:15 Local time       *
+**********************************************************/
+update qso_table_v007
+set 
+	qso_start =  (julianday('2019-08-05T02:15:00') -2440587.5) * 86400
+	,qso_done = (julianday('2019-08-05T02:15:00') -2440587.5) * 86400
+	,tx_frequency=442.925
+	,rx_frequency=447.925
+	,band_rx='70cm'
+	,band_tx='70cm'
+	,mode='FM'
+	,power=15
+-- where datetime(qso_start,'unixepoch') between '2019-07-15' and '2019-07-16';
+where pk between 1170 and 1197
+</sql><current_tab id="1"/></tab_sql></sqlb_project>

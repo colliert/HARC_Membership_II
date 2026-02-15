@@ -1,0 +1,782 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="A3F169DF-64EC-DE8E-C916-31C5C67481DC" name="qso table v008 20250720">
+<createdBy>tcollier</createdBy>
+<createdTime>2025-10-21 20:20:08 UTC</createdTime>
+<generatorID>FC8139DF-B073-8DB3-E146-9450A543B80B</generatorID>
+<ownerDesignName>Net_Control_Additions</ownerDesignName>
+<engineerTo>
+<item key="C119D9D8-C824-B40C-12F8-BA9037B4F1B9" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="pk" id="FCFEB9C2-77E5-5133-5968-55EBACA10A59">
+<createdBy>tcollier</createdBy>
+<createdTime>2025-10-21 20:20:08 UTC</createdTime>
+<generatorID>ABC87721-F03D-95A4-7AED-B8B088E6683C</generatorID>
+<ownerDesignName>Net_Control_Additions</ownerDesignName>
+<engineerTo>
+<item key="C119D9D8-C824-B40C-12F8-BA9037B4F1B9" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>90015BD8-66C0-24AE-0278-E3E87E938D9F</logicalDatatype>
+<domain>B9C55F62-FDB7-1925-02A7-A963DC0653AE</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="my grid" id="54AE9500-1030-6BC2-B3EC-E960969B73D8">
+<createdBy>tcollier</createdBy>
+<createdTime>2025-10-21 20:20:08 UTC</createdTime>
+<generatorID>93035A6C-60AB-8F10-BF18-768F1D9AE732</generatorID>
+<ownerDesignName>Net_Control_Additions</ownerDesignName>
+<engineerTo>
+<item key="C119D9D8-C824-B40C-12F8-BA9037B4F1B9" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="my call" id="7B1BFE14-0317-77D9-A4D4-C24E466FC5C3">
+<createdBy>tcollier</createdBy>
+<createdTime>2025-10-21 20:20:08 UTC</createdTime>
+<generatorID>476FF286-5778-3B45-2CAD-87E1AA6476AC</generatorID>
+<ownerDesignName>Net_Control_Additions</ownerDesignName>
+<engineerTo>
+<item key="C119D9D8-C824-B40C-12F8-BA9037B4F1B9" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="my rig" id="1D01EA3F-F046-4FA6-4297-6C0599CFAF64">
+<createdBy>tcollier</createdBy>
+<createdTime>2025-10-21 20:20:08 UTC</createdTime>
+<generatorID>85848470-F52C-7C8F-C93E-EE47C9238995</generatorID>
+<ownerDesignName>Net_Control_Additions</ownerDesignName>
+<engineerTo>
+<item key="C119D9D8-C824-B40C-12F8-BA9037B4F1B9" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="call" id="07CCD468-B184-127F-95BB-39B1C46AA86C">
+<createdBy>tcollier</createdBy>
+<createdTime>2025-10-21 20:20:08 UTC</createdTime>
+<generatorID>4E3BB684-8B08-9416-30A3-22ED4E7685BF</generatorID>
+<ownerDesignName>Net_Control_Additions</ownerDesignName>
+<engineerTo>
+<item key="C119D9D8-C824-B40C-12F8-BA9037B4F1B9" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="first name" id="E593CE32-F9A7-8BB4-CF27-47DE6DE67B77">
+<createdBy>tcollier</createdBy>
+<createdTime>2025-10-21 20:20:08 UTC</createdTime>
+<generatorID>445B421E-1107-DF20-705A-06D898E994E5</generatorID>
+<ownerDesignName>Net_Control_Additions</ownerDesignName>
+<engineerTo>
+<item key="C119D9D8-C824-B40C-12F8-BA9037B4F1B9" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="last name" id="E6C2AB7F-2C5D-F6FA-74D6-5B74F4E96205">
+<createdBy>tcollier</createdBy>
+<createdTime>2025-10-21 20:20:08 UTC</createdTime>
+<generatorID>C3696FED-8550-4F28-FDFA-C6DB11ED7691</generatorID>
+<ownerDesignName>Net_Control_Additions</ownerDesignName>
+<engineerTo>
+<item key="C119D9D8-C824-B40C-12F8-BA9037B4F1B9" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="street" id="AA2B19A2-0D5D-D4E5-EFD5-B6C22537B070">
+<createdBy>tcollier</createdBy>
+<createdTime>2025-10-21 20:20:08 UTC</createdTime>
+<generatorID>5D119670-5CB4-FF51-0397-38A4F6EFF9CA</generatorID>
+<ownerDesignName>Net_Control_Additions</ownerDesignName>
+<engineerTo>
+<item key="C119D9D8-C824-B40C-12F8-BA9037B4F1B9" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="city" id="46646C25-9282-7A38-E3C4-CAA17E7C99E3">
+<createdBy>tcollier</createdBy>
+<createdTime>2025-10-21 20:20:08 UTC</createdTime>
+<generatorID>44CFA2FF-C12B-140D-D9E8-A4971AA22B8B</generatorID>
+<ownerDesignName>Net_Control_Additions</ownerDesignName>
+<engineerTo>
+<item key="C119D9D8-C824-B40C-12F8-BA9037B4F1B9" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="county" id="8F7589A0-7364-2A82-5A32-FB1DD4721DCA">
+<createdBy>tcollier</createdBy>
+<createdTime>2025-10-21 20:20:08 UTC</createdTime>
+<generatorID>0DF1A30B-E630-7C9B-D05E-D109A7E9DDEF</generatorID>
+<ownerDesignName>Net_Control_Additions</ownerDesignName>
+<engineerTo>
+<item key="C119D9D8-C824-B40C-12F8-BA9037B4F1B9" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="state" id="6D827685-AEDD-87CE-3C94-156CE2A13CA8">
+<createdBy>tcollier</createdBy>
+<createdTime>2025-10-21 20:20:08 UTC</createdTime>
+<generatorID>688C52E6-652F-6E30-202E-8C11AF6DCF4A</generatorID>
+<ownerDesignName>Net_Control_Additions</ownerDesignName>
+<engineerTo>
+<item key="C119D9D8-C824-B40C-12F8-BA9037B4F1B9" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="postal country" id="2B71FFA2-9855-3038-8D6B-9F85FB5B2D85">
+<createdBy>tcollier</createdBy>
+<createdTime>2025-10-21 20:20:08 UTC</createdTime>
+<generatorID>43C23DD4-390C-70C0-86F9-343D57CA44C1</generatorID>
+<ownerDesignName>Net_Control_Additions</ownerDesignName>
+<engineerTo>
+<item key="C119D9D8-C824-B40C-12F8-BA9037B4F1B9" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="zip" id="3AD4CCB2-FF07-C98B-4534-8012F2172BBC">
+<createdBy>tcollier</createdBy>
+<createdTime>2025-10-21 20:20:08 UTC</createdTime>
+<generatorID>70EA2F99-EA4E-D712-DDAE-35EF7605775B</generatorID>
+<ownerDesignName>Net_Control_Additions</ownerDesignName>
+<engineerTo>
+<item key="C119D9D8-C824-B40C-12F8-BA9037B4F1B9" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="grid" id="D8ACA9EE-2993-ADC6-DD59-F6663A8C6E95">
+<createdBy>tcollier</createdBy>
+<createdTime>2025-10-21 20:20:08 UTC</createdTime>
+<generatorID>32C34933-D486-1D0E-007B-56E4E7CE56FE</generatorID>
+<ownerDesignName>Net_Control_Additions</ownerDesignName>
+<engineerTo>
+<item key="C119D9D8-C824-B40C-12F8-BA9037B4F1B9" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="dxcc country" id="14A55A9A-3A45-98C5-2594-FC0C229B686B">
+<createdBy>tcollier</createdBy>
+<createdTime>2025-10-21 20:20:08 UTC</createdTime>
+<generatorID>1DC80DCE-53AB-5E59-9B92-FCEB7B0778B1</generatorID>
+<ownerDesignName>Net_Control_Additions</ownerDesignName>
+<engineerTo>
+<item key="C119D9D8-C824-B40C-12F8-BA9037B4F1B9" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="iota" id="58BBF58D-6235-29FB-D9A1-48B886A05E49">
+<createdBy>tcollier</createdBy>
+<createdTime>2025-10-21 20:20:08 UTC</createdTime>
+<generatorID>CFE42A00-EC00-118E-931D-F76D26B5FE4A</generatorID>
+<ownerDesignName>Net_Control_Additions</ownerDesignName>
+<engineerTo>
+<item key="C119D9D8-C824-B40C-12F8-BA9037B4F1B9" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="sota" id="42657B8C-9026-1990-EB73-57FFA39DEE4C">
+<createdBy>tcollier</createdBy>
+<createdTime>2025-10-21 20:20:08 UTC</createdTime>
+<generatorID>3C628E64-F589-0ED5-E796-1FE436A01D02</generatorID>
+<ownerDesignName>Net_Control_Additions</ownerDesignName>
+<engineerTo>
+<item key="C119D9D8-C824-B40C-12F8-BA9037B4F1B9" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cq zone" id="7D49D1C4-B248-1B66-FDA0-B261F33F6A6E">
+<createdBy>tcollier</createdBy>
+<createdTime>2025-10-21 20:20:08 UTC</createdTime>
+<generatorID>22902B0D-011C-D4B5-200F-03C50B49CE68</generatorID>
+<ownerDesignName>Net_Control_Additions</ownerDesignName>
+<engineerTo>
+<item key="C119D9D8-C824-B40C-12F8-BA9037B4F1B9" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="itu" id="892D398B-1CEF-2841-5347-307FF0DF5479">
+<createdBy>tcollier</createdBy>
+<createdTime>2025-10-21 20:20:08 UTC</createdTime>
+<generatorID>CEBACD45-7CAC-C29F-B3C2-9FFEBAE50519</generatorID>
+<ownerDesignName>Net_Control_Additions</ownerDesignName>
+<engineerTo>
+<item key="C119D9D8-C824-B40C-12F8-BA9037B4F1B9" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ten ten" id="DFB33941-537E-964C-EC47-5CC6F0351AD0">
+<createdBy>tcollier</createdBy>
+<createdTime>2025-10-21 20:20:08 UTC</createdTime>
+<generatorID>B8B4930B-8A91-2791-A837-0558AD56C90E</generatorID>
+<ownerDesignName>Net_Control_Additions</ownerDesignName>
+<engineerTo>
+<item key="C119D9D8-C824-B40C-12F8-BA9037B4F1B9" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="email" id="385621B6-D073-FB03-D8F1-159C91E291A6">
+<createdBy>tcollier</createdBy>
+<createdTime>2025-10-21 20:20:08 UTC</createdTime>
+<generatorID>E14E4965-38AB-0EC9-6F48-FD4D56733810</generatorID>
+<ownerDesignName>Net_Control_Additions</ownerDesignName>
+<engineerTo>
+<item key="C119D9D8-C824-B40C-12F8-BA9037B4F1B9" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="url" id="246ED5E2-A06E-0FE0-F2AE-3538A207CCC3">
+<createdBy>tcollier</createdBy>
+<createdTime>2025-10-21 20:20:08 UTC</createdTime>
+<generatorID>28234B98-8C33-381C-DB9D-E4B7F64EC108</generatorID>
+<ownerDesignName>Net_Control_Additions</ownerDesignName>
+<engineerTo>
+<item key="C119D9D8-C824-B40C-12F8-BA9037B4F1B9" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="mode" id="899AF5DF-7487-0A0E-871B-C3946039E427">
+<createdBy>tcollier</createdBy>
+<createdTime>2025-10-21 20:20:08 UTC</createdTime>
+<generatorID>16983665-44BC-3060-D734-36BCA50EA821</generatorID>
+<ownerDesignName>Net_Control_Additions</ownerDesignName>
+<engineerTo>
+<item key="C119D9D8-C824-B40C-12F8-BA9037B4F1B9" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="band rx" id="BED138BE-5F0A-FE97-BB1E-B540E5579D9A">
+<createdBy>tcollier</createdBy>
+<createdTime>2025-10-21 20:20:08 UTC</createdTime>
+<generatorID>CC212C21-2DB0-C955-C555-883AE95A8B17</generatorID>
+<ownerDesignName>Net_Control_Additions</ownerDesignName>
+<engineerTo>
+<item key="C119D9D8-C824-B40C-12F8-BA9037B4F1B9" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="band tx" id="82499F22-3261-E5EE-3B4C-1F85AEA7FF1F">
+<createdBy>tcollier</createdBy>
+<createdTime>2025-10-21 20:20:08 UTC</createdTime>
+<generatorID>F80069FD-814B-485F-8C6B-D1A7A667EF4C</generatorID>
+<ownerDesignName>Net_Control_Additions</ownerDesignName>
+<engineerTo>
+<item key="C119D9D8-C824-B40C-12F8-BA9037B4F1B9" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="rst sent" id="A20DB8A5-5B35-1CA8-1828-824B95B015A9">
+<createdBy>tcollier</createdBy>
+<createdTime>2025-10-21 20:20:08 UTC</createdTime>
+<generatorID>C043BD20-5399-66CC-12D1-026ECB3AF611</generatorID>
+<ownerDesignName>Net_Control_Additions</ownerDesignName>
+<engineerTo>
+<item key="C119D9D8-C824-B40C-12F8-BA9037B4F1B9" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="rst received" id="B34BF8E7-635B-EDB8-01E6-31D14E168786">
+<createdBy>tcollier</createdBy>
+<createdTime>2025-10-21 20:20:08 UTC</createdTime>
+<generatorID>FD6FEC91-ADDA-F9FB-5C99-87D96AADF545</generatorID>
+<ownerDesignName>Net_Control_Additions</ownerDesignName>
+<engineerTo>
+<item key="C119D9D8-C824-B40C-12F8-BA9037B4F1B9" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="qsl via" id="3165F637-6D0B-21E1-4535-C08F089632D5">
+<createdBy>tcollier</createdBy>
+<createdTime>2025-10-21 20:20:08 UTC</createdTime>
+<generatorID>C26A4FA3-0C4D-37CA-2F94-E82C5FBE844C</generatorID>
+<ownerDesignName>Net_Control_Additions</ownerDesignName>
+<engineerTo>
+<item key="C119D9D8-C824-B40C-12F8-BA9037B4F1B9" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="qsl sent" id="59F10AEF-6465-0F96-9D12-F99EBFDAE182">
+<createdBy>tcollier</createdBy>
+<createdTime>2025-10-21 20:20:08 UTC</createdTime>
+<generatorID>63784B24-B28F-C05D-86F3-B1203DB9C640</generatorID>
+<ownerDesignName>Net_Control_Additions</ownerDesignName>
+<engineerTo>
+<item key="C119D9D8-C824-B40C-12F8-BA9037B4F1B9" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="qsl received" id="658A25E7-6F3D-49E4-F6BC-64C15649DC11">
+<createdBy>tcollier</createdBy>
+<createdTime>2025-10-21 20:20:08 UTC</createdTime>
+<generatorID>26DDD51D-9899-E2B3-C12A-FAA2BE993525</generatorID>
+<ownerDesignName>Net_Control_Additions</ownerDesignName>
+<engineerTo>
+<item key="C119D9D8-C824-B40C-12F8-BA9037B4F1B9" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="srx" id="FB5D9D49-968B-E6C0-9801-4D9A64E6647E">
+<createdBy>tcollier</createdBy>
+<createdTime>2025-10-21 20:20:08 UTC</createdTime>
+<generatorID>E030BEDE-83B1-2D03-E2BF-915F0D3DC52F</generatorID>
+<ownerDesignName>Net_Control_Additions</ownerDesignName>
+<engineerTo>
+<item key="C119D9D8-C824-B40C-12F8-BA9037B4F1B9" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="stx" id="C424FD0B-1BDF-C89E-DEB9-433753F845B8">
+<createdBy>tcollier</createdBy>
+<createdTime>2025-10-21 20:20:08 UTC</createdTime>
+<generatorID>C5A78BC9-9253-FA46-86E5-381488B96A59</generatorID>
+<ownerDesignName>Net_Control_Additions</ownerDesignName>
+<engineerTo>
+<item key="C119D9D8-C824-B40C-12F8-BA9037B4F1B9" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="comments" id="A36FE556-25E0-DAD9-4AE9-A5B7FB4B3EA4">
+<createdBy>tcollier</createdBy>
+<createdTime>2025-10-21 20:20:08 UTC</createdTime>
+<generatorID>1877D6C5-4B59-C8B0-1B91-019421157577</generatorID>
+<ownerDesignName>Net_Control_Additions</ownerDesignName>
+<engineerTo>
+<item key="C119D9D8-C824-B40C-12F8-BA9037B4F1B9" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="satellite" id="606BAEF5-A5C8-2C37-1EE7-2926F4A83929">
+<createdBy>tcollier</createdBy>
+<createdTime>2025-10-21 20:20:08 UTC</createdTime>
+<generatorID>71828C88-131F-C968-D198-58E026BDD363</generatorID>
+<ownerDesignName>Net_Control_Additions</ownerDesignName>
+<engineerTo>
+<item key="C119D9D8-C824-B40C-12F8-BA9037B4F1B9" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="qso start" id="35ACDCF6-701F-9363-E61A-D37855E0CA70">
+<createdBy>tcollier</createdBy>
+<createdTime>2025-10-21 20:20:08 UTC</createdTime>
+<generatorID>A946D519-CD89-059A-2BBA-E5D3EC5BF899</generatorID>
+<ownerDesignName>Net_Control_Additions</ownerDesignName>
+<engineerTo>
+<item key="C119D9D8-C824-B40C-12F8-BA9037B4F1B9" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<domain>16376ACD-B919-9F79-F168-10F791E627C2</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="qso done" id="E479523F-D766-0EAA-2DFF-1910756CA05C">
+<createdBy>tcollier</createdBy>
+<createdTime>2025-10-21 20:20:08 UTC</createdTime>
+<generatorID>82F0D62E-82BD-E3A9-D37A-6EC0F9912034</generatorID>
+<ownerDesignName>Net_Control_Additions</ownerDesignName>
+<engineerTo>
+<item key="C119D9D8-C824-B40C-12F8-BA9037B4F1B9" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<domain>16376ACD-B919-9F79-F168-10F791E627C2</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="latitude" id="4067E199-93B3-EB99-BCCF-F889870FD96D">
+<createdBy>tcollier</createdBy>
+<createdTime>2025-10-21 20:20:08 UTC</createdTime>
+<generatorID>8E05FAF2-6742-C894-1876-5537EF6ED7AC</generatorID>
+<ownerDesignName>Net_Control_Additions</ownerDesignName>
+<engineerTo>
+<item key="C119D9D8-C824-B40C-12F8-BA9037B4F1B9" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<domain>16376ACD-B919-9F79-F168-10F791E627C2</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="longitude" id="137BA836-C57A-271E-E0BD-DB6080FB8178">
+<createdBy>tcollier</createdBy>
+<createdTime>2025-10-21 20:20:08 UTC</createdTime>
+<generatorID>F7F5E365-E57D-BE06-F2F2-01CA534CAF87</generatorID>
+<ownerDesignName>Net_Control_Additions</ownerDesignName>
+<engineerTo>
+<item key="C119D9D8-C824-B40C-12F8-BA9037B4F1B9" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<domain>16376ACD-B919-9F79-F168-10F791E627C2</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="tx frequency" id="4A2383AF-AD29-3447-C100-EA40372766DC">
+<createdBy>tcollier</createdBy>
+<createdTime>2025-10-21 20:20:08 UTC</createdTime>
+<generatorID>C7C80F88-B7D5-5C89-FDF5-85326F230182</generatorID>
+<ownerDesignName>Net_Control_Additions</ownerDesignName>
+<engineerTo>
+<item key="C119D9D8-C824-B40C-12F8-BA9037B4F1B9" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<domain>16376ACD-B919-9F79-F168-10F791E627C2</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="rx frequency" id="5CA91855-8C21-9048-6684-11735D084477">
+<createdBy>tcollier</createdBy>
+<createdTime>2025-10-21 20:20:08 UTC</createdTime>
+<generatorID>80403C9D-EDD9-F22C-CA5D-B69372AF1B41</generatorID>
+<ownerDesignName>Net_Control_Additions</ownerDesignName>
+<engineerTo>
+<item key="C119D9D8-C824-B40C-12F8-BA9037B4F1B9" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<domain>16376ACD-B919-9F79-F168-10F791E627C2</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="azimuth" id="EACFDEAD-09FB-1F84-9CF8-815D4BC3F808">
+<createdBy>tcollier</createdBy>
+<createdTime>2025-10-21 20:20:08 UTC</createdTime>
+<generatorID>D620578A-F81C-146F-72EE-46FE07A1EE6B</generatorID>
+<ownerDesignName>Net_Control_Additions</ownerDesignName>
+<engineerTo>
+<item key="C119D9D8-C824-B40C-12F8-BA9037B4F1B9" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<domain>16376ACD-B919-9F79-F168-10F791E627C2</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="elevation" id="E5C503C0-7ECB-FFE5-9ADB-EABBE85BE264">
+<createdBy>tcollier</createdBy>
+<createdTime>2025-10-21 20:20:08 UTC</createdTime>
+<generatorID>327EC3BB-A732-D3B0-C20F-653255E7B83F</generatorID>
+<ownerDesignName>Net_Control_Additions</ownerDesignName>
+<engineerTo>
+<item key="C119D9D8-C824-B40C-12F8-BA9037B4F1B9" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<domain>16376ACD-B919-9F79-F168-10F791E627C2</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="power" id="CA334DF3-31C2-B4E3-7BD5-19E195B8B14C">
+<createdBy>tcollier</createdBy>
+<createdTime>2025-10-21 20:20:08 UTC</createdTime>
+<generatorID>8FA674A8-FB75-A5C6-7CCE-8C61080403D5</generatorID>
+<ownerDesignName>Net_Control_Additions</ownerDesignName>
+<engineerTo>
+<item key="C119D9D8-C824-B40C-12F8-BA9037B4F1B9" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<domain>16376ACD-B919-9F79-F168-10F791E627C2</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="srx numeric" id="72BBCB64-4CB7-B423-B2DF-D21B70631AFE">
+<createdBy>tcollier</createdBy>
+<createdTime>2025-10-21 20:20:08 UTC</createdTime>
+<generatorID>3B01B619-AD66-C7AB-6F4E-27353E2F0C06</generatorID>
+<ownerDesignName>Net_Control_Additions</ownerDesignName>
+<engineerTo>
+<item key="C119D9D8-C824-B40C-12F8-BA9037B4F1B9" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>90015BD8-66C0-24AE-0278-E3E87E938D9F</logicalDatatype>
+<domain>B9C55F62-FDB7-1925-02A7-A963DC0653AE</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="stx numeric" id="FA254653-396A-0026-3917-FB91F49A5B98">
+<createdBy>tcollier</createdBy>
+<createdTime>2025-10-21 20:20:08 UTC</createdTime>
+<generatorID>0823A3CD-2312-0C3D-370B-59124FA5DDC8</generatorID>
+<ownerDesignName>Net_Control_Additions</ownerDesignName>
+<engineerTo>
+<item key="C119D9D8-C824-B40C-12F8-BA9037B4F1B9" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>90015BD8-66C0-24AE-0278-E3E87E938D9F</logicalDatatype>
+<domain>B9C55F62-FDB7-1925-02A7-A963DC0653AE</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="dxcc id" id="F75B4F9D-FFBD-26A5-9BA6-FDE7E67EAFF0">
+<createdBy>tcollier</createdBy>
+<createdTime>2025-10-21 20:20:08 UTC</createdTime>
+<generatorID>37E11565-896C-4239-69A4-0808D0083091</generatorID>
+<ownerDesignName>Net_Control_Additions</ownerDesignName>
+<engineerTo>
+<item key="C119D9D8-C824-B40C-12F8-BA9037B4F1B9" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>90015BD8-66C0-24AE-0278-E3E87E938D9F</logicalDatatype>
+<domain>B9C55F62-FDB7-1925-02A7-A963DC0653AE</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="contest id" id="D6E0A1D1-7C03-628F-B3FA-AABC2BAAD8C9">
+<createdBy>tcollier</createdBy>
+<createdTime>2025-10-21 20:20:08 UTC</createdTime>
+<generatorID>2A6225B7-6CA7-7084-81DF-E0F5C8439A7C</generatorID>
+<ownerDesignName>Net_Control_Additions</ownerDesignName>
+<engineerTo>
+<item key="C119D9D8-C824-B40C-12F8-BA9037B4F1B9" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="my sota" id="1B8C95ED-1546-DFF3-0AD0-6E62B8F97F28">
+<createdBy>tcollier</createdBy>
+<createdTime>2025-10-21 20:20:08 UTC</createdTime>
+<generatorID>2D29C471-2E29-DD40-955E-B74F538A6F03</generatorID>
+<ownerDesignName>Net_Control_Additions</ownerDesignName>
+<engineerTo>
+<item key="C119D9D8-C824-B40C-12F8-BA9037B4F1B9" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="skcc" id="0CEFEFCF-4765-A50E-FA17-B9DF706D2B10">
+<createdBy>tcollier</createdBy>
+<createdTime>2025-10-21 20:20:08 UTC</createdTime>
+<generatorID>7079540B-F520-3D51-68B1-893DAD1BEC39</generatorID>
+<ownerDesignName>Net_Control_Additions</ownerDesignName>
+<engineerTo>
+<item key="C119D9D8-C824-B40C-12F8-BA9037B4F1B9" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="pota" id="4D5F69DC-2B83-D13D-16DC-8E7643C1B7CD">
+<createdBy>tcollier</createdBy>
+<createdTime>2025-10-21 20:20:08 UTC</createdTime>
+<generatorID>0DE0A471-7D1C-51DC-CA8C-0657131B8FFE</generatorID>
+<ownerDesignName>Net_Control_Additions</ownerDesignName>
+<engineerTo>
+<item key="C119D9D8-C824-B40C-12F8-BA9037B4F1B9" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="my pota" id="44365A29-7BA3-C117-7D8E-0040D92CECC7">
+<createdBy>tcollier</createdBy>
+<createdTime>2025-10-21 20:20:08 UTC</createdTime>
+<generatorID>D2BF93F5-1FE0-A073-C7DC-13CF8A19DB35</generatorID>
+<ownerDesignName>Net_Control_Additions</ownerDesignName>
+<engineerTo>
+<item key="C119D9D8-C824-B40C-12F8-BA9037B4F1B9" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="wwff" id="11478257-9761-0574-0592-D962F5507D2B">
+<createdBy>tcollier</createdBy>
+<createdTime>2025-10-21 20:20:08 UTC</createdTime>
+<generatorID>C211D6B4-A9C7-0766-E515-327A04A68A10</generatorID>
+<ownerDesignName>Net_Control_Additions</ownerDesignName>
+<engineerTo>
+<item key="C119D9D8-C824-B40C-12F8-BA9037B4F1B9" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="my wwff" id="681F58F4-7AFC-FA24-958C-C1F4078A8AF8">
+<createdBy>tcollier</createdBy>
+<createdTime>2025-10-21 20:20:08 UTC</createdTime>
+<generatorID>5ABDE180-ED1B-184B-341F-CCE8D8004F40</generatorID>
+<ownerDesignName>Net_Control_Additions</ownerDesignName>
+<engineerTo>
+<item key="C119D9D8-C824-B40C-12F8-BA9037B4F1B9" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="sig" id="BB3C1C94-8EBF-A50E-3D16-472F0C28A48E">
+<createdBy>tcollier</createdBy>
+<createdTime>2025-10-21 20:20:08 UTC</createdTime>
+<generatorID>21D4DF8E-2445-99C5-417E-67712578E9D9</generatorID>
+<ownerDesignName>Net_Control_Additions</ownerDesignName>
+<engineerTo>
+<item key="C119D9D8-C824-B40C-12F8-BA9037B4F1B9" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="my sig" id="88A6ED71-35F9-C31C-AC40-4080C2A1A904">
+<createdBy>tcollier</createdBy>
+<createdTime>2025-10-21 20:20:08 UTC</createdTime>
+<generatorID>9A745E3D-1DF6-6BF0-75FE-04BF5BFEB076</generatorID>
+<ownerDesignName>Net_Control_Additions</ownerDesignName>
+<engineerTo>
+<item key="C119D9D8-C824-B40C-12F8-BA9037B4F1B9" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="sig info" id="3406CB57-7739-95F9-37D7-19F5EDFC6790">
+<createdBy>tcollier</createdBy>
+<createdTime>2025-10-21 20:20:08 UTC</createdTime>
+<generatorID>671BC9C6-9AE4-79A4-53C2-036F5EF60F9D</generatorID>
+<ownerDesignName>Net_Control_Additions</ownerDesignName>
+<engineerTo>
+<item key="C119D9D8-C824-B40C-12F8-BA9037B4F1B9" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="my sig info" id="682AC4DF-9ED2-E71D-C664-86B5475D5387">
+<createdBy>tcollier</createdBy>
+<createdTime>2025-10-21 20:20:08 UTC</createdTime>
+<generatorID>7354C49B-4050-C959-BBFB-ED20BD06ABB9</generatorID>
+<ownerDesignName>Net_Control_Additions</ownerDesignName>
+<engineerTo>
+<item key="C119D9D8-C824-B40C-12F8-BA9037B4F1B9" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ext val 1" id="6620BB3A-1A9B-6D76-F38F-4171335787F4">
+<createdBy>tcollier</createdBy>
+<createdTime>2025-10-21 20:20:08 UTC</createdTime>
+<generatorID>47B6A45E-24ED-E229-4891-9C07713E642E</generatorID>
+<ownerDesignName>Net_Control_Additions</ownerDesignName>
+<engineerTo>
+<item key="C119D9D8-C824-B40C-12F8-BA9037B4F1B9" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ext val 2" id="CC308939-2105-5C1C-8C50-533C64CD8BD7">
+<createdBy>tcollier</createdBy>
+<createdTime>2025-10-21 20:20:08 UTC</createdTime>
+<generatorID>3FAAE67E-2B25-8D26-6F5B-4A7FC282655D</generatorID>
+<ownerDesignName>Net_Control_Additions</ownerDesignName>
+<engineerTo>
+<item key="C119D9D8-C824-B40C-12F8-BA9037B4F1B9" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ext val 3" id="142150DF-A3C2-A36B-0182-93F16FED39D8">
+<createdBy>tcollier</createdBy>
+<createdTime>2025-10-21 20:20:08 UTC</createdTime>
+<generatorID>2E1C79BB-1254-7D6E-EF2D-BF07902F4A77</generatorID>
+<ownerDesignName>Net_Control_Additions</ownerDesignName>
+<engineerTo>
+<item key="C119D9D8-C824-B40C-12F8-BA9037B4F1B9" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ext val 4" id="A1CF8B92-E94C-B431-4FB3-B5F564B5F994">
+<createdBy>tcollier</createdBy>
+<createdTime>2025-10-21 20:20:08 UTC</createdTime>
+<generatorID>4BB430DA-E0A4-849A-7D8A-5CB7409AAEEF</generatorID>
+<ownerDesignName>Net_Control_Additions</ownerDesignName>
+<engineerTo>
+<item key="C119D9D8-C824-B40C-12F8-BA9037B4F1B9" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="distance" id="B72D3044-84C1-3137-A827-0E7A315BF483">
+<createdBy>tcollier</createdBy>
+<createdTime>2025-10-21 20:20:08 UTC</createdTime>
+<generatorID>AF21D8EB-AFB0-89AC-4BA8-878F1E9FE908</generatorID>
+<ownerDesignName>Net_Control_Additions</ownerDesignName>
+<engineerTo>
+<item key="C119D9D8-C824-B40C-12F8-BA9037B4F1B9" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<domain>16376ACD-B919-9F79-F168-10F791E627C2</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+</Entity>

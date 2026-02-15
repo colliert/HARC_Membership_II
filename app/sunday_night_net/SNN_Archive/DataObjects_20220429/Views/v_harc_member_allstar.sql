@@ -1,0 +1,14 @@
+CREATE VIEW v_harc_member_allstar AS select 
+t_harc_member_allstar.mem_call
+,t_harc_member_allstar.node_num
+,t_harc_member_allstar.node_ext
+,t_harc_member_allstar.node_id
+,t_harc_member_allstar.node_freq
+,t_harc_member_allstar.node_tone
+,t_harc_member_allstar.node_location
+,t_harc_member_allstar.node_country
+,t_harc_member_allstar.node_site_nam
+,t_harc_member_allstar.node_affiliation
+,t_harc_member_allstar.node_eff_dat
+ from t_harc_member_allstar;
+

@@ -1,0 +1,114 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<EntityView class="oracle.dbtools.crest.model.design.logical.EntityView" directorySegmentName="seg_0" id="F438A85B-9CF4-60B7-ADB6-5DDECF13D35E" name="HARC Additional QSO Details View">
+<createdBy>tcollier</createdBy>
+<createdTime>2019-07-12 21:29:44 UTC</createdTime>
+<ownerDesignName>MacLoggerDX_Project</ownerDesignName>
+<engineerTo>
+<item key="FC57F434-133F-87AF-675A-2915278B34DE" value="true"/>
+</engineerTo>
+<userDefined>true</userDefined>
+<userDefinedSQL>select *&lt;br/&gt;from &quot;HARC Additional QSO Details&quot;;</userDefinedSQL>
+<parsed>true</parsed>
+<viewType>EntityView</viewType>
+<usedContainers>
+<container containerID="F2CF089E-B065-667A-5867-B2BD6ECC5FA4"/>
+</usedContainers>
+<viewElements>
+<viewElement class="oracle.dbtools.crest.model.design.logical.AttributeView" name="Primary Key" id="F98A2D6B-EA62-4440-B997-D202E219D49A">
+<createdBy>tcollier</createdBy>
+<createdTime>2019-07-12 21:30:37 UTC</createdTime>
+<ownerDesignName>MacLoggerDX_Project</ownerDesignName>
+<engineerTo>
+<item key="FC57F434-133F-87AF-675A-2915278B34DE" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>INTEGER</dataType>
+<reference>false</reference>
+<referencedColumn>F9B8E1FE-B384-2B6E-779E-E8CFF3EE18A2</referencedColumn>
+<table>F2CF089E-B065-667A-5867-B2BD6ECC5FA4</table>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.logical.AttributeView" name="Repeater Code" id="919D02D8-126D-E415-D087-A5E5FE0CC337">
+<createdBy>tcollier</createdBy>
+<createdTime>2019-07-12 21:30:37 UTC</createdTime>
+<ownerDesignName>MacLoggerDX_Project</ownerDesignName>
+<engineerTo>
+<item key="FC57F434-133F-87AF-675A-2915278B34DE" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>CHAR</dataType>
+<reference>false</reference>
+<referencedColumn>BA942337-93CB-2151-A8B4-A93FA8CF0A5A</referencedColumn>
+<table>F2CF089E-B065-667A-5867-B2BD6ECC5FA4</table>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.logical.AttributeView" name="Radio Type Code" id="616C2C65-5F6E-ABB3-958F-9A2F45341409">
+<createdBy>tcollier</createdBy>
+<createdTime>2019-07-12 21:30:37 UTC</createdTime>
+<ownerDesignName>MacLoggerDX_Project</ownerDesignName>
+<engineerTo>
+<item key="FC57F434-133F-87AF-675A-2915278B34DE" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>INTEGER</dataType>
+<reference>false</reference>
+<referencedColumn>08C8975B-1CEA-AE2A-C0E6-8F46A267AAF7</referencedColumn>
+<table>F2CF089E-B065-667A-5867-B2BD6ECC5FA4</table>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.logical.AttributeView" name="Power Type Code" id="3A965A82-9878-DBD6-380E-2011EBE087CF">
+<createdBy>tcollier</createdBy>
+<createdTime>2019-07-12 21:30:37 UTC</createdTime>
+<ownerDesignName>MacLoggerDX_Project</ownerDesignName>
+<engineerTo>
+<item key="FC57F434-133F-87AF-675A-2915278B34DE" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>INTEGER</dataType>
+<reference>false</reference>
+<referencedColumn>AB96F9FF-14FB-8E87-30D1-6A179B9F35B9</referencedColumn>
+<table>F2CF089E-B065-667A-5867-B2BD6ECC5FA4</table>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.logical.AttributeView" name="Antenna Type Code" id="2B2969CF-F589-AA9B-50A8-072D18ABD30D">
+<createdBy>tcollier</createdBy>
+<createdTime>2019-07-12 21:30:37 UTC</createdTime>
+<ownerDesignName>MacLoggerDX_Project</ownerDesignName>
+<engineerTo>
+<item key="FC57F434-133F-87AF-675A-2915278B34DE" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>INTEGER</dataType>
+<reference>false</reference>
+<referencedColumn>4AE117EE-72A5-FD14-4FEE-F63BEA217998</referencedColumn>
+<table>F2CF089E-B065-667A-5867-B2BD6ECC5FA4</table>
+</viewElement>
+</viewElements>
+<usedObjects>
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="F2CF089E-B065-667A-5867-B2BD6ECC5FA4">
+<container>true</container>
+<tableName>HARC Additional QSO Details</tableName>
+</UsedObject>
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="F9B8E1FE-B384-2B6E-779E-E8CFF3EE18A2">
+<columnName>Primary Key</columnName>
+<tableName>HARC Additional QSO Details</tableName>
+</UsedObject>
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="BA942337-93CB-2151-A8B4-A93FA8CF0A5A">
+<columnName>Repeater Code</columnName>
+<tableName>HARC Additional QSO Details</tableName>
+</UsedObject>
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="08C8975B-1CEA-AE2A-C0E6-8F46A267AAF7">
+<columnName>Radio Type Code</columnName>
+<tableName>HARC Additional QSO Details</tableName>
+</UsedObject>
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="AB96F9FF-14FB-8E87-30D1-6A179B9F35B9">
+<columnName>Power Type Code</columnName>
+<tableName>HARC Additional QSO Details</tableName>
+</UsedObject>
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="4AE117EE-72A5-FD14-4FEE-F63BEA217998">
+<columnName>Antenna Type Code</columnName>
+<tableName>HARC Additional QSO Details</tableName>
+</UsedObject>
+</usedObjects>
+</EntityView>

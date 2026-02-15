@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<LogicalDesign class="oracle.dbtools.crest.model.design.logical.LogicalDesign" name="Logical" id="0F7200E4-2F92-3F0D-737C-A3749EC58ABD" mainViewID="0C00928A-BF0C-657B-4390-CD1CC1EAB5DA">
+<createdBy>tcollier</createdBy>
+<createdTime>2023-12-10 01:27:13 UTC</createdTime>
+<ownerDesignName>HARC_SNN_Data_Model_V3</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</LogicalDesign>

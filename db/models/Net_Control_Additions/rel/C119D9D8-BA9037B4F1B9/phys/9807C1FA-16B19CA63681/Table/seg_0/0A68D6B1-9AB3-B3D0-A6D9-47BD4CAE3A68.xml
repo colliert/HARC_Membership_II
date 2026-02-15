@@ -1,0 +1,223 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev9i class="oracle.dbtools.crest.model.design.storage.oracle.v9i.TableProxyOraclev9i" name="t_hcol_export" directorySegmentName="seg_0" id="0A68D6B1-9AB3-B3D0-A6D9-47BD4CAE3A68">
+<createdBy>tcollier</createdBy>
+<createdTime>2025-10-21 20:47:14 UTC</createdTime>
+<ownerDesignName>Net_Control_Additions</ownerDesignName>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="mem_exp_dat" id="030CE9E5-FD8D-EFB5-BBF5-73FD268081C0">
+<createdBy>tcollier</createdBy>
+<createdTime>2025-10-21 20:47:14 UTC</createdTime>
+<ownerDesignName>Net_Control_Additions</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="club_email" id="03510EF3-C82E-D141-29CF-82F4B6DAE40E">
+<createdBy>tcollier</createdBy>
+<createdTime>2025-10-21 20:47:14 UTC</createdTime>
+<ownerDesignName>Net_Control_Additions</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="club_pos" id="06C54CE9-30EC-A24A-0841-EC24BD81DA3B">
+<createdBy>tcollier</createdBy>
+<createdTime>2025-10-21 20:47:14 UTC</createdTime>
+<ownerDesignName>Net_Control_Additions</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="zip" id="070CA1A8-AEC4-6655-3BD9-1A5FF9E8FD45">
+<createdBy>tcollier</createdBy>
+<createdTime>2025-10-21 20:47:14 UTC</createdTime>
+<ownerDesignName>Net_Control_Additions</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="role_cnt" id="07962F66-11C8-D6E1-1D57-772E7A2B3334">
+<createdBy>tcollier</createdBy>
+<createdTime>2025-10-21 20:47:14 UTC</createdTime>
+<ownerDesignName>Net_Control_Additions</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="club_bal" id="0A3CA5F8-1734-CEB7-BE0A-541D86F9D474">
+<createdBy>tcollier</createdBy>
+<createdTime>2025-10-21 20:47:14 UTC</createdTime>
+<ownerDesignName>Net_Control_Additions</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="lon" id="0D81A716-40AB-91F0-26D1-75821EC9A9D5">
+<createdBy>tcollier</createdBy>
+<createdTime>2025-10-21 20:47:14 UTC</createdTime>
+<ownerDesignName>Net_Control_Additions</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="phone_alt_pub" id="1D42A578-6D0D-B7D9-F487-5E9D269FCFA6">
+<createdBy>tcollier</createdBy>
+<createdTime>2025-10-21 20:47:14 UTC</createdTime>
+<ownerDesignName>Net_Control_Additions</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="left_dat" id="1EA6B3AC-E122-2B8D-5493-44636C496CF9">
+<createdBy>tcollier</createdBy>
+<createdTime>2025-10-21 20:47:14 UTC</createdTime>
+<ownerDesignName>Net_Control_Additions</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="club_rank" id="2405BC0A-597E-735F-AD44-082F55C0190C">
+<createdBy>tcollier</createdBy>
+<createdTime>2025-10-21 20:47:14 UTC</createdTime>
+<ownerDesignName>Net_Control_Additions</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="phone_pri_typ" id="26D495DF-A662-8CAC-815A-E3BC89424530">
+<createdBy>tcollier</createdBy>
+<createdTime>2025-10-21 20:47:14 UTC</createdTime>
+<ownerDesignName>Net_Control_Additions</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="street" id="38A74FCD-C4DF-51A8-02EF-13B1F663ED46">
+<createdBy>tcollier</createdBy>
+<createdTime>2025-10-21 20:47:14 UTC</createdTime>
+<ownerDesignName>Net_Control_Additions</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="l_nam" id="571CA1A2-0FA2-EC38-B588-47EE7836A47A">
+<createdBy>tcollier</createdBy>
+<createdTime>2025-10-21 20:47:14 UTC</createdTime>
+<ownerDesignName>Net_Control_Additions</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="country_cd" id="575C8C5D-3D48-A134-D546-D1FE9392FC80">
+<createdBy>tcollier</createdBy>
+<createdTime>2025-10-21 20:47:14 UTC</createdTime>
+<ownerDesignName>Net_Control_Additions</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="hcol_email_stat" id="5B82EC06-1A7F-9A88-F82B-1DABC66A9401">
+<createdBy>tcollier</createdBy>
+<createdTime>2025-10-21 20:47:14 UTC</createdTime>
+<ownerDesignName>Net_Control_Additions</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="lic_exp_dat" id="62EB3C76-3B55-10AE-3715-AFCB61AAF962">
+<createdBy>tcollier</createdBy>
+<createdTime>2025-10-21 20:47:14 UTC</createdTime>
+<ownerDesignName>Net_Control_Additions</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="phone_alt_typ" id="63321738-CBB8-1E17-5FE1-5927DC2E2E7D">
+<createdBy>tcollier</createdBy>
+<createdTime>2025-10-21 20:47:14 UTC</createdTime>
+<ownerDesignName>Net_Control_Additions</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="city" id="65ACB4DD-869F-33BF-A224-2C0D81DDF1A9">
+<createdBy>tcollier</createdBy>
+<createdTime>2025-10-21 20:47:14 UTC</createdTime>
+<ownerDesignName>Net_Control_Additions</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="lst_login" id="675A9E55-0581-DE15-1F8F-A47CDC4E9259">
+<createdBy>tcollier</createdBy>
+<createdTime>2025-10-21 20:47:14 UTC</createdTime>
+<ownerDesignName>Net_Control_Additions</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="join_dat" id="7285C340-9E1D-A48E-8FA3-2FD5F46F52B3">
+<createdBy>tcollier</createdBy>
+<createdTime>2025-10-21 20:47:14 UTC</createdTime>
+<ownerDesignName>Net_Control_Additions</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="dob" id="7515EA7E-A113-F359-739C-DAD86D5F5AED">
+<createdBy>tcollier</createdBy>
+<createdTime>2025-10-21 20:47:14 UTC</createdTime>
+<ownerDesignName>Net_Control_Additions</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="priv_mem" id="8B77432D-E347-8F29-E175-FB1E55378D79">
+<createdBy>tcollier</createdBy>
+<createdTime>2025-10-21 20:47:14 UTC</createdTime>
+<ownerDesignName>Net_Control_Additions</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="phone_pri" id="9064B38A-0A45-C311-124B-D7372419C4B0">
+<createdBy>tcollier</createdBy>
+<createdTime>2025-10-21 20:47:14 UTC</createdTime>
+<ownerDesignName>Net_Control_Additions</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="lic_cls" id="92E20F78-9A39-1600-97A3-187BF9F63BDE">
+<createdBy>tcollier</createdBy>
+<createdTime>2025-10-21 20:47:14 UTC</createdTime>
+<ownerDesignName>Net_Control_Additions</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="f_nam" id="944A7863-7CFE-45A5-D612-6C5A636A0FC9">
+<createdBy>tcollier</createdBy>
+<createdTime>2025-10-21 20:47:14 UTC</createdTime>
+<ownerDesignName>Net_Control_Additions</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="roster" id="956BF816-FF28-B835-D6C6-9CD9C4D3CA50">
+<createdBy>tcollier</createdBy>
+<createdTime>2025-10-21 20:47:14 UTC</createdTime>
+<ownerDesignName>Net_Control_Additions</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="elev" id="9E4CD7B8-DE5E-98B1-3ABF-75E50E81A6B8">
+<createdBy>tcollier</createdBy>
+<createdTime>2025-10-21 20:47:14 UTC</createdTime>
+<ownerDesignName>Net_Control_Additions</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="lic_num" id="A5917080-C461-F3B0-A646-54DAED4B2659">
+<createdBy>tcollier</createdBy>
+<createdTime>2025-10-21 20:47:14 UTC</createdTime>
+<ownerDesignName>Net_Control_Additions</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="club_email_stat" id="ABCF37EC-E8F8-61A0-478B-F5E148D0E442">
+<createdBy>tcollier</createdBy>
+<createdTime>2025-10-21 20:47:14 UTC</createdTime>
+<ownerDesignName>Net_Control_Additions</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="tz" id="AF463DD8-2721-E169-569C-473330F47156">
+<createdBy>tcollier</createdBy>
+<createdTime>2025-10-21 20:47:14 UTC</createdTime>
+<ownerDesignName>Net_Control_Additions</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="mem_typ" id="B17C87FE-97E7-3E0E-1F15-559AED4E0A3B">
+<createdBy>tcollier</createdBy>
+<createdTime>2025-10-21 20:47:14 UTC</createdTime>
+<ownerDesignName>Net_Control_Additions</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="st" id="BA4F85E2-6ED9-81AA-C194-28987C6DBA36">
+<createdBy>tcollier</createdBy>
+<createdTime>2025-10-21 20:47:14 UTC</createdTime>
+<ownerDesignName>Net_Control_Additions</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="phone_pri_pub" id="BC3D5753-CDCB-8837-AD41-FCCC6986A9BE">
+<createdBy>tcollier</createdBy>
+<createdTime>2025-10-21 20:47:14 UTC</createdTime>
+<ownerDesignName>Net_Control_Additions</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="dele" id="C5D869CD-8C4E-F3B2-E5A1-D73DB65F42F3">
+<createdBy>tcollier</createdBy>
+<createdTime>2025-10-21 20:47:14 UTC</createdTime>
+<ownerDesignName>Net_Control_Additions</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="lat" id="C8F44CEA-9113-2398-743D-9C247281236B">
+<createdBy>tcollier</createdBy>
+<createdTime>2025-10-21 20:47:14 UTC</createdTime>
+<ownerDesignName>Net_Control_Additions</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="lic_agncy" id="CA1ED5A8-D9A0-BF92-DEC5-6B58407A507C">
+<createdBy>tcollier</createdBy>
+<createdTime>2025-10-21 20:47:14 UTC</createdTime>
+<ownerDesignName>Net_Control_Additions</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="hcol_email" id="CCB44847-3D33-724F-F312-75D8CCC99400">
+<createdBy>tcollier</createdBy>
+<createdTime>2025-10-21 20:47:14 UTC</createdTime>
+<ownerDesignName>Net_Control_Additions</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="call" id="CD31CC2B-C24E-AD15-B67E-B563AA832E9C">
+<createdBy>tcollier</createdBy>
+<createdTime>2025-10-21 20:47:14 UTC</createdTime>
+<ownerDesignName>Net_Control_Additions</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="emer_cntct" id="D195DD94-86B0-3569-897D-404735C67762">
+<createdBy>tcollier</createdBy>
+<createdTime>2025-10-21 20:47:14 UTC</createdTime>
+<ownerDesignName>Net_Control_Additions</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="phone_alt" id="D7597972-1ADD-36A1-8E5C-4D3B49B53B1B">
+<createdBy>tcollier</createdBy>
+<createdTime>2025-10-21 20:47:14 UTC</createdTime>
+<ownerDesignName>Net_Control_Additions</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="mem_num" id="FB235313-13AB-4C20-302E-5717EF1A567D">
+<createdBy>tcollier</createdBy>
+<createdTime>2025-10-21 20:47:14 UTC</createdTime>
+<ownerDesignName>Net_Control_Additions</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="pref_nam" id="FF116514-6AEA-FB6B-7AF7-98A3614AB7FA">
+<createdBy>tcollier</createdBy>
+<createdTime>2025-10-21 20:47:14 UTC</createdTime>
+<ownerDesignName>Net_Control_Additions</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+</TableProxyOraclev9i>

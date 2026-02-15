@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Opt_Addl_QSO_Info" directorySegmentName="seg_0" id="A532D08C-07A0-088A-CD0D-E4969E1E003D">
+<createdBy>tcollier</createdBy>
+<createdTime>2019-07-03 22:25:10 UTC</createdTime>
+<ownerDesignName>MacLoggerDX_Project</ownerDesignName>
+<engineerTo>
+<item key="FC57F434-133F-87AF-675A-2915278B34DE" value="true"/>
+</engineerTo>
+<sourcePk>91505499-A9B9-7355-7DBF-F961D1F8F878</sourcePk>
+<identifying>true</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>A4BB377A-48F1-C1DA-38CA-64F38DEA6C3E</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>F2CF089E-B065-667A-5867-B2BD6ECC5FA4</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

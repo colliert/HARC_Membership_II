@@ -1,0 +1,40 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<EntityView class="oracle.dbtools.crest.model.design.logical.EntityView" directorySegmentName="seg_0" id="B1EEC827-9EB6-74A4-9FF0-A79E3962B1D4" name="v current call out cutoff days">
+<createdBy>tcollier</createdBy>
+<createdTime>2020-10-30 17:47:38 UTC</createdTime>
+<generatorID>83BAABAC-F6F5-D01E-BB15-71B49ED772B3</generatorID>
+<ownerDesignName>SNN_data_model</ownerDesignName>
+<engineerTo>
+<item key="AF3E3F20-8AFD-D45A-FD64-95FBA8FAE7F0" value="true"/>
+<item key="31E5524C-62D2-47CA-ED22-956AD4BDA5C7" value="true"/>
+</engineerTo>
+<userDefined>true</userDefined>
+<userDefinedSQL><![CDATA[SELECT num_days AS current_num_days
+      FROM v_call_out_cutoff_days
+     WHERE dat_est = 
+                     (
+                         SELECT max(dat_est)
+                           FROM v_call_out_cutoff_days
+                     )]]></userDefinedSQL>
+<validSQL>false</validSQL>
+<viewType>EntityView</viewType>
+<viewElements>
+<viewElement class="oracle.dbtools.crest.model.design.logical.AttributeView" name="current_num_days" id="07963544-4037-5150-6881-ADD1DA3BC94A">
+<createdBy>tcollier</createdBy>
+<createdTime>2020-10-30 17:47:38 UTC</createdTime>
+<generatorID>35B29D89-9720-E9C9-EF37-F528DC1351B0</generatorID>
+<ownerDesignName>MacLoggerDX_SQLite_DB</ownerDesignName>
+<engineerTo>
+<item key="AF3E3F20-8AFD-D45A-FD64-95FBA8FAE7F0" value="true"/>
+<item key="31E5524C-62D2-47CA-ED22-956AD4BDA5C7" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<alias>current_num_days</alias>
+<dataType>INTEGER</dataType>
+<reference>false</reference>
+<referencedColumn>F2825D84-3D58-57BF-972F-7E52959A6CE7</referencedColumn>
+<viewID>B1EEC827-9EB6-74A4-9FF0-A79E3962B1D4</viewID>
+</viewElement>
+</viewElements>
+</EntityView>

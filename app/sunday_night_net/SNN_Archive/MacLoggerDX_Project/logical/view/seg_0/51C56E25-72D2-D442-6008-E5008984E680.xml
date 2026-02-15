@@ -1,0 +1,97 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<EntityView class="oracle.dbtools.crest.model.design.logical.EntityView" directorySegmentName="seg_0" id="51C56E25-72D2-D442-6008-E5008984E680" name="HARC Membership View">
+<createdBy>tcollier</createdBy>
+<createdTime>2019-07-12 21:19:18 UTC</createdTime>
+<ownerDesignName>MacLoggerDX_Project</ownerDesignName>
+<engineerTo>
+<item key="FC57F434-133F-87AF-675A-2915278B34DE" value="true"/>
+</engineerTo>
+<userDefined>true</userDefined>
+<userDefinedSQL>SELECT&lt;br/&gt;    *&lt;br/&gt;FROM&lt;br/&gt;    &quot;HARC Membership&quot;</userDefinedSQL>
+<layoutSQL>&lt;?xml version = &apos;1.0&apos; encoding = &apos;UTF-8&apos;?&gt;&lt;br/&gt;&lt;ActiveQueryBuilderLayout&gt;&lt;SQL&gt;Select * From &quot;HARC Membership&quot;&lt;/SQL&gt;&lt;SubQueries&gt;&lt;SubQuery SQL=&quot;Select * From &amp;amp;quot;HARC Membership&amp;amp;quot;&quot;&gt;&lt;UnionSubQuery&gt;&lt;DataSource SQL=&quot;&amp;amp;quot;HARC Membership&amp;amp;quot;&quot; X=&quot;50&quot; Y=&quot;20&quot; Height=&quot;112&quot; Width=&quot;140&quot;/&gt;&lt;/UnionSubQuery&gt;&lt;/SubQuery&gt;&lt;/SubQueries&gt;&lt;/ActiveQueryBuilderLayout&gt;</layoutSQL>
+<parsed>true</parsed>
+<viewType>EntityView</viewType>
+<usedContainers>
+<container containerID="8C8F8A5C-7362-E268-F6B3-39F6C8F775A0"/>
+</usedContainers>
+<viewElements>
+<viewElement class="oracle.dbtools.crest.model.design.logical.AttributeView" name="Member Call Sign" id="8F44C7A1-3575-FDEA-1540-59D4E34C0015">
+<createdBy>tcollier</createdBy>
+<createdTime>2019-07-12 21:20:40 UTC</createdTime>
+<ownerDesignName>MacLoggerDX_Project</ownerDesignName>
+<engineerTo>
+<item key="FC57F434-133F-87AF-675A-2915278B34DE" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>CHAR</dataType>
+<reference>false</reference>
+<referencedColumn>1C452569-9A56-A0D9-EC9D-AE36384EA3A1</referencedColumn>
+<table>8C8F8A5C-7362-E268-F6B3-39F6C8F775A0</table>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.logical.AttributeView" name="Member First Name" id="F610453F-A981-DB1C-FC24-DEA621763AB1">
+<createdBy>tcollier</createdBy>
+<createdTime>2019-07-12 21:20:40 UTC</createdTime>
+<ownerDesignName>MacLoggerDX_Project</ownerDesignName>
+<engineerTo>
+<item key="FC57F434-133F-87AF-675A-2915278B34DE" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>CHAR</dataType>
+<reference>false</reference>
+<referencedColumn>9986AD63-E04F-EFF0-45CA-29B6D1E1D13F</referencedColumn>
+<table>8C8F8A5C-7362-E268-F6B3-39F6C8F775A0</table>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.logical.AttributeView" name="Member Middle Name" id="E47EC34F-C33C-8D0F-42B5-D00EBEAF9623">
+<createdBy>tcollier</createdBy>
+<createdTime>2019-07-12 21:20:40 UTC</createdTime>
+<ownerDesignName>MacLoggerDX_Project</ownerDesignName>
+<engineerTo>
+<item key="FC57F434-133F-87AF-675A-2915278B34DE" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>CHAR</dataType>
+<reference>false</reference>
+<referencedColumn>67F25766-7FE1-A8C7-AB73-BA7B47AFCF08</referencedColumn>
+<table>8C8F8A5C-7362-E268-F6B3-39F6C8F775A0</table>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.logical.AttributeView" name="Member Last Name" id="94C49C2B-7886-51BD-769D-4A57535921C0">
+<createdBy>tcollier</createdBy>
+<createdTime>2019-07-12 21:20:40 UTC</createdTime>
+<ownerDesignName>MacLoggerDX_Project</ownerDesignName>
+<engineerTo>
+<item key="FC57F434-133F-87AF-675A-2915278B34DE" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>CHAR</dataType>
+<reference>false</reference>
+<referencedColumn>9D535688-3F56-43ED-7F15-4F9429F100AD</referencedColumn>
+<table>8C8F8A5C-7362-E268-F6B3-39F6C8F775A0</table>
+</viewElement>
+</viewElements>
+<usedObjects>
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="8C8F8A5C-7362-E268-F6B3-39F6C8F775A0">
+<container>true</container>
+<tableName>HARC Membership</tableName>
+</UsedObject>
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="1C452569-9A56-A0D9-EC9D-AE36384EA3A1">
+<columnName>Member Call Sign</columnName>
+<tableName>HARC Membership</tableName>
+</UsedObject>
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="9986AD63-E04F-EFF0-45CA-29B6D1E1D13F">
+<columnName>Member First Name</columnName>
+<tableName>HARC Membership</tableName>
+</UsedObject>
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="67F25766-7FE1-A8C7-AB73-BA7B47AFCF08">
+<columnName>Member Middle Name</columnName>
+<tableName>HARC Membership</tableName>
+</UsedObject>
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="9D535688-3F56-43ED-7F15-4F9429F100AD">
+<columnName>Member Last Name</columnName>
+<tableName>HARC Membership</tableName>
+</UsedObject>
+</usedObjects>
+</EntityView>

@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="E019A4D5-C2C0-8612-26E2-AD8AF0D73422" containerWithKeyObject="473E44AC-1C24-EFFA-DBED-2911910DC9AE" localFKIndex="5127BBEB-EC9D-9E7E-4BFD-FDD00F73DC01" name="t_harc_add_qso_details_t_rptr_FK">
+<sourceDDLFile>MacLoggerDX_DDL_TMP.sql</sourceDDLFile>
+<createdBy>tcollier</createdBy>
+<createdTime>2020-10-28 19:34:38 UTC</createdTime>
+<ownerDesignName>HARC_SNN_Redesign_Data_Model</ownerDesignName>
+<importedID>2AC8F482-BAF7-9870-2138-57D29FFAC34D</importedID>
+<referredTableLongName>t_rptr</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>981D8DFC-AAF2-7173-5CA6-DC0C28F1601D</referredTableID>
+<keyObject>BC240BCE-74F1-D0CA-4136-0D474408B07E</keyObject>
+<referredKeyID>BC240BCE-74F1-D0CA-4136-0D474408B07E</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>rptr_cd</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

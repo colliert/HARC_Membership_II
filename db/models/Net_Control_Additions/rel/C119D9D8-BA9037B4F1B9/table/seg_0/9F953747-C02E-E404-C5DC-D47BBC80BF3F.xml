@@ -1,0 +1,50 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="9F953747-C02E-E404-C5DC-D47BBC80BF3F" name="t_nco_operator">
+<createdBy>tcollier</createdBy>
+<createdTime>2025-10-21 20:47:14 UTC</createdTime>
+<generatorID>E27B8A8E-A372-E16A-31E6-F2EECCB65985</generatorID>
+<ownerDesignName>Net_Control_Additions</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="pers_call" id="6B96B3BD-2C7D-7EFF-7E46-04503B58FA41">
+<createdBy>tcollier</createdBy>
+<createdTime>2025-10-21 20:47:14 UTC</createdTime>
+<generatorID>50A75033-A8CE-07E3-6FCF-3254F43E93CC</generatorID>
+<ownerDesignName>Net_Control_Additions</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="652F6597-C534-E7E2-7D07-36AEEDADE755" referredColumn="3FCCDA2A-85F1-9C88-F487-5E126CA3B71E"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="9B0A8908-A26C-9DDF-5FE2-9451DA6413A1" name="t_nco_operator_PK">
+<createdBy>tcollier</createdBy>
+<createdTime>2025-10-21 20:47:14 UTC</createdTime>
+<generatorID>6EED66B5-3421-AF1B-6686-69FDE430CF67</generatorID>
+<ownerDesignName>Net_Control_Additions</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6B96B3BD-2C7D-7EFF-7E46-04503B58FA41"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="16D32FFB-8287-BCF6-923A-E1DBD7E2B99F" name="t_nco_operator_t_pers_FK">
+<createdBy>tcollier</createdBy>
+<createdTime>2025-10-21 20:47:14 UTC</createdTime>
+<generatorID>5AB1B609-7A84-2A59-D7C1-BD9137608BC0</generatorID>
+<ownerDesignName>Net_Control_Additions</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6B96B3BD-2C7D-7EFF-7E46-04503B58FA41"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

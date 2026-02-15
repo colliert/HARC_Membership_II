@@ -1,0 +1,181 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="9E23ECF8-44A1-F83B-85A6-FE04276A5F9D" name="is_Club_Member">
+<createdBy>tcollier</createdBy>
+<createdTime>2024-02-08 23:51:45 UTC</createdTime>
+<generatorID>608EDC73-E876-ECB0-2954-DC52758EEFA5</generatorID>
+<ownerDesignName>HARC_SNN_Data_Model_V3_TOBE</ownerDesignName>
+<ordsAlias>club_member</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Callsign" id="FD9919A7-7744-8960-A87E-1D8438744E82">
+<createdBy>tcollier</createdBy>
+<createdTime>2024-02-08 23:51:45 UTC</createdTime>
+<generatorID>60A8FDB1-E4D3-7AFA-6535-A3A5F75DCC62</generatorID>
+<ownerDesignName>HARC_SNN_Data_Model_V3_TOBE</ownerDesignName>
+<use>0</use>
+<logicalDatatype>B2E81DEA-F097-0C6E-D82D-2109375E9C22</logicalDatatype>
+<domain>73126A39-BD86-8A25-4735-CA06D2B702BB</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<abbreviation>call</abbreviation>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="FB2675B5-EDB1-8978-F95D-C5C030002921" referredColumn="E4C176F0-1D5A-A1FC-D522-87AA34FF2E9D"/>
+</associations>
+</Column>
+<Column name="t_pers_Person_Type_Code" id="17DE927D-DFE1-5D38-7E34-6FB98A37DCDD">
+<createdBy>tcollier</createdBy>
+<createdTime>2024-02-08 23:51:45 UTC</createdTime>
+<generatorID>B04C025D-71A9-71C5-E514-2C78D2C48FD8</generatorID>
+<ownerDesignName>HARC_SNN_Data_Model_V3_TOBE</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>90015BD8-66C0-24AE-0278-E3E87E938D9F</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<abbreviation>t_pers_pers_typ_cd</abbreviation>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="is_a_Club_Member_Old_Callsign_t_pers_Callsign" id="4B6448E2-EB40-1FBB-C3DF-313FD99A2280">
+<createdBy>tcollier</createdBy>
+<createdTime>2024-02-14 21:44:11 UTC</createdTime>
+<generatorID>60A8FDB1-E4D3-7AFA-6535-A3A5F75DCC62</generatorID>
+<ownerDesignName>HARC_SNN_Data_Model_V3_TOBE</ownerDesignName>
+<use>0</use>
+<logicalDatatype>B2E81DEA-F097-0C6E-D82D-2109375E9C22</logicalDatatype>
+<domain>73126A39-BD86-8A25-4735-CA06D2B702BB</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<abbreviation>is_a_Club_mem_Old_call_t_pers_call</abbreviation>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="91A24190-3DF1-9782-72E4-78C1AC24EBA4" referredColumn="C4E0BF20-3298-8BBD-CE15-E811559C0C83"/>
+</associations>
+</Column>
+<Column name="is_a_Club_Member_Old_Callsign_t_pers_Person_Type_Code" id="08F57EF5-ED17-FED9-3AE9-527D081A9B09">
+<createdBy>tcollier</createdBy>
+<createdTime>2024-02-14 21:44:11 UTC</createdTime>
+<ownerDesignName>HARC_SNN_Data_Model_V3_TOBE</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>90015BD8-66C0-24AE-0278-E3E87E938D9F</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<abbreviation>is_a_Club_mem_Old_call_t_pers_pers_typ_cd</abbreviation>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="91A24190-3DF1-9782-72E4-78C1AC24EBA4" referredColumn="C08B7E70-88E4-2527-E910-E82F8FF8ACC5"/>
+</associations>
+</Column>
+<Column name="is_a_Club_Member_Current_Callsign_t_pers_Callsign" id="80CE312B-A0A2-F15E-1615-F35024C71A11">
+<createdBy>tcollier</createdBy>
+<createdTime>2024-02-14 21:44:11 UTC</createdTime>
+<generatorID>60A8FDB1-E4D3-7AFA-6535-A3A5F75DCC62</generatorID>
+<ownerDesignName>HARC_SNN_Data_Model_V3_TOBE</ownerDesignName>
+<use>0</use>
+<logicalDatatype>B2E81DEA-F097-0C6E-D82D-2109375E9C22</logicalDatatype>
+<domain>73126A39-BD86-8A25-4735-CA06D2B702BB</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<abbreviation>is_a_Club_mem_cur_call_t_pers_call</abbreviation>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="04DF0AD4-75E2-DC39-7E6E-8A92E766C11F" referredColumn="55B52D65-F297-8D6D-FCDC-2F1AF331ACDB"/>
+</associations>
+</Column>
+<Column name="is_a_Club_Member_Current_Callsign_t_pers_Person_Type_Code" id="06217A15-3781-BFB1-5CD7-A7BDEF64ED3B">
+<createdBy>tcollier</createdBy>
+<createdTime>2024-02-14 21:44:11 UTC</createdTime>
+<ownerDesignName>HARC_SNN_Data_Model_V3_TOBE</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>90015BD8-66C0-24AE-0278-E3E87E938D9F</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<abbreviation>is_a_Club_mem_cur_call_t_pers_pers_typ_cd</abbreviation>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="04DF0AD4-75E2-DC39-7E6E-8A92E766C11F" referredColumn="33890CC1-2408-700E-D0A8-CFCD093D387B"/>
+</associations>
+</Column>
+<Column name="t_pers_Person_Type_Code1" id="64BB02D6-4032-DFF5-4132-0C80FFD52200">
+<createdBy>tcollier</createdBy>
+<createdTime>2024-04-30 21:02:34 UTC</createdTime>
+<generatorID>9CE3F1B9-C450-7018-37B6-930A57EC5BB9</generatorID>
+<ownerDesignName>HARC_SNN_Data_Model_V3_TOBE</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>90015BD8-66C0-24AE-0278-E3E87E938D9F</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Person Type" id="FBF8E0DA-121A-A172-229A-E2805EFB2B4B">
+<createdBy>tcollier</createdBy>
+<createdTime>2024-04-30 21:02:34 UTC</createdTime>
+<ownerDesignName>HARC_SNN_Data_Model_V3_TOBE</ownerDesignName>
+<constraintName>CH_INH_is_Club_Member</constraintName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>0</use>
+<listOfValues>
+<valueDef value="1" description="entity is a Club Member Current Callsign"/>
+<valueDef value="2" description="entity is a Club Member Old Callsign"/>
+</listOfValues>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isDiscriminatorColumn>true</isDiscriminatorColumn>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="931ACE9F-E715-A636-71C8-DBEC7C0EDF3B" name="Club_Member_PK">
+<createdBy>tcollier</createdBy>
+<createdTime>2024-02-08 23:51:45 UTC</createdTime>
+<generatorID>5B24D2E6-15BF-DFF5-48C9-69056A3B4380</generatorID>
+<ownerDesignName>HARC_SNN_Data_Model_V3_TOBE</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FD9919A7-7744-8960-A87E-1D8438744E82"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="0147ECD3-29E5-B210-2F82-ABC1EA2530DC" name="Club_Member_t_pers_FK">
+<createdBy>tcollier</createdBy>
+<createdTime>2024-02-08 23:51:45 UTC</createdTime>
+<generatorID>B7C9FD7D-5792-CAAF-7079-E2B1EA4A79D1</generatorID>
+<ownerDesignName>HARC_SNN_Data_Model_V3_TOBE</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FD9919A7-7744-8960-A87E-1D8438744E82"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="5019CD47-1F5C-2C33-CDD7-730528223761" name="is_Club_Member_is_a_Club_Member_Old_Callsign_FK">
+<createdBy>tcollier</createdBy>
+<createdTime>2024-02-14 21:44:11 UTC</createdTime>
+<generatorID>B3DD294D-EFC7-EDEF-9F4C-A3935416C051</generatorID>
+<ownerDesignName>HARC_SNN_Data_Model_V3_TOBE</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4B6448E2-EB40-1FBB-C3DF-313FD99A2280"/>
+<colUsage columnID="08F57EF5-ED17-FED9-3AE9-527D081A9B09"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D1929330-ADEA-ECAA-261F-DCC891646438" name="is_Club_Member_is_a_Club_Member_Current_Callsign_FK">
+<createdBy>tcollier</createdBy>
+<createdTime>2024-02-14 21:44:11 UTC</createdTime>
+<generatorID>1B3C57B2-A5BA-8388-0124-7A49A096A1E3</generatorID>
+<ownerDesignName>HARC_SNN_Data_Model_V3_TOBE</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="80CE312B-A0A2-F15E-1615-F35024C71A11"/>
+<colUsage columnID="06217A15-3781-BFB1-5CD7-A7BDEF64ED3B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

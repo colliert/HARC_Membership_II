@@ -1,0 +1,77 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="D690EEE0-5A80-9427-CB55-746523084A4C" name="t nco avail">
+<createdBy>tcollier</createdBy>
+<createdTime>2025-10-21 20:20:08 UTC</createdTime>
+<generatorID>8D350C31-9646-018C-5DAD-802D0C1C3AE8</generatorID>
+<ownerDesignName>Net_Control_Additions</ownerDesignName>
+<engineerTo>
+<item key="C119D9D8-C824-B40C-12F8-BA9037B4F1B9" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="pers call1" id="203F340F-63EE-AD20-D253-F1BABD4C8F57">
+<createdBy>tcollier</createdBy>
+<createdTime>2025-10-21 20:39:41 UTC</createdTime>
+<generatorID>151BF80F-4CB5-A0EB-46F3-2ABA80D008FF</generatorID>
+<ownerDesignName>Net_Control_Additions</ownerDesignName>
+<engineerTo>
+<item key="C119D9D8-C824-B40C-12F8-BA9037B4F1B9" value="true"/>
+</engineerTo>
+<referedAttribute>50A75033-A8CE-07E3-6FCF-3254F43E93CC</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="net_date" id="1BF77C76-BE4D-5613-2A31-EA80FCA22295">
+<createdBy>tcollier</createdBy>
+<createdTime>2025-10-21 20:40:39 UTC</createdTime>
+<generatorID>6FD210B4-32F0-7905-6B12-BA54A46F93AD</generatorID>
+<ownerDesignName>Net_Control_Additions</ownerDesignName>
+<engineerTo>
+<item key="C119D9D8-C824-B40C-12F8-BA9037B4F1B9" value="true"/>
+</engineerTo>
+<referedAttribute>283813CE-D7B3-6CC3-49D0-807C63E2450F</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>161A90A6-CA3A-1525-7F0C-0703C95370A2</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="scheduled" id="21A69118-0061-D447-ECBE-A5D488F88447">
+<createdBy>tcollier</createdBy>
+<createdTime>2025-10-21 20:43:41 UTC</createdTime>
+<commentInRDBMS><![CDATA[Scheduled for this date?  Yes/No (boolean)]]></commentInRDBMS>
+<ownerDesignName>Net_Control_Additions</ownerDesignName>
+<engineerTo>
+<item key="C119D9D8-C824-B40C-12F8-BA9037B4F1B9" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>09749D46-3ED4-FA1D-E66F-D82B538FF72C</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="8FFB6505-E1BE-EFEE-3198-AB94B1EEFEC0" name="t nco avail PK">
+<createdBy>tcollier</createdBy>
+<createdTime>2025-10-21 20:20:08 UTC</createdTime>
+<generatorID>48D78E4B-AC90-D1CC-A285-81515D28DBC4</generatorID>
+<ownerDesignName>Net_Control_Additions</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="C119D9D8-C824-B40C-12F8-BA9037B4F1B9" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>203F340F-63EE-AD20-D253-F1BABD4C8F57</attributeRef>
+<attributeRef>1BF77C76-BE4D-5613-2A31-EA80FCA22295</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

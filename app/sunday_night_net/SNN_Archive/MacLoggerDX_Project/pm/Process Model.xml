@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<ProcessModel class="oracle.dbtools.crest.model.design.process.ProcessModel" name="Process Model" id="3BBF2834-9420-3B4D-40E2-936BA8404638">
+<createdBy>jtimothycollier</createdBy>
+<createdTime>2019-07-02 04:04:24 UTC</createdTime>
+<ownerDesignName>MacLoggerDX_Project</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</ProcessModel>

@@ -1,0 +1,42 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableView class="oracle.dbtools.crest.model.design.relational.TableView" directorySegmentName="seg_0" id="484D4E8C-7C55-ED4E-7F8A-6CBF28E07E31" name="v_ant_typ">
+<sourceDDLFile>MacLogger_Sqlite_import copy.sql</sourceDDLFile>
+<createdBy>tcollier</createdBy>
+<createdTime>2020-10-30 17:45:49 UTC</createdTime>
+<ownerDesignName>SNN_data_model</ownerDesignName>
+<importedID>9D98AA4B-3A18-F3A0-61BF-79DC577E6708</importedID>
+<userDefined>true</userDefined>
+<userDefinedSQL><![CDATA[SELECT *
+      FROM t_ant_typ]]></userDefinedSQL>
+<validSQL>false</validSQL>
+<viewElements>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="ant_typ_cd" id="813CFD33-E922-01C1-0B92-FFB9C664EBD2">
+<createdBy>tcollier</createdBy>
+<createdTime>2020-10-30 17:45:49 UTC</createdTime>
+<ownerDesignName>SNN_data_model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>INTEGER</dataType>
+<headerAlias>ant_typ_cd</headerAlias>
+<reference>false</reference>
+<referencedColumn>BF50EFAA-3A6B-3C2A-E100-719B561C5DFE</referencedColumn>
+<table>4DEC0BE4-1A8F-145B-7F6F-2F092550B1A5</table>
+<tableAlias>t_ant_typ</tableAlias>
+<viewID>484D4E8C-7C55-ED4E-7F8A-6CBF28E07E31</viewID>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="ant_typ_desc" id="BCD0CA27-E576-ADAA-E55E-B6A72A8356B4">
+<createdBy>tcollier</createdBy>
+<createdTime>2020-10-30 17:45:49 UTC</createdTime>
+<ownerDesignName>SNN_data_model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>CHAR</dataType>
+<headerAlias>ant_typ_desc</headerAlias>
+<reference>false</reference>
+<referencedColumn>97AD8F5A-C483-AE4E-0F41-1BDCA01A160C</referencedColumn>
+<table>4DEC0BE4-1A8F-145B-7F6F-2F092550B1A5</table>
+<tableAlias>t_ant_typ</tableAlias>
+<viewID>484D4E8C-7C55-ED4E-7F8A-6CBF28E07E31</viewID>
+</viewElement>
+</viewElements>
+</TableView>

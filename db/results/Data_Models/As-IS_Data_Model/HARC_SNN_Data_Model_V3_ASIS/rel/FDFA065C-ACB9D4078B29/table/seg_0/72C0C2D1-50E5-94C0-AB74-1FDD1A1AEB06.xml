@@ -1,0 +1,153 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="72C0C2D1-50E5-94C0-AB74-1FDD1A1AEB06" name="t_harc_add_qso_details">
+<sourceDDLFile>HARC_SNN_DDL_Modified.sql</sourceDDLFile>
+<createdBy>tcollier</createdBy>
+<createdTime>2023-12-10 01:28:01 UTC</createdTime>
+<ownerDesignName>HARC_SNN_Data_Model_V3</ownerDesignName>
+<importedID>9CB3209D-D6B3-E294-9A57-EAABB25C8922</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="qso_table_v007_pk" id="22F71EFB-DC03-536A-2367-2118D561F4EF">
+<sourceDDLFile>HARC_SNN_DDL_Modified.sql</sourceDDLFile>
+<createdBy>tcollier</createdBy>
+<createdTime>2023-12-10 01:28:01 UTC</createdTime>
+<ownerDesignName>HARC_SNN_Data_Model_V3</ownerDesignName>
+<importedID>E0358FF5-5F59-87D3-83BC-153CCD437431</importedID>
+<use>0</use>
+<logicalDatatype>90015BD8-66C0-24AE-0278-E3E87E938D9F</logicalDatatype>
+<domain>7D33A781-C809-60DB-2F9C-E912B331C652</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="rptr_cd" id="85B0C87F-3569-B687-5CB1-D2F174883D39">
+<sourceDDLFile>HARC_SNN_DDL_Modified.sql</sourceDDLFile>
+<createdBy>tcollier</createdBy>
+<createdTime>2023-12-10 01:28:01 UTC</createdTime>
+<ownerDesignName>HARC_SNN_Data_Model_V3</ownerDesignName>
+<importedID>34D97289-AB69-BBE3-B654-03C50239D2C2</importedID>
+<use>0</use>
+<defaultValue>&apos;H2&apos;</defaultValue>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F3CD9067-6442-6767-1941-60E6DDE9F03E" referredColumn="39590824-780A-D59A-23BD-B49D6939029D"/>
+</associations>
+</Column>
+<Column name="rad_typ_cd" id="94B462F7-5BD8-4D78-F9C9-1E5DE3B55291">
+<sourceDDLFile>HARC_SNN_DDL_Modified.sql</sourceDDLFile>
+<createdBy>tcollier</createdBy>
+<createdTime>2023-12-10 01:28:01 UTC</createdTime>
+<ownerDesignName>HARC_SNN_Data_Model_V3</ownerDesignName>
+<importedID>11074AA4-55C9-3ED9-384D-D114AF508E34</importedID>
+<use>0</use>
+<logicalDatatype>90015BD8-66C0-24AE-0278-E3E87E938D9F</logicalDatatype>
+<domain>7D33A781-C809-60DB-2F9C-E912B331C652</domain>
+<defaultValue>1</defaultValue>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="8D0F5B90-4BC4-78AF-3BB6-F577FFFF6A1E" referredColumn="18AD08DA-CED5-2C55-9F65-72C8D4F0B2A7"/>
+</associations>
+</Column>
+<Column name="pwr_typ_cd" id="E60CADAC-1A5E-0A43-82E6-E001E02F9978">
+<sourceDDLFile>HARC_SNN_DDL_Modified.sql</sourceDDLFile>
+<createdBy>tcollier</createdBy>
+<createdTime>2023-12-10 01:28:01 UTC</createdTime>
+<ownerDesignName>HARC_SNN_Data_Model_V3</ownerDesignName>
+<importedID>99F82126-4069-2AE0-F9ED-59CC3DBBA2E4</importedID>
+<use>0</use>
+<logicalDatatype>90015BD8-66C0-24AE-0278-E3E87E938D9F</logicalDatatype>
+<domain>7D33A781-C809-60DB-2F9C-E912B331C652</domain>
+<defaultValue>1</defaultValue>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="6701415A-8C71-A190-4F1A-85DC9475824C" referredColumn="F4521D17-9B72-35E2-4ABC-33121E8F4E8C"/>
+</associations>
+</Column>
+<Column name="ant_typ_cd" id="93769815-FBC5-1CAF-90AD-E2140657EF8F">
+<sourceDDLFile>HARC_SNN_DDL_Modified.sql</sourceDDLFile>
+<createdBy>tcollier</createdBy>
+<createdTime>2023-12-10 01:28:01 UTC</createdTime>
+<ownerDesignName>HARC_SNN_Data_Model_V3</ownerDesignName>
+<importedID>B9C09426-1057-A25B-8050-2493E17C2FFD</importedID>
+<use>0</use>
+<logicalDatatype>90015BD8-66C0-24AE-0278-E3E87E938D9F</logicalDatatype>
+<domain>7D33A781-C809-60DB-2F9C-E912B331C652</domain>
+<defaultValue>1</defaultValue>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="4C532A97-2EFA-D57D-958A-D8EDC89B728F" referredColumn="7585CEDB-E65C-170F-C4F5-D074A84C7750"/>
+</associations>
+</Column>
+<Column name="qso_comment" id="B895B833-59EC-C8FA-57CA-F5A19607732E">
+<sourceDDLFile>HARC_SNN_DDL_Modified.sql</sourceDDLFile>
+<createdBy>tcollier</createdBy>
+<createdTime>2023-12-10 01:28:01 UTC</createdTime>
+<ownerDesignName>HARC_SNN_Data_Model_V3</ownerDesignName>
+<importedID>B9F5247A-E3F2-010C-0F88-9815880FAEA6</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="E0031289-8D0B-58B6-6092-E4B763317AF7" name="t_harc_add_qso_details_PK">
+<sourceDDLFile>HARC_SNN_DDL_Modified.sql</sourceDDLFile>
+<createdBy>tcollier</createdBy>
+<createdTime>2023-12-10 01:28:01 UTC</createdTime>
+<ownerDesignName>HARC_SNN_Data_Model_V3</ownerDesignName>
+<importedID>FAF93ADE-0EA7-95AE-7B00-CBFBDF9C84E4</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="22F71EFB-DC03-536A-2367-2118D561F4EF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="42AFC936-C83E-3275-9946-F83F338F98A4" name="t_harc_add_qso_details_t_ant_typ_FK">
+<createdBy>tcollier</createdBy>
+<createdTime>2023-12-10 01:28:01 UTC</createdTime>
+<ownerDesignName>HARC_SNN_Data_Model_V3</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="93769815-FBC5-1CAF-90AD-E2140657EF8F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="0499DFC1-140F-4F45-2312-BC5B391365BF" name="t_harc_add_qso_details_t_pwr_typ_FK">
+<createdBy>tcollier</createdBy>
+<createdTime>2023-12-10 01:28:01 UTC</createdTime>
+<ownerDesignName>HARC_SNN_Data_Model_V3</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E60CADAC-1A5E-0A43-82E6-E001E02F9978"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="AD8CC5EC-1228-7DE2-5365-D5E5999B5482" name="t_harc_add_qso_details_t_rad_typ_FK">
+<createdBy>tcollier</createdBy>
+<createdTime>2023-12-10 01:28:01 UTC</createdTime>
+<ownerDesignName>HARC_SNN_Data_Model_V3</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="94B462F7-5BD8-4D78-F9C9-1E5DE3B55291"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E6C3F464-6A0E-FBA5-A087-DAD2B55FF33D" name="t_harc_add_qso_details_t_rptr_FK">
+<createdBy>tcollier</createdBy>
+<createdTime>2023-12-10 01:28:01 UTC</createdTime>
+<ownerDesignName>HARC_SNN_Data_Model_V3</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="85B0C87F-3569-B687-5CB1-D2F174883D39"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

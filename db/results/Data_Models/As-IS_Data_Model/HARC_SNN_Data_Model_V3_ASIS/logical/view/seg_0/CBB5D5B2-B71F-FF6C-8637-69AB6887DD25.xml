@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<EntityView class="oracle.dbtools.crest.model.design.logical.EntityView" directorySegmentName="seg_0" id="CBB5D5B2-B71F-FF6C-8637-69AB6887DD25" name="v snn latest net checkin count">
+<createdBy>tcollier</createdBy>
+<createdTime>2023-12-10 01:29:04 UTC</createdTime>
+<generatorID>AAA04844-90DB-42CE-0A86-C0DEAE3452D5</generatorID>
+<ownerDesignName>HARC_SNN_Data_Model_V3</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="FDFA065C-9B79-4768-D3A1-ACB9D4078B29" value="false"/>
+</engineerTo>
+<userDefined>true</userDefined>
+<userDefinedSQL><![CDATA[select count(qso_start) as 'Checkins'
+        ,date(qso_start,'unixepoch') as 'Net_Date'
+from v_qso_table_v008
+where date(qso_start,'unixepoch') in 
+            (select  date((select max(qso_start) 
+            from v_qso_table_v008),'unixepoch') as 'Latest_Net_Date')]]></userDefinedSQL>
+<validSQL>false</validSQL>
+<viewType>EntityView</viewType>
+</EntityView>

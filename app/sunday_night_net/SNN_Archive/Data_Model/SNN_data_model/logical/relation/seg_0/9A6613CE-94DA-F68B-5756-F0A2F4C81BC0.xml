@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="r_allstar person" directorySegmentName="seg_0" id="9A6613CE-94DA-F68B-5756-F0A2F4C81BC0">
+<createdBy>tcollier</createdBy>
+<createdTime>2020-10-30 22:38:51 UTC</createdTime>
+<ownerDesignName>SNN_data_model</ownerDesignName>
+<engineerTo>
+<item key="AF3E3F20-8AFD-D45A-FD64-95FBA8FAE7F0" value="true"/>
+<item key="31E5524C-62D2-47CA-ED22-956AD4BDA5C7" value="true"/>
+</engineerTo>
+<sourcePk>19EB4883-F0A4-DBFB-407D-B32761F49306</sourcePk>
+<identifying>true</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>7F6899A9-D330-6EBB-B413-FA52DD0B1A31</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>9935711A-6607-2F2D-DB10-1B5671C284CF</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

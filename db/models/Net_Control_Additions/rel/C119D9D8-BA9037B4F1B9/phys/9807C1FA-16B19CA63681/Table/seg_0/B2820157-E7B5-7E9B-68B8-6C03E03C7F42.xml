@@ -1,0 +1,38 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev9i class="oracle.dbtools.crest.model.design.storage.oracle.v9i.TableProxyOraclev9i" name="sqlite_master" directorySegmentName="seg_0" id="B2820157-E7B5-7E9B-68B8-6C03E03C7F42">
+<createdBy>tcollier</createdBy>
+<createdTime>2025-10-21 20:47:14 UTC</createdTime>
+<ownerDesignName>Net_Control_Additions</ownerDesignName>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="rootpage" id="15537B9B-FFF7-7CCD-ADE1-7870749E4883">
+<createdBy>tcollier</createdBy>
+<createdTime>2025-10-21 20:47:14 UTC</createdTime>
+<ownerDesignName>Net_Control_Additions</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="name" id="3665B95E-FF09-A3B3-9DB8-909A2049A294">
+<createdBy>tcollier</createdBy>
+<createdTime>2025-10-21 20:47:14 UTC</createdTime>
+<ownerDesignName>Net_Control_Additions</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="sql" id="A15A7820-F8A8-1063-661F-4443D3934548">
+<createdBy>tcollier</createdBy>
+<createdTime>2025-10-21 20:47:14 UTC</createdTime>
+<ownerDesignName>Net_Control_Additions</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="tbl_name" id="DAD57530-DC03-1F2F-BBBD-83DA5634FBF3">
+<createdBy>tcollier</createdBy>
+<createdTime>2025-10-21 20:47:14 UTC</createdTime>
+<ownerDesignName>Net_Control_Additions</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="type" id="DE269354-649D-3DF8-F5F5-816BC3E05D00">
+<createdBy>tcollier</createdBy>
+<createdTime>2025-10-21 20:47:14 UTC</createdTime>
+<ownerDesignName>Net_Control_Additions</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+</TableProxyOraclev9i>

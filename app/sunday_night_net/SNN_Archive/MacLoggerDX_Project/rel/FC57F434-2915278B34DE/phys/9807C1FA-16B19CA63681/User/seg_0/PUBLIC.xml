@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<UserOraclev9i class="oracle.dbtools.crest.model.design.storage.oracle.v9i.UserOraclev9i" name="PUBLIC" directorySegmentName="seg_0" id="PUBLIC">
+<createdBy>jtimothycollier</createdBy>
+<createdTime>2019-07-02 04:32:55 UTC</createdTime>
+<ownerDesignName>MacLoggerDX_Project</ownerDesignName>
+<nullInstance>true</nullInstance>
+<storableNullInstance>true</storableNullInstance>
+</UserOraclev9i>

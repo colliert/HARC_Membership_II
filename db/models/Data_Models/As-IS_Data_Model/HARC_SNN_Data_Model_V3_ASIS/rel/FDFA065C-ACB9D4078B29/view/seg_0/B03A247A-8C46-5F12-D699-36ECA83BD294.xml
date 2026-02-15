@@ -1,0 +1,119 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableView class="oracle.dbtools.crest.model.design.relational.TableView" directorySegmentName="seg_0" id="B03A247A-8C46-5F12-D699-36ECA83BD294" name="v_harc_member">
+<sourceDDLFile>HARC_SNN_DDL_Modified.sql</sourceDDLFile>
+<createdBy>tcollier</createdBy>
+<createdTime>2023-12-10 01:28:01 UTC</createdTime>
+<ownerDesignName>HARC_SNN_Data_Model_V3</ownerDesignName>
+<importedID>F896AB87-7108-103A-63A4-0E8FDBD9ACA8</importedID>
+<userDefined>true</userDefined>
+<userDefinedSQL><![CDATA[select a.pers_call
+     , a.pers_f_nam
+     , a.pers_m_nam
+     , a.pers_l_nam
+     , a.pers_nicknam
+     , a.pers_lic_class
+     , pers_typ
+from t_pers a
+where pers_typ = 1
+order by a.pers_l_nam]]></userDefinedSQL>
+<validSQL>false</validSQL>
+<viewElements>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="pers_call" id="DBD4CAF6-5C62-856D-C165-1CEB82DD7D59">
+<createdBy>tcollier</createdBy>
+<createdTime>2023-12-10 01:28:01 UTC</createdTime>
+<ownerDesignName>HARC_SNN_Data_Model_V3</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>UNKNOWN</dataType>
+<headerAlias>pers_call</headerAlias>
+<reference>false</reference>
+<referencedColumn>4CADB3D9-834B-1832-102C-1C4E69D1904F</referencedColumn>
+<table>3FF2E432-D240-9C53-CBA2-AC62DDAC01CC</table>
+<tableAlias>a</tableAlias>
+<viewID>B03A247A-8C46-5F12-D699-36ECA83BD294</viewID>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="pers_f_nam" id="48CC023E-794F-A64A-807F-F82661C97475">
+<createdBy>tcollier</createdBy>
+<createdTime>2023-12-10 01:28:01 UTC</createdTime>
+<ownerDesignName>HARC_SNN_Data_Model_V3</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>UNKNOWN</dataType>
+<headerAlias>pers_f_nam</headerAlias>
+<reference>false</reference>
+<referencedColumn>D1D53D89-3A85-0B05-ED17-1BEFE36EC133</referencedColumn>
+<table>3FF2E432-D240-9C53-CBA2-AC62DDAC01CC</table>
+<tableAlias>a</tableAlias>
+<viewID>B03A247A-8C46-5F12-D699-36ECA83BD294</viewID>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="pers_m_nam" id="73C7B351-DBDA-3A5D-EA1E-E396C99ECAAC">
+<createdBy>tcollier</createdBy>
+<createdTime>2023-12-10 01:28:01 UTC</createdTime>
+<ownerDesignName>HARC_SNN_Data_Model_V3</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>UNKNOWN</dataType>
+<headerAlias>pers_m_nam</headerAlias>
+<reference>false</reference>
+<referencedColumn>EA6926C9-FBB4-634B-FF07-48C0E6022A99</referencedColumn>
+<table>3FF2E432-D240-9C53-CBA2-AC62DDAC01CC</table>
+<tableAlias>a</tableAlias>
+<viewID>B03A247A-8C46-5F12-D699-36ECA83BD294</viewID>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="pers_l_nam" id="AEF0B82B-718C-D92C-30A4-202F1DE6484F">
+<createdBy>tcollier</createdBy>
+<createdTime>2023-12-10 01:28:01 UTC</createdTime>
+<ownerDesignName>HARC_SNN_Data_Model_V3</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>UNKNOWN</dataType>
+<headerAlias>pers_l_nam</headerAlias>
+<reference>false</reference>
+<referencedColumn>92E25EC1-0D9E-9589-F09C-108077A81619</referencedColumn>
+<table>3FF2E432-D240-9C53-CBA2-AC62DDAC01CC</table>
+<tableAlias>a</tableAlias>
+<viewID>B03A247A-8C46-5F12-D699-36ECA83BD294</viewID>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="pers_nicknam" id="21CE4D4D-886B-4B39-4711-FE31B4CA0B25">
+<createdBy>tcollier</createdBy>
+<createdTime>2023-12-10 01:28:01 UTC</createdTime>
+<ownerDesignName>HARC_SNN_Data_Model_V3</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>UNKNOWN</dataType>
+<headerAlias>pers_nicknam</headerAlias>
+<reference>false</reference>
+<referencedColumn>AD2CA88E-B12C-0476-AED0-07D39B864A6A</referencedColumn>
+<table>3FF2E432-D240-9C53-CBA2-AC62DDAC01CC</table>
+<tableAlias>a</tableAlias>
+<viewID>B03A247A-8C46-5F12-D699-36ECA83BD294</viewID>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="pers_lic_class" id="3EBC188D-F30E-2931-524F-3E86B318A9BB">
+<createdBy>tcollier</createdBy>
+<createdTime>2023-12-10 01:28:01 UTC</createdTime>
+<ownerDesignName>HARC_SNN_Data_Model_V3</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>UNKNOWN</dataType>
+<headerAlias>pers_lic_class</headerAlias>
+<reference>false</reference>
+<referencedColumn>6BA51050-C610-9306-8C60-F1DB43028711</referencedColumn>
+<table>3FF2E432-D240-9C53-CBA2-AC62DDAC01CC</table>
+<tableAlias>a</tableAlias>
+<viewID>B03A247A-8C46-5F12-D699-36ECA83BD294</viewID>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="pers_typ" id="DD8AAA9F-F05B-BDFE-600E-C1DBA87C4267">
+<createdBy>tcollier</createdBy>
+<createdTime>2023-12-10 01:28:01 UTC</createdTime>
+<ownerDesignName>HARC_SNN_Data_Model_V3</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>NUMBER</dataType>
+<headerAlias>pers_typ</headerAlias>
+<reference>false</reference>
+<referencedColumn>4EB54BD0-D572-95DB-21A7-B9466BFE8B49</referencedColumn>
+<table>3FF2E432-D240-9C53-CBA2-AC62DDAC01CC</table>
+<viewID>B03A247A-8C46-5F12-D699-36ECA83BD294</viewID>
+</viewElement>
+</viewElements>
+</TableView>

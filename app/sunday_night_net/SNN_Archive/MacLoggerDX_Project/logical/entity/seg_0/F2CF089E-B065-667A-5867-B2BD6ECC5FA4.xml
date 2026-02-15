@@ -1,0 +1,109 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="F2CF089E-B065-667A-5867-B2BD6ECC5FA4" name="HARC Additional QSO Details">
+<createdBy>tcollier</createdBy>
+<createdTime>2019-07-03 03:24:17 UTC</createdTime>
+<ownerDesignName>MacLoggerDX_Project</ownerDesignName>
+<engineerTo>
+<item key="FC57F434-133F-87AF-675A-2915278B34DE" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<preferredAbbreviation>t_harc_add_qso_details</preferredAbbreviation>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Primary Key" id="F9B8E1FE-B384-2B6E-779E-E8CFF3EE18A2">
+<createdBy>tcollier</createdBy>
+<createdTime>2019-07-03 22:25:10 UTC</createdTime>
+<generatorID>A532D08C-07A0-088A-CD0D-E4969E1E003D</generatorID>
+<ownerDesignName>MacLoggerDX_Project</ownerDesignName>
+<engineerTo>
+<item key="FC57F434-133F-87AF-675A-2915278B34DE" value="true"/>
+</engineerTo>
+<referedAttribute>5622EC61-2757-4973-157E-75A143DCE2F5</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Repeater Code" id="BA942337-93CB-2151-A8B4-A93FA8CF0A5A">
+<createdBy>tcollier</createdBy>
+<createdTime>2019-07-03 03:33:05 UTC</createdTime>
+<generatorID>5BB6BBA9-1541-9138-3008-2B7B946693CC</generatorID>
+<ownerDesignName>MacLoggerDX_Project</ownerDesignName>
+<engineerTo>
+<item key="FC57F434-133F-87AF-675A-2915278B34DE" value="true"/>
+</engineerTo>
+<referedAttribute>869C092E-B356-4B12-C30D-89835FDB12A9</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<preferredAbbreviation>rptr_cd</preferredAbbreviation>
+</Attribute>
+<Attribute name="Radio Type Code" id="08C8975B-1CEA-AE2A-C0E6-8F46A267AAF7">
+<createdBy>tcollier</createdBy>
+<createdTime>2019-07-03 03:39:26 UTC</createdTime>
+<generatorID>DF5EF60D-9FC2-0434-FDA4-34376538894A</generatorID>
+<ownerDesignName>MacLoggerDX_Project</ownerDesignName>
+<engineerTo>
+<item key="FC57F434-133F-87AF-675A-2915278B34DE" value="true"/>
+</engineerTo>
+<referedAttribute>5C98FBCC-5051-790F-3040-D33417A79E22</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<preferredAbbreviation>rad_typ_cd</preferredAbbreviation>
+</Attribute>
+<Attribute name="Power Type Code" id="AB96F9FF-14FB-8E87-30D1-6A179B9F35B9">
+<createdBy>tcollier</createdBy>
+<createdTime>2019-07-03 03:42:39 UTC</createdTime>
+<generatorID>8B1BF29D-D348-FC0D-CB64-E699513B0562</generatorID>
+<ownerDesignName>MacLoggerDX_Project</ownerDesignName>
+<engineerTo>
+<item key="FC57F434-133F-87AF-675A-2915278B34DE" value="true"/>
+</engineerTo>
+<referedAttribute>F286D066-E4AA-0F7E-649D-586F90EC6077</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<preferredAbbreviation>pwr_typ_cd</preferredAbbreviation>
+</Attribute>
+<Attribute name="Antenna Type Code" id="4AE117EE-72A5-FD14-4FEE-F63BEA217998">
+<createdBy>tcollier</createdBy>
+<createdTime>2019-07-03 03:45:18 UTC</createdTime>
+<generatorID>84C34352-BBE9-4FD7-5B33-D388903BB29F</generatorID>
+<ownerDesignName>MacLoggerDX_Project</ownerDesignName>
+<engineerTo>
+<item key="FC57F434-133F-87AF-675A-2915278B34DE" value="true"/>
+</engineerTo>
+<referedAttribute>D5A867C5-509F-8320-E828-56EEA81F02F7</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<preferredAbbreviation>ant_typ_cd</preferredAbbreviation>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="E51BA891-3AA1-56C5-B663-2014FC05B10D" name="Additional QSO Details PK">
+<createdBy>tcollier</createdBy>
+<createdTime>2019-07-03 03:28:51 UTC</createdTime>
+<ownerDesignName>MacLoggerDX_Project</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="FC57F434-133F-87AF-675A-2915278B34DE" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>F9B8E1FE-B384-2B6E-779E-E8CFF3EE18A2</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

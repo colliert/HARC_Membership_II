@@ -1,0 +1,38 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<EntityView class="oracle.dbtools.crest.model.design.logical.EntityView" directorySegmentName="seg_0" id="EC88C555-27A0-5069-41EB-C51E635AF02E" name="v current call out cutoff days">
+<createdBy>tcollier</createdBy>
+<createdTime>2023-12-10 01:29:04 UTC</createdTime>
+<generatorID>88A111F3-0380-281F-8E0F-270D4FEC0CE3</generatorID>
+<ownerDesignName>HARC_SNN_Data_Model_V3</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="FDFA065C-9B79-4768-D3A1-ACB9D4078B29" value="false"/>
+</engineerTo>
+<userDefined>true</userDefined>
+<userDefinedSQL><![CDATA[SELECT num_days as current_num_days
+  FROM v_call_out_cutoff_days
+ WHERE dat_est = (
+                     SELECT max(dat_est) 
+                       FROM v_call_out_cutoff_days
+                 )]]></userDefinedSQL>
+<validSQL>false</validSQL>
+<viewType>EntityView</viewType>
+<viewElements>
+<viewElement class="oracle.dbtools.crest.model.design.logical.AttributeView" name="current_num_days" id="62F7280B-D94F-2DE9-85EE-37069AF81FB7">
+<createdBy>tcollier</createdBy>
+<createdTime>2023-12-10 01:29:04 UTC</createdTime>
+<generatorID>B5D82EE3-FDF7-9326-836E-721844FE7891</generatorID>
+<ownerDesignName>HARC_SNN_Data_Model_V3</ownerDesignName>
+<engineerTo>
+<item key="FDFA065C-9B79-4768-D3A1-ACB9D4078B29" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<alias>current_num_days</alias>
+<dataType>NUMBER</dataType>
+<reference>false</reference>
+<referencedColumn>ED20C632-63E7-4716-AFFE-44F1207FF737</referencedColumn>
+<viewID>EC88C555-27A0-5069-41EB-C51E635AF02E</viewID>
+</viewElement>
+</viewElements>
+</EntityView>

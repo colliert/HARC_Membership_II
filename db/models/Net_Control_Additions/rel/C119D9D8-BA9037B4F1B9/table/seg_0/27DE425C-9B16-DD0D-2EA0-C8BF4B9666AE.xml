@@ -1,0 +1,650 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="27DE425C-9B16-DD0D-2EA0-C8BF4B9666AE" name="qso_table_v008_20250720">
+<createdBy>tcollier</createdBy>
+<createdTime>2025-10-21 20:47:14 UTC</createdTime>
+<generatorID>A3F169DF-64EC-DE8E-C916-31C5C67481DC</generatorID>
+<ownerDesignName>Net_Control_Additions</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="pk" id="836D0629-AB09-17C6-D52F-A7DC21FA4A08">
+<createdBy>tcollier</createdBy>
+<createdTime>2025-10-21 20:47:14 UTC</createdTime>
+<generatorID>FCFEB9C2-77E5-5133-5968-55EBACA10A59</generatorID>
+<ownerDesignName>Net_Control_Additions</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>90015BD8-66C0-24AE-0278-E3E87E938D9F</logicalDatatype>
+<domain>B9C55F62-FDB7-1925-02A7-A963DC0653AE</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="my_grid" id="23C75A82-3BCE-52B5-7DC8-A3558C45CEA7">
+<createdBy>tcollier</createdBy>
+<createdTime>2025-10-21 20:47:14 UTC</createdTime>
+<generatorID>54AE9500-1030-6BC2-B3EC-E960969B73D8</generatorID>
+<ownerDesignName>Net_Control_Additions</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="my_call" id="BAB1CE65-5596-AA76-1066-6BA507F93880">
+<createdBy>tcollier</createdBy>
+<createdTime>2025-10-21 20:47:14 UTC</createdTime>
+<generatorID>7B1BFE14-0317-77D9-A4D4-C24E466FC5C3</generatorID>
+<ownerDesignName>Net_Control_Additions</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="my_rig" id="14E07EF7-1F81-F41A-0351-7FC283487DEA">
+<createdBy>tcollier</createdBy>
+<createdTime>2025-10-21 20:47:14 UTC</createdTime>
+<generatorID>1D01EA3F-F046-4FA6-4297-6C0599CFAF64</generatorID>
+<ownerDesignName>Net_Control_Additions</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="call" id="F047CC9F-5F98-9626-1E81-93EE1FE29F63">
+<createdBy>tcollier</createdBy>
+<createdTime>2025-10-21 20:47:14 UTC</createdTime>
+<generatorID>07CCD468-B184-127F-95BB-39B1C46AA86C</generatorID>
+<ownerDesignName>Net_Control_Additions</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="first_name" id="E35DE130-4801-155D-BAAA-DE253095352E">
+<createdBy>tcollier</createdBy>
+<createdTime>2025-10-21 20:47:14 UTC</createdTime>
+<generatorID>E593CE32-F9A7-8BB4-CF27-47DE6DE67B77</generatorID>
+<ownerDesignName>Net_Control_Additions</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="last_name" id="B0B5EF68-CBF1-D2F7-41ED-A144EB59D231">
+<createdBy>tcollier</createdBy>
+<createdTime>2025-10-21 20:47:14 UTC</createdTime>
+<generatorID>E6C2AB7F-2C5D-F6FA-74D6-5B74F4E96205</generatorID>
+<ownerDesignName>Net_Control_Additions</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="street" id="96BB3A5D-9378-ABCA-D454-8F7540727F39">
+<createdBy>tcollier</createdBy>
+<createdTime>2025-10-21 20:47:14 UTC</createdTime>
+<generatorID>AA2B19A2-0D5D-D4E5-EFD5-B6C22537B070</generatorID>
+<ownerDesignName>Net_Control_Additions</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="city" id="E805954B-F1D6-7C5B-8516-515CE4D59FD6">
+<createdBy>tcollier</createdBy>
+<createdTime>2025-10-21 20:47:14 UTC</createdTime>
+<generatorID>46646C25-9282-7A38-E3C4-CAA17E7C99E3</generatorID>
+<ownerDesignName>Net_Control_Additions</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="county" id="276B3A3E-73DF-D4D4-553C-7BC23D0541D3">
+<createdBy>tcollier</createdBy>
+<createdTime>2025-10-21 20:47:14 UTC</createdTime>
+<generatorID>8F7589A0-7364-2A82-5A32-FB1DD4721DCA</generatorID>
+<ownerDesignName>Net_Control_Additions</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="state" id="ADBD7EAB-1B53-4663-24B3-A7EC2C452F72">
+<createdBy>tcollier</createdBy>
+<createdTime>2025-10-21 20:47:14 UTC</createdTime>
+<generatorID>6D827685-AEDD-87CE-3C94-156CE2A13CA8</generatorID>
+<ownerDesignName>Net_Control_Additions</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="postal_country" id="48347A28-9C1A-C88F-DF9C-609DE97179D9">
+<createdBy>tcollier</createdBy>
+<createdTime>2025-10-21 20:47:14 UTC</createdTime>
+<generatorID>2B71FFA2-9855-3038-8D6B-9F85FB5B2D85</generatorID>
+<ownerDesignName>Net_Control_Additions</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="zip" id="AB5A33BD-7D65-AFFA-2D01-FEAB487CD9D4">
+<createdBy>tcollier</createdBy>
+<createdTime>2025-10-21 20:47:14 UTC</createdTime>
+<generatorID>3AD4CCB2-FF07-C98B-4534-8012F2172BBC</generatorID>
+<ownerDesignName>Net_Control_Additions</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="grid" id="A18DA081-326D-5EB6-8222-1C91108CBDA8">
+<createdBy>tcollier</createdBy>
+<createdTime>2025-10-21 20:47:14 UTC</createdTime>
+<generatorID>D8ACA9EE-2993-ADC6-DD59-F6663A8C6E95</generatorID>
+<ownerDesignName>Net_Control_Additions</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="dxcc_country" id="89107CDD-B3FA-2AC0-C98F-26B993246314">
+<createdBy>tcollier</createdBy>
+<createdTime>2025-10-21 20:47:14 UTC</createdTime>
+<generatorID>14A55A9A-3A45-98C5-2594-FC0C229B686B</generatorID>
+<ownerDesignName>Net_Control_Additions</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="iota" id="7B02D80B-54A7-6658-2DA3-DEE58AFB07FF">
+<createdBy>tcollier</createdBy>
+<createdTime>2025-10-21 20:47:14 UTC</createdTime>
+<generatorID>58BBF58D-6235-29FB-D9A1-48B886A05E49</generatorID>
+<ownerDesignName>Net_Control_Additions</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="sota" id="E3FFCD0B-0DCC-8C15-0B25-6B9F24C9EBDA">
+<createdBy>tcollier</createdBy>
+<createdTime>2025-10-21 20:47:14 UTC</createdTime>
+<generatorID>42657B8C-9026-1990-EB73-57FFA39DEE4C</generatorID>
+<ownerDesignName>Net_Control_Additions</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cq_zone" id="0469B850-50E6-2A4C-F5C4-39DA9E5CCB3F">
+<createdBy>tcollier</createdBy>
+<createdTime>2025-10-21 20:47:14 UTC</createdTime>
+<generatorID>7D49D1C4-B248-1B66-FDA0-B261F33F6A6E</generatorID>
+<ownerDesignName>Net_Control_Additions</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="itu" id="D728221C-44B9-8725-D07C-D288C0B1CBA2">
+<createdBy>tcollier</createdBy>
+<createdTime>2025-10-21 20:47:14 UTC</createdTime>
+<generatorID>892D398B-1CEF-2841-5347-307FF0DF5479</generatorID>
+<ownerDesignName>Net_Control_Additions</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ten_ten" id="DB15DF55-A947-D916-7465-E84FCD16F3F3">
+<createdBy>tcollier</createdBy>
+<createdTime>2025-10-21 20:47:14 UTC</createdTime>
+<generatorID>DFB33941-537E-964C-EC47-5CC6F0351AD0</generatorID>
+<ownerDesignName>Net_Control_Additions</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="email" id="7BDC14D6-A71B-3642-1DD3-1DE86E91FE9C">
+<createdBy>tcollier</createdBy>
+<createdTime>2025-10-21 20:47:14 UTC</createdTime>
+<generatorID>385621B6-D073-FB03-D8F1-159C91E291A6</generatorID>
+<ownerDesignName>Net_Control_Additions</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="url" id="2942542B-FDE6-D647-BEC5-82CB74FE3BB2">
+<createdBy>tcollier</createdBy>
+<createdTime>2025-10-21 20:47:14 UTC</createdTime>
+<generatorID>246ED5E2-A06E-0FE0-F2AE-3538A207CCC3</generatorID>
+<ownerDesignName>Net_Control_Additions</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="mode" id="C57327F8-40AB-B7E3-A591-6182E05EBC7F">
+<createdBy>tcollier</createdBy>
+<createdTime>2025-10-21 20:47:14 UTC</createdTime>
+<generatorID>899AF5DF-7487-0A0E-871B-C3946039E427</generatorID>
+<ownerDesignName>Net_Control_Additions</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="band_rx" id="DC6E286C-99C6-EF79-A53A-CA7263409A24">
+<createdBy>tcollier</createdBy>
+<createdTime>2025-10-21 20:47:14 UTC</createdTime>
+<generatorID>BED138BE-5F0A-FE97-BB1E-B540E5579D9A</generatorID>
+<ownerDesignName>Net_Control_Additions</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="band_tx" id="9450A398-202A-0324-8E5D-87938B8FF9FE">
+<createdBy>tcollier</createdBy>
+<createdTime>2025-10-21 20:47:14 UTC</createdTime>
+<generatorID>82499F22-3261-E5EE-3B4C-1F85AEA7FF1F</generatorID>
+<ownerDesignName>Net_Control_Additions</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="rst_sent" id="403E2624-F4F0-605F-E08F-A9DC24E09CF0">
+<createdBy>tcollier</createdBy>
+<createdTime>2025-10-21 20:47:14 UTC</createdTime>
+<generatorID>A20DB8A5-5B35-1CA8-1828-824B95B015A9</generatorID>
+<ownerDesignName>Net_Control_Additions</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="rst_received" id="A2301EFF-DCAA-6FB7-6F79-825374268D8A">
+<createdBy>tcollier</createdBy>
+<createdTime>2025-10-21 20:47:14 UTC</createdTime>
+<generatorID>B34BF8E7-635B-EDB8-01E6-31D14E168786</generatorID>
+<ownerDesignName>Net_Control_Additions</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="qsl_via" id="2C4932B8-5F56-B2AC-16FA-9106118426DC">
+<createdBy>tcollier</createdBy>
+<createdTime>2025-10-21 20:47:14 UTC</createdTime>
+<generatorID>3165F637-6D0B-21E1-4535-C08F089632D5</generatorID>
+<ownerDesignName>Net_Control_Additions</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="qsl_sent" id="3482E1B8-97D1-2424-3EE8-7364B4D67FBC">
+<createdBy>tcollier</createdBy>
+<createdTime>2025-10-21 20:47:14 UTC</createdTime>
+<generatorID>59F10AEF-6465-0F96-9D12-F99EBFDAE182</generatorID>
+<ownerDesignName>Net_Control_Additions</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="qsl_received" id="42FC8F83-D90C-0D37-B851-9F632CCB2956">
+<createdBy>tcollier</createdBy>
+<createdTime>2025-10-21 20:47:14 UTC</createdTime>
+<generatorID>658A25E7-6F3D-49E4-F6BC-64C15649DC11</generatorID>
+<ownerDesignName>Net_Control_Additions</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="srx" id="1455E34E-9B03-9FBF-03FA-AE1645EFEE6F">
+<createdBy>tcollier</createdBy>
+<createdTime>2025-10-21 20:47:14 UTC</createdTime>
+<generatorID>FB5D9D49-968B-E6C0-9801-4D9A64E6647E</generatorID>
+<ownerDesignName>Net_Control_Additions</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="stx" id="B71A973B-BB08-69EF-BFF2-34400A5E708C">
+<createdBy>tcollier</createdBy>
+<createdTime>2025-10-21 20:47:14 UTC</createdTime>
+<generatorID>C424FD0B-1BDF-C89E-DEB9-433753F845B8</generatorID>
+<ownerDesignName>Net_Control_Additions</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="comments" id="562FEEFE-AC82-8BC3-824E-6D41ACE2F57E">
+<createdBy>tcollier</createdBy>
+<createdTime>2025-10-21 20:47:14 UTC</createdTime>
+<generatorID>A36FE556-25E0-DAD9-4AE9-A5B7FB4B3EA4</generatorID>
+<ownerDesignName>Net_Control_Additions</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="satellite" id="4D9E8B07-CB40-D468-E859-4C99631E1D52">
+<createdBy>tcollier</createdBy>
+<createdTime>2025-10-21 20:47:14 UTC</createdTime>
+<generatorID>606BAEF5-A5C8-2C37-1EE7-2926F4A83929</generatorID>
+<ownerDesignName>Net_Control_Additions</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="qso_start" id="7999BAD9-F7AA-4CD6-94AA-DCD25193113F">
+<createdBy>tcollier</createdBy>
+<createdTime>2025-10-21 20:47:14 UTC</createdTime>
+<generatorID>35ACDCF6-701F-9363-E61A-D37855E0CA70</generatorID>
+<ownerDesignName>Net_Control_Additions</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<domain>16376ACD-B919-9F79-F168-10F791E627C2</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="qso_done" id="50AF3F55-BC64-0FDA-8B0E-850DCE70C169">
+<createdBy>tcollier</createdBy>
+<createdTime>2025-10-21 20:47:14 UTC</createdTime>
+<generatorID>E479523F-D766-0EAA-2DFF-1910756CA05C</generatorID>
+<ownerDesignName>Net_Control_Additions</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<domain>16376ACD-B919-9F79-F168-10F791E627C2</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="latitude" id="F7516FAA-34B8-7E4F-2060-3102E6AE4BA2">
+<createdBy>tcollier</createdBy>
+<createdTime>2025-10-21 20:47:14 UTC</createdTime>
+<generatorID>4067E199-93B3-EB99-BCCF-F889870FD96D</generatorID>
+<ownerDesignName>Net_Control_Additions</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<domain>16376ACD-B919-9F79-F168-10F791E627C2</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="longitude" id="214EE477-E1FC-00B2-A28F-733EC677A845">
+<createdBy>tcollier</createdBy>
+<createdTime>2025-10-21 20:47:14 UTC</createdTime>
+<generatorID>137BA836-C57A-271E-E0BD-DB6080FB8178</generatorID>
+<ownerDesignName>Net_Control_Additions</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<domain>16376ACD-B919-9F79-F168-10F791E627C2</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="tx_frequency" id="4611F91D-516A-6377-AF58-B3C2708908F3">
+<createdBy>tcollier</createdBy>
+<createdTime>2025-10-21 20:47:14 UTC</createdTime>
+<generatorID>4A2383AF-AD29-3447-C100-EA40372766DC</generatorID>
+<ownerDesignName>Net_Control_Additions</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<domain>16376ACD-B919-9F79-F168-10F791E627C2</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="rx_frequency" id="24CD144D-88BD-8683-B327-A6293D55BB4F">
+<createdBy>tcollier</createdBy>
+<createdTime>2025-10-21 20:47:14 UTC</createdTime>
+<generatorID>5CA91855-8C21-9048-6684-11735D084477</generatorID>
+<ownerDesignName>Net_Control_Additions</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<domain>16376ACD-B919-9F79-F168-10F791E627C2</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="azimuth" id="624DCA5E-6C22-E22F-2C53-7A5F75D119C4">
+<createdBy>tcollier</createdBy>
+<createdTime>2025-10-21 20:47:14 UTC</createdTime>
+<generatorID>EACFDEAD-09FB-1F84-9CF8-815D4BC3F808</generatorID>
+<ownerDesignName>Net_Control_Additions</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<domain>16376ACD-B919-9F79-F168-10F791E627C2</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="elevation" id="E989A2B9-F702-D82C-6169-42A67CBD6E80">
+<createdBy>tcollier</createdBy>
+<createdTime>2025-10-21 20:47:14 UTC</createdTime>
+<generatorID>E5C503C0-7ECB-FFE5-9ADB-EABBE85BE264</generatorID>
+<ownerDesignName>Net_Control_Additions</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<domain>16376ACD-B919-9F79-F168-10F791E627C2</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="power" id="CCD43CEA-1AC5-7E1D-3EE5-194959AC8270">
+<createdBy>tcollier</createdBy>
+<createdTime>2025-10-21 20:47:14 UTC</createdTime>
+<generatorID>CA334DF3-31C2-B4E3-7BD5-19E195B8B14C</generatorID>
+<ownerDesignName>Net_Control_Additions</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<domain>16376ACD-B919-9F79-F168-10F791E627C2</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="srx_numeric" id="16EEC921-FB75-8558-2EB2-87A57A3258A0">
+<createdBy>tcollier</createdBy>
+<createdTime>2025-10-21 20:47:14 UTC</createdTime>
+<generatorID>72BBCB64-4CB7-B423-B2DF-D21B70631AFE</generatorID>
+<ownerDesignName>Net_Control_Additions</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>90015BD8-66C0-24AE-0278-E3E87E938D9F</logicalDatatype>
+<domain>B9C55F62-FDB7-1925-02A7-A963DC0653AE</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="stx_numeric" id="652460E8-9096-333D-5BDF-CBE505CCCF22">
+<createdBy>tcollier</createdBy>
+<createdTime>2025-10-21 20:47:14 UTC</createdTime>
+<generatorID>FA254653-396A-0026-3917-FB91F49A5B98</generatorID>
+<ownerDesignName>Net_Control_Additions</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>90015BD8-66C0-24AE-0278-E3E87E938D9F</logicalDatatype>
+<domain>B9C55F62-FDB7-1925-02A7-A963DC0653AE</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="dxcc_id" id="4DC54374-0CAC-A32B-C9FD-BCFE63C6352C">
+<createdBy>tcollier</createdBy>
+<createdTime>2025-10-21 20:47:14 UTC</createdTime>
+<generatorID>F75B4F9D-FFBD-26A5-9BA6-FDE7E67EAFF0</generatorID>
+<ownerDesignName>Net_Control_Additions</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>90015BD8-66C0-24AE-0278-E3E87E938D9F</logicalDatatype>
+<domain>B9C55F62-FDB7-1925-02A7-A963DC0653AE</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="contest_id" id="207D3067-20EB-5332-7391-C64899592DB2">
+<createdBy>tcollier</createdBy>
+<createdTime>2025-10-21 20:47:14 UTC</createdTime>
+<generatorID>D6E0A1D1-7C03-628F-B3FA-AABC2BAAD8C9</generatorID>
+<ownerDesignName>Net_Control_Additions</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="my_sota" id="4B6915C6-02B1-9F39-6BA4-BA3147041C0C">
+<createdBy>tcollier</createdBy>
+<createdTime>2025-10-21 20:47:14 UTC</createdTime>
+<generatorID>1B8C95ED-1546-DFF3-0AD0-6E62B8F97F28</generatorID>
+<ownerDesignName>Net_Control_Additions</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="skcc" id="C5BD1FC6-BFC2-8221-8329-4ECB694317D3">
+<createdBy>tcollier</createdBy>
+<createdTime>2025-10-21 20:47:14 UTC</createdTime>
+<generatorID>0CEFEFCF-4765-A50E-FA17-B9DF706D2B10</generatorID>
+<ownerDesignName>Net_Control_Additions</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="pota" id="D077552E-7784-7C16-164C-394FE6B8FD96">
+<createdBy>tcollier</createdBy>
+<createdTime>2025-10-21 20:47:14 UTC</createdTime>
+<generatorID>4D5F69DC-2B83-D13D-16DC-8E7643C1B7CD</generatorID>
+<ownerDesignName>Net_Control_Additions</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="my_pota" id="109C13B7-CDB0-1D2E-F943-DC641DF3B2F8">
+<createdBy>tcollier</createdBy>
+<createdTime>2025-10-21 20:47:14 UTC</createdTime>
+<generatorID>44365A29-7BA3-C117-7D8E-0040D92CECC7</generatorID>
+<ownerDesignName>Net_Control_Additions</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="wwff" id="9DA6262A-471E-59D1-AA9E-1E1DC9D625FD">
+<createdBy>tcollier</createdBy>
+<createdTime>2025-10-21 20:47:14 UTC</createdTime>
+<generatorID>11478257-9761-0574-0592-D962F5507D2B</generatorID>
+<ownerDesignName>Net_Control_Additions</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="my_wwff" id="06305FD0-824C-C75A-985D-C7924ACC1414">
+<createdBy>tcollier</createdBy>
+<createdTime>2025-10-21 20:47:14 UTC</createdTime>
+<generatorID>681F58F4-7AFC-FA24-958C-C1F4078A8AF8</generatorID>
+<ownerDesignName>Net_Control_Additions</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="sig" id="AA71B6B4-2EE2-D2FC-2BE2-995F0E469C09">
+<createdBy>tcollier</createdBy>
+<createdTime>2025-10-21 20:47:14 UTC</createdTime>
+<generatorID>BB3C1C94-8EBF-A50E-3D16-472F0C28A48E</generatorID>
+<ownerDesignName>Net_Control_Additions</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="my_sig" id="E3026BAA-137D-30E9-A68E-D422B1E9D079">
+<createdBy>tcollier</createdBy>
+<createdTime>2025-10-21 20:47:14 UTC</createdTime>
+<generatorID>88A6ED71-35F9-C31C-AC40-4080C2A1A904</generatorID>
+<ownerDesignName>Net_Control_Additions</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="sig_info" id="7F497FDE-FDAA-0A95-174A-C93C89744E16">
+<createdBy>tcollier</createdBy>
+<createdTime>2025-10-21 20:47:14 UTC</createdTime>
+<generatorID>3406CB57-7739-95F9-37D7-19F5EDFC6790</generatorID>
+<ownerDesignName>Net_Control_Additions</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="my_sig_info" id="E3727106-CA04-BE01-3798-5B33AAA99C72">
+<createdBy>tcollier</createdBy>
+<createdTime>2025-10-21 20:47:14 UTC</createdTime>
+<generatorID>682AC4DF-9ED2-E71D-C664-86B5475D5387</generatorID>
+<ownerDesignName>Net_Control_Additions</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ext_val_1" id="18FAB4E5-1792-E844-A223-723CC1AB61BC">
+<createdBy>tcollier</createdBy>
+<createdTime>2025-10-21 20:47:14 UTC</createdTime>
+<generatorID>6620BB3A-1A9B-6D76-F38F-4171335787F4</generatorID>
+<ownerDesignName>Net_Control_Additions</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ext_val_2" id="31166BBB-E45D-4501-1C5A-669D63CFD692">
+<createdBy>tcollier</createdBy>
+<createdTime>2025-10-21 20:47:14 UTC</createdTime>
+<generatorID>CC308939-2105-5C1C-8C50-533C64CD8BD7</generatorID>
+<ownerDesignName>Net_Control_Additions</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ext_val_3" id="81CE44C2-4779-F68B-C3FB-284F3328F86C">
+<createdBy>tcollier</createdBy>
+<createdTime>2025-10-21 20:47:14 UTC</createdTime>
+<generatorID>142150DF-A3C2-A36B-0182-93F16FED39D8</generatorID>
+<ownerDesignName>Net_Control_Additions</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ext_val_4" id="93AEAF90-AFDD-E98E-ED7A-77B4C67C8508">
+<createdBy>tcollier</createdBy>
+<createdTime>2025-10-21 20:47:14 UTC</createdTime>
+<generatorID>A1CF8B92-E94C-B431-4FB3-B5F564B5F994</generatorID>
+<ownerDesignName>Net_Control_Additions</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="distance" id="ADF2C62B-59C7-038D-9759-74C4FC947799">
+<createdBy>tcollier</createdBy>
+<createdTime>2025-10-21 20:47:14 UTC</createdTime>
+<generatorID>B72D3044-84C1-3137-A827-0E7A315BF483</generatorID>
+<ownerDesignName>Net_Control_Additions</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<domain>16376ACD-B919-9F79-F168-10F791E627C2</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+</Table>

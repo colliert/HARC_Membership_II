@@ -1,0 +1,170 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="F9DB7E22-09BA-F2C3-D37A-DB432A88B4D5" name="t harc add qso details">
+<sourceDDLFile>MacLogger_Sqlite_import copy.sql</sourceDDLFile>
+<createdBy>tcollier</createdBy>
+<createdTime>2020-10-30 17:45:49 UTC</createdTime>
+<ownerDesignName>SNN_data_model</ownerDesignName>
+<importedID>753EE0AD-2911-5CA3-2698-5E366DA52E32</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="qso_table_v007_pk" id="8AFFB06B-FAD1-89E9-0FC2-611CFA91F260">
+<sourceDDLFile>MacLogger_Sqlite_import copy.sql</sourceDDLFile>
+<createdBy>tcollier</createdBy>
+<createdTime>2020-10-30 17:45:49 UTC</createdTime>
+<ownerDesignName>SNN_data_model</ownerDesignName>
+<importedID>24E79463-A194-8FD1-155A-677DA77AB076</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>75599A16-9423-40CF-D409-4542E3B2ADCC</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="CFB3F871-5DCC-7EF7-B4B9-81484A7498FB" referredColumn="AF8CA556-5CE4-D8C1-26B5-1D357F5167B4"/>
+</associations>
+</Column>
+<Column name="t_rptr_rptr_cd" id="5524CE70-1224-17CC-1CAC-BC73F7291D7D">
+<sourceDDLFile>MacLogger_Sqlite_import copy.sql</sourceDDLFile>
+<createdBy>tcollier</createdBy>
+<createdTime>2020-10-30 17:45:49 UTC</createdTime>
+<ownerDesignName>SNN_data_model</ownerDesignName>
+<importedID>D9E6F3FC-B744-6B4F-5700-08CDA93805FB</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<domain>4FF2D893-9BFF-F8A4-D679-A37B572F47ED</domain>
+<defaultValue>&apos;H2&apos;</defaultValue>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="464D687F-5A71-8590-8731-C0DBD773FC5B" referredColumn="AC66D5C1-BE07-5A95-91BA-C5D77CADFC3D"/>
+</associations>
+</Column>
+<Column name="t_rad_typ_rad_typ_cd" id="A47E3C08-EBF6-32C4-4DB3-D151A7F395D5">
+<sourceDDLFile>MacLogger_Sqlite_import copy.sql</sourceDDLFile>
+<createdBy>tcollier</createdBy>
+<createdTime>2020-10-30 17:45:49 UTC</createdTime>
+<ownerDesignName>SNN_data_model</ownerDesignName>
+<importedID>CB0FEA63-612F-8BA5-ED04-86BBB13D85F5</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>75599A16-9423-40CF-D409-4542E3B2ADCC</domain>
+<defaultValue>1</defaultValue>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="1E6CEB4B-AE8E-9386-758C-4DFFD653B13C" referredColumn="A1DB3322-0C81-9E13-C4C9-DFCCE272AFC7"/>
+</associations>
+</Column>
+<Column name="t_pwr_typ_pwr_typ_cd" id="B0995AAB-47F5-14F9-6E04-72B7C29F2332">
+<sourceDDLFile>MacLogger_Sqlite_import copy.sql</sourceDDLFile>
+<createdBy>tcollier</createdBy>
+<createdTime>2020-10-30 17:45:49 UTC</createdTime>
+<ownerDesignName>SNN_data_model</ownerDesignName>
+<importedID>89815A8B-47BE-AAC2-9E87-18967D1D1435</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>75599A16-9423-40CF-D409-4542E3B2ADCC</domain>
+<defaultValue>1</defaultValue>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="0CA7B593-817A-53DD-64B2-932543991118" referredColumn="995CB788-7D38-C04A-0889-C022E0AD9F7E"/>
+</associations>
+</Column>
+<Column name="t_ant_typ_ant_typ_cd" id="4CAE1F81-E304-4365-4531-17B1ED98B65C">
+<sourceDDLFile>MacLogger_Sqlite_import copy.sql</sourceDDLFile>
+<createdBy>tcollier</createdBy>
+<createdTime>2020-10-30 17:45:49 UTC</createdTime>
+<ownerDesignName>SNN_data_model</ownerDesignName>
+<importedID>8AB72A2B-B2F2-3E18-68A4-76F70B350CFF</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>75599A16-9423-40CF-D409-4542E3B2ADCC</domain>
+<defaultValue>1</defaultValue>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E42CC4D8-DA87-E96E-964C-3EE701670270" referredColumn="BF50EFAA-3A6B-3C2A-E100-719B561C5DFE"/>
+</associations>
+</Column>
+<Column name="qso_comment" id="17D5C163-E3C5-970F-ED43-3106D8892400">
+<sourceDDLFile>MacLogger_Sqlite_import copy.sql</sourceDDLFile>
+<createdBy>tcollier</createdBy>
+<createdTime>2020-10-30 17:45:49 UTC</createdTime>
+<ownerDesignName>SNN_data_model</ownerDesignName>
+<importedID>57E69ABC-3819-6554-5B53-BCAD5E777EC3</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<domain>4FF2D893-9BFF-F8A4-D679-A37B572F47ED</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="3C170CAB-2360-8124-5884-AEE78E76CFE4" name="t_harc_add_qso_details_PK">
+<sourceDDLFile>MacLogger_Sqlite_import copy.sql</sourceDDLFile>
+<createdBy>tcollier</createdBy>
+<createdTime>2020-10-30 17:45:49 UTC</createdTime>
+<ownerDesignName>SNN_data_model</ownerDesignName>
+<importedID>2BB48747-345D-0B36-703E-02196B100746</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8AFFB06B-FAD1-89E9-0FC2-611CFA91F260"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D6032318-7DAA-8423-8C27-D74D73B9319D" name="t_harc_add_qso_details_qso_table_v007_FK">
+<createdBy>tcollier</createdBy>
+<createdTime>2020-10-30 17:45:49 UTC</createdTime>
+<ownerDesignName>SNN_data_model</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8AFFB06B-FAD1-89E9-0FC2-611CFA91F260"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="96FBD218-902C-6FC8-18AD-D522F737C4AE" name="t_harc_add_qso_details_t_ant_typ_FK">
+<createdBy>tcollier</createdBy>
+<createdTime>2020-10-30 17:45:49 UTC</createdTime>
+<ownerDesignName>SNN_data_model</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4CAE1F81-E304-4365-4531-17B1ED98B65C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A5743C56-D19E-CCB0-AC2A-B71E7184C1F9" name="t_harc_add_qso_details_t_pwr_typ_FK">
+<createdBy>tcollier</createdBy>
+<createdTime>2020-10-30 17:45:49 UTC</createdTime>
+<ownerDesignName>SNN_data_model</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B0995AAB-47F5-14F9-6E04-72B7C29F2332"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B617DF69-F9EC-091E-2A4F-903AFDB15984" name="t_harc_add_qso_details_t_rad_typ_FK">
+<createdBy>tcollier</createdBy>
+<createdTime>2020-10-30 17:45:49 UTC</createdTime>
+<ownerDesignName>SNN_data_model</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A47E3C08-EBF6-32C4-4DB3-D151A7F395D5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="80F02B0A-2BF5-B5CA-77DD-8E8AE8222EEB" name="t_harc_add_qso_details_t_rptr_FK">
+<createdBy>tcollier</createdBy>
+<createdTime>2020-10-30 17:45:49 UTC</createdTime>
+<ownerDesignName>SNN_data_model</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5524CE70-1224-17CC-1CAC-BC73F7291D7D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

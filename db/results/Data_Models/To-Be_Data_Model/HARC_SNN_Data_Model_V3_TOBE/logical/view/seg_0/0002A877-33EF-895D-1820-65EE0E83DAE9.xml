@@ -1,0 +1,40 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<EntityView class="oracle.dbtools.crest.model.design.logical.EntityView" directorySegmentName="seg_0" id="0002A877-33EF-895D-1820-65EE0E83DAE9" name="v_checkin_report_date">
+<createdBy>tcollier</createdBy>
+<createdTime>2023-12-12 23:36:44 UTC</createdTime>
+<ownerDesignName>HARC_SNN_Data_Model_V3_TOBE</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="FDFA065C-9B79-4768-D3A1-ACB9D4078B29" value="false"/>
+</engineerTo>
+<userDefined>true</userDefined>
+<userDefinedSQL><![CDATA[select checkin_date from t_checkin_report_date]]></userDefinedSQL>
+<validSQL>false</validSQL>
+<parsed>true</parsed>
+<viewType>EntityView</viewType>
+<viewElements>
+<viewElement class="oracle.dbtools.crest.model.design.logical.AttributeView" name="checkin_date" id="75FF0337-8B0F-1566-2300-8A5E89A2FC00">
+<createdBy>tcollier</createdBy>
+<createdTime>2023-12-12 23:37:35 UTC</createdTime>
+<ownerDesignName>HARC_SNN_Data_Model_V3_TOBE</ownerDesignName>
+<engineerTo>
+<item key="FDFA065C-9B79-4768-D3A1-ACB9D4078B29" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>UNKNOWN</dataType>
+<expression>checkin_date</expression>
+<reference>false</reference>
+</viewElement>
+</viewElements>
+<usedObjects>
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="4155BD9E-97DF-F3B3-EF8B-9F882AF0914D">
+<container>true</container>
+<tableName>t_checkin_report_date</tableName>
+</UsedObject>
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="F15A2E48-FBB0-7992-9913-5CFB50812C0A">
+<columnName>checkin_date</columnName>
+<tableName>t_checkin_report_date</tableName>
+</UsedObject>
+</usedObjects>
+</EntityView>

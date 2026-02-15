@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<UserOraclev9i class="oracle.dbtools.crest.model.design.storage.oracle.v9i.UserOraclev9i" name="PUBLIC" directorySegmentName="seg_0" id="PUBLIC">
+<createdBy>tcollier</createdBy>
+<createdTime>2023-12-23 00:10:09 UTC</createdTime>
+<ownerDesignName>HARC_SNN_Data_Model_V3</ownerDesignName>
+<nullInstance>true</nullInstance>
+<storableNullInstance>true</storableNullInstance>
+</UserOraclev9i>

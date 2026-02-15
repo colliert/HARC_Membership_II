@@ -1,0 +1,69 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="B6B1619A-D772-C16D-E9A5-DBBDD443086C" name="Person Type">
+<createdBy>tcollier</createdBy>
+<createdTime>2020-10-30 22:35:58 UTC</createdTime>
+<comment><![CDATA[Person Types
+0 - unknown
+1 - HARC Member]]></comment>
+<ownerDesignName>MacLoggerDX_SQLite_DB</ownerDesignName>
+<engineerTo>
+<item key="AF3E3F20-8AFD-D45A-FD64-95FBA8FAE7F0" value="true"/>
+<item key="31E5524C-62D2-47CA-ED22-956AD4BDA5C7" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<preferredAbbreviation>t_pers_typ</preferredAbbreviation>
+<shortName>t_pers_typ</shortName>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Person Type Code" id="FFA5F1DE-6847-B515-E779-A71A62BA5D30">
+<createdBy>tcollier</createdBy>
+<createdTime>2020-10-30 22:35:58 UTC</createdTime>
+<ownerDesignName>MacLoggerDX_SQLite_DB</ownerDesignName>
+<engineerTo>
+<item key="31E5524C-62D2-47CA-ED22-956AD4BDA5C7" value="true"/>
+<item key="AF3E3F20-8AFD-D45A-FD64-95FBA8FAE7F0" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<preferredAbbreviation>per_typ_cd</preferredAbbreviation>
+</Attribute>
+<Attribute name="Person Type Description" id="652E4D4C-A406-85B4-89C5-705A6E3F8D73">
+<createdBy>tcollier</createdBy>
+<createdTime>2020-10-30 22:35:58 UTC</createdTime>
+<ownerDesignName>MacLoggerDX_SQLite_DB</ownerDesignName>
+<engineerTo>
+<item key="31E5524C-62D2-47CA-ED22-956AD4BDA5C7" value="true"/>
+<item key="AF3E3F20-8AFD-D45A-FD64-95FBA8FAE7F0" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<preferredAbbreviation>pers_typ_desc</preferredAbbreviation>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="C96F09BB-29A2-CDD1-7CA2-69DA6ACA1B8F" name="Person Type PK">
+<createdBy>tcollier</createdBy>
+<createdTime>2020-10-30 23:03:28 UTC</createdTime>
+<ownerDesignName>MacLoggerDX_SQLite_DB</ownerDesignName>
+<engineerTo>
+<item key="31E5524C-62D2-47CA-ED22-956AD4BDA5C7" value="true"/>
+<item key="AF3E3F20-8AFD-D45A-FD64-95FBA8FAE7F0" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>FFA5F1DE-6847-B515-E779-A71A62BA5D30</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

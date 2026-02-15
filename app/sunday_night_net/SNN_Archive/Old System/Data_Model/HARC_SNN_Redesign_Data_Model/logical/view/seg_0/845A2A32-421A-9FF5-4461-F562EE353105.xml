@@ -1,0 +1,54 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<EntityView class="oracle.dbtools.crest.model.design.logical.EntityView" directorySegmentName="seg_0" id="845A2A32-421A-9FF5-4461-F562EE353105" name="v ant typ">
+<createdBy>tcollier</createdBy>
+<createdTime>2020-10-28 21:46:01 UTC</createdTime>
+<generatorID>04E2D634-4A41-0A65-6926-9F95B0E66BC8</generatorID>
+<ownerDesignName>HARC_SNN_Redesign_Data_Model</ownerDesignName>
+<engineerTo>
+<item key="FC2407F3-F8D5-F415-2274-01B807491F5F" value="true"/>
+<item key="2D9F4731-903E-E966-6F91-381618624C38" value="true"/>
+</engineerTo>
+<userDefined>true</userDefined>
+<userDefinedSQL><![CDATA[SELECT *
+      FROM t_ant_typ]]></userDefinedSQL>
+<validSQL>false</validSQL>
+<viewType>EntityView</viewType>
+<viewElements>
+<viewElement class="oracle.dbtools.crest.model.design.logical.AttributeView" name="ant_typ_cd" id="84E049DC-5E58-3721-37D5-710827C70460">
+<createdBy>tcollier</createdBy>
+<createdTime>2020-10-28 21:46:01 UTC</createdTime>
+<generatorID>BDF7ED7E-3676-AFAF-3FE9-0933A34B35DE</generatorID>
+<ownerDesignName>HARC_SNN_Redesign_Data_Model</ownerDesignName>
+<engineerTo>
+<item key="FC2407F3-F8D5-F415-2274-01B807491F5F" value="true"/>
+<item key="2D9F4731-903E-E966-6F91-381618624C38" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>INTEGER</dataType>
+<reference>false</reference>
+<referencedColumn>2122A879-0940-24D8-7A38-4D576E309EAA</referencedColumn>
+<table>7F4470CA-ABD1-2B9C-A9C2-8C47F659B28A</table>
+<tableAlias>t_ant_typ</tableAlias>
+<viewID>845A2A32-421A-9FF5-4461-F562EE353105</viewID>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.logical.AttributeView" name="ant_typ_desc" id="B5A62C28-EC42-BF15-F17D-EB0B97A2ADE5">
+<createdBy>tcollier</createdBy>
+<createdTime>2020-10-28 21:46:01 UTC</createdTime>
+<generatorID>F1396AA0-061A-3E73-85D1-5AE6DF81B66D</generatorID>
+<ownerDesignName>HARC_SNN_Redesign_Data_Model</ownerDesignName>
+<engineerTo>
+<item key="FC2407F3-F8D5-F415-2274-01B807491F5F" value="true"/>
+<item key="2D9F4731-903E-E966-6F91-381618624C38" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>CLOB</dataType>
+<reference>false</reference>
+<referencedColumn>02F7E039-81FE-1F33-832C-36E9E83177C0</referencedColumn>
+<table>7F4470CA-ABD1-2B9C-A9C2-8C47F659B28A</table>
+<tableAlias>t_ant_typ</tableAlias>
+<viewID>845A2A32-421A-9FF5-4461-F562EE353105</viewID>
+</viewElement>
+</viewElements>
+</EntityView>

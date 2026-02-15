@@ -1,0 +1,158 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<EntityView class="oracle.dbtools.crest.model.design.logical.EntityView" directorySegmentName="seg_0" id="852100AF-ACDD-1B7A-2715-FA0E4A14A8F4" name="v_pers">
+<createdBy>tcollier</createdBy>
+<createdTime>2022-04-29 23:03:10 UTC</createdTime>
+<ownerDesignName>SNN_data_model</ownerDesignName>
+<engineerTo>
+<item key="AF3E3F20-8AFD-D45A-FD64-95FBA8FAE7F0" value="true"/>
+<item key="31E5524C-62D2-47CA-ED22-956AD4BDA5C7" value="true"/>
+</engineerTo>
+<userDefined>true</userDefined>
+<userDefinedSQL><![CDATA[select * from person]]></userDefinedSQL>
+<parsed>true</parsed>
+<viewType>EntityView</viewType>
+<usedContainers>
+<container containerID="7F6899A9-D330-6EBB-B413-FA52DD0B1A31"/>
+</usedContainers>
+<viewElements>
+<viewElement class="oracle.dbtools.crest.model.design.logical.AttributeView" name="mem call" id="1CF48D6B-1AA4-1FF6-5804-5480ABC2503B">
+<createdBy>tcollier</createdBy>
+<createdTime>2022-04-29 23:03:49 UTC</createdTime>
+<ownerDesignName>MacLoggerDX_SQLite_DB</ownerDesignName>
+<engineerTo>
+<item key="AF3E3F20-8AFD-D45A-FD64-95FBA8FAE7F0" value="true"/>
+<item key="31E5524C-62D2-47CA-ED22-956AD4BDA5C7" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>CHAR</dataType>
+<reference>false</reference>
+<referencedColumn>3C661828-F0E3-2C0F-BC1D-D5822668B020</referencedColumn>
+<table>7F6899A9-D330-6EBB-B413-FA52DD0B1A31</table>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.logical.AttributeView" name="mem f nam" id="12BFCF26-290C-B1E6-999B-3FEA5CF6B11B">
+<createdBy>tcollier</createdBy>
+<createdTime>2022-04-29 23:03:49 UTC</createdTime>
+<ownerDesignName>MacLoggerDX_SQLite_DB</ownerDesignName>
+<engineerTo>
+<item key="AF3E3F20-8AFD-D45A-FD64-95FBA8FAE7F0" value="true"/>
+<item key="31E5524C-62D2-47CA-ED22-956AD4BDA5C7" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>CHAR</dataType>
+<reference>false</reference>
+<referencedColumn>15D3FE5A-468F-C922-F409-C68FA46FF61C</referencedColumn>
+<table>7F6899A9-D330-6EBB-B413-FA52DD0B1A31</table>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.logical.AttributeView" name="mem m nam" id="21222195-F9E4-3DAA-734A-F30FDBBED31E">
+<createdBy>tcollier</createdBy>
+<createdTime>2022-04-29 23:03:49 UTC</createdTime>
+<ownerDesignName>MacLoggerDX_SQLite_DB</ownerDesignName>
+<engineerTo>
+<item key="AF3E3F20-8AFD-D45A-FD64-95FBA8FAE7F0" value="true"/>
+<item key="31E5524C-62D2-47CA-ED22-956AD4BDA5C7" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>CHAR</dataType>
+<reference>false</reference>
+<referencedColumn>6E573F9C-1FCB-B9C1-67DC-B905F4DBBFB9</referencedColumn>
+<table>7F6899A9-D330-6EBB-B413-FA52DD0B1A31</table>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.logical.AttributeView" name="mem l nam" id="817A9217-2564-EB82-7358-7C075C2A2C23">
+<createdBy>tcollier</createdBy>
+<createdTime>2022-04-29 23:03:49 UTC</createdTime>
+<ownerDesignName>MacLoggerDX_SQLite_DB</ownerDesignName>
+<engineerTo>
+<item key="AF3E3F20-8AFD-D45A-FD64-95FBA8FAE7F0" value="true"/>
+<item key="31E5524C-62D2-47CA-ED22-956AD4BDA5C7" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>CHAR</dataType>
+<reference>false</reference>
+<referencedColumn>594458D6-BA3B-85BB-507D-55F70F452E0D</referencedColumn>
+<table>7F6899A9-D330-6EBB-B413-FA52DD0B1A31</table>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.logical.AttributeView" name="mem nicknam" id="2BEAC5A0-F6E9-1F4F-032B-4996E314C5F9">
+<createdBy>tcollier</createdBy>
+<createdTime>2022-04-29 23:03:49 UTC</createdTime>
+<ownerDesignName>MacLoggerDX_SQLite_DB</ownerDesignName>
+<engineerTo>
+<item key="AF3E3F20-8AFD-D45A-FD64-95FBA8FAE7F0" value="true"/>
+<item key="31E5524C-62D2-47CA-ED22-956AD4BDA5C7" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>CHAR</dataType>
+<reference>false</reference>
+<referencedColumn>1D6B4D1D-CC3C-B9E6-279B-6A898A7DE617</referencedColumn>
+<table>7F6899A9-D330-6EBB-B413-FA52DD0B1A31</table>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.logical.AttributeView" name="mem lic class" id="A0F2FA91-23B6-8497-1A49-1D3C05DE5A82">
+<createdBy>tcollier</createdBy>
+<createdTime>2022-04-29 23:03:49 UTC</createdTime>
+<ownerDesignName>MacLoggerDX_SQLite_DB</ownerDesignName>
+<engineerTo>
+<item key="AF3E3F20-8AFD-D45A-FD64-95FBA8FAE7F0" value="true"/>
+<item key="31E5524C-62D2-47CA-ED22-956AD4BDA5C7" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>CHAR</dataType>
+<reference>false</reference>
+<referencedColumn>D597FB9A-64D9-1C42-994E-90D011644809</referencedColumn>
+<table>7F6899A9-D330-6EBB-B413-FA52DD0B1A31</table>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.logical.AttributeView" name="Person Type Code" id="BFA9D64A-BBA3-C0D5-7D37-87B2A69D8591">
+<createdBy>tcollier</createdBy>
+<createdTime>2022-04-29 23:03:49 UTC</createdTime>
+<ownerDesignName>MacLoggerDX_SQLite_DB</ownerDesignName>
+<engineerTo>
+<item key="AF3E3F20-8AFD-D45A-FD64-95FBA8FAE7F0" value="true"/>
+<item key="31E5524C-62D2-47CA-ED22-956AD4BDA5C7" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>INTEGER</dataType>
+<reference>false</reference>
+<referencedColumn>8920D903-0DC2-CC7E-1C09-1C52D1360F24</referencedColumn>
+<table>7F6899A9-D330-6EBB-B413-FA52DD0B1A31</table>
+</viewElement>
+</viewElements>
+<usedObjects>
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="7F6899A9-D330-6EBB-B413-FA52DD0B1A31">
+<container>true</container>
+<tableName>Person</tableName>
+</UsedObject>
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="3C661828-F0E3-2C0F-BC1D-D5822668B020">
+<columnName>mem call</columnName>
+<tableName>Person</tableName>
+</UsedObject>
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="15D3FE5A-468F-C922-F409-C68FA46FF61C">
+<columnName>mem f nam</columnName>
+<tableName>Person</tableName>
+</UsedObject>
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="6E573F9C-1FCB-B9C1-67DC-B905F4DBBFB9">
+<columnName>mem m nam</columnName>
+<tableName>Person</tableName>
+</UsedObject>
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="594458D6-BA3B-85BB-507D-55F70F452E0D">
+<columnName>mem l nam</columnName>
+<tableName>Person</tableName>
+</UsedObject>
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="1D6B4D1D-CC3C-B9E6-279B-6A898A7DE617">
+<columnName>mem nicknam</columnName>
+<tableName>Person</tableName>
+</UsedObject>
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="D597FB9A-64D9-1C42-994E-90D011644809">
+<columnName>mem lic class</columnName>
+<tableName>Person</tableName>
+</UsedObject>
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="8920D903-0DC2-CC7E-1C09-1C52D1360F24">
+<columnName>Person Type Code</columnName>
+<tableName>Person</tableName>
+</UsedObject>
+</usedObjects>
+</EntityView>

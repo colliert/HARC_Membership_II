@@ -1,0 +1,15 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableView class="oracle.dbtools.crest.model.design.relational.TableView" directorySegmentName="seg_0" id="A4215B5B-A094-F966-8EEC-25DE41E95044" name="v_checkin_count">
+<sourceDDLFile>MacLoggerDX_DDL_TMP.sql</sourceDDLFile>
+<createdBy>tcollier</createdBy>
+<createdTime>2020-10-28 19:34:38 UTC</createdTime>
+<ownerDesignName>HARC_SNN_Redesign_Data_Model</ownerDesignName>
+<importedID>57EF1FA3-8345-615D-0CDF-D5DD8F76A97B</importedID>
+<userDefined>true</userDefined>
+<userDefinedSQL><![CDATA[SELECT date(qso_start, 'unixepoch')AS [Net Date],
+           count(qso_start)AS Checkins
+      FROM v_qso_table_v007
+     GROUP BY 1
+     ORDER BY 1]]></userDefinedSQL>
+<validSQL>false</validSQL>
+</TableView>

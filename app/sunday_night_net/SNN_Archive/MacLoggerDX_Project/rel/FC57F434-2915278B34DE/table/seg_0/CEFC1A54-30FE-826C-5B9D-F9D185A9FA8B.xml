@@ -1,0 +1,49 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="CEFC1A54-30FE-826C-5B9D-F9D185A9FA8B" name="t_ant_typ">
+<createdBy>tcollier</createdBy>
+<createdTime>2019-07-12 16:48:06 UTC</createdTime>
+<generatorID>95EE9719-6141-9716-C83E-7C5D9E598846</generatorID>
+<ownerDesignName>MacLoggerDX_Project</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ant_typ_cd" id="4B71AD98-C567-F9AD-C71C-7A8D0CFBA5B4">
+<createdBy>tcollier</createdBy>
+<createdTime>2019-07-12 16:48:06 UTC</createdTime>
+<generatorID>D5A867C5-509F-8320-E828-56EEA81F02F7</generatorID>
+<ownerDesignName>MacLoggerDX_Project</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ant_typ_desc" id="FBA960E1-1481-2E0A-0CEF-A1E5F254968F">
+<createdBy>tcollier</createdBy>
+<createdTime>2019-07-12 16:48:06 UTC</createdTime>
+<generatorID>0D0A5F0F-24B0-B317-A51A-09EAC3BC6DA8</generatorID>
+<ownerDesignName>MacLoggerDX_Project</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT040</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="4481D733-E903-B9BD-EF10-D81B21CB5CC3" name="t_ant_typ_PK">
+<createdBy>tcollier</createdBy>
+<createdTime>2019-07-12 16:48:06 UTC</createdTime>
+<generatorID>B0E033B9-F47C-406A-75D1-FEE00E9BE6D6</generatorID>
+<ownerDesignName>MacLoggerDX_Project</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4B71AD98-C567-F9AD-C71C-7A8D0CFBA5B4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

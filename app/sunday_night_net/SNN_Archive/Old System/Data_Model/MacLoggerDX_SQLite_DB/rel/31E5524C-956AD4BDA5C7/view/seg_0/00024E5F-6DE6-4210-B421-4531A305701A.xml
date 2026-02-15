@@ -1,0 +1,38 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableView class="oracle.dbtools.crest.model.design.relational.TableView" directorySegmentName="seg_0" id="00024E5F-6DE6-4210-B421-4531A305701A" name="v_pers_typ">
+<createdBy>tcollier</createdBy>
+<createdTime>2020-10-30 22:56:46 UTC</createdTime>
+<generatorID>02FE8760-0422-90A0-93F8-8DDD8449E819</generatorID>
+<ownerDesignName>MacLoggerDX_SQLite_DB</ownerDesignName>
+<userDefined>true</userDefined>
+<userDefinedSQL><![CDATA[select * from t_pers_typ
+]]></userDefinedSQL>
+<validSQL>false</validSQL>
+<parsed>true</parsed>
+<viewElements>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="per_typ_cd" id="0F58AE08-97CA-26F6-61AF-16A464170ECD">
+<createdBy>tcollier</createdBy>
+<createdTime>2020-10-30 22:57:26 UTC</createdTime>
+<ownerDesignName>MacLoggerDX_SQLite_DB</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>INTEGER</dataType>
+<headerAlias>per_typ_cd</headerAlias>
+<reference>false</reference>
+<referencedColumn>FB12C3A3-240A-D83A-B2C9-D4B13CE94D1F</referencedColumn>
+<table>7C643DC5-B0DD-E92D-7FA8-4A9BF035D1B4</table>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="pers_typ_desc" id="179639E9-C3B3-4CAD-0594-22FB88CA68CB">
+<createdBy>tcollier</createdBy>
+<createdTime>2020-10-30 22:57:26 UTC</createdTime>
+<ownerDesignName>MacLoggerDX_SQLite_DB</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>CHAR</dataType>
+<headerAlias>pers_typ_desc</headerAlias>
+<reference>false</reference>
+<referencedColumn>70913AA3-C62C-96FE-7EC7-0A67C3DC27D4</referencedColumn>
+<table>7C643DC5-B0DD-E92D-7FA8-4A9BF035D1B4</table>
+</viewElement>
+</viewElements>
+</TableView>

@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<oracle.dbtools.crest.model.design.storage.oracle.v9i.StorageDesignOraclev9i>
+   <object objectType="User" objectID="MDSYS" name="MDSYS" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.storage.oracle.v9i.UserOraclev9i" propertyParentId="9807C1FA-16B19CA63681"/>
+   <object objectType="User" objectID="PUBLIC" name="PUBLIC" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.storage.oracle.v9i.UserOraclev9i" propertyParentId="9807C1FA-16B19CA63681"/>
+   <object objectType="SType" objectID="47E390DE-0671-C4B1-8428-0F45CBEE18F8" name="SDO_GEOMETRY" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.storage.oracle.v9i.StructuredTypeProxyOraclev9i" propertyParentId="9807C1FA-16B19CA63681"/>
+   <object objectType="SType" objectID="F72C39E0-D1CA-8821-2AD7-A1E95A37D3D1" name="XMLTYPE" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.storage.oracle.v9i.StructuredTypeProxyOraclev9i" propertyParentId="9807C1FA-16B19CA63681"/>
+   <object objectType="Table" objectID="91D2BBB8-825D-0BBD-3DA9-B12FAF443777" name="qso_table_v007" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.storage.oracle.v9i.TableProxyOraclev9i" propertyParentId="9807C1FA-16B19CA63681"/>
+</oracle.dbtools.crest.model.design.storage.oracle.v9i.StorageDesignOraclev9i>

@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="F3CD9067-6442-6767-1941-60E6DDE9F03E" containerWithKeyObject="72C0C2D1-50E5-94C0-AB74-1FDD1A1AEB06" localFKIndex="E6C3F464-6A0E-FBA5-A087-DAD2B55FF33D" name="t_harc_add_qso_details_t_rptr_FK">
+<sourceDDLFile>HARC_SNN_DDL_Modified.sql</sourceDDLFile>
+<createdBy>tcollier</createdBy>
+<createdTime>2023-12-10 01:28:01 UTC</createdTime>
+<ownerDesignName>HARC_SNN_Data_Model_V3</ownerDesignName>
+<importedID>406350C3-875E-F1AC-A303-34BC81995B29</importedID>
+<referredTableLongName>t_rptr</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>C7466266-4B41-ACC7-02B0-BE5141EFDB63</referredTableID>
+<keyObject>2C3D0AF2-9CB1-8A5B-8696-A60C69BB20DA</keyObject>
+<referredKeyID>2C3D0AF2-9CB1-8A5B-8696-A60C69BB20DA</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>rptr_cd</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

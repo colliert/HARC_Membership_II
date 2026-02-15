@@ -1,0 +1,13 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="HARC_SNN_Data_Model_V3" id="087861B5-306D-B377-4BC0-29689E523623" version="3.5">
+<createdBy>tcollier</createdBy>
+<createdTime>2023-12-10 01:27:13 UTC</createdTime>
+<ownerDesignName>HARC_SNN_Data_Model_V3</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>087861B5-306D-B377-4BC0-29689E523623</designId>
+<usedDesignStorageDescriptors>
+<designDescr class="oracle.dbtools.crest.model.design.Design$DesignStorageDesc" id="9BCA3613-8DF5-D904-656A-23C15B41771C">
+<designStoragePath>/HARC_SNN_DDL_Modified</designStoragePath>
+</designDescr>
+</usedDesignStorageDescriptors>
+</OSDM_Design>

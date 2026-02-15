@@ -1,0 +1,171 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableView class="oracle.dbtools.crest.model.design.relational.TableView" directorySegmentName="seg_0" id="E0C434A0-524F-3C4D-7640-C2ECD1D527AF" name="v_reptr">
+<createdBy>tcollier</createdBy>
+<createdTime>2019-07-12 23:10:45 UTC</createdTime>
+<ownerDesignName>MacLoggerDX_Project</ownerDesignName>
+<ordsAlias>view_17</ordsAlias>
+<userDefined>true</userDefined>
+<userDefinedSQL>select * &lt;br/&gt;from t_rptr;</userDefinedSQL>
+<parsed>true</parsed>
+<usedContainers>
+<container containerID="6D3AF86D-0D8C-36BB-19F0-54D317D6F57A"/>
+</usedContainers>
+<viewElements>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="rptr_cd" id="40941E5C-ED96-A330-D8C1-67873C773601">
+<createdBy>tcollier</createdBy>
+<createdTime>2019-07-12 23:12:49 UTC</createdTime>
+<ownerDesignName>MacLoggerDX_Project</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>CHAR</dataType>
+<reference>false</reference>
+<referencedColumn>FEBA6C31-7474-C772-7C2A-DC63E5DD9170</referencedColumn>
+<table>6D3AF86D-0D8C-36BB-19F0-54D317D6F57A</table>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="rptr_desc" id="D1F756EF-687B-9D3E-86EE-094C21D7A3B0">
+<createdBy>tcollier</createdBy>
+<createdTime>2019-07-12 23:12:49 UTC</createdTime>
+<ownerDesignName>MacLoggerDX_Project</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>CLOB</dataType>
+<reference>false</reference>
+<referencedColumn>A10BC79A-8849-5D58-6BC4-8CBDF360FE17</referencedColumn>
+<table>6D3AF86D-0D8C-36BB-19F0-54D317D6F57A</table>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="rptr_call" id="A11C1709-FACA-9FE6-DACF-92BAB6681F72">
+<createdBy>tcollier</createdBy>
+<createdTime>2019-07-12 23:12:49 UTC</createdTime>
+<ownerDesignName>MacLoggerDX_Project</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>CLOB</dataType>
+<reference>false</reference>
+<referencedColumn>2628ED09-BC37-9833-648A-32978AC7F316</referencedColumn>
+<table>6D3AF86D-0D8C-36BB-19F0-54D317D6F57A</table>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="rptr_tx_freq" id="CF0EDD11-9770-9C15-5D4E-A27175BDA202">
+<createdBy>tcollier</createdBy>
+<createdTime>2019-07-12 23:12:49 UTC</createdTime>
+<ownerDesignName>MacLoggerDX_Project</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>REAL</dataType>
+<reference>false</reference>
+<referencedColumn>6C6A51C4-4251-425C-A3C9-B7929B17004D</referencedColumn>
+<table>6D3AF86D-0D8C-36BB-19F0-54D317D6F57A</table>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="rptr_rx_freq" id="C607D794-089C-C8F6-F1CE-3A6D8082792F">
+<createdBy>tcollier</createdBy>
+<createdTime>2019-07-12 23:12:49 UTC</createdTime>
+<ownerDesignName>MacLoggerDX_Project</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>REAL</dataType>
+<reference>false</reference>
+<referencedColumn>4D55ACE9-B3E3-7775-E826-24028CA74932</referencedColumn>
+<table>6D3AF86D-0D8C-36BB-19F0-54D317D6F57A</table>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="rptr_ctcss" id="9174A79A-E91A-9014-FFA8-CCB535FFAA50">
+<createdBy>tcollier</createdBy>
+<createdTime>2019-07-12 23:12:49 UTC</createdTime>
+<ownerDesignName>MacLoggerDX_Project</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>REAL</dataType>
+<reference>false</reference>
+<referencedColumn>EBE0CF19-2E9A-7C8C-40D3-082194EEFDD8</referencedColumn>
+<table>6D3AF86D-0D8C-36BB-19F0-54D317D6F57A</table>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="rptr__lat" id="4968F14F-1106-15A7-98D4-325E80E8BE4F">
+<createdBy>tcollier</createdBy>
+<createdTime>2019-07-12 23:12:49 UTC</createdTime>
+<ownerDesignName>MacLoggerDX_Project</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>REAL</dataType>
+<reference>false</reference>
+<referencedColumn>E2FC4B67-0374-7159-E612-A8FBF39E5D69</referencedColumn>
+<table>6D3AF86D-0D8C-36BB-19F0-54D317D6F57A</table>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="rptr_long" id="95D84819-EB59-2511-5B42-85A288009942">
+<createdBy>tcollier</createdBy>
+<createdTime>2019-07-12 23:12:49 UTC</createdTime>
+<ownerDesignName>MacLoggerDX_Project</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>REAL</dataType>
+<reference>false</reference>
+<referencedColumn>DB10B482-ABD7-CC2E-367F-0EE5E637D793</referencedColumn>
+<table>6D3AF86D-0D8C-36BB-19F0-54D317D6F57A</table>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="rptr_allstar_node" id="89232726-FC85-4161-F8AD-DCCDBFFA65B8">
+<createdBy>tcollier</createdBy>
+<createdTime>2019-07-12 23:12:49 UTC</createdTime>
+<ownerDesignName>MacLoggerDX_Project</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>INTEGER</dataType>
+<reference>false</reference>
+<referencedColumn>C860D152-D976-0818-903C-3A5C02ABEC14</referencedColumn>
+<table>6D3AF86D-0D8C-36BB-19F0-54D317D6F57A</table>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="rptr_echolink_node" id="F3D59523-4002-F5A5-9220-0F43753C2394">
+<createdBy>tcollier</createdBy>
+<createdTime>2019-07-12 23:12:49 UTC</createdTime>
+<ownerDesignName>MacLoggerDX_Project</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>INTEGER</dataType>
+<reference>false</reference>
+<referencedColumn>0728D3A5-C084-59B4-38A0-8B71148DD8C0</referencedColumn>
+<table>6D3AF86D-0D8C-36BB-19F0-54D317D6F57A</table>
+</viewElement>
+</viewElements>
+<usedObjects>
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="6D3AF86D-0D8C-36BB-19F0-54D317D6F57A">
+<container>true</container>
+<tableName>t_rptr</tableName>
+</UsedObject>
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="FEBA6C31-7474-C772-7C2A-DC63E5DD9170">
+<columnName>rptr_cd</columnName>
+<tableName>t_rptr</tableName>
+</UsedObject>
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="A10BC79A-8849-5D58-6BC4-8CBDF360FE17">
+<columnName>rptr_desc</columnName>
+<tableName>t_rptr</tableName>
+</UsedObject>
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="2628ED09-BC37-9833-648A-32978AC7F316">
+<columnName>rptr_call</columnName>
+<tableName>t_rptr</tableName>
+</UsedObject>
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="6C6A51C4-4251-425C-A3C9-B7929B17004D">
+<columnName>rptr_tx_freq</columnName>
+<tableName>t_rptr</tableName>
+</UsedObject>
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="4D55ACE9-B3E3-7775-E826-24028CA74932">
+<columnName>rptr_rx_freq</columnName>
+<tableName>t_rptr</tableName>
+</UsedObject>
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="EBE0CF19-2E9A-7C8C-40D3-082194EEFDD8">
+<columnName>rptr_ctcss</columnName>
+<tableName>t_rptr</tableName>
+</UsedObject>
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="E2FC4B67-0374-7159-E612-A8FBF39E5D69">
+<columnName>rptr__lat</columnName>
+<tableName>t_rptr</tableName>
+</UsedObject>
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="DB10B482-ABD7-CC2E-367F-0EE5E637D793">
+<columnName>rptr_long</columnName>
+<tableName>t_rptr</tableName>
+</UsedObject>
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="C860D152-D976-0818-903C-3A5C02ABEC14">
+<columnName>rptr_allstar_node</columnName>
+<tableName>t_rptr</tableName>
+</UsedObject>
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="0728D3A5-C084-59B4-38A0-8B71148DD8C0">
+<columnName>rptr_echolink_node</columnName>
+<tableName>t_rptr</tableName>
+</UsedObject>
+</usedObjects>
+</TableView>

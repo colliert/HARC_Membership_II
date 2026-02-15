@@ -1,0 +1,42 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableView class="oracle.dbtools.crest.model.design.relational.TableView" directorySegmentName="seg_0" id="1D9ADE9A-11CC-633E-D5BB-9C06874EEC02" name="v_call_out_cutoff_days">
+<sourceDDLFile>MacLoggerDX_DDL_TMP.sql</sourceDDLFile>
+<createdBy>tcollier</createdBy>
+<createdTime>2020-10-28 19:34:38 UTC</createdTime>
+<ownerDesignName>HARC_SNN_Redesign_Data_Model</ownerDesignName>
+<importedID>C1064B0A-DE39-1F47-6095-04119849A773</importedID>
+<userDefined>true</userDefined>
+<userDefinedSQL><![CDATA[SELECT *
+      FROM t_call_out_cutoff_days]]></userDefinedSQL>
+<validSQL>false</validSQL>
+<viewElements>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="dat_est" id="33E9AE53-E2C3-399F-6770-A4AF09608AB7">
+<createdBy>tcollier</createdBy>
+<createdTime>2020-10-28 19:34:38 UTC</createdTime>
+<ownerDesignName>HARC_SNN_Redesign_Data_Model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>UNKNOWN</dataType>
+<headerAlias>dat_est</headerAlias>
+<reference>false</reference>
+<referencedColumn>2A17D93B-50F5-26E8-55DD-5CBE09AE6688</referencedColumn>
+<table>03362960-1505-A247-F675-151A42DDA2BF</table>
+<tableAlias>t_call_out_cutoff_days</tableAlias>
+<viewID>1D9ADE9A-11CC-633E-D5BB-9C06874EEC02</viewID>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="num_days" id="9D32DCE3-EDC7-F3B3-1AEC-C1EB233604DC">
+<createdBy>tcollier</createdBy>
+<createdTime>2020-10-28 19:34:38 UTC</createdTime>
+<ownerDesignName>HARC_SNN_Redesign_Data_Model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>INTEGER</dataType>
+<headerAlias>num_days</headerAlias>
+<reference>false</reference>
+<referencedColumn>5019C85F-2620-9C0D-5F43-00D65E9591A7</referencedColumn>
+<table>03362960-1505-A247-F675-151A42DDA2BF</table>
+<tableAlias>t_call_out_cutoff_days</tableAlias>
+<viewID>1D9ADE9A-11CC-633E-D5BB-9C06874EEC02</viewID>
+</viewElement>
+</viewElements>
+</TableView>

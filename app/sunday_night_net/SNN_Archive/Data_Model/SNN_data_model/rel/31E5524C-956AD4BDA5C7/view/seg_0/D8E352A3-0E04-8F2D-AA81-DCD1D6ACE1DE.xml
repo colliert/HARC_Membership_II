@@ -1,0 +1,281 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableView class="oracle.dbtools.crest.model.design.relational.TableView" directorySegmentName="seg_0" id="D8E352A3-0E04-8F2D-AA81-DCD1D6ACE1DE" name="v_member_qso">
+<sourceDDLFile>MacLogger_Sqlite_import copy.sql</sourceDDLFile>
+<createdBy>tcollier</createdBy>
+<createdTime>2020-10-30 17:45:49 UTC</createdTime>
+<ownerDesignName>SNN_data_model</ownerDesignName>
+<importedID>D5ED9CD9-E662-4888-0FD1-75318D972411</importedID>
+<userDefined>true</userDefined>
+<userDefinedSQL><![CDATA[SELECT v_harc_member.mem_call,
+           v_harc_member.mem_f_nam,
+           v_harc_member.mem_m_nam,
+           v_harc_member.mem_l_nam,
+           v_qso_table_v007.band_rx,
+           v_qso_table_v007.rx_frequency,
+           v_qso_table_v007.tx_frequency,
+           v_qso_table_v007.latitude,
+           v_qso_table_v007.longitude,
+           v_qso_table_v007.contest_id,
+           v_qso_table_v007.qso_start,
+           v_reptr.rptr_desc
+      FROM v_harc_member
+           INNER JOIN
+           v_qso_table_v007 ON v_harc_member.mem_call = v_qso_table_v007.call
+           INNER JOIN
+           v_harc_add_qso_details ON v_qso_table_v007.pk = v_harc_add_qso_details.qso_table_v007_pk
+           INNER JOIN
+           v_reptr ON v_harc_add_qso_details.rptr_cd = v_reptr.rptr_cd]]></userDefinedSQL>
+<parsed>true</parsed>
+<viewElements>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="mem_call" id="4CF76400-4E5A-E788-0B8B-0EBE999B870A">
+<createdBy>tcollier</createdBy>
+<createdTime>2020-10-30 17:45:49 UTC</createdTime>
+<ownerDesignName>SNN_data_model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>CHAR</dataType>
+<headerAlias>mem_call</headerAlias>
+<reference>false</reference>
+<referencedColumnViewID>77C1CE74-C9DC-FE1A-CB10-0CB7F9642625</referencedColumnViewID>
+<tableAlias>v_harc_member</tableAlias>
+<viewID>D8E352A3-0E04-8F2D-AA81-DCD1D6ACE1DE</viewID>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="mem_f_nam" id="BADC34BF-7187-8F58-38DE-A57E85B7374D">
+<createdBy>tcollier</createdBy>
+<createdTime>2020-10-30 17:45:49 UTC</createdTime>
+<ownerDesignName>SNN_data_model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>CHAR</dataType>
+<headerAlias>mem_f_nam</headerAlias>
+<reference>false</reference>
+<referencedColumnViewID>0B8729DB-2F36-DE5C-37D7-556E52CC5DD8</referencedColumnViewID>
+<tableAlias>v_harc_member</tableAlias>
+<viewID>D8E352A3-0E04-8F2D-AA81-DCD1D6ACE1DE</viewID>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="mem_m_nam" id="E242241E-D266-1839-71FD-8ECCF6DF9050">
+<createdBy>tcollier</createdBy>
+<createdTime>2020-10-30 17:45:49 UTC</createdTime>
+<ownerDesignName>SNN_data_model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>CHAR</dataType>
+<headerAlias>mem_m_nam</headerAlias>
+<reference>false</reference>
+<referencedColumnViewID>BE971441-7514-7C3F-900B-0AE88488C410</referencedColumnViewID>
+<tableAlias>v_harc_member</tableAlias>
+<viewID>D8E352A3-0E04-8F2D-AA81-DCD1D6ACE1DE</viewID>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="mem_l_nam" id="C8E9ABAB-A18B-AFA3-2D69-6752F9CD0A8A">
+<createdBy>tcollier</createdBy>
+<createdTime>2020-10-30 17:45:49 UTC</createdTime>
+<ownerDesignName>SNN_data_model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>CHAR</dataType>
+<headerAlias>mem_l_nam</headerAlias>
+<reference>false</reference>
+<referencedColumnViewID>26798848-3F11-CB9A-1FE5-5F983520139B</referencedColumnViewID>
+<tableAlias>v_harc_member</tableAlias>
+<viewID>D8E352A3-0E04-8F2D-AA81-DCD1D6ACE1DE</viewID>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="band_rx" id="90495CB6-11C4-996C-DEF8-90523C4D1E3D">
+<createdBy>tcollier</createdBy>
+<createdTime>2020-10-30 17:45:49 UTC</createdTime>
+<ownerDesignName>SNN_data_model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>CHAR</dataType>
+<headerAlias>band_rx</headerAlias>
+<reference>false</reference>
+<referencedColumn>805E0358-D3C5-8B94-ABB1-43DB8B33C603</referencedColumn>
+<referencedColumnViewID>EDCB7F95-73E8-A653-F4B5-650AB20836C6</referencedColumnViewID>
+<tableAlias>v_qso_table_v007</tableAlias>
+<viewID>D8E352A3-0E04-8F2D-AA81-DCD1D6ACE1DE</viewID>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="rx_frequency" id="3E1E0BF1-BE41-C85A-7606-23C6706F4F35">
+<createdBy>tcollier</createdBy>
+<createdTime>2020-10-30 17:45:49 UTC</createdTime>
+<ownerDesignName>SNN_data_model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>REAL</dataType>
+<headerAlias>rx_frequency</headerAlias>
+<reference>false</reference>
+<referencedColumn>41BD2D79-C0A0-52DA-FF6D-113EB70C98A3</referencedColumn>
+<referencedColumnViewID>01CD2858-C4CF-1C9E-DF92-5A912643EF3C</referencedColumnViewID>
+<tableAlias>v_qso_table_v007</tableAlias>
+<viewID>D8E352A3-0E04-8F2D-AA81-DCD1D6ACE1DE</viewID>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="tx_frequency" id="BC739576-170C-F15B-FDF1-3060AA2AC55F">
+<createdBy>tcollier</createdBy>
+<createdTime>2020-10-30 17:45:49 UTC</createdTime>
+<ownerDesignName>SNN_data_model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>REAL</dataType>
+<headerAlias>tx_frequency</headerAlias>
+<reference>false</reference>
+<referencedColumn>9A961E6F-CA0C-EA33-7DB8-96C0C4E6B1BE</referencedColumn>
+<referencedColumnViewID>5610A3DA-7BAF-798E-7A01-F621C5A70DA7</referencedColumnViewID>
+<tableAlias>v_qso_table_v007</tableAlias>
+<viewID>D8E352A3-0E04-8F2D-AA81-DCD1D6ACE1DE</viewID>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="latitude" id="62A105BF-C742-C311-5108-708A251E03EB">
+<createdBy>tcollier</createdBy>
+<createdTime>2020-10-30 17:45:49 UTC</createdTime>
+<ownerDesignName>SNN_data_model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>REAL</dataType>
+<headerAlias>latitude</headerAlias>
+<reference>false</reference>
+<referencedColumn>8D8F99B6-4CAE-81AF-7246-D29548A582F7</referencedColumn>
+<referencedColumnViewID>B0A407F4-DFA8-617E-ABFA-33B3C39F7693</referencedColumnViewID>
+<tableAlias>v_qso_table_v007</tableAlias>
+<viewID>D8E352A3-0E04-8F2D-AA81-DCD1D6ACE1DE</viewID>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="longitude" id="E4B2F1FF-EB69-22A9-783C-FAEE6C348B59">
+<createdBy>tcollier</createdBy>
+<createdTime>2020-10-30 17:45:49 UTC</createdTime>
+<ownerDesignName>SNN_data_model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>REAL</dataType>
+<headerAlias>longitude</headerAlias>
+<reference>false</reference>
+<referencedColumn>BC30AA91-CB24-940B-3E7F-57BBCE49F5CE</referencedColumn>
+<referencedColumnViewID>DC9F8233-550A-01E7-D4BB-EFBA44862488</referencedColumnViewID>
+<tableAlias>v_qso_table_v007</tableAlias>
+<viewID>D8E352A3-0E04-8F2D-AA81-DCD1D6ACE1DE</viewID>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="contest_id" id="7567DA54-B246-A4E1-B10C-361CEFD12793">
+<createdBy>tcollier</createdBy>
+<createdTime>2020-10-30 17:45:49 UTC</createdTime>
+<ownerDesignName>SNN_data_model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>CHAR</dataType>
+<headerAlias>contest_id</headerAlias>
+<reference>false</reference>
+<referencedColumn>7DF75C82-82A2-A13F-C1D5-5DA88A425E3B</referencedColumn>
+<referencedColumnViewID>FAF3C164-2946-6947-4D20-C93F60B5A3A4</referencedColumnViewID>
+<tableAlias>v_qso_table_v007</tableAlias>
+<viewID>D8E352A3-0E04-8F2D-AA81-DCD1D6ACE1DE</viewID>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="qso_start" id="86EAC5F4-63E3-EA92-73E3-A92ADF27F42C">
+<createdBy>tcollier</createdBy>
+<createdTime>2020-10-30 17:45:49 UTC</createdTime>
+<ownerDesignName>SNN_data_model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>REAL</dataType>
+<headerAlias>qso_start</headerAlias>
+<reference>false</reference>
+<referencedColumn>1ADA2A70-6B31-5DEC-C455-EE76B70D4FCC</referencedColumn>
+<referencedColumnViewID>6B093E57-5A41-1C2B-DDC3-9833CA3F4D1E</referencedColumnViewID>
+<tableAlias>v_qso_table_v007</tableAlias>
+<viewID>D8E352A3-0E04-8F2D-AA81-DCD1D6ACE1DE</viewID>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="rptr_desc" id="8FC55BA7-B27D-3BF0-A428-92BB040F756F">
+<createdBy>tcollier</createdBy>
+<createdTime>2020-10-30 17:45:49 UTC</createdTime>
+<ownerDesignName>SNN_data_model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>CHAR</dataType>
+<headerAlias>rptr_desc</headerAlias>
+<reference>false</reference>
+<referencedColumn>09151404-04C0-D65A-B536-34EA1979E7B1</referencedColumn>
+<referencedColumnViewID>ED3D48ED-9FD1-A89A-CAC7-BDC841EDF915</referencedColumnViewID>
+<tableAlias>v_reptr</tableAlias>
+<viewID>D8E352A3-0E04-8F2D-AA81-DCD1D6ACE1DE</viewID>
+</viewElement>
+</viewElements>
+<usedObjects>
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="602F17D1-0C00-D4AE-1619-81EDF7925198">
+<container>true</container>
+<tableName>v_harc_member</tableName>
+<view>true</view>
+</UsedObject>
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="66588C85-143D-6289-A316-65B35CE3EF4B">
+<container>true</container>
+<tableName>v_qso_table_v007</tableName>
+<view>true</view>
+</UsedObject>
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="1DD71B78-A558-E348-812F-CB147F5D9790">
+<container>true</container>
+<tableName>v_harc_add_qso_details</tableName>
+<view>true</view>
+</UsedObject>
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="0E98B7BD-C31B-89E8-3280-5D806A8ABC6C">
+<container>true</container>
+<tableName>v_reptr</tableName>
+<view>true</view>
+</UsedObject>
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="77C1CE74-C9DC-FE1A-CB10-0CB7F9642625">
+<columnName>mem_call</columnName>
+<tableName>v_harc_member</tableName>
+</UsedObject>
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="0B8729DB-2F36-DE5C-37D7-556E52CC5DD8">
+<columnName>mem_f_nam</columnName>
+<tableName>v_harc_member</tableName>
+</UsedObject>
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="BE971441-7514-7C3F-900B-0AE88488C410">
+<columnName>mem_m_nam</columnName>
+<tableName>v_harc_member</tableName>
+</UsedObject>
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="26798848-3F11-CB9A-1FE5-5F983520139B">
+<columnName>mem_l_nam</columnName>
+<tableName>v_harc_member</tableName>
+</UsedObject>
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="EDCB7F95-73E8-A653-F4B5-650AB20836C6">
+<columnName>band_rx</columnName>
+<tableName>v_qso_table_v007</tableName>
+</UsedObject>
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="01CD2858-C4CF-1C9E-DF92-5A912643EF3C">
+<columnName>rx_frequency</columnName>
+<tableName>v_qso_table_v007</tableName>
+</UsedObject>
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="5610A3DA-7BAF-798E-7A01-F621C5A70DA7">
+<columnName>tx_frequency</columnName>
+<tableName>v_qso_table_v007</tableName>
+</UsedObject>
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="B0A407F4-DFA8-617E-ABFA-33B3C39F7693">
+<columnName>latitude</columnName>
+<tableName>v_qso_table_v007</tableName>
+</UsedObject>
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="DC9F8233-550A-01E7-D4BB-EFBA44862488">
+<columnName>longitude</columnName>
+<tableName>v_qso_table_v007</tableName>
+</UsedObject>
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="FAF3C164-2946-6947-4D20-C93F60B5A3A4">
+<columnName>contest_id</columnName>
+<tableName>v_qso_table_v007</tableName>
+</UsedObject>
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="6B093E57-5A41-1C2B-DDC3-9833CA3F4D1E">
+<columnName>qso_start</columnName>
+<tableName>v_qso_table_v007</tableName>
+</UsedObject>
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="ED3D48ED-9FD1-A89A-CAC7-BDC841EDF915">
+<columnName>rptr_desc</columnName>
+<tableName>v_reptr</tableName>
+</UsedObject>
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="F7239047-0B26-3424-01E2-1F54897B6F28">
+<columnName>rptr_cd</columnName>
+<tableName>v_reptr</tableName>
+</UsedObject>
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="A8A06BF7-FC27-A751-81EF-02D3226A39E0">
+<columnName>pk</columnName>
+<tableName>v_qso_table_v007</tableName>
+</UsedObject>
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="5F5D079E-2FDF-E68D-B5B4-176E3A64FE93">
+<columnName>qso_table_v007_pk</columnName>
+<tableName>v_harc_add_qso_details</tableName>
+</UsedObject>
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="728177B5-6AE4-F8D4-FFCD-F94000871BAE">
+<columnName>call</columnName>
+<tableName>v_qso_table_v007</tableName>
+</UsedObject>
+</usedObjects>
+</TableView>

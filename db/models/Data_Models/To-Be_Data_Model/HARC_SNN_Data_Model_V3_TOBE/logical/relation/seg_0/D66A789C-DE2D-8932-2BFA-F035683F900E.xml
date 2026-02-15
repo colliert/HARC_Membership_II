@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Person Net Participation" directorySegmentName="seg_0" id="D66A789C-DE2D-8932-2BFA-F035683F900E">
+<createdBy>tcollier</createdBy>
+<createdTime>2024-04-30 20:58:58 UTC</createdTime>
+<ownerDesignName>HARC_SNN_Data_Model_V3_TOBE</ownerDesignName>
+<engineerTo>
+<item key="FDFA065C-9B79-4768-D3A1-ACB9D4078B29" value="true"/>
+</engineerTo>
+<sourceTransferable>false</sourceTransferable>
+<targetTransferable>false</targetTransferable>
+<sourcePk>5B24D2E6-15BF-DFF5-48C9-69056A3B4380</sourcePk>
+<identifying>true</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>98C91E27-7E02-7E4E-AA7F-FED1B5D7AA40</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>DE59738B-0063-79D9-2FDD-930959B6C233</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

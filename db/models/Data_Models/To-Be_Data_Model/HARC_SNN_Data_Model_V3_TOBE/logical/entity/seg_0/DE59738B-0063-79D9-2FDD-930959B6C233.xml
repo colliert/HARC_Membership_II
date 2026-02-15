@@ -1,0 +1,88 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="DE59738B-0063-79D9-2FDD-930959B6C233" name="Net Participation">
+<createdBy>tcollier</createdBy>
+<createdTime>2024-04-30 20:57:36 UTC</createdTime>
+<ownerDesignName>HARC_SNN_Data_Model_V3_TOBE</ownerDesignName>
+<engineerTo>
+<item key="FDFA065C-9B79-4768-D3A1-ACB9D4078B29" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="QSO Date" id="EC294FA4-3029-F84B-5959-B9DB48037AAF">
+<createdBy>tcollier</createdBy>
+<createdTime>2024-04-30 20:57:50 UTC</createdTime>
+<ownerDesignName>HARC_SNN_Data_Model_V3_TOBE</ownerDesignName>
+<engineerTo>
+<item key="FDFA065C-9B79-4768-D3A1-ACB9D4078B29" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>161A90A6-CA3A-1525-7F0C-0703C95370A2</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="QSO Time" id="49F748AD-57AB-13B1-24DD-D7CB3877F098">
+<createdBy>tcollier</createdBy>
+<createdTime>2024-04-30 20:58:14 UTC</createdTime>
+<ownerDesignName>HARC_SNN_Data_Model_V3_TOBE</ownerDesignName>
+<engineerTo>
+<item key="FDFA065C-9B79-4768-D3A1-ACB9D4078B29" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>56284387-6B41-611F-0327-B2369C77C38C</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Callsign" id="44FBC47A-78F1-3417-E901-A03A3DC80C8F">
+<createdBy>tcollier</createdBy>
+<createdTime>2024-04-30 20:58:58 UTC</createdTime>
+<generatorID>D66A789C-DE2D-8932-2BFA-F035683F900E</generatorID>
+<ownerDesignName>HARC_SNN_Data_Model_V3_TOBE</ownerDesignName>
+<engineerTo>
+<item key="FDFA065C-9B79-4768-D3A1-ACB9D4078B29" value="true"/>
+</engineerTo>
+<referedAttribute>60A8FDB1-E4D3-7AFA-6535-A3A5F75DCC62</referedAttribute>
+<use>0</use>
+<logicalDatatype>B2E81DEA-F097-0C6E-D82D-2109375E9C22</logicalDatatype>
+<domain>73126A39-BD86-8A25-4735-CA06D2B702BB</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Person Type Code" id="39C97BD6-B0A3-0F91-E7B1-32E9D126710E">
+<createdBy>tcollier</createdBy>
+<createdTime>2024-04-30 20:58:58 UTC</createdTime>
+<generatorID>D66A789C-DE2D-8932-2BFA-F035683F900E</generatorID>
+<ownerDesignName>HARC_SNN_Data_Model_V3_TOBE</ownerDesignName>
+<engineerTo>
+<item key="FDFA065C-9B79-4768-D3A1-ACB9D4078B29" value="true"/>
+</engineerTo>
+<referedAttribute>9CE3F1B9-C450-7018-37B6-930A57EC5BB9</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>90015BD8-66C0-24AE-0278-E3E87E938D9F</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="96159AD8-F827-47D5-E870-8DF204F4D36C" name="Net Participation PK">
+<createdBy>tcollier</createdBy>
+<createdTime>2024-04-30 20:58:58 UTC</createdTime>
+<ownerDesignName>HARC_SNN_Data_Model_V3_TOBE</ownerDesignName>
+<engineerTo>
+<item key="FDFA065C-9B79-4768-D3A1-ACB9D4078B29" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>44FBC47A-78F1-3417-E901-A03A3DC80C8F</attributeRef>
+<attributeRef>39C97BD6-B0A3-0F91-E7B1-32E9D126710E</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

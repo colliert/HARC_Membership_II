@@ -1,0 +1,570 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="4D1CE9BF-DD5F-5FE7-D086-8A65FED5C81B" name="t_HCOL_export">
+<createdBy>tcollier</createdBy>
+<createdTime>2024-02-08 23:41:26 UTC</createdTime>
+<generatorID>B4EF011A-059C-E4A3-4909-1FA318C77988</generatorID>
+<notes><![CDATA[Ham Club Onlnie has the ability to export the member roster.  This Entity caputes the data items included in the export.]]></notes>
+<ownerDesignName>HARC_SNN_Data_Model_V3_TOBE</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Member#" id="C2B1E605-287B-0FCC-2480-1B7D556AC1A1">
+<createdBy>tcollier</createdBy>
+<createdTime>2024-02-08 23:41:26 UTC</createdTime>
+<generatorID>898CBC48-39FB-DBFB-86ED-1AE7C0E9316E</generatorID>
+<ownerDesignName>HARC_SNN_Data_Model_V3_TOBE</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>90015BD8-66C0-24AE-0278-E3E87E938D9F</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Roster" id="D7F0597F-6445-4CFB-F8C9-D5167AAB16B5">
+<createdBy>tcollier</createdBy>
+<createdTime>2024-02-08 23:41:26 UTC</createdTime>
+<generatorID>9B92735E-2702-DE29-7540-6D3E35AEBB49</generatorID>
+<ownerDesignName>HARC_SNN_Data_Model_V3_TOBE</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>B2E81DEA-F097-0C6E-D82D-2109375E9C22</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>15,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="First_Name" id="33252103-3126-7540-2E16-F78C3D8D53A8">
+<createdBy>tcollier</createdBy>
+<createdTime>2024-02-08 23:41:26 UTC</createdTime>
+<generatorID>D30FB24C-3C52-E6CA-1012-E979FC957D68</generatorID>
+<ownerDesignName>HARC_SNN_Data_Model_V3_TOBE</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>B2E81DEA-F097-0C6E-D82D-2109375E9C22</logicalDatatype>
+<domain>DF484895-0DAA-3055-8BE0-5B0F1C4B2DB9</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<abbreviation>f_nam</abbreviation>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Nickname" id="2C78F7C3-259F-BD4A-0A7F-869CBCD5A8D9">
+<createdBy>tcollier</createdBy>
+<createdTime>2024-02-08 23:41:26 UTC</createdTime>
+<generatorID>B06C22A1-2262-995A-788E-0FC31EFB42AE</generatorID>
+<ownerDesignName>HARC_SNN_Data_Model_V3_TOBE</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>B2E81DEA-F097-0C6E-D82D-2109375E9C22</logicalDatatype>
+<domain>DF484895-0DAA-3055-8BE0-5B0F1C4B2DB9</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<abbreviation>nicknam</abbreviation>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Last_Name" id="4E99E45B-F9A8-E41B-E5DA-07D2AED544B6">
+<createdBy>tcollier</createdBy>
+<createdTime>2024-02-08 23:41:26 UTC</createdTime>
+<generatorID>7D7D86D4-1C16-068F-B42A-501869BF5CC1</generatorID>
+<ownerDesignName>HARC_SNN_Data_Model_V3_TOBE</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>0</use>
+<logicalDatatype>B2E81DEA-F097-0C6E-D82D-2109375E9C22</logicalDatatype>
+<domain>DF484895-0DAA-3055-8BE0-5B0F1C4B2DB9</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<abbreviation>l_nam</abbreviation>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Callsign" id="33F6B785-ABEA-AC5A-5F54-26B07E840039">
+<createdBy>tcollier</createdBy>
+<createdTime>2024-02-08 23:41:26 UTC</createdTime>
+<generatorID>7423B981-ADAB-4383-E24A-3F088D6F3B12</generatorID>
+<ownerDesignName>HARC_SNN_Data_Model_V3_TOBE</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>B2E81DEA-F097-0C6E-D82D-2109375E9C22</logicalDatatype>
+<domain>73126A39-BD86-8A25-4735-CA06D2B702BB</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<abbreviation>call</abbreviation>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="License_Class" id="1EC0D589-9646-8EA4-EE99-8BE26F5817CD">
+<createdBy>tcollier</createdBy>
+<createdTime>2024-02-08 23:41:26 UTC</createdTime>
+<generatorID>DC7F3BBA-1508-6D51-2C5C-FE146C1150F8</generatorID>
+<ownerDesignName>HARC_SNN_Data_Model_V3_TOBE</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>B2E81DEA-F097-0C6E-D82D-2109375E9C22</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<abbreviation>lic_cls</abbreviation>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="License_Expiration_Date" id="1ED624BC-45A9-F5A6-6154-892CF57D853C">
+<createdBy>tcollier</createdBy>
+<createdTime>2024-02-08 23:41:26 UTC</createdTime>
+<generatorID>4475D8E3-3E88-2731-E07C-D6FA84936DDB</generatorID>
+<ownerDesignName>HARC_SNN_Data_Model_V3_TOBE</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>161A90A6-CA3A-1525-7F0C-0703C95370A2</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<abbreviation>lic_exp_dat</abbreviation>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="License_Number" id="674AD7A3-B244-E9B5-FD5B-3598E5A35C7E">
+<createdBy>tcollier</createdBy>
+<createdTime>2024-02-08 23:41:26 UTC</createdTime>
+<commentInRDBMS><![CDATA[FCC Registration Number (FRN)]]></commentInRDBMS>
+<generatorID>19F54E95-3E81-F9A9-090C-74CBD51F4F5A</generatorID>
+<ownerDesignName>HARC_SNN_Data_Model_V3_TOBE</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>B2E81DEA-F097-0C6E-D82D-2109375E9C22</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<abbreviation>lic_num</abbreviation>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="License_Agency" id="ADDC5FA8-8683-147F-FDC4-37E58DF618D3">
+<createdBy>tcollier</createdBy>
+<createdTime>2024-02-08 23:41:26 UTC</createdTime>
+<generatorID>3CF9EBDC-01FF-EEF7-07EB-45A97AFABE27</generatorID>
+<ownerDesignName>HARC_SNN_Data_Model_V3_TOBE</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>B2E81DEA-F097-0C6E-D82D-2109375E9C22</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<abbreviation>lic_Agency</abbreviation>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Address" id="58506722-A726-2806-4FAC-F3ED4F3D6100">
+<createdBy>tcollier</createdBy>
+<createdTime>2024-02-08 23:41:26 UTC</createdTime>
+<generatorID>693F37C0-EE06-DA83-FF1E-DEF1074F966E</generatorID>
+<ownerDesignName>HARC_SNN_Data_Model_V3_TOBE</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>B2E81DEA-F097-0C6E-D82D-2109375E9C22</logicalDatatype>
+<domain>CB2D85C8-6439-B8D4-16FF-1D2BCAE122C4</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<abbreviation>addr</abbreviation>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="City" id="8301E2E5-6E85-AE68-F8BF-8D9C743FE3A7">
+<createdBy>tcollier</createdBy>
+<createdTime>2024-02-08 23:41:26 UTC</createdTime>
+<generatorID>DFB762DF-0AD3-D70F-D0E3-FB18A7877285</generatorID>
+<ownerDesignName>HARC_SNN_Data_Model_V3_TOBE</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>B2E81DEA-F097-0C6E-D82D-2109375E9C22</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="State" id="BFD69357-9EF7-262F-2F99-9C57C6447E07">
+<createdBy>tcollier</createdBy>
+<createdTime>2024-02-08 23:41:26 UTC</createdTime>
+<generatorID>631A004C-1B07-5ED0-6E34-193567436F10</generatorID>
+<ownerDesignName>HARC_SNN_Data_Model_V3_TOBE</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>B2E81DEA-F097-0C6E-D82D-2109375E9C22</logicalDatatype>
+<dataTypeSize>2</dataTypeSize>
+<ownDataTypeParameters>2,,</ownDataTypeParameters>
+<abbreviation>st</abbreviation>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Postal" id="55D9ADE5-E2C8-DA62-4EB7-9535AE57ACF3">
+<createdBy>tcollier</createdBy>
+<createdTime>2024-02-08 23:41:26 UTC</createdTime>
+<commentInRDBMS><![CDATA[Zip plus 4 format.  No dashes.]]></commentInRDBMS>
+<generatorID>E62BA3CC-5FA6-B80A-7580-3E30B9E984FA</generatorID>
+<ownerDesignName>HARC_SNN_Data_Model_V3_TOBE</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>B2E81DEA-F097-0C6E-D82D-2109375E9C22</logicalDatatype>
+<dataTypeSize>9</dataTypeSize>
+<ownDataTypeParameters>9,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Country" id="6D0C1B75-AE9F-A5AD-AE63-2A86E4E98A1F">
+<createdBy>tcollier</createdBy>
+<createdTime>2024-02-08 23:41:26 UTC</createdTime>
+<commentInRDBMS><![CDATA[ ISO 3166-1 alpha-3 codes]]></commentInRDBMS>
+<generatorID>829038CE-171C-B482-F68C-B5EF88FFF188</generatorID>
+<ownerDesignName>HARC_SNN_Data_Model_V3_TOBE</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>B2E81DEA-F097-0C6E-D82D-2109375E9C22</logicalDatatype>
+<dataTypeSize>3</dataTypeSize>
+<ownDataTypeParameters>3,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Latitude" id="AB9662B7-5988-22A6-9BB7-E30E17A82523">
+<createdBy>tcollier</createdBy>
+<createdTime>2024-02-08 23:41:26 UTC</createdTime>
+<generatorID>2E130045-4071-1168-566E-41E3FBDA61E3</generatorID>
+<ownerDesignName>HARC_SNN_Data_Model_V3_TOBE</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>90015BD8-66C0-24AE-0278-E3E87E938D9F</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<abbreviation>lat</abbreviation>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Longitude" id="79E7116B-15E1-A3B5-5642-0BF9218B9801">
+<createdBy>tcollier</createdBy>
+<createdTime>2024-02-08 23:41:26 UTC</createdTime>
+<generatorID>2829E934-18EA-D91E-C5B9-F38D46069874</generatorID>
+<ownerDesignName>HARC_SNN_Data_Model_V3_TOBE</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>90015BD8-66C0-24AE-0278-E3E87E938D9F</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<abbreviation>lon</abbreviation>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Elevation" id="88CD40B4-30B0-070C-30E7-BF2F50E49C86">
+<createdBy>tcollier</createdBy>
+<createdTime>2024-02-08 23:41:26 UTC</createdTime>
+<generatorID>FE8B9DB6-07A8-0B39-5847-8BD4093A37CF</generatorID>
+<ownerDesignName>HARC_SNN_Data_Model_V3_TOBE</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>90015BD8-66C0-24AE-0278-E3E87E938D9F</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<abbreviation>elev</abbreviation>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="HCOL_E-Mail_Address" id="F7F020AF-3B20-6C6B-4B79-66FA5EF750CB">
+<createdBy>tcollier</createdBy>
+<createdTime>2024-02-08 23:41:26 UTC</createdTime>
+<generatorID>65B2C386-0259-2E67-B8F9-7134930A0BC7</generatorID>
+<ownerDesignName>HARC_SNN_Data_Model_V3_TOBE</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>B2E81DEA-F097-0C6E-D82D-2109375E9C22</logicalDatatype>
+<domain>15242369-66D6-5FDF-F410-59AAC65A9D39</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<abbreviation>HCOL_E-Mail_addr</abbreviation>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="HCOL_E-Mail_Status" id="5FDDB33B-BBC4-9B6F-86E3-6D21284ED7C4">
+<createdBy>tcollier</createdBy>
+<createdTime>2024-02-08 23:41:26 UTC</createdTime>
+<generatorID>5C6FE58D-C5BE-5A0E-A345-7DAC6712E2EC</generatorID>
+<ownerDesignName>HARC_SNN_Data_Model_V3_TOBE</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>B2E81DEA-F097-0C6E-D82D-2109375E9C22</logicalDatatype>
+<dataTypeSize>3</dataTypeSize>
+<ownDataTypeParameters>3,,</ownDataTypeParameters>
+<abbreviation>HCOL_E-Mail_sts</abbreviation>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Club_E-Mail_Address" id="379920F6-0EA1-A0EE-CC86-5C1FA25F7735">
+<createdBy>tcollier</createdBy>
+<createdTime>2024-02-08 23:41:26 UTC</createdTime>
+<generatorID>424B2079-3D19-92CA-D4F8-7DFB812C53EA</generatorID>
+<ownerDesignName>HARC_SNN_Data_Model_V3_TOBE</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>B2E81DEA-F097-0C6E-D82D-2109375E9C22</logicalDatatype>
+<domain>15242369-66D6-5FDF-F410-59AAC65A9D39</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<abbreviation>Club_E-Mail_addr</abbreviation>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Club_E-Mail_Status" id="3C5872D4-77F2-7AC3-F01A-BD6BC031F256">
+<createdBy>tcollier</createdBy>
+<createdTime>2024-02-08 23:41:26 UTC</createdTime>
+<generatorID>610C6FBA-6D2E-64AE-C737-CDB766002799</generatorID>
+<ownerDesignName>HARC_SNN_Data_Model_V3_TOBE</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>B2E81DEA-F097-0C6E-D82D-2109375E9C22</logicalDatatype>
+<dataTypeSize>3</dataTypeSize>
+<ownDataTypeParameters>3,,</ownDataTypeParameters>
+<abbreviation>Club_E-Mail_sts</abbreviation>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Primary_Phone" id="81CBE2DC-5113-4B5B-0E2F-E0FE249246A3">
+<createdBy>tcollier</createdBy>
+<createdTime>2024-02-08 23:41:26 UTC</createdTime>
+<generatorID>55659B3B-5DC2-A561-A5D8-94BC40659592</generatorID>
+<ownerDesignName>HARC_SNN_Data_Model_V3_TOBE</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>B2E81DEA-F097-0C6E-D82D-2109375E9C22</logicalDatatype>
+<domain>05F08C6B-623C-0F43-809E-F2F7C10CE4D6</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<abbreviation>pri_Phone</abbreviation>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Primary_Phone_Type" id="D35F1C00-C67C-AD4F-648B-BC7B77808BE9">
+<createdBy>tcollier</createdBy>
+<createdTime>2024-02-08 23:41:26 UTC</createdTime>
+<generatorID>A8030F46-0554-BB8C-C25C-06C21628255D</generatorID>
+<ownerDesignName>HARC_SNN_Data_Model_V3_TOBE</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>B2E81DEA-F097-0C6E-D82D-2109375E9C22</logicalDatatype>
+<dataTypeSize>14</dataTypeSize>
+<ownDataTypeParameters>14,,</ownDataTypeParameters>
+<abbreviation>pri_Phone_typ</abbreviation>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Primary_Publish_Phone" id="DF82E10B-336D-17B1-7BEA-873BAADA1315">
+<createdBy>tcollier</createdBy>
+<createdTime>2024-02-08 23:41:26 UTC</createdTime>
+<generatorID>300EBB02-AB07-E5AF-767E-3653A7BA765B</generatorID>
+<ownerDesignName>HARC_SNN_Data_Model_V3_TOBE</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>B2E81DEA-F097-0C6E-D82D-2109375E9C22</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<abbreviation>pri_Publish_Phone</abbreviation>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Alternate_Phone" id="EA12BEFA-A866-6297-E43B-0B19FD8DA797">
+<createdBy>tcollier</createdBy>
+<createdTime>2024-02-08 23:41:26 UTC</createdTime>
+<generatorID>11905BBD-7481-0E34-9BBA-1E2C5B7E2D2B</generatorID>
+<ownerDesignName>HARC_SNN_Data_Model_V3_TOBE</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>B2E81DEA-F097-0C6E-D82D-2109375E9C22</logicalDatatype>
+<domain>05F08C6B-623C-0F43-809E-F2F7C10CE4D6</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Alternate_Phone_Type" id="A7609720-22BB-4E22-05C0-5D658862668F">
+<createdBy>tcollier</createdBy>
+<createdTime>2024-02-08 23:41:26 UTC</createdTime>
+<generatorID>6E8BF698-0C5C-7F03-D531-3331B5E44A62</generatorID>
+<ownerDesignName>HARC_SNN_Data_Model_V3_TOBE</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>B2E81DEA-F097-0C6E-D82D-2109375E9C22</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<ownDataTypeParameters>7,,</ownDataTypeParameters>
+<abbreviation>Alternate_Phone_typ</abbreviation>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Alternate_Phone_Publisj" id="9CED3CB5-E616-9847-51FA-BA983489BAD4">
+<createdBy>tcollier</createdBy>
+<createdTime>2024-02-08 23:41:26 UTC</createdTime>
+<generatorID>7CEBBCD1-85E2-36C5-B52F-52A317B81641</generatorID>
+<ownerDesignName>HARC_SNN_Data_Model_V3_TOBE</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>B2E81DEA-F097-0C6E-D82D-2109375E9C22</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Emergency_Contact" id="C96A5345-A20C-E670-936C-7F9D8DC7218B">
+<createdBy>tcollier</createdBy>
+<createdTime>2024-02-08 23:41:26 UTC</createdTime>
+<generatorID>01940193-E9AD-13E9-4C40-BB7268CBE179</generatorID>
+<ownerDesignName>HARC_SNN_Data_Model_V3_TOBE</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>B2E81DEA-F097-0C6E-D82D-2109375E9C22</logicalDatatype>
+<dataTypeSize>35</dataTypeSize>
+<ownDataTypeParameters>35,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Join_Date" id="EE79E27A-4806-F7E5-F81C-8579847EB095">
+<createdBy>tcollier</createdBy>
+<createdTime>2024-02-08 23:41:26 UTC</createdTime>
+<generatorID>E3502B47-D3C1-61F0-14F2-6DCC1BF129E7</generatorID>
+<ownerDesignName>HARC_SNN_Data_Model_V3_TOBE</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>161A90A6-CA3A-1525-7F0C-0703C95370A2</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<abbreviation>Join_dat</abbreviation>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Left_Date" id="FBDC2720-87B3-9150-68E8-6876FE1CE8CB">
+<createdBy>tcollier</createdBy>
+<createdTime>2024-02-08 23:41:26 UTC</createdTime>
+<generatorID>A8CEEA48-CF96-3DA8-0027-969AC059BB6E</generatorID>
+<ownerDesignName>HARC_SNN_Data_Model_V3_TOBE</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>161A90A6-CA3A-1525-7F0C-0703C95370A2</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<abbreviation>Left_dat</abbreviation>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Club_Rank" id="769F0F8E-A1CF-483D-B312-2C5B0F5D07F5">
+<createdBy>tcollier</createdBy>
+<createdTime>2024-02-08 23:41:26 UTC</createdTime>
+<generatorID>B2B39711-DD39-B658-6F37-E3D597C181AF</generatorID>
+<ownerDesignName>HARC_SNN_Data_Model_V3_TOBE</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>B2E81DEA-F097-0C6E-D82D-2109375E9C22</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Club_Position" id="80AA1FF3-FEA7-A164-F2FF-7D2841C2B0D1">
+<createdBy>tcollier</createdBy>
+<createdTime>2024-02-08 23:41:26 UTC</createdTime>
+<generatorID>0AE60F57-9386-47FA-635F-B0DC5CFA998E</generatorID>
+<ownerDesignName>HARC_SNN_Data_Model_V3_TOBE</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>B2E81DEA-F097-0C6E-D82D-2109375E9C22</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Delegate" id="80D25883-E4A3-EB75-25B2-592095734447">
+<createdBy>tcollier</createdBy>
+<createdTime>2024-02-08 23:41:26 UTC</createdTime>
+<generatorID>5A8013BB-8C36-62D9-7A86-34055CC060F3</generatorID>
+<ownerDesignName>HARC_SNN_Data_Model_V3_TOBE</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>B2E81DEA-F097-0C6E-D82D-2109375E9C22</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Membership_Type" id="8451E6A7-837E-800E-7B33-95AC338518DA">
+<createdBy>tcollier</createdBy>
+<createdTime>2024-02-08 23:41:26 UTC</createdTime>
+<generatorID>024EBAE1-D489-F837-7A96-03AF72C24AB4</generatorID>
+<ownerDesignName>HARC_SNN_Data_Model_V3_TOBE</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>B2E81DEA-F097-0C6E-D82D-2109375E9C22</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<abbreviation>Membership_typ</abbreviation>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Membership_Expiration_Date" id="7D5B047B-15FA-0B85-A2F7-D21A527461FC">
+<createdBy>tcollier</createdBy>
+<createdTime>2024-02-08 23:41:26 UTC</createdTime>
+<generatorID>35739DE0-A9D7-5CD1-7C79-0F975926421B</generatorID>
+<ownerDesignName>HARC_SNN_Data_Model_V3_TOBE</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>161A90A6-CA3A-1525-7F0C-0703C95370A2</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<abbreviation>Membership_exp_dat</abbreviation>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Club_Balance" id="4951636D-BA6A-92DD-41FC-E83A69314B6E">
+<createdBy>tcollier</createdBy>
+<createdTime>2024-02-08 23:41:26 UTC</createdTime>
+<generatorID>3DF1D23E-CF9B-A73E-9870-7B420D567948</generatorID>
+<ownerDesignName>HARC_SNN_Data_Model_V3_TOBE</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>BA2C6143-2A08-9021-B127-28326D437F79</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Birth_Date" id="0A99F66B-971C-F177-ACE4-324B58D892DA">
+<createdBy>tcollier</createdBy>
+<createdTime>2024-02-08 23:41:26 UTC</createdTime>
+<generatorID>11CA159A-EEDB-AA63-1249-1CBEB69C1D5F</generatorID>
+<ownerDesignName>HARC_SNN_Data_Model_V3_TOBE</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>161A90A6-CA3A-1525-7F0C-0703C95370A2</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<abbreviation>Birth_dat</abbreviation>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Private_Member" id="A8781A5C-6F93-41A6-EBB1-E6FA92B9795A">
+<createdBy>tcollier</createdBy>
+<createdTime>2024-02-08 23:41:26 UTC</createdTime>
+<generatorID>15F69183-85D7-E47D-6B81-14EE4C048DA7</generatorID>
+<ownerDesignName>HARC_SNN_Data_Model_V3_TOBE</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>90015BD8-66C0-24AE-0278-E3E87E938D9F</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<abbreviation>Private_mem</abbreviation>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="User_Timezone" id="CE2C5B53-1239-E04E-2149-60AF0508ED88">
+<createdBy>tcollier</createdBy>
+<createdTime>2024-02-08 23:41:26 UTC</createdTime>
+<generatorID>82B39A45-6389-4EE6-122B-D3F5E430F055</generatorID>
+<ownerDesignName>HARC_SNN_Data_Model_V3_TOBE</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>B2E81DEA-F097-0C6E-D82D-2109375E9C22</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<abbreviation>User_tz</abbreviation>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Last_Login" id="66BCD11C-5C6A-7F06-B768-1404C030E004">
+<createdBy>tcollier</createdBy>
+<createdTime>2024-02-08 23:41:26 UTC</createdTime>
+<generatorID>C81113E7-2653-FC22-51CE-A551015BA893</generatorID>
+<ownerDesignName>HARC_SNN_Data_Model_V3_TOBE</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>161A90A6-CA3A-1525-7F0C-0703C95370A2</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<abbreviation>l_Login</abbreviation>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Role_Count" id="6003C5F1-B06C-2E50-A458-88C122BADB3F">
+<createdBy>tcollier</createdBy>
+<createdTime>2024-02-08 23:41:26 UTC</createdTime>
+<generatorID>05225AA0-C6BB-6FEA-C0C1-8E0038076567</generatorID>
+<ownerDesignName>HARC_SNN_Data_Model_V3_TOBE</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>90015BD8-66C0-24AE-0278-E3E87E938D9F</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+</Table>

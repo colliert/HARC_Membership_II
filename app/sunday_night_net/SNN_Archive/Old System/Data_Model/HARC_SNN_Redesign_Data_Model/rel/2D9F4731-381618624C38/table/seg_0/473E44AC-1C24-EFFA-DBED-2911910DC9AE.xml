@@ -1,0 +1,166 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="473E44AC-1C24-EFFA-DBED-2911910DC9AE" name="t_harc_add_qso_details">
+<sourceDDLFile>MacLoggerDX_DDL_TMP.sql</sourceDDLFile>
+<createdBy>tcollier</createdBy>
+<createdTime>2020-10-28 19:34:37 UTC</createdTime>
+<ownerDesignName>HARC_SNN_Redesign_Data_Model</ownerDesignName>
+<importedID>A6F09D47-024B-B2EC-4A4B-ADD730C1252F</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="qso_table_v007_pk" id="24FA6E7D-5B9D-F7C6-03CF-9ACBA0C3587C">
+<sourceDDLFile>MacLoggerDX_DDL_TMP.sql</sourceDDLFile>
+<createdBy>tcollier</createdBy>
+<createdTime>2020-10-28 19:34:38 UTC</createdTime>
+<ownerDesignName>HARC_SNN_Redesign_Data_Model</ownerDesignName>
+<importedID>8EEB089F-9AB4-9860-E9FA-6974F4CBECF8</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>109E6CCA-FE25-FBAD-AF39-A5BEDCCFD886</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="9E7DBF25-913D-F47C-3DE1-04B3A371AE49" referredColumn="0AAA2557-D678-B585-DF86-AA5801147B25"/>
+</associations>
+</Column>
+<Column name="rptr_cd" id="28590FE6-3DB4-0D99-9AD4-05F4836F6898">
+<sourceDDLFile>MacLoggerDX_DDL_TMP.sql</sourceDDLFile>
+<createdBy>tcollier</createdBy>
+<createdTime>2020-10-28 19:34:38 UTC</createdTime>
+<ownerDesignName>HARC_SNN_Redesign_Data_Model</ownerDesignName>
+<importedID>C2DF3848-A2D8-313E-EF52-2A03CD38AD17</importedID>
+<use>0</use>
+<defaultValue>&apos;H2&apos;</defaultValue>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E019A4D5-C2C0-8612-26E2-AD8AF0D73422" referredColumn="BC436784-2FB4-1AFA-E387-E51452295F4C"/>
+</associations>
+</Column>
+<Column name="rad_typ_cd" id="DFF0B5B4-C881-C42B-EB3D-566679A7494D">
+<sourceDDLFile>MacLoggerDX_DDL_TMP.sql</sourceDDLFile>
+<createdBy>tcollier</createdBy>
+<createdTime>2020-10-28 19:34:38 UTC</createdTime>
+<ownerDesignName>HARC_SNN_Redesign_Data_Model</ownerDesignName>
+<importedID>EA145045-5F7B-A498-7935-8F03C5D296F3</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>109E6CCA-FE25-FBAD-AF39-A5BEDCCFD886</domain>
+<defaultValue>1</defaultValue>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="349662C4-3819-DA26-0546-25ABA6993D5E" referredColumn="602428EB-31F7-97B2-421F-093A59995364"/>
+</associations>
+</Column>
+<Column name="pwr_typ_cd" id="CA395BCC-9940-D28A-53FB-6D3E05980803">
+<sourceDDLFile>MacLoggerDX_DDL_TMP.sql</sourceDDLFile>
+<createdBy>tcollier</createdBy>
+<createdTime>2020-10-28 19:34:38 UTC</createdTime>
+<ownerDesignName>HARC_SNN_Redesign_Data_Model</ownerDesignName>
+<importedID>5302F42E-7388-E955-F3C8-964DF09565B8</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>109E6CCA-FE25-FBAD-AF39-A5BEDCCFD886</domain>
+<defaultValue>1</defaultValue>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="365FC1FA-4DE3-14F7-1040-D2F2266DE9A8" referredColumn="66A4DAC2-A34E-E642-E299-9D4A75AD7005"/>
+</associations>
+</Column>
+<Column name="ant_typ_cd" id="235F1F85-5CA5-BE04-99A6-0F351AA741FE">
+<sourceDDLFile>MacLoggerDX_DDL_TMP.sql</sourceDDLFile>
+<createdBy>tcollier</createdBy>
+<createdTime>2020-10-28 19:34:38 UTC</createdTime>
+<ownerDesignName>HARC_SNN_Redesign_Data_Model</ownerDesignName>
+<importedID>4838C3B9-112F-D072-F3E6-4CADF29B9B49</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>109E6CCA-FE25-FBAD-AF39-A5BEDCCFD886</domain>
+<defaultValue>1</defaultValue>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="8911E72B-1247-4250-296E-38C60BC5CC7D" referredColumn="DBA5024C-F7AC-0044-3659-69406438CA1D"/>
+</associations>
+</Column>
+<Column name="qso_comment" id="CA2BE225-26DA-3A30-020A-9C0A10FDF878">
+<sourceDDLFile>MacLoggerDX_DDL_TMP.sql</sourceDDLFile>
+<createdBy>tcollier</createdBy>
+<createdTime>2020-10-28 19:34:38 UTC</createdTime>
+<ownerDesignName>HARC_SNN_Redesign_Data_Model</ownerDesignName>
+<importedID>D7780D56-7F90-6108-F9BE-2D12B3F7D5E4</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="3283787F-C1DC-9DBA-05B8-4CA36B351C91" name="t_harc_add_qso_details_PK">
+<sourceDDLFile>MacLoggerDX_DDL_TMP.sql</sourceDDLFile>
+<createdBy>tcollier</createdBy>
+<createdTime>2020-10-28 19:34:38 UTC</createdTime>
+<ownerDesignName>HARC_SNN_Redesign_Data_Model</ownerDesignName>
+<importedID>72A35BA3-CBE8-59C2-486A-F529EEDFD373</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="24FA6E7D-5B9D-F7C6-03CF-9ACBA0C3587C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="964E318D-C958-9F3D-6D2A-FA6D4F3A1B93" name="t_harc_add_qso_details_qso_table_v007_FK">
+<createdBy>tcollier</createdBy>
+<createdTime>2020-10-28 19:34:38 UTC</createdTime>
+<ownerDesignName>HARC_SNN_Redesign_Data_Model</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="24FA6E7D-5B9D-F7C6-03CF-9ACBA0C3587C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="0B6FBAEB-B0AF-49AD-8D4C-C0ADF63483E6" name="t_harc_add_qso_details_t_ant_typ_FK">
+<createdBy>tcollier</createdBy>
+<createdTime>2020-10-28 19:34:38 UTC</createdTime>
+<ownerDesignName>HARC_SNN_Redesign_Data_Model</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="235F1F85-5CA5-BE04-99A6-0F351AA741FE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D01A1CF1-EEE7-2090-FE0C-F9FE07A4C70F" name="t_harc_add_qso_details_t_pwr_typ_FK">
+<createdBy>tcollier</createdBy>
+<createdTime>2020-10-28 19:34:38 UTC</createdTime>
+<ownerDesignName>HARC_SNN_Redesign_Data_Model</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CA395BCC-9940-D28A-53FB-6D3E05980803"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="792DFFCF-D3CF-18C2-A9CC-688588594FAB" name="t_harc_add_qso_details_t_rad_typ_FK">
+<createdBy>tcollier</createdBy>
+<createdTime>2020-10-28 19:34:38 UTC</createdTime>
+<ownerDesignName>HARC_SNN_Redesign_Data_Model</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DFF0B5B4-C881-C42B-EB3D-566679A7494D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="5127BBEB-EC9D-9E7E-4BFD-FDD00F73DC01" name="t_harc_add_qso_details_t_rptr_FK">
+<createdBy>tcollier</createdBy>
+<createdTime>2020-10-28 19:34:38 UTC</createdTime>
+<ownerDesignName>HARC_SNN_Redesign_Data_Model</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="28590FE6-3DB4-0D99-9AD4-05F4836F6898"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

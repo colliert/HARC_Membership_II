@@ -1,0 +1,51 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableView class="oracle.dbtools.crest.model.design.relational.TableView" directorySegmentName="seg_0" id="2385185C-6F50-334A-67A5-B9BB55833E61" name="v_pwr_typ">
+<createdBy>tcollier</createdBy>
+<createdTime>2019-07-12 23:14:29 UTC</createdTime>
+<ownerDesignName>MacLoggerDX_Project</ownerDesignName>
+<ordsAlias>view_21</ordsAlias>
+<userDefined>true</userDefined>
+<userDefinedSQL>select *&lt;br/&gt;from t_pwr_typ</userDefinedSQL>
+<parsed>true</parsed>
+<usedContainers>
+<container containerID="B6C6FC60-989E-CFED-F33B-D34844DA3907"/>
+</usedContainers>
+<viewElements>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="pwr_typ_cd" id="395BC05B-CCFD-3FE1-D346-76E7534287FC">
+<createdBy>tcollier</createdBy>
+<createdTime>2019-07-12 23:15:06 UTC</createdTime>
+<ownerDesignName>MacLoggerDX_Project</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>INTEGER</dataType>
+<reference>false</reference>
+<referencedColumn>88BC8089-46E3-F150-FBFB-CFC3BDB906B9</referencedColumn>
+<table>B6C6FC60-989E-CFED-F33B-D34844DA3907</table>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="pwr_typ_desc" id="383E656E-CAB7-FC99-EB45-6BA5F99AC0A5">
+<createdBy>tcollier</createdBy>
+<createdTime>2019-07-12 23:15:06 UTC</createdTime>
+<ownerDesignName>MacLoggerDX_Project</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>CLOB</dataType>
+<reference>false</reference>
+<referencedColumn>4143A34E-59DE-01BF-8104-0946CE360AD4</referencedColumn>
+<table>B6C6FC60-989E-CFED-F33B-D34844DA3907</table>
+</viewElement>
+</viewElements>
+<usedObjects>
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="B6C6FC60-989E-CFED-F33B-D34844DA3907">
+<container>true</container>
+<tableName>t_pwr_typ</tableName>
+</UsedObject>
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="88BC8089-46E3-F150-FBFB-CFC3BDB906B9">
+<columnName>pwr_typ_cd</columnName>
+<tableName>t_pwr_typ</tableName>
+</UsedObject>
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="4143A34E-59DE-01BF-8104-0946CE360AD4">
+<columnName>pwr_typ_desc</columnName>
+<tableName>t_pwr_typ</tableName>
+</UsedObject>
+</usedObjects>
+</TableView>

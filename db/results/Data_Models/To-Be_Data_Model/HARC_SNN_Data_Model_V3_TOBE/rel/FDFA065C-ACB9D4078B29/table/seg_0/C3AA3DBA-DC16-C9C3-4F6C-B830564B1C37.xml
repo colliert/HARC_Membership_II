@@ -1,0 +1,10 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="C3AA3DBA-DC16-C9C3-4F6C-B830564B1C37" name="t_macloggerdx">
+<createdBy>tcollier</createdBy>
+<createdTime>2024-02-08 23:41:26 UTC</createdTime>
+<generatorID>C98B15E8-9973-A982-4C22-A9688951E77B</generatorID>
+<ownerDesignName>HARC_SNN_Data_Model_V3_TOBE</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+</Table>

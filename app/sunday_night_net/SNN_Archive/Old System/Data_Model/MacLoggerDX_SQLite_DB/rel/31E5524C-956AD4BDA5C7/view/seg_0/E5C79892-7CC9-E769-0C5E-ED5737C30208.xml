@@ -1,0 +1,14 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableView class="oracle.dbtools.crest.model.design.relational.TableView" directorySegmentName="seg_0" id="E5C79892-7CC9-E769-0C5E-ED5737C30208" name="v_checkin_count">
+<sourceDDLFile>MacLogger_Sqlite_import copy.sql</sourceDDLFile>
+<createdBy>tcollier</createdBy>
+<createdTime>2020-10-30 17:45:49 UTC</createdTime>
+<ownerDesignName>MacLoggerDX_SQLite_DB</ownerDesignName>
+<importedID>7B61C23B-1607-A2E1-4A36-348B882366F2</importedID>
+<userDefined>true</userDefined>
+<userDefinedSQL><![CDATA[SELECT date(qso_start, 'unixepoch')AS [Net Date],
+           count(qso_start)AS Checkins
+      FROM v_qso_table_v007
+     GROUP BY 1
+     ORDER BY 1]]></userDefinedSQL>
+</TableView>

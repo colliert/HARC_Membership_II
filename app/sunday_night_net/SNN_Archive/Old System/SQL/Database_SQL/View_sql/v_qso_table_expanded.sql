@@ -1,0 +1,57 @@
+CREATE VIEW v_qso_table_expanded as
+SELECT v_qso_table_v007.pk
+, v_qso_table_v007.my_grid
+, v_qso_table_v007.my_call
+, v_qso_table_v007.my_rig
+, v_qso_table_v007.call
+, v_qso_table_v007.first_name
+, v_qso_table_v007.last_name
+, CASE when (v_pers.pers_typ = 1)
+	then 'member'
+	else 'non-member'
+	END as 'HARC_member'
+, v_qso_table_v007.street
+, v_qso_table_v007.city
+, v_qso_table_v007.county
+, v_qso_table_v007.state
+, v_qso_table_v007.postal_country
+, v_qso_table_v007.zip
+, v_qso_table_v007.grid
+, v_qso_table_v007.dxcc_country
+, v_qso_table_v007.email
+, v_qso_table_v007.mode
+, v_qso_table_v007.band_rx
+, v_qso_table_v007.band_tx
+--
+--
+-- ([UNIXepoch Date]/86400) + 2440587.5
+-- 
+,datetime((((v_qso_table_v007.qso_start)/86400)+2440587.5)) as julian_qso_start
+, datetime(((v_qso_table_v007.qso_done)/86400)+2440587.5) as julian_qso_done
+, v_qso_table_v007.latitude
+, v_qso_table_v007.longitude
+, v_qso_table_v007.tx_frequency
+, v_qso_table_v007.rx_frequency
+, v_qso_table_v007.azimuth
+, v_qso_table_v007.elevation
+, v_qso_table_v007.power
+, v_qso_table_v007.dxcc_id
+, v_qso_table_v007.contest_id
+, v_harc_add_qso_details.qso_table_v007_pk
+, v_harc_add_qso_details.rptr_cd
+, v_harc_add_qso_details.rad_typ_cd
+, v_harc_add_qso_details.pwr_typ_cd
+, v_harc_add_qso_details.ant_typ_cd
+, v_reptr.rptr_desc
+, v_rad_typ.rad_typ_desc
+, v_pwr_typ.pwr_typ_desc
+, v_ant_typ.ant_typ_desc
+, v_harc_add_qso_details.qso_comment 
+FROM v_qso_table_v007 
+	INNER JOIN v_harc_add_qso_details ON v_qso_table_v007.pk = v_harc_add_qso_details.qso_table_v007_pk 
+	INNER JOIN v_reptr ON v_harc_add_qso_details.rptr_cd = v_reptr.rptr_cd 
+	INNER JOIN v_rad_typ ON v_harc_add_qso_details.rad_typ_cd = v_rad_typ.rad_typ_cd 
+	INNER JOIN v_pwr_typ ON v_harc_add_qso_details.pwr_typ_cd = v_pwr_typ.pwr_typ_cd 
+	INNER JOIN v_ant_typ ON v_harc_add_qso_details.ant_typ_cd = v_ant_typ.ant_typ_cd 
+	LEFT JOIN v_pers on trim(upper(call))=trim(upper(pers_call));
+

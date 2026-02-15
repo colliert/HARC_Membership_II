@@ -1,0 +1,42 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableView class="oracle.dbtools.crest.model.design.relational.TableView" directorySegmentName="seg_0" id="3E425340-B109-90B4-7058-66CAC3BAAD58" name="v_rad_typ">
+<sourceDDLFile>MacLogger_Sqlite_import copy.sql</sourceDDLFile>
+<createdBy>tcollier</createdBy>
+<createdTime>2020-10-30 17:45:49 UTC</createdTime>
+<ownerDesignName>MacLoggerDX_SQLite_DB</ownerDesignName>
+<importedID>1288346E-4200-A768-0464-9C64F06C3E04</importedID>
+<userDefined>true</userDefined>
+<userDefinedSQL><![CDATA[SELECT *
+      FROM t_rad_typ]]></userDefinedSQL>
+<validSQL>false</validSQL>
+<viewElements>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="rad_typ_cd" id="DE3EF1FE-F55D-B9A8-92CD-A2FD00CEF997">
+<createdBy>tcollier</createdBy>
+<createdTime>2020-10-30 17:45:49 UTC</createdTime>
+<ownerDesignName>MacLoggerDX_SQLite_DB</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>INTEGER</dataType>
+<headerAlias>rad_typ_cd</headerAlias>
+<reference>false</reference>
+<referencedColumn>A1DB3322-0C81-9E13-C4C9-DFCCE272AFC7</referencedColumn>
+<table>11CCA1A8-829E-02E9-0119-70D14B799A7C</table>
+<tableAlias>t_rad_typ</tableAlias>
+<viewID>3E425340-B109-90B4-7058-66CAC3BAAD58</viewID>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="rad_typ_desc" id="B0A90E01-5FF0-3A10-921C-874A8F13AD84">
+<createdBy>tcollier</createdBy>
+<createdTime>2020-10-30 17:45:49 UTC</createdTime>
+<ownerDesignName>MacLoggerDX_SQLite_DB</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>CHAR</dataType>
+<headerAlias>rad_typ_desc</headerAlias>
+<reference>false</reference>
+<referencedColumn>89705534-E455-808A-5D8B-BAAA50B9F535</referencedColumn>
+<table>11CCA1A8-829E-02E9-0119-70D14B799A7C</table>
+<tableAlias>t_rad_typ</tableAlias>
+<viewID>3E425340-B109-90B4-7058-66CAC3BAAD58</viewID>
+</viewElement>
+</viewElements>
+</TableView>

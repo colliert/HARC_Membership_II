@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<LogicalDesign class="oracle.dbtools.crest.model.design.logical.LogicalDesign" name="Logical" id="D38F01DC-D35D-F1A5-05F4-519284C59A4D" mainViewID="F2DFDDC1-715B-A991-DD82-15CA86E5ED45">
+<createdBy>jtimothycollier</createdBy>
+<createdTime>2019-07-02 04:04:24 UTC</createdTime>
+<ownerDesignName>MacLoggerDX_Project</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</LogicalDesign>

@@ -1,0 +1,15 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<relationalModel class="oracle.dbtools.crest.model.design.relational.RelationalDesign" name="Relational_1" id="C119D9D8-C824-B40C-12F8-BA9037B4F1B9" mainViewID="C69435BA-5BEE-584A-5317-4E8495518B47">
+<createdBy>tcollier</createdBy>
+<createdTime>2025-10-21 20:18:33 UTC</createdTime>
+<ownerDesignName>Net_Control_Additions</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+<selectedRDBMSSite>9807C1FA-0550-772D-1F14-16B19CA63681</selectedRDBMSSite>
+<importDDLFileStamps>
+<importDDLFileStamp class="oracle.dbtools.crest.imports.DDLFileStamp">
+<fileName>HARC_SNN_DDO.ddl</fileName>
+<pathName>/Users/tcollier/Downloads</pathName>
+<dbType>7</dbType>
+</importDDLFileStamp>
+</importDDLFileStamps>
+</relationalModel>

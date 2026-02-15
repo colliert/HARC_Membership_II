@@ -1,0 +1,94 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="2BD51650-23A1-FC44-4148-F64E108747FD" name="is_a_Non_Club_Member">
+<createdBy>tcollier</createdBy>
+<createdTime>2024-02-08 23:51:45 UTC</createdTime>
+<generatorID>48C11617-4948-9B9D-3B67-C6D106CA9C66</generatorID>
+<ownerDesignName>HARC_SNN_Data_Model_V3_TOBE</ownerDesignName>
+<ordsAlias>non_club_member</ordsAlias>
+<abbreviation>Non-Member</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Callsign_non_mem" id="4BD7E067-AE30-634A-0E63-5153FA6BB554">
+<createdBy>tcollier</createdBy>
+<createdTime>2024-02-08 23:51:45 UTC</createdTime>
+<generatorID>60A8FDB1-E4D3-7AFA-6535-A3A5F75DCC62</generatorID>
+<ownerDesignName>HARC_SNN_Data_Model_V3_TOBE</ownerDesignName>
+<use>0</use>
+<logicalDatatype>B2E81DEA-F097-0C6E-D82D-2109375E9C22</logicalDatatype>
+<domain>73126A39-BD86-8A25-4735-CA06D2B702BB</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<abbreviation>call_non_mem</abbreviation>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="4113AA79-1CB3-3BC5-C93A-8875516FBEE4" referredColumn="E4C176F0-1D5A-A1FC-D522-87AA34FF2E9D"/>
+</associations>
+</Column>
+<Column name="pers_typ_cd_non_mem" id="7AE37B4E-95D5-0228-9FB1-AE6D3BB4BF02">
+<createdBy>tcollier</createdBy>
+<createdTime>2024-02-08 23:51:45 UTC</createdTime>
+<generatorID>B04C025D-71A9-71C5-E514-2C78D2C48FD8</generatorID>
+<ownerDesignName>HARC_SNN_Data_Model_V3_TOBE</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>90015BD8-66C0-24AE-0278-E3E87E938D9F</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<abbreviation>t_pers_pers_typ_cd</abbreviation>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="t_pers_Person_Type_Code" id="D5E95183-5DF6-4EE3-E212-2CC6D548CABA">
+<createdBy>tcollier</createdBy>
+<createdTime>2024-04-30 21:02:34 UTC</createdTime>
+<generatorID>9CE3F1B9-C450-7018-37B6-930A57EC5BB9</generatorID>
+<ownerDesignName>HARC_SNN_Data_Model_V3_TOBE</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>90015BD8-66C0-24AE-0278-E3E87E938D9F</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Non-Member_Attribute_1" id="D210ABF2-95C0-9A18-B8F6-95DD8FD2C38B">
+<createdBy>tcollier</createdBy>
+<createdTime>2024-04-30 21:02:34 UTC</createdTime>
+<generatorID>8612B30D-3348-866C-ED01-3C91D4473DB6</generatorID>
+<ownerDesignName>HARC_SNN_Data_Model_V3_TOBE</ownerDesignName>
+<constraintName>CH_INH_Non-Member</constraintName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>0</use>
+<listOfValues>
+<valueDef value="0" description="entity is a Non Club Member"/>
+</listOfValues>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isDiscriminatorColumn>true</isDiscriminatorColumn>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="D999E415-3BFD-2369-1FD3-C578E8E6A937" name="Non_Club_Member_PK">
+<createdBy>tcollier</createdBy>
+<createdTime>2024-02-08 23:51:45 UTC</createdTime>
+<generatorID>5B24D2E6-15BF-DFF5-48C9-69056A3B4380</generatorID>
+<ownerDesignName>HARC_SNN_Data_Model_V3_TOBE</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4BD7E067-AE30-634A-0E63-5153FA6BB554"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="8B842774-09C7-6AE1-7BDE-7072B8F54D2C" name="Non_Club_Member_t_pers_FK">
+<createdBy>tcollier</createdBy>
+<createdTime>2024-02-08 23:51:45 UTC</createdTime>
+<generatorID>4EA85C54-001C-7045-5ADC-A2160358C7E7</generatorID>
+<ownerDesignName>HARC_SNN_Data_Model_V3_TOBE</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4BD7E067-AE30-634A-0E63-5153FA6BB554"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

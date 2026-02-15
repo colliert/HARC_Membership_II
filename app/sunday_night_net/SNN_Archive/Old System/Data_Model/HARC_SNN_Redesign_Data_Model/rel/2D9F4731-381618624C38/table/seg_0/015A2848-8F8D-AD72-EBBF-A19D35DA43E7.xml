@@ -1,0 +1,54 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="015A2848-8F8D-AD72-EBBF-A19D35DA43E7" name="t_pers_typ">
+<createdBy>tcollier</createdBy>
+<createdTime>2020-10-28 22:51:26 UTC</createdTime>
+<comment><![CDATA[Person Types
+0 - unknown
+1 - HARC Member]]></comment>
+<generatorID>23E671B6-D21F-FAAF-E548-8DB692295C6E</generatorID>
+<ownerDesignName>HARC_SNN_Redesign_Data_Model</ownerDesignName>
+<ordsAlias>person_type</ordsAlias>
+<abbreviation>t_pers_typ</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="per_typ_cd" id="8EAE4042-1C4F-1735-393B-25B64B76D192">
+<createdBy>tcollier</createdBy>
+<createdTime>2020-10-28 22:51:26 UTC</createdTime>
+<generatorID>2F389B4A-5368-57C0-4A17-462A634FB044</generatorID>
+<ownerDesignName>HARC_SNN_Redesign_Data_Model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="pers_typ_desc" id="F72D7B2C-FF53-8E4F-EA22-CEDB8A8CF394">
+<createdBy>tcollier</createdBy>
+<createdTime>2020-10-28 22:51:26 UTC</createdTime>
+<generatorID>61D4D2C0-F5EE-741F-8A19-289EEFC6238F</generatorID>
+<ownerDesignName>HARC_SNN_Redesign_Data_Model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT040</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="8DBA8004-7284-65A8-F9C7-62A7E8A96A4A" name="Person_Type_PK">
+<createdBy>tcollier</createdBy>
+<createdTime>2020-10-28 22:51:26 UTC</createdTime>
+<generatorID>3B6AA434-88E8-5630-937F-F2D81D04F75E</generatorID>
+<ownerDesignName>HARC_SNN_Redesign_Data_Model</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8EAE4042-1C4F-1735-393B-25B64B76D192"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

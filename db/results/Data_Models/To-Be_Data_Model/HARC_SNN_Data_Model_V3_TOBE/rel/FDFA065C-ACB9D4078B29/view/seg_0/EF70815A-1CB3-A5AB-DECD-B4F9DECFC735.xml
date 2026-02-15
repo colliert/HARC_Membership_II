@@ -1,0 +1,62 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableView class="oracle.dbtools.crest.model.design.relational.TableView" directorySegmentName="seg_0" id="EF70815A-1CB3-A5AB-DECD-B4F9DECFC735" name="v_pers_typ">
+<createdBy>tcollier</createdBy>
+<createdTime>2024-02-10 00:12:53 UTC</createdTime>
+<ownerDesignName>HARC_SNN_Data_Model_V3_TOBE</ownerDesignName>
+<ordsAlias>v_t_pers_typ</ordsAlias>
+<userDefined>true</userDefined>
+<userDefinedSQL><![CDATA[CREATE VIEW v_t_pers_typ
+  ( pers_typ_cd
+   , pers_typ_desc )
+ AS SELECT
+    pers_typ_cd
+   , pers_typ_desc
+ FROM 
+    t_pers_typ ;]]></userDefinedSQL>
+<validSQL>false</validSQL>
+<parsed>true</parsed>
+<originalTableID>AF2F0695-791C-144D-BEA0-B7AB2C43F4ED</originalTableID>
+<viewElements>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="Person_Type_Code" id="AFFC6CDD-4362-10B3-D97F-D40FCFFEB065">
+<createdBy>tcollier</createdBy>
+<createdTime>2024-02-10 00:12:53 UTC</createdTime>
+<ownerDesignName>HARC_SNN_Data_Model_V3_TOBE</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>NUMBER</dataType>
+<headerAlias>pers_typ_cd</headerAlias>
+<reference>false</reference>
+<referencedColumn>86FE39BC-2CD8-B3B6-4657-3201532ABF9A</referencedColumn>
+<table>AF2F0695-791C-144D-BEA0-B7AB2C43F4ED</table>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="Person_Type_Description" id="56895D4E-7EA1-7FD8-D4E3-061E39476E71">
+<createdBy>tcollier</createdBy>
+<createdTime>2024-02-10 00:12:53 UTC</createdTime>
+<commentInRDBMS><![CDATA[0 non-member
+1 member
+2 member but old callsign]]></commentInRDBMS>
+<ownerDesignName>HARC_SNN_Data_Model_V3_TOBE</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>VARCHAR2 (30)</dataType>
+<headerAlias>pers_typ_desc</headerAlias>
+<reference>false</reference>
+<referencedColumn>647AD9B1-193C-277C-075B-C984E0C5E198</referencedColumn>
+<table>AF2F0695-791C-144D-BEA0-B7AB2C43F4ED</table>
+</viewElement>
+</viewElements>
+<usedObjects>
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="AF2F0695-791C-144D-BEA0-B7AB2C43F4ED">
+<container>true</container>
+<tableName>t_pers_typ</tableName>
+</UsedObject>
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="86FE39BC-2CD8-B3B6-4657-3201532ABF9A">
+<columnName>pers_typ_cd</columnName>
+<tableName>t_pers_typ</tableName>
+</UsedObject>
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="647AD9B1-193C-277C-075B-C984E0C5E198">
+<columnName>pers_typ_desc</columnName>
+<tableName>t_pers_typ</tableName>
+</UsedObject>
+</usedObjects>
+</TableView>

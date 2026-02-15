@@ -1,0 +1,29 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<DomainFile class="oracle.dbtools.crest.model.design.DomainFileWrapper" fileName="MacLogger_Sqlite_import copy_Domains">
+<domains>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="REAL_0_0_0" id="4467B077-1B36-64E7-D253-C01E80E0D101">
+<createdBy>tcollier</createdBy>
+<createdTime>2020-10-30 17:45:49 UTC</createdTime>
+<ownerDesignName>MacLoggerDX_SQLite_DB</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<fileName>MacLogger_Sqlite_import copy_Domains</fileName>
+<logicalDatatype>LOGDT022</logicalDatatype>
+</Domain>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="CHAR_0_0_0" id="4FF2D893-9BFF-F8A4-D679-A37B572F47ED">
+<createdBy>tcollier</createdBy>
+<createdTime>2020-10-30 17:45:49 UTC</createdTime>
+<ownerDesignName>MacLoggerDX_SQLite_DB</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<fileName>MacLogger_Sqlite_import copy_Domains</fileName>
+<logicalDatatype>LOGDT025</logicalDatatype>
+</Domain>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="Integer_0_0_0" id="75599A16-9423-40CF-D409-4542E3B2ADCC">
+<createdBy>tcollier</createdBy>
+<createdTime>2020-10-30 17:45:49 UTC</createdTime>
+<ownerDesignName>MacLoggerDX_SQLite_DB</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<fileName>MacLogger_Sqlite_import copy_Domains</fileName>
+<logicalDatatype>LOGDT011</logicalDatatype>
+</Domain>
+</domains>
+</DomainFile>

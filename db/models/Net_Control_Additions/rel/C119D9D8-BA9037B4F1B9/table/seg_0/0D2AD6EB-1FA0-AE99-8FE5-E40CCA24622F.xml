@@ -1,0 +1,46 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="0D2AD6EB-1FA0-AE99-8FE5-E40CCA24622F" name="t_call_out_cutoff_days">
+<createdBy>tcollier</createdBy>
+<createdTime>2025-10-21 20:47:14 UTC</createdTime>
+<generatorID>B9A35F68-3C10-5759-501E-C325A1AE9D13</generatorID>
+<ownerDesignName>Net_Control_Additions</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="dat_est" id="1558870B-09C1-5458-5132-0670DD421B47">
+<createdBy>tcollier</createdBy>
+<createdTime>2025-10-21 20:47:14 UTC</createdTime>
+<generatorID>E49E26A0-BBAA-B86A-FA75-5616636402DB</generatorID>
+<ownerDesignName>Net_Control_Additions</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="num_days" id="67D82057-9B61-7A27-9BD2-F55CC40F11EE">
+<createdBy>tcollier</createdBy>
+<createdTime>2025-10-21 20:47:14 UTC</createdTime>
+<generatorID>4CC9503B-5860-866E-1C22-4BBBD9ACE5CB</generatorID>
+<ownerDesignName>Net_Control_Additions</ownerDesignName>
+<use>0</use>
+<logicalDatatype>90015BD8-66C0-24AE-0278-E3E87E938D9F</logicalDatatype>
+<domain>B9C55F62-FDB7-1925-02A7-A963DC0653AE</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="7206D3F5-7A93-A551-6076-81075E8F88FA" name="t_call_out_cutoff_days_PK">
+<createdBy>tcollier</createdBy>
+<createdTime>2025-10-21 20:47:14 UTC</createdTime>
+<generatorID>F35DC91D-6E1A-CF72-A2F7-F7DB2EF62695</generatorID>
+<ownerDesignName>Net_Control_Additions</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1558870B-09C1-5458-5132-0670DD421B47"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<relationalModel class="oracle.dbtools.crest.model.design.relational.RelationalDesign" name="Relational_1" id="FC2407F3-F8D5-F415-2274-01B807491F5F" mainViewID="4E47A1DF-8D07-C0A1-612A-45BE905B035C">
+<createdBy>tcollier</createdBy>
+<createdTime>2020-10-28 19:32:43 UTC</createdTime>
+<ownerDesignName>HARC_SNN_Redesign_Data_Model</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+<selectedRDBMSSite>32076570-2523-435C-2E92-BF29817DFF70</selectedRDBMSSite>
+</relationalModel>

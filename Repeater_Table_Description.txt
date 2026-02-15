@@ -1,0 +1,33 @@
+Designation – How the Club refers to the individual repeater.
+
+Location – Where the repeater is generally located.
+
+Frequency – The frequency that should be programmed into your radio.  This is the frequency on which the repeater transmits.
+
+Offset (Frequency) – The amount of offset that should be applied to the frequency programmed into your radio.  Most bands have standard offsets, and most modern radios are aware of the offset and will supply it automatically.  The plus and minus sign indicates which direction the offset is from the receive frequency.  Plus means add the offset to the receive frequency, minus means subtract the offset amount from the receive frequency.  HARC repeaters use standard minus offsets of 5 MHz (for the 70cm band).  The frequency listed is what your radio should show when you press the push-to-talk button.
+
+Tone – This is a sub audible tone for which the repeater is listening.  If the repeater hears the tone, your transmission will be passed to the transmitter to be repeated.  If the repeater does not hear the tone, or hears an incorrect tone, your transmission will not be repeated.
+
+Transmitted Tone – Some of our repeaters, while they are transmitting (and you are receiving), send a sub audible tone to your radio.  Just as the repeater will not pass a signal on to be repeated/transmitted unless it hears the proper Tone (see above), your radio will not pass on a signal to be heard if your radio does not hear the specific Transmitted Tone.  A radio may be operated with no receive tone, in which case, all transmissions on that frequency will be heard.  Or, optionally, the Transmitted Tone from the repeater can be programmed into your radio so that your radio will only pass signals that contain that sub audible tone.  The H1, H2, N1, H4, and H7 repeaters all transmit a tone of 203.5 Hz.  Many Hams will only program the Transmitted Tone into their radios if there are other repeaters nearby interfering with their repeater, preferring, instead, to leave their radio “open” to all transmissions on that frequency.
+
+Callsign – The FCC callsign assigned to the repeater
+
+Ownership -The owner of the repeater; HARC for Club-owned repeaters, Other  for affiliate repeaters.
+
+Network Notes – Indicates repeater network participation;
+Networked – On the network all of the time.
+Sunday, only – Connected to the network for Sunday Night Net and Tek-Net, only.
+Standalone – Operates in standalone mode – not connected to the network.
+
+26	real	integer	rea;	real	integer	7	5	42	20
+
+Designator A2
+Location A26
+Frequency real
+Offset Real
+Tone Real
+Transmitted tone real
+Callsign A7
+Ownership A5
+Network Notes A42
+Network Status a20

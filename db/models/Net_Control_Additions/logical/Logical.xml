@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<LogicalDesign class="oracle.dbtools.crest.model.design.logical.LogicalDesign" name="Logical" id="981B07E9-FF6B-4BA2-8F03-C60B67EF5683" mainViewID="8E6319D0-E4D4-5D96-415A-0C084A3C9C14">
+<createdBy>tcollier</createdBy>
+<createdTime>2025-10-21 20:18:33 UTC</createdTime>
+<ownerDesignName>Net_Control_Additions</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</LogicalDesign>

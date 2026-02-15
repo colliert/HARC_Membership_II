@@ -1,0 +1,781 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableView class="oracle.dbtools.crest.model.design.relational.TableView" directorySegmentName="seg_0" id="4E171A4C-0DAC-5228-CC36-921381EF42D9" name="v_HCOL_export">
+<createdBy>tcollier</createdBy>
+<createdTime>2024-02-10 00:12:53 UTC</createdTime>
+<ownerDesignName>HARC_SNN_Data_Model_V3_TOBE</ownerDesignName>
+<ordsAlias>v_t_hcol_export</ordsAlias>
+<userDefined>true</userDefined>
+<userDefinedSQL><![CDATA[CREATE VIEW v_t_HCOL_export
+  ( Member#
+   , Roster
+   , First_Name
+   , Nickname
+   , Last_Name
+   , Callsign
+   , License_Class
+   , License_Expiration_Date
+   , License_Number
+   , License_Agency
+   , Address
+   , City
+   , State
+   , Postal
+   , Country
+   , Latitude
+   , Longitude
+   , Elevation
+   , "HCOL_E-Mail_Address"
+   , "HCOL_E-Mail_Status"
+   , "Club_E-Mail_Address"
+   , "Club_E-Mail_Status"
+   , Primary_Phone
+   , Primary_Phone_Type
+   , Primary_Publish_Phone
+   , Alternate_Phone
+   , Alternate_Phone_Type
+   , Alternate_Phone_Publisj
+   , Emergency_Contact
+   , Join_Date
+   , Left_Date
+   , Club_Rank
+   , Club_Position
+   , Delegate
+   , Membership_Type
+   , Membership_Expiration_Date
+   , Club_Balance
+   , Birth_Date
+   , Private_Member
+   , User_Timezone
+   , Last_Login
+   , Role_Count )
+ AS SELECT
+    Member#
+   , Roster
+   , First_Name
+   , Nickname
+   , Last_Name
+   , Callsign
+   , License_Class
+   , License_Expiration_Date
+   , License_Number
+   , License_Agency
+   , Address
+   , City
+   , State
+   , Postal
+   , Country
+   , Latitude
+   , Longitude
+   , Elevation
+   , "HCOL_E-Mail_Address"
+   , "HCOL_E-Mail_Status"
+   , "Club_E-Mail_Address"
+   , "Club_E-Mail_Status"
+   , Primary_Phone
+   , Primary_Phone_Type
+   , Primary_Publish_Phone
+   , Alternate_Phone
+   , Alternate_Phone_Type
+   , Alternate_Phone_Publisj
+   , Emergency_Contact
+   , Join_Date
+   , Left_Date
+   , Club_Rank
+   , Club_Position
+   , Delegate
+   , Membership_Type
+   , Membership_Expiration_Date
+   , Club_Balance
+   , Birth_Date
+   , Private_Member
+   , User_Timezone
+   , Last_Login
+   , Role_Count
+ FROM 
+    t_HCOL_export ;]]></userDefinedSQL>
+<parsed>true</parsed>
+<originalTableID>4D1CE9BF-DD5F-5FE7-D086-8A65FED5C81B</originalTableID>
+<viewElements>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="Member#" id="828AD316-7942-BD16-40EA-6D0F650D4DEB">
+<createdBy>tcollier</createdBy>
+<createdTime>2024-02-10 00:12:53 UTC</createdTime>
+<ownerDesignName>HARC_SNN_Data_Model_V3_TOBE</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>NUMBER</dataType>
+<headerAlias>Member#</headerAlias>
+<reference>false</reference>
+<referencedColumn>C2B1E605-287B-0FCC-2480-1B7D556AC1A1</referencedColumn>
+<table>4D1CE9BF-DD5F-5FE7-D086-8A65FED5C81B</table>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="Roster" id="71169608-CCDF-0A17-D2F6-19A909C108D3">
+<createdBy>tcollier</createdBy>
+<createdTime>2024-02-10 00:12:53 UTC</createdTime>
+<ownerDesignName>HARC_SNN_Data_Model_V3_TOBE</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>VARCHAR2 (15)</dataType>
+<headerAlias>Roster</headerAlias>
+<reference>false</reference>
+<referencedColumn>D7F0597F-6445-4CFB-F8C9-D5167AAB16B5</referencedColumn>
+<table>4D1CE9BF-DD5F-5FE7-D086-8A65FED5C81B</table>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="First_Name" id="39715483-750B-0FCD-33DC-BC04DAE6DE64">
+<createdBy>tcollier</createdBy>
+<createdTime>2024-02-10 00:12:53 UTC</createdTime>
+<ownerDesignName>HARC_SNN_Data_Model_V3_TOBE</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>VARCHAR2 (25)</dataType>
+<headerAlias>First_Name</headerAlias>
+<reference>false</reference>
+<referencedColumn>33252103-3126-7540-2E16-F78C3D8D53A8</referencedColumn>
+<table>4D1CE9BF-DD5F-5FE7-D086-8A65FED5C81B</table>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="Nickname" id="9FE3E35A-90E3-25DE-0404-A1F7B61A4F9C">
+<createdBy>tcollier</createdBy>
+<createdTime>2024-02-10 00:12:53 UTC</createdTime>
+<ownerDesignName>HARC_SNN_Data_Model_V3_TOBE</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>VARCHAR2 (25)</dataType>
+<headerAlias>Nickname</headerAlias>
+<reference>false</reference>
+<referencedColumn>2C78F7C3-259F-BD4A-0A7F-869CBCD5A8D9</referencedColumn>
+<table>4D1CE9BF-DD5F-5FE7-D086-8A65FED5C81B</table>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="Last_Name" id="FB1BC2AC-DF0F-57C6-904B-9436692B32DB">
+<createdBy>tcollier</createdBy>
+<createdTime>2024-02-10 00:12:53 UTC</createdTime>
+<ownerDesignName>HARC_SNN_Data_Model_V3_TOBE</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>VARCHAR2 (25)</dataType>
+<headerAlias>Last_Name</headerAlias>
+<reference>false</reference>
+<referencedColumn>4E99E45B-F9A8-E41B-E5DA-07D2AED544B6</referencedColumn>
+<table>4D1CE9BF-DD5F-5FE7-D086-8A65FED5C81B</table>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="Callsign" id="4704C59D-7A8C-5D44-D4AF-6B734980F065">
+<createdBy>tcollier</createdBy>
+<createdTime>2024-02-10 00:12:53 UTC</createdTime>
+<ownerDesignName>HARC_SNN_Data_Model_V3_TOBE</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>VARCHAR2 (6)</dataType>
+<headerAlias>Callsign</headerAlias>
+<reference>false</reference>
+<referencedColumn>33F6B785-ABEA-AC5A-5F54-26B07E840039</referencedColumn>
+<table>4D1CE9BF-DD5F-5FE7-D086-8A65FED5C81B</table>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="License_Class" id="3D01FD23-A62C-65E3-BC01-1D7EFAE59D22">
+<createdBy>tcollier</createdBy>
+<createdTime>2024-02-10 00:12:53 UTC</createdTime>
+<ownerDesignName>HARC_SNN_Data_Model_V3_TOBE</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>VARCHAR2 (1)</dataType>
+<headerAlias>License_Class</headerAlias>
+<reference>false</reference>
+<referencedColumn>1EC0D589-9646-8EA4-EE99-8BE26F5817CD</referencedColumn>
+<table>4D1CE9BF-DD5F-5FE7-D086-8A65FED5C81B</table>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="License_Expiration_Date" id="720C587E-0F4B-D9C0-7C03-44815995146F">
+<createdBy>tcollier</createdBy>
+<createdTime>2024-02-10 00:12:53 UTC</createdTime>
+<ownerDesignName>HARC_SNN_Data_Model_V3_TOBE</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>DATE</dataType>
+<headerAlias>License_Expiration_Date</headerAlias>
+<reference>false</reference>
+<referencedColumn>1ED624BC-45A9-F5A6-6154-892CF57D853C</referencedColumn>
+<table>4D1CE9BF-DD5F-5FE7-D086-8A65FED5C81B</table>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="License_Number" id="E3E5A3D2-8D9D-3222-1489-74BF38EE785A">
+<createdBy>tcollier</createdBy>
+<createdTime>2024-02-10 00:12:53 UTC</createdTime>
+<commentInRDBMS><![CDATA[FCC Registration Number (FRN)]]></commentInRDBMS>
+<ownerDesignName>HARC_SNN_Data_Model_V3_TOBE</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>VARCHAR2 (10)</dataType>
+<headerAlias>License_Number</headerAlias>
+<reference>false</reference>
+<referencedColumn>674AD7A3-B244-E9B5-FD5B-3598E5A35C7E</referencedColumn>
+<table>4D1CE9BF-DD5F-5FE7-D086-8A65FED5C81B</table>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="License_Agency" id="89699716-D605-C0CE-F4C7-9E36374B69E8">
+<createdBy>tcollier</createdBy>
+<createdTime>2024-02-10 00:12:53 UTC</createdTime>
+<ownerDesignName>HARC_SNN_Data_Model_V3_TOBE</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>VARCHAR2 (1)</dataType>
+<headerAlias>License_Agency</headerAlias>
+<reference>false</reference>
+<referencedColumn>ADDC5FA8-8683-147F-FDC4-37E58DF618D3</referencedColumn>
+<table>4D1CE9BF-DD5F-5FE7-D086-8A65FED5C81B</table>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="Address" id="591CC472-9F1C-07B8-B39D-6CD854DEB4AE">
+<createdBy>tcollier</createdBy>
+<createdTime>2024-02-10 00:12:53 UTC</createdTime>
+<ownerDesignName>HARC_SNN_Data_Model_V3_TOBE</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>VARCHAR2 (60)</dataType>
+<headerAlias>Address</headerAlias>
+<reference>false</reference>
+<referencedColumn>58506722-A726-2806-4FAC-F3ED4F3D6100</referencedColumn>
+<table>4D1CE9BF-DD5F-5FE7-D086-8A65FED5C81B</table>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="City" id="35ABB8C8-670F-A76B-7A81-944F0A1C6124">
+<createdBy>tcollier</createdBy>
+<createdTime>2024-02-10 00:12:53 UTC</createdTime>
+<ownerDesignName>HARC_SNN_Data_Model_V3_TOBE</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>VARCHAR2 (20)</dataType>
+<headerAlias>City</headerAlias>
+<reference>false</reference>
+<referencedColumn>8301E2E5-6E85-AE68-F8BF-8D9C743FE3A7</referencedColumn>
+<table>4D1CE9BF-DD5F-5FE7-D086-8A65FED5C81B</table>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="State" id="82036ACC-EA1F-C75C-D90B-DDBF1EE233CC">
+<createdBy>tcollier</createdBy>
+<createdTime>2024-02-10 00:12:53 UTC</createdTime>
+<ownerDesignName>HARC_SNN_Data_Model_V3_TOBE</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>VARCHAR2 (2)</dataType>
+<headerAlias>State</headerAlias>
+<reference>false</reference>
+<referencedColumn>BFD69357-9EF7-262F-2F99-9C57C6447E07</referencedColumn>
+<table>4D1CE9BF-DD5F-5FE7-D086-8A65FED5C81B</table>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="Postal" id="10573DFF-809C-D138-0D7E-F2D20DA5C914">
+<createdBy>tcollier</createdBy>
+<createdTime>2024-02-10 00:12:53 UTC</createdTime>
+<commentInRDBMS><![CDATA[Zip plus 4 format.  No dashes.]]></commentInRDBMS>
+<ownerDesignName>HARC_SNN_Data_Model_V3_TOBE</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>VARCHAR2 (9)</dataType>
+<headerAlias>Postal</headerAlias>
+<reference>false</reference>
+<referencedColumn>55D9ADE5-E2C8-DA62-4EB7-9535AE57ACF3</referencedColumn>
+<table>4D1CE9BF-DD5F-5FE7-D086-8A65FED5C81B</table>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="Country" id="BE546F28-2AC4-0E8D-24F8-05DCA5492A32">
+<createdBy>tcollier</createdBy>
+<createdTime>2024-02-10 00:12:53 UTC</createdTime>
+<commentInRDBMS><![CDATA[ ISO 3166-1 alpha-3 codes]]></commentInRDBMS>
+<ownerDesignName>HARC_SNN_Data_Model_V3_TOBE</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>VARCHAR2 (3)</dataType>
+<headerAlias>Country</headerAlias>
+<reference>false</reference>
+<referencedColumn>6D0C1B75-AE9F-A5AD-AE63-2A86E4E98A1F</referencedColumn>
+<table>4D1CE9BF-DD5F-5FE7-D086-8A65FED5C81B</table>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="Latitude" id="19C85234-90BD-ECD8-70CE-21A2F1423B60">
+<createdBy>tcollier</createdBy>
+<createdTime>2024-02-10 00:12:53 UTC</createdTime>
+<ownerDesignName>HARC_SNN_Data_Model_V3_TOBE</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>NUMBER</dataType>
+<headerAlias>Latitude</headerAlias>
+<reference>false</reference>
+<referencedColumn>AB9662B7-5988-22A6-9BB7-E30E17A82523</referencedColumn>
+<table>4D1CE9BF-DD5F-5FE7-D086-8A65FED5C81B</table>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="Longitude" id="200F05AF-0802-080F-C2A5-BC79FEA86A9B">
+<createdBy>tcollier</createdBy>
+<createdTime>2024-02-10 00:12:53 UTC</createdTime>
+<ownerDesignName>HARC_SNN_Data_Model_V3_TOBE</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>NUMBER</dataType>
+<headerAlias>Longitude</headerAlias>
+<reference>false</reference>
+<referencedColumn>79E7116B-15E1-A3B5-5642-0BF9218B9801</referencedColumn>
+<table>4D1CE9BF-DD5F-5FE7-D086-8A65FED5C81B</table>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="Elevation" id="CCE7BA65-909D-1C35-11CF-4D7B7A3BD4CC">
+<createdBy>tcollier</createdBy>
+<createdTime>2024-02-10 00:12:53 UTC</createdTime>
+<ownerDesignName>HARC_SNN_Data_Model_V3_TOBE</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>NUMBER</dataType>
+<headerAlias>Elevation</headerAlias>
+<reference>false</reference>
+<referencedColumn>88CD40B4-30B0-070C-30E7-BF2F50E49C86</referencedColumn>
+<table>4D1CE9BF-DD5F-5FE7-D086-8A65FED5C81B</table>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="HCOL_E-Mail_Address" id="8F63043B-321D-6982-CAD3-F1E37A0A6E7D">
+<createdBy>tcollier</createdBy>
+<createdTime>2024-02-10 00:12:53 UTC</createdTime>
+<ownerDesignName>HARC_SNN_Data_Model_V3_TOBE</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>VARCHAR2 (320)</dataType>
+<headerAlias>HCOL_E-Mail_Address</headerAlias>
+<reference>false</reference>
+<referencedColumn>F7F020AF-3B20-6C6B-4B79-66FA5EF750CB</referencedColumn>
+<table>4D1CE9BF-DD5F-5FE7-D086-8A65FED5C81B</table>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="HCOL_E-Mail_Status" id="3A6A119A-C112-88C9-C439-7645785A6262">
+<createdBy>tcollier</createdBy>
+<createdTime>2024-02-10 00:12:53 UTC</createdTime>
+<ownerDesignName>HARC_SNN_Data_Model_V3_TOBE</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>VARCHAR2 (3)</dataType>
+<headerAlias>HCOL_E-Mail_Status</headerAlias>
+<reference>false</reference>
+<referencedColumn>5FDDB33B-BBC4-9B6F-86E3-6D21284ED7C4</referencedColumn>
+<table>4D1CE9BF-DD5F-5FE7-D086-8A65FED5C81B</table>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="Club_E-Mail_Address" id="07DBA75A-883D-C029-03DE-959B050E1A05">
+<createdBy>tcollier</createdBy>
+<createdTime>2024-02-10 00:12:53 UTC</createdTime>
+<ownerDesignName>HARC_SNN_Data_Model_V3_TOBE</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>VARCHAR2 (320)</dataType>
+<headerAlias>Club_E-Mail_Address</headerAlias>
+<reference>false</reference>
+<referencedColumn>379920F6-0EA1-A0EE-CC86-5C1FA25F7735</referencedColumn>
+<table>4D1CE9BF-DD5F-5FE7-D086-8A65FED5C81B</table>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="Club_E-Mail_Status" id="B2065A4B-7B33-BDFF-F6EF-10655FF9759A">
+<createdBy>tcollier</createdBy>
+<createdTime>2024-02-10 00:12:53 UTC</createdTime>
+<ownerDesignName>HARC_SNN_Data_Model_V3_TOBE</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>VARCHAR2 (3)</dataType>
+<headerAlias>Club_E-Mail_Status</headerAlias>
+<reference>false</reference>
+<referencedColumn>3C5872D4-77F2-7AC3-F01A-BD6BC031F256</referencedColumn>
+<table>4D1CE9BF-DD5F-5FE7-D086-8A65FED5C81B</table>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="Primary_Phone" id="593AC992-5E45-54B5-3E32-3F390A0DE2B6">
+<createdBy>tcollier</createdBy>
+<createdTime>2024-02-10 00:12:53 UTC</createdTime>
+<ownerDesignName>HARC_SNN_Data_Model_V3_TOBE</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>VARCHAR2 (10)</dataType>
+<headerAlias>Primary_Phone</headerAlias>
+<reference>false</reference>
+<referencedColumn>81CBE2DC-5113-4B5B-0E2F-E0FE249246A3</referencedColumn>
+<table>4D1CE9BF-DD5F-5FE7-D086-8A65FED5C81B</table>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="Primary_Phone_Type" id="620FCAA1-49B5-A9A8-2183-69CFFC786D8D">
+<createdBy>tcollier</createdBy>
+<createdTime>2024-02-10 00:12:53 UTC</createdTime>
+<ownerDesignName>HARC_SNN_Data_Model_V3_TOBE</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>VARCHAR2 (14)</dataType>
+<headerAlias>Primary_Phone_Type</headerAlias>
+<reference>false</reference>
+<referencedColumn>D35F1C00-C67C-AD4F-648B-BC7B77808BE9</referencedColumn>
+<table>4D1CE9BF-DD5F-5FE7-D086-8A65FED5C81B</table>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="Primary_Publish_Phone" id="E82DB166-BEB2-D69B-E57B-90E4FA7D1986">
+<createdBy>tcollier</createdBy>
+<createdTime>2024-02-10 00:12:53 UTC</createdTime>
+<ownerDesignName>HARC_SNN_Data_Model_V3_TOBE</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>VARCHAR2 (1)</dataType>
+<headerAlias>Primary_Publish_Phone</headerAlias>
+<reference>false</reference>
+<referencedColumn>DF82E10B-336D-17B1-7BEA-873BAADA1315</referencedColumn>
+<table>4D1CE9BF-DD5F-5FE7-D086-8A65FED5C81B</table>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="Alternate_Phone" id="238F43E7-4E54-1DD0-2A18-C71E1BCAB772">
+<createdBy>tcollier</createdBy>
+<createdTime>2024-02-10 00:12:53 UTC</createdTime>
+<ownerDesignName>HARC_SNN_Data_Model_V3_TOBE</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>VARCHAR2 (10)</dataType>
+<headerAlias>Alternate_Phone</headerAlias>
+<reference>false</reference>
+<referencedColumn>EA12BEFA-A866-6297-E43B-0B19FD8DA797</referencedColumn>
+<table>4D1CE9BF-DD5F-5FE7-D086-8A65FED5C81B</table>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="Alternate_Phone_Type" id="BF759519-4D83-52E7-6E3B-0B75782E2793">
+<createdBy>tcollier</createdBy>
+<createdTime>2024-02-10 00:12:53 UTC</createdTime>
+<ownerDesignName>HARC_SNN_Data_Model_V3_TOBE</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>VARCHAR2 (7)</dataType>
+<headerAlias>Alternate_Phone_Type</headerAlias>
+<reference>false</reference>
+<referencedColumn>A7609720-22BB-4E22-05C0-5D658862668F</referencedColumn>
+<table>4D1CE9BF-DD5F-5FE7-D086-8A65FED5C81B</table>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="Alternate_Phone_Publisj" id="F7A1C5EF-136E-CD1D-1348-553607B561E2">
+<createdBy>tcollier</createdBy>
+<createdTime>2024-02-10 00:12:53 UTC</createdTime>
+<ownerDesignName>HARC_SNN_Data_Model_V3_TOBE</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>VARCHAR2 (1)</dataType>
+<headerAlias>Alternate_Phone_Publisj</headerAlias>
+<reference>false</reference>
+<referencedColumn>9CED3CB5-E616-9847-51FA-BA983489BAD4</referencedColumn>
+<table>4D1CE9BF-DD5F-5FE7-D086-8A65FED5C81B</table>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="Emergency_Contact" id="83D593BF-46C5-DBB1-D76F-FD2105A01B58">
+<createdBy>tcollier</createdBy>
+<createdTime>2024-02-10 00:12:53 UTC</createdTime>
+<ownerDesignName>HARC_SNN_Data_Model_V3_TOBE</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>VARCHAR2 (35)</dataType>
+<headerAlias>Emergency_Contact</headerAlias>
+<reference>false</reference>
+<referencedColumn>C96A5345-A20C-E670-936C-7F9D8DC7218B</referencedColumn>
+<table>4D1CE9BF-DD5F-5FE7-D086-8A65FED5C81B</table>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="Join_Date" id="0B3BBFE9-2E5C-F7C2-7422-471D04E8665D">
+<createdBy>tcollier</createdBy>
+<createdTime>2024-02-10 00:12:53 UTC</createdTime>
+<ownerDesignName>HARC_SNN_Data_Model_V3_TOBE</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>DATE</dataType>
+<headerAlias>Join_Date</headerAlias>
+<reference>false</reference>
+<referencedColumn>EE79E27A-4806-F7E5-F81C-8579847EB095</referencedColumn>
+<table>4D1CE9BF-DD5F-5FE7-D086-8A65FED5C81B</table>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="Left_Date" id="74DADF1A-FAE7-03B1-45C9-086544CA168B">
+<createdBy>tcollier</createdBy>
+<createdTime>2024-02-10 00:12:53 UTC</createdTime>
+<ownerDesignName>HARC_SNN_Data_Model_V3_TOBE</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>DATE</dataType>
+<headerAlias>Left_Date</headerAlias>
+<reference>false</reference>
+<referencedColumn>FBDC2720-87B3-9150-68E8-6876FE1CE8CB</referencedColumn>
+<table>4D1CE9BF-DD5F-5FE7-D086-8A65FED5C81B</table>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="Club_Rank" id="8B524284-A267-7DCB-A20D-F6E005ED5E7F">
+<createdBy>tcollier</createdBy>
+<createdTime>2024-02-10 00:12:53 UTC</createdTime>
+<ownerDesignName>HARC_SNN_Data_Model_V3_TOBE</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>VARCHAR2 (20)</dataType>
+<headerAlias>Club_Rank</headerAlias>
+<reference>false</reference>
+<referencedColumn>769F0F8E-A1CF-483D-B312-2C5B0F5D07F5</referencedColumn>
+<table>4D1CE9BF-DD5F-5FE7-D086-8A65FED5C81B</table>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="Club_Position" id="8398010A-FF52-8A7B-B7E4-281024E0C7A6">
+<createdBy>tcollier</createdBy>
+<createdTime>2024-02-10 00:12:53 UTC</createdTime>
+<ownerDesignName>HARC_SNN_Data_Model_V3_TOBE</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>VARCHAR2 (20)</dataType>
+<headerAlias>Club_Position</headerAlias>
+<reference>false</reference>
+<referencedColumn>80AA1FF3-FEA7-A164-F2FF-7D2841C2B0D1</referencedColumn>
+<table>4D1CE9BF-DD5F-5FE7-D086-8A65FED5C81B</table>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="Delegate" id="5CF99CD5-82A2-246D-F21A-DA1E71615CBB">
+<createdBy>tcollier</createdBy>
+<createdTime>2024-02-10 00:12:53 UTC</createdTime>
+<ownerDesignName>HARC_SNN_Data_Model_V3_TOBE</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>VARCHAR2 (20)</dataType>
+<headerAlias>Delegate</headerAlias>
+<reference>false</reference>
+<referencedColumn>80D25883-E4A3-EB75-25B2-592095734447</referencedColumn>
+<table>4D1CE9BF-DD5F-5FE7-D086-8A65FED5C81B</table>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="Membership_Type" id="E35D12ED-7450-3D3B-4EDE-5ADE29F02572">
+<createdBy>tcollier</createdBy>
+<createdTime>2024-02-10 00:12:53 UTC</createdTime>
+<ownerDesignName>HARC_SNN_Data_Model_V3_TOBE</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>VARCHAR2 (20)</dataType>
+<headerAlias>Membership_Type</headerAlias>
+<reference>false</reference>
+<referencedColumn>8451E6A7-837E-800E-7B33-95AC338518DA</referencedColumn>
+<table>4D1CE9BF-DD5F-5FE7-D086-8A65FED5C81B</table>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="Membership_Expiration_Date" id="FABB7571-B211-E953-787D-F279B84D1BCD">
+<createdBy>tcollier</createdBy>
+<createdTime>2024-02-10 00:12:53 UTC</createdTime>
+<ownerDesignName>HARC_SNN_Data_Model_V3_TOBE</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>DATE</dataType>
+<headerAlias>Membership_Expiration_Date</headerAlias>
+<reference>false</reference>
+<referencedColumn>7D5B047B-15FA-0B85-A2F7-D21A527461FC</referencedColumn>
+<table>4D1CE9BF-DD5F-5FE7-D086-8A65FED5C81B</table>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="Club_Balance" id="C155003C-27F9-935D-8D2A-04417DE5272D">
+<createdBy>tcollier</createdBy>
+<createdTime>2024-02-10 00:12:53 UTC</createdTime>
+<ownerDesignName>HARC_SNN_Data_Model_V3_TOBE</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>NUMERIC (2)</dataType>
+<headerAlias>Club_Balance</headerAlias>
+<reference>false</reference>
+<referencedColumn>4951636D-BA6A-92DD-41FC-E83A69314B6E</referencedColumn>
+<table>4D1CE9BF-DD5F-5FE7-D086-8A65FED5C81B</table>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="Birth_Date" id="C973DD5F-8562-D52D-3B3A-ABDC61ADB824">
+<createdBy>tcollier</createdBy>
+<createdTime>2024-02-10 00:12:53 UTC</createdTime>
+<ownerDesignName>HARC_SNN_Data_Model_V3_TOBE</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>DATE</dataType>
+<headerAlias>Birth_Date</headerAlias>
+<reference>false</reference>
+<referencedColumn>0A99F66B-971C-F177-ACE4-324B58D892DA</referencedColumn>
+<table>4D1CE9BF-DD5F-5FE7-D086-8A65FED5C81B</table>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="Private_Member" id="24D871E5-37BE-463A-456A-FBE9695B8399">
+<createdBy>tcollier</createdBy>
+<createdTime>2024-02-10 00:12:53 UTC</createdTime>
+<ownerDesignName>HARC_SNN_Data_Model_V3_TOBE</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>NUMBER</dataType>
+<headerAlias>Private_Member</headerAlias>
+<reference>false</reference>
+<referencedColumn>A8781A5C-6F93-41A6-EBB1-E6FA92B9795A</referencedColumn>
+<table>4D1CE9BF-DD5F-5FE7-D086-8A65FED5C81B</table>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="User_Timezone" id="01F7A4FE-625C-2494-D51E-FC3BFC224DB8">
+<createdBy>tcollier</createdBy>
+<createdTime>2024-02-10 00:12:53 UTC</createdTime>
+<ownerDesignName>HARC_SNN_Data_Model_V3_TOBE</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>VARCHAR2 (20)</dataType>
+<headerAlias>User_Timezone</headerAlias>
+<reference>false</reference>
+<referencedColumn>CE2C5B53-1239-E04E-2149-60AF0508ED88</referencedColumn>
+<table>4D1CE9BF-DD5F-5FE7-D086-8A65FED5C81B</table>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="Last_Login" id="44D804A2-FB93-F30F-6AE5-484D43ECAE00">
+<createdBy>tcollier</createdBy>
+<createdTime>2024-02-10 00:12:53 UTC</createdTime>
+<ownerDesignName>HARC_SNN_Data_Model_V3_TOBE</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>DATE</dataType>
+<headerAlias>Last_Login</headerAlias>
+<reference>false</reference>
+<referencedColumn>66BCD11C-5C6A-7F06-B768-1404C030E004</referencedColumn>
+<table>4D1CE9BF-DD5F-5FE7-D086-8A65FED5C81B</table>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="Role_Count" id="1D7082E8-B0CA-506D-474B-88E119842F6F">
+<createdBy>tcollier</createdBy>
+<createdTime>2024-02-10 00:12:53 UTC</createdTime>
+<ownerDesignName>HARC_SNN_Data_Model_V3_TOBE</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>NUMBER</dataType>
+<headerAlias>Role_Count</headerAlias>
+<reference>false</reference>
+<referencedColumn>6003C5F1-B06C-2E50-A458-88C122BADB3F</referencedColumn>
+<table>4D1CE9BF-DD5F-5FE7-D086-8A65FED5C81B</table>
+</viewElement>
+</viewElements>
+<usedObjects>
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="4D1CE9BF-DD5F-5FE7-D086-8A65FED5C81B">
+<container>true</container>
+<tableName>t_HCOL_export</tableName>
+</UsedObject>
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="C2B1E605-287B-0FCC-2480-1B7D556AC1A1">
+<columnName>Member#</columnName>
+<tableName>t_HCOL_export</tableName>
+</UsedObject>
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="D7F0597F-6445-4CFB-F8C9-D5167AAB16B5">
+<columnName>Roster</columnName>
+<tableName>t_HCOL_export</tableName>
+</UsedObject>
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="33252103-3126-7540-2E16-F78C3D8D53A8">
+<columnName>First_Name</columnName>
+<tableName>t_HCOL_export</tableName>
+</UsedObject>
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="2C78F7C3-259F-BD4A-0A7F-869CBCD5A8D9">
+<columnName>Nickname</columnName>
+<tableName>t_HCOL_export</tableName>
+</UsedObject>
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="4E99E45B-F9A8-E41B-E5DA-07D2AED544B6">
+<columnName>Last_Name</columnName>
+<tableName>t_HCOL_export</tableName>
+</UsedObject>
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="33F6B785-ABEA-AC5A-5F54-26B07E840039">
+<columnName>Callsign</columnName>
+<tableName>t_HCOL_export</tableName>
+</UsedObject>
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="1EC0D589-9646-8EA4-EE99-8BE26F5817CD">
+<columnName>License_Class</columnName>
+<tableName>t_HCOL_export</tableName>
+</UsedObject>
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="1ED624BC-45A9-F5A6-6154-892CF57D853C">
+<columnName>License_Expiration_Date</columnName>
+<tableName>t_HCOL_export</tableName>
+</UsedObject>
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="674AD7A3-B244-E9B5-FD5B-3598E5A35C7E">
+<columnName>License_Number</columnName>
+<tableName>t_HCOL_export</tableName>
+</UsedObject>
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="ADDC5FA8-8683-147F-FDC4-37E58DF618D3">
+<columnName>License_Agency</columnName>
+<tableName>t_HCOL_export</tableName>
+</UsedObject>
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="58506722-A726-2806-4FAC-F3ED4F3D6100">
+<columnName>Address</columnName>
+<tableName>t_HCOL_export</tableName>
+</UsedObject>
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="8301E2E5-6E85-AE68-F8BF-8D9C743FE3A7">
+<columnName>City</columnName>
+<tableName>t_HCOL_export</tableName>
+</UsedObject>
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="BFD69357-9EF7-262F-2F99-9C57C6447E07">
+<columnName>State</columnName>
+<tableName>t_HCOL_export</tableName>
+</UsedObject>
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="55D9ADE5-E2C8-DA62-4EB7-9535AE57ACF3">
+<columnName>Postal</columnName>
+<tableName>t_HCOL_export</tableName>
+</UsedObject>
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="6D0C1B75-AE9F-A5AD-AE63-2A86E4E98A1F">
+<columnName>Country</columnName>
+<tableName>t_HCOL_export</tableName>
+</UsedObject>
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="AB9662B7-5988-22A6-9BB7-E30E17A82523">
+<columnName>Latitude</columnName>
+<tableName>t_HCOL_export</tableName>
+</UsedObject>
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="79E7116B-15E1-A3B5-5642-0BF9218B9801">
+<columnName>Longitude</columnName>
+<tableName>t_HCOL_export</tableName>
+</UsedObject>
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="88CD40B4-30B0-070C-30E7-BF2F50E49C86">
+<columnName>Elevation</columnName>
+<tableName>t_HCOL_export</tableName>
+</UsedObject>
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="F7F020AF-3B20-6C6B-4B79-66FA5EF750CB">
+<columnName>HCOL_E-Mail_Address</columnName>
+<tableName>t_HCOL_export</tableName>
+</UsedObject>
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="5FDDB33B-BBC4-9B6F-86E3-6D21284ED7C4">
+<columnName>HCOL_E-Mail_Status</columnName>
+<tableName>t_HCOL_export</tableName>
+</UsedObject>
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="379920F6-0EA1-A0EE-CC86-5C1FA25F7735">
+<columnName>Club_E-Mail_Address</columnName>
+<tableName>t_HCOL_export</tableName>
+</UsedObject>
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="3C5872D4-77F2-7AC3-F01A-BD6BC031F256">
+<columnName>Club_E-Mail_Status</columnName>
+<tableName>t_HCOL_export</tableName>
+</UsedObject>
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="81CBE2DC-5113-4B5B-0E2F-E0FE249246A3">
+<columnName>Primary_Phone</columnName>
+<tableName>t_HCOL_export</tableName>
+</UsedObject>
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="D35F1C00-C67C-AD4F-648B-BC7B77808BE9">
+<columnName>Primary_Phone_Type</columnName>
+<tableName>t_HCOL_export</tableName>
+</UsedObject>
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="DF82E10B-336D-17B1-7BEA-873BAADA1315">
+<columnName>Primary_Publish_Phone</columnName>
+<tableName>t_HCOL_export</tableName>
+</UsedObject>
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="EA12BEFA-A866-6297-E43B-0B19FD8DA797">
+<columnName>Alternate_Phone</columnName>
+<tableName>t_HCOL_export</tableName>
+</UsedObject>
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="A7609720-22BB-4E22-05C0-5D658862668F">
+<columnName>Alternate_Phone_Type</columnName>
+<tableName>t_HCOL_export</tableName>
+</UsedObject>
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="9CED3CB5-E616-9847-51FA-BA983489BAD4">
+<columnName>Alternate_Phone_Publisj</columnName>
+<tableName>t_HCOL_export</tableName>
+</UsedObject>
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="C96A5345-A20C-E670-936C-7F9D8DC7218B">
+<columnName>Emergency_Contact</columnName>
+<tableName>t_HCOL_export</tableName>
+</UsedObject>
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="EE79E27A-4806-F7E5-F81C-8579847EB095">
+<columnName>Join_Date</columnName>
+<tableName>t_HCOL_export</tableName>
+</UsedObject>
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="FBDC2720-87B3-9150-68E8-6876FE1CE8CB">
+<columnName>Left_Date</columnName>
+<tableName>t_HCOL_export</tableName>
+</UsedObject>
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="769F0F8E-A1CF-483D-B312-2C5B0F5D07F5">
+<columnName>Club_Rank</columnName>
+<tableName>t_HCOL_export</tableName>
+</UsedObject>
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="80AA1FF3-FEA7-A164-F2FF-7D2841C2B0D1">
+<columnName>Club_Position</columnName>
+<tableName>t_HCOL_export</tableName>
+</UsedObject>
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="80D25883-E4A3-EB75-25B2-592095734447">
+<columnName>Delegate</columnName>
+<tableName>t_HCOL_export</tableName>
+</UsedObject>
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="8451E6A7-837E-800E-7B33-95AC338518DA">
+<columnName>Membership_Type</columnName>
+<tableName>t_HCOL_export</tableName>
+</UsedObject>
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="7D5B047B-15FA-0B85-A2F7-D21A527461FC">
+<columnName>Membership_Expiration_Date</columnName>
+<tableName>t_HCOL_export</tableName>
+</UsedObject>
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="4951636D-BA6A-92DD-41FC-E83A69314B6E">
+<columnName>Club_Balance</columnName>
+<tableName>t_HCOL_export</tableName>
+</UsedObject>
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="0A99F66B-971C-F177-ACE4-324B58D892DA">
+<columnName>Birth_Date</columnName>
+<tableName>t_HCOL_export</tableName>
+</UsedObject>
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="A8781A5C-6F93-41A6-EBB1-E6FA92B9795A">
+<columnName>Private_Member</columnName>
+<tableName>t_HCOL_export</tableName>
+</UsedObject>
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="CE2C5B53-1239-E04E-2149-60AF0508ED88">
+<columnName>User_Timezone</columnName>
+<tableName>t_HCOL_export</tableName>
+</UsedObject>
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="66BCD11C-5C6A-7F06-B768-1404C030E004">
+<columnName>Last_Login</columnName>
+<tableName>t_HCOL_export</tableName>
+</UsedObject>
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="6003C5F1-B06C-2E50-A458-88C122BADB3F">
+<columnName>Role_Count</columnName>
+<tableName>t_HCOL_export</tableName>
+</UsedObject>
+</usedObjects>
+</TableView>

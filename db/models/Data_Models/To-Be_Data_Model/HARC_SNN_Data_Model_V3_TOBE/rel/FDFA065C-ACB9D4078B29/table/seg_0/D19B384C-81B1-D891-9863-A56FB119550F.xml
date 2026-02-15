@@ -1,0 +1,156 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="D19B384C-81B1-D891-9863-A56FB119550F" name="t_pers">
+<createdBy>tcollier</createdBy>
+<createdTime>2024-02-08 23:51:45 UTC</createdTime>
+<generatorID>98C91E27-7E02-7E4E-AA7F-FED1B5D7AA40</generatorID>
+<ownerDesignName>HARC_SNN_Data_Model_V3_TOBE</ownerDesignName>
+<abbreviation>t_pers</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="t_pers_Callsign" id="E4C176F0-1D5A-A1FC-D522-87AA34FF2E9D">
+<createdBy>tcollier</createdBy>
+<createdTime>2024-02-08 23:51:45 UTC</createdTime>
+<generatorID>60A8FDB1-E4D3-7AFA-6535-A3A5F75DCC62</generatorID>
+<ownerDesignName>HARC_SNN_Data_Model_V3_TOBE</ownerDesignName>
+<use>0</use>
+<logicalDatatype>B2E81DEA-F097-0C6E-D82D-2109375E9C22</logicalDatatype>
+<domain>73126A39-BD86-8A25-4735-CA06D2B702BB</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<abbreviation>call</abbreviation>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="t_pers_First_Name" id="4BF1DB11-BB99-2AD6-9F09-401AE29A35D7">
+<createdBy>tcollier</createdBy>
+<createdTime>2024-02-08 23:51:45 UTC</createdTime>
+<generatorID>F1ABFE04-E193-9621-6167-53C0212094EE</generatorID>
+<ownerDesignName>HARC_SNN_Data_Model_V3_TOBE</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>B2E81DEA-F097-0C6E-D82D-2109375E9C22</logicalDatatype>
+<domain>DF484895-0DAA-3055-8BE0-5B0F1C4B2DB9</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<abbreviation>t_pers_f_nam</abbreviation>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="t_pers_Middle_Name" id="11E1DB4C-E2F4-B418-E312-F71D757BB9B6">
+<createdBy>tcollier</createdBy>
+<createdTime>2024-02-08 23:51:45 UTC</createdTime>
+<generatorID>83D0FBF3-187F-81B4-37C7-7E8DF66A8F06</generatorID>
+<ownerDesignName>HARC_SNN_Data_Model_V3_TOBE</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>B2E81DEA-F097-0C6E-D82D-2109375E9C22</logicalDatatype>
+<domain>DF484895-0DAA-3055-8BE0-5B0F1C4B2DB9</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<abbreviation>t_pers_m_nam</abbreviation>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="t_pers_Last_Name" id="4B666F17-5530-0184-19EF-66928F0D68A9">
+<createdBy>tcollier</createdBy>
+<createdTime>2024-02-08 23:51:45 UTC</createdTime>
+<generatorID>3555ECCE-DC07-9877-7538-054D0E1BDC0C</generatorID>
+<ownerDesignName>HARC_SNN_Data_Model_V3_TOBE</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>B2E81DEA-F097-0C6E-D82D-2109375E9C22</logicalDatatype>
+<domain>DF484895-0DAA-3055-8BE0-5B0F1C4B2DB9</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<abbreviation>t_pers_l_nam</abbreviation>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="t_pers_Preferred_Name" id="9F838FDA-1C58-3917-1BD2-A430A23E08F4">
+<createdBy>tcollier</createdBy>
+<createdTime>2024-02-08 23:51:45 UTC</createdTime>
+<generatorID>A79A7056-8EE2-1A70-0024-862739261002</generatorID>
+<ownerDesignName>HARC_SNN_Data_Model_V3_TOBE</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>B2E81DEA-F097-0C6E-D82D-2109375E9C22</logicalDatatype>
+<domain>DF484895-0DAA-3055-8BE0-5B0F1C4B2DB9</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<abbreviation>t_pers_pref_nam</abbreviation>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="pers_typ_cd" id="47B24DC9-DD03-BA44-DD3A-F48245BD4C24">
+<createdBy>tcollier</createdBy>
+<createdTime>2024-02-09 23:30:04 UTC</createdTime>
+<ownerDesignName>HARC_SNN_Data_Model_V3_TOBE</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>90015BD8-66C0-24AE-0278-E3E87E938D9F</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="5E3D6FA8-4CEE-7808-5675-D08E974CAF93" referredColumn="86FE39BC-2CD8-B3B6-4657-3201532ABF9A"/>
+</associations>
+</Column>
+<Column name="t_pers_Person_Type_Code" id="D2184D12-6036-1AB1-745D-903A0BB75D90">
+<createdBy>tcollier</createdBy>
+<createdTime>2024-04-30 21:02:34 UTC</createdTime>
+<generatorID>9CE3F1B9-C450-7018-37B6-930A57EC5BB9</generatorID>
+<ownerDesignName>HARC_SNN_Data_Model_V3_TOBE</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>90015BD8-66C0-24AE-0278-E3E87E938D9F</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="85E38A33-EBAF-3BFD-EF1F-FE85A38EA8F6" referredColumn="86FE39BC-2CD8-B3B6-4657-3201532ABF9A"/>
+</associations>
+</Column>
+<Column name="t_pers_Person_Type" id="10A484C7-287D-2ED0-5937-48BDAD4778C9">
+<createdBy>tcollier</createdBy>
+<createdTime>2024-04-30 21:02:34 UTC</createdTime>
+<commentInRDBMS><![CDATA[0 = non member
+1 = member using currint callsign
+2 = member using old callsign]]></commentInRDBMS>
+<generatorID>0EE63331-DD17-9DFA-2F6F-F78D736D4B54</generatorID>
+<ownerDesignName>HARC_SNN_Data_Model_V3_TOBE</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>90015BD8-66C0-24AE-0278-E3E87E938D9F</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="E9132969-7BA9-826E-5AFE-416EB1AEF8E5" name="t_pers_PK">
+<createdBy>tcollier</createdBy>
+<createdTime>2024-02-08 23:51:45 UTC</createdTime>
+<generatorID>5B24D2E6-15BF-DFF5-48C9-69056A3B4380</generatorID>
+<ownerDesignName>HARC_SNN_Data_Model_V3_TOBE</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E4C176F0-1D5A-A1FC-D522-87AA34FF2E9D"/>
+<colUsage columnID="D2184D12-6036-1AB1-745D-903A0BB75D90"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E1867012-22D2-7A4C-A336-72123A2BBECB" name="t_pers_t_pers_typ_FK">
+<createdBy>tcollier</createdBy>
+<createdTime>2024-02-09 23:30:04 UTC</createdTime>
+<ownerDesignName>HARC_SNN_Data_Model_V3_TOBE</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="47B24DC9-DD03-BA44-DD3A-F48245BD4C24"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C98E6FBF-8AFD-F545-D8BB-DAE43D26C6DB" name="t_pers_t_pers_typ_FKv2">
+<createdBy>tcollier</createdBy>
+<createdTime>2024-04-30 21:02:34 UTC</createdTime>
+<generatorID>A7A9425A-9542-FD01-37C7-C2FB9591EA25</generatorID>
+<ownerDesignName>HARC_SNN_Data_Model_V3_TOBE</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D2184D12-6036-1AB1-745D-903A0BB75D90"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

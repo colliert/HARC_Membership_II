@@ -1,0 +1,60 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<EntityView class="oracle.dbtools.crest.model.design.logical.EntityView" directorySegmentName="seg_0" id="1EDD6FC2-732F-3A1D-2586-78CBFFBC17DB" name="Power Type View">
+<createdBy>tcollier</createdBy>
+<createdTime>2019-07-12 21:37:10 UTC</createdTime>
+<ownerDesignName>MacLoggerDX_Project</ownerDesignName>
+<engineerTo>
+<item key="FC57F434-133F-87AF-675A-2915278B34DE" value="true"/>
+</engineerTo>
+<userDefined>true</userDefined>
+<userDefinedSQL>select *&lt;br/&gt;from &quot;Power Type&quot;;</userDefinedSQL>
+<parsed>true</parsed>
+<viewType>EntityView</viewType>
+<usedContainers>
+<container containerID="FE496235-9178-BB4F-3C1B-5FCE2D5ABEC9"/>
+</usedContainers>
+<viewElements>
+<viewElement class="oracle.dbtools.crest.model.design.logical.AttributeView" name="Power Type Code" id="199CA881-BA2D-6497-B640-3A28FA113212">
+<createdBy>tcollier</createdBy>
+<createdTime>2019-07-12 21:37:35 UTC</createdTime>
+<ownerDesignName>MacLoggerDX_Project</ownerDesignName>
+<engineerTo>
+<item key="FC57F434-133F-87AF-675A-2915278B34DE" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>INTEGER</dataType>
+<reference>false</reference>
+<referencedColumn>F286D066-E4AA-0F7E-649D-586F90EC6077</referencedColumn>
+<table>FE496235-9178-BB4F-3C1B-5FCE2D5ABEC9</table>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.logical.AttributeView" name="Power Type Description" id="464DAB3A-0CD6-489D-2920-3F7B7D212BA9">
+<createdBy>tcollier</createdBy>
+<createdTime>2019-07-12 21:37:35 UTC</createdTime>
+<ownerDesignName>MacLoggerDX_Project</ownerDesignName>
+<engineerTo>
+<item key="FC57F434-133F-87AF-675A-2915278B34DE" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>CLOB</dataType>
+<reference>false</reference>
+<referencedColumn>17FD4E9B-32AB-10FB-4A9C-9358C7B77408</referencedColumn>
+<table>FE496235-9178-BB4F-3C1B-5FCE2D5ABEC9</table>
+</viewElement>
+</viewElements>
+<usedObjects>
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="FE496235-9178-BB4F-3C1B-5FCE2D5ABEC9">
+<container>true</container>
+<tableName>Power Type</tableName>
+</UsedObject>
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="F286D066-E4AA-0F7E-649D-586F90EC6077">
+<columnName>Power Type Code</columnName>
+<tableName>Power Type</tableName>
+</UsedObject>
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="17FD4E9B-32AB-10FB-4A9C-9358C7B77408">
+<columnName>Power Type Description</columnName>
+<tableName>Power Type</tableName>
+</UsedObject>
+</usedObjects>
+</EntityView>

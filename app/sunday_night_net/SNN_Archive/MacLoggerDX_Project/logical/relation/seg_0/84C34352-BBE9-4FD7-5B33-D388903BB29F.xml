@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Antenna Type Code" directorySegmentName="seg_0" id="84C34352-BBE9-4FD7-5B33-D388903BB29F">
+<createdBy>tcollier</createdBy>
+<createdTime>2019-07-03 03:45:18 UTC</createdTime>
+<ownerDesignName>MacLoggerDX_Project</ownerDesignName>
+<engineerTo>
+<item key="FC57F434-133F-87AF-675A-2915278B34DE" value="true"/>
+</engineerTo>
+<sourcePk>B0E033B9-F47C-406A-75D1-FEE00E9BE6D6</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>95EE9719-6141-9716-C83E-7C5D9E598846</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>F2CF089E-B065-667A-5867-B2BD6ECC5FA4</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

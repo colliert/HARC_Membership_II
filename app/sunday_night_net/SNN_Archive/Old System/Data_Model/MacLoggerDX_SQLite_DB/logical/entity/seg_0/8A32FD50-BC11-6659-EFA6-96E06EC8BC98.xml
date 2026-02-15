@@ -1,0 +1,133 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="8A32FD50-BC11-6659-EFA6-96E06EC8BC98" name="Additional QSO Details">
+<createdBy>tcollier</createdBy>
+<createdTime>2020-10-30 17:47:38 UTC</createdTime>
+<generatorID>F9DB7E22-09BA-F2C3-D37A-DB432A88B4D5</generatorID>
+<ownerDesignName>MacLoggerDX_SQLite_DB</ownerDesignName>
+<engineerTo>
+<item key="AF3E3F20-8AFD-D45A-FD64-95FBA8FAE7F0" value="true"/>
+<item key="31E5524C-62D2-47CA-ED22-956AD4BDA5C7" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<preferredAbbreviation>t harc add qso details</preferredAbbreviation>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="qso table v007 pk" id="B198ECC1-49B1-D171-8BC6-847617D8E7F7">
+<createdBy>tcollier</createdBy>
+<createdTime>2020-10-30 17:47:38 UTC</createdTime>
+<generatorID>EFE22E56-C1C9-EABA-94B7-9405CA7EC7E7</generatorID>
+<ownerDesignName>MacLoggerDX_SQLite_DB</ownerDesignName>
+<engineerTo>
+<item key="31E5524C-62D2-47CA-ED22-956AD4BDA5C7" value="true"/>
+<item key="AF3E3F20-8AFD-D45A-FD64-95FBA8FAE7F0" value="true"/>
+</engineerTo>
+<referedAttribute>05DD19BF-5555-4A12-06EA-9CFBE8CCA26F</referedAttribute>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>75599A16-9423-40CF-D409-4542E3B2ADCC</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="rptr cd" id="227A5B42-0F80-7ECC-053E-1AA3274AC309">
+<createdBy>tcollier</createdBy>
+<createdTime>2020-10-30 17:47:38 UTC</createdTime>
+<generatorID>1CC8DC7E-CE26-2369-A2D8-6144AA868FDB</generatorID>
+<ownerDesignName>MacLoggerDX_SQLite_DB</ownerDesignName>
+<engineerTo>
+<item key="31E5524C-62D2-47CA-ED22-956AD4BDA5C7" value="true"/>
+<item key="AF3E3F20-8AFD-D45A-FD64-95FBA8FAE7F0" value="true"/>
+</engineerTo>
+<referedAttribute>56465105-F210-07F6-3E96-9572FCAE1262</referedAttribute>
+<use>0</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<domain>4FF2D893-9BFF-F8A4-D679-A37B572F47ED</domain>
+<defaultValue>&apos;H2&apos;</defaultValue>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="rad typ cd" id="DA5B3B58-D91E-827F-1AEF-0CAE2223CB5D">
+<createdBy>tcollier</createdBy>
+<createdTime>2020-10-30 17:47:38 UTC</createdTime>
+<generatorID>20462CC0-55AD-BF90-343C-8B39C6A9CD2A</generatorID>
+<ownerDesignName>MacLoggerDX_SQLite_DB</ownerDesignName>
+<engineerTo>
+<item key="31E5524C-62D2-47CA-ED22-956AD4BDA5C7" value="true"/>
+<item key="AF3E3F20-8AFD-D45A-FD64-95FBA8FAE7F0" value="true"/>
+</engineerTo>
+<referedAttribute>CA238ECA-EA5D-0BF9-8825-59B70A4A6D94</referedAttribute>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>75599A16-9423-40CF-D409-4542E3B2ADCC</domain>
+<defaultValue>1</defaultValue>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="pwr typ cd" id="C461B93E-341F-2918-2933-BD2B3E13545A">
+<createdBy>tcollier</createdBy>
+<createdTime>2020-10-30 17:47:38 UTC</createdTime>
+<generatorID>3899B036-1C9F-7444-D24C-C27681BCBC25</generatorID>
+<ownerDesignName>MacLoggerDX_SQLite_DB</ownerDesignName>
+<engineerTo>
+<item key="31E5524C-62D2-47CA-ED22-956AD4BDA5C7" value="true"/>
+<item key="AF3E3F20-8AFD-D45A-FD64-95FBA8FAE7F0" value="true"/>
+</engineerTo>
+<referedAttribute>8A737913-F7C4-5C38-6B7E-7F99737DCB70</referedAttribute>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>75599A16-9423-40CF-D409-4542E3B2ADCC</domain>
+<defaultValue>1</defaultValue>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ant typ cd" id="6DACBC48-E0FC-4B57-5B00-6242FE004D78">
+<createdBy>tcollier</createdBy>
+<createdTime>2020-10-30 17:47:38 UTC</createdTime>
+<generatorID>851379F7-019F-F80F-E197-817EA14303B6</generatorID>
+<ownerDesignName>MacLoggerDX_SQLite_DB</ownerDesignName>
+<engineerTo>
+<item key="31E5524C-62D2-47CA-ED22-956AD4BDA5C7" value="true"/>
+<item key="AF3E3F20-8AFD-D45A-FD64-95FBA8FAE7F0" value="true"/>
+</engineerTo>
+<referedAttribute>BC9B676C-59E8-E479-0CDD-C05321C0EA4F</referedAttribute>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>75599A16-9423-40CF-D409-4542E3B2ADCC</domain>
+<defaultValue>1</defaultValue>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="qso comment" id="87B674FF-867E-DCBC-A549-4AC2C952BA5D">
+<createdBy>tcollier</createdBy>
+<createdTime>2020-10-30 17:47:38 UTC</createdTime>
+<generatorID>17D5C163-E3C5-970F-ED43-3106D8892400</generatorID>
+<ownerDesignName>MacLoggerDX_SQLite_DB</ownerDesignName>
+<engineerTo>
+<item key="31E5524C-62D2-47CA-ED22-956AD4BDA5C7" value="true"/>
+<item key="AF3E3F20-8AFD-D45A-FD64-95FBA8FAE7F0" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<domain>4FF2D893-9BFF-F8A4-D679-A37B572F47ED</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="58DD5557-A901-9F1C-B011-E9322ADDA879" name="t harc add qso details PK">
+<createdBy>tcollier</createdBy>
+<createdTime>2020-10-30 17:47:38 UTC</createdTime>
+<generatorID>3C170CAB-2360-8124-5884-AEE78E76CFE4</generatorID>
+<ownerDesignName>MacLoggerDX_SQLite_DB</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="31E5524C-62D2-47CA-ED22-956AD4BDA5C7" value="false"/>
+<item key="AF3E3F20-8AFD-D45A-FD64-95FBA8FAE7F0" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>B198ECC1-49B1-D171-8BC6-847617D8E7F7</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

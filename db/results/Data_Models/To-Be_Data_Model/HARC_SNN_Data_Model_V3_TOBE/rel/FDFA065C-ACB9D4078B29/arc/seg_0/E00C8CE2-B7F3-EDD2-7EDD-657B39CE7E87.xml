@@ -1,0 +1,13 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKArc class="oracle.dbtools.crest.model.design.relational.FKArc" directorySegmentName="seg_0" id="E00C8CE2-B7F3-EDD2-7EDD-657B39CE7E87" name="FKArc_2">
+<createdBy>tcollier</createdBy>
+<createdTime>2024-02-08 23:51:45 UTC</createdTime>
+<ownerDesignName>HARC_SNN_Data_Model_V3_TOBE</ownerDesignName>
+<mandatory>false</mandatory>
+<reverseArc>true</reverseArc>
+<table>D19B384C-81B1-D891-9863-A56FB119550F</table>
+<fkeys>
+<fkeyID>FB2675B5-EDB1-8978-F95D-C5C030002921</fkeyID>
+<fkeyID>4113AA79-1CB3-3BC5-C93A-8875516FBEE4</fkeyID>
+</fkeys>
+</FKArc>

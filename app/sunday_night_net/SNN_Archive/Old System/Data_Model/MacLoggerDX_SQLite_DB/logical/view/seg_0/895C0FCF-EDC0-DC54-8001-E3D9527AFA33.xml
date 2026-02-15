@@ -1,0 +1,112 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<EntityView class="oracle.dbtools.crest.model.design.logical.EntityView" directorySegmentName="seg_0" id="895C0FCF-EDC0-DC54-8001-E3D9527AFA33" name="v harc snn callout roster random">
+<createdBy>tcollier</createdBy>
+<createdTime>2020-10-30 17:47:38 UTC</createdTime>
+<generatorID>5D94D1B3-CEF0-2CAF-47A5-0156A41F30AA</generatorID>
+<ownerDesignName>MacLoggerDX_SQLite_DB</ownerDesignName>
+<engineerTo>
+<item key="AF3E3F20-8AFD-D45A-FD64-95FBA8FAE7F0" value="true"/>
+<item key="31E5524C-62D2-47CA-ED22-956AD4BDA5C7" value="true"/>
+</engineerTo>
+<userDefined>true</userDefined>
+<userDefinedSQL><![CDATA[SELECT callsign,
+           "first name",
+           "last name",
+           member,
+           comments
+      FROM
+           (
+               SELECT random(),
+                      callsign,
+                      "first name",
+                      "last name",
+                      member,
+                      comments
+                 FROM
+                      (
+                          SELECT *
+                            FROM v_harc_snn_callout_roster
+                      )
+                ORDER BY 5,
+                         1
+           )]]></userDefinedSQL>
+<validSQL>false</validSQL>
+<viewType>EntityView</viewType>
+<viewElements>
+<viewElement class="oracle.dbtools.crest.model.design.logical.AttributeView" name="callsign" id="F5DD0BD9-2FF8-C59D-6DBE-0F5FF0D6354E">
+<createdBy>tcollier</createdBy>
+<createdTime>2020-10-30 17:47:39 UTC</createdTime>
+<generatorID>B423702E-79DD-CAB1-96F8-C30967A64EBA</generatorID>
+<ownerDesignName>MacLoggerDX_SQLite_DB</ownerDesignName>
+<engineerTo>
+<item key="31E5524C-62D2-47CA-ED22-956AD4BDA5C7" value="true"/>
+<item key="AF3E3F20-8AFD-D45A-FD64-95FBA8FAE7F0" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>UNKNOWN</dataType>
+<reference>false</reference>
+<viewID>895C0FCF-EDC0-DC54-8001-E3D9527AFA33</viewID>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.logical.AttributeView" name="first name" id="26EC2214-0DA8-6628-5A89-92DE65F85969">
+<createdBy>tcollier</createdBy>
+<createdTime>2020-10-30 17:47:39 UTC</createdTime>
+<generatorID>E8DD7A3C-D2B1-F354-2078-D7F6EB4DF470</generatorID>
+<ownerDesignName>MacLoggerDX_SQLite_DB</ownerDesignName>
+<engineerTo>
+<item key="31E5524C-62D2-47CA-ED22-956AD4BDA5C7" value="true"/>
+<item key="AF3E3F20-8AFD-D45A-FD64-95FBA8FAE7F0" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>UNKNOWN</dataType>
+<reference>false</reference>
+<viewID>895C0FCF-EDC0-DC54-8001-E3D9527AFA33</viewID>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.logical.AttributeView" name="last name" id="A37B7578-B9BA-4D67-1146-805E124EC8B6">
+<createdBy>tcollier</createdBy>
+<createdTime>2020-10-30 17:47:39 UTC</createdTime>
+<generatorID>C0C7E950-8DED-A9E3-0F7C-327582AAE654</generatorID>
+<ownerDesignName>MacLoggerDX_SQLite_DB</ownerDesignName>
+<engineerTo>
+<item key="31E5524C-62D2-47CA-ED22-956AD4BDA5C7" value="true"/>
+<item key="AF3E3F20-8AFD-D45A-FD64-95FBA8FAE7F0" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>UNKNOWN</dataType>
+<reference>false</reference>
+<viewID>895C0FCF-EDC0-DC54-8001-E3D9527AFA33</viewID>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.logical.AttributeView" name="member" id="E3273D6D-1619-BE5B-6FA4-87B5C95BA7A7">
+<createdBy>tcollier</createdBy>
+<createdTime>2020-10-30 17:47:39 UTC</createdTime>
+<generatorID>9140B53B-11D1-A113-7534-F9061D65F85C</generatorID>
+<ownerDesignName>MacLoggerDX_SQLite_DB</ownerDesignName>
+<engineerTo>
+<item key="31E5524C-62D2-47CA-ED22-956AD4BDA5C7" value="true"/>
+<item key="AF3E3F20-8AFD-D45A-FD64-95FBA8FAE7F0" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>UNKNOWN</dataType>
+<reference>false</reference>
+<viewID>895C0FCF-EDC0-DC54-8001-E3D9527AFA33</viewID>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.logical.AttributeView" name="comments" id="0CB2B5C3-E321-C31F-A78F-E3892A586DF5">
+<createdBy>tcollier</createdBy>
+<createdTime>2020-10-30 17:47:39 UTC</createdTime>
+<generatorID>42D75FE8-E755-F3ED-A7A6-18F3EA1B0027</generatorID>
+<ownerDesignName>MacLoggerDX_SQLite_DB</ownerDesignName>
+<engineerTo>
+<item key="31E5524C-62D2-47CA-ED22-956AD4BDA5C7" value="true"/>
+<item key="AF3E3F20-8AFD-D45A-FD64-95FBA8FAE7F0" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>UNKNOWN</dataType>
+<reference>false</reference>
+<viewID>895C0FCF-EDC0-DC54-8001-E3D9527AFA33</viewID>
+</viewElement>
+</viewElements>
+</EntityView>

@@ -1,0 +1,119 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<EntityView class="oracle.dbtools.crest.model.design.logical.EntityView" directorySegmentName="seg_0" id="6097630A-5EEA-6088-22B8-F1015FF604FE" name="v callsign suffix">
+<createdBy>tcollier</createdBy>
+<createdTime>2023-12-10 01:29:04 UTC</createdTime>
+<commentInRDBMS><![CDATA[/*
+* v_callsign_suffix
+* -----------------
+*
+* Author Tim Collier
+* Purpose:  Generate a list of call sign suffixes of those stations who have checked into the net.
+*  The callsign suffix may be used as a quick visual lookup of stations.
+*
+*/]]></commentInRDBMS>
+<generatorID>73A8D841-A773-0183-DEBF-6B36228AC7BC</generatorID>
+<ownerDesignName>HARC_SNN_Data_Model_V3_TOBE</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="FDFA065C-9B79-4768-D3A1-ACB9D4078B29" value="false"/>
+</engineerTo>
+<userDefined>true</userDefined>
+<userDefinedSQL><![CDATA[/*
+* v_callsign_suffix
+* -----------------
+*
+* Author Tim Collier
+* Purpose:  Generate a list of call sign suffixes of those stations who have checked into the net.
+*  The callsign suffix may be used as a quick visual lookup of stations.
+*
+*/
+select distinct a.call as Call
+    ,a.first_name as First_Name
+    ,a.last_name as Last_Name
+    ,case cast(substr(a.call,2,1) as integer)
+        when 0 then substr(a.call,4,length(call))
+        else substr(call,3,length(a.call))
+    end as Suffix
+from v_net_qso a
+order by 4]]></userDefinedSQL>
+<validSQL>false</validSQL>
+<parsed>true</parsed>
+<viewType>EntityView</viewType>
+<viewElements>
+<viewElement class="oracle.dbtools.crest.model.design.logical.AttributeView" name="Call" id="2AEFBD42-ED51-A2E6-82A3-62A9073E5EA7">
+<createdBy>tcollier</createdBy>
+<createdTime>2023-12-12 22:01:04 UTC</createdTime>
+<ownerDesignName>HARC_SNN_Data_Model_V3_TOBE</ownerDesignName>
+<engineerTo>
+<item key="FDFA065C-9B79-4768-D3A1-ACB9D4078B29" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<alias>Call</alias>
+<dataType>UNKNOWN</dataType>
+<expression>a.call</expression>
+<reference>false</reference>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.logical.AttributeView" name="First_Name" id="4AA9CDC9-CB3C-8DB2-8AE4-1F48624C5CFA">
+<createdBy>tcollier</createdBy>
+<createdTime>2023-12-12 22:01:04 UTC</createdTime>
+<ownerDesignName>HARC_SNN_Data_Model_V3_TOBE</ownerDesignName>
+<engineerTo>
+<item key="FDFA065C-9B79-4768-D3A1-ACB9D4078B29" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<alias>First_Name</alias>
+<dataType>UNKNOWN</dataType>
+<expression>a.first_name</expression>
+<reference>false</reference>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.logical.AttributeView" name="Last_Name" id="97FCA59B-F085-3698-128A-1C1AB6FA2358">
+<createdBy>tcollier</createdBy>
+<createdTime>2023-12-12 22:01:04 UTC</createdTime>
+<ownerDesignName>HARC_SNN_Data_Model_V3_TOBE</ownerDesignName>
+<engineerTo>
+<item key="FDFA065C-9B79-4768-D3A1-ACB9D4078B29" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<alias>Last_Name</alias>
+<dataType>UNKNOWN</dataType>
+<expression>a.last_name</expression>
+<reference>false</reference>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.logical.AttributeView" name="Suffix" id="4CD17C1E-292D-F47C-03F5-8948A40A29BD">
+<createdBy>tcollier</createdBy>
+<createdTime>2023-12-12 22:01:04 UTC</createdTime>
+<ownerDesignName>HARC_SNN_Data_Model_V3_TOBE</ownerDesignName>
+<engineerTo>
+<item key="FDFA065C-9B79-4768-D3A1-ACB9D4078B29" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<alias>Suffix</alias>
+<dataType>UNKNOWN</dataType>
+<expression>Case Cast(SubStr(a.call, 2, 1) As Integer) When 0 Then SubStr(a.call, 4, Length(call)) Else SubStr(call, 3, Length(a.call)) End</expression>
+<reference>false</reference>
+</viewElement>
+</viewElements>
+<usedObjects>
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="7D2B7CCC-4EB3-05A2-8A61-A7E174D2E842">
+<container>true</container>
+<tableName>v_net_qso</tableName>
+<view>true</view>
+</UsedObject>
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="A04D7A76-207B-654F-3518-7B7512A8F5EF">
+<columnName>last_name</columnName>
+<tableName>v_net_qso</tableName>
+</UsedObject>
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="BD090608-5819-F7E3-A184-363AF50F5FDC">
+<columnName>call</columnName>
+<tableName>v_net_qso</tableName>
+</UsedObject>
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="3A6BF221-DBF5-3D8D-15B8-53D132987F07">
+<columnName>first_name</columnName>
+<tableName>v_net_qso</tableName>
+</UsedObject>
+</usedObjects>
+</EntityView>

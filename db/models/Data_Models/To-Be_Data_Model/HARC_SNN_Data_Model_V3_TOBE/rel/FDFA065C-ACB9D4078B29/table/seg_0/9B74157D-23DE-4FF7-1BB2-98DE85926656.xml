@@ -1,0 +1,27 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="9B74157D-23DE-4FF7-1BB2-98DE85926656" name="t_checkin_report_date">
+<createdBy>tcollier</createdBy>
+<createdTime>2024-02-08 23:41:26 UTC</createdTime>
+<commentInRDBMS><![CDATA[Checkin Report Date is a one row, one column table containing the date beyond which will be included in the Sunday Night Checkin (by date or by time) reports.]]></commentInRDBMS>
+<generatorID>4155BD9E-97DF-F3B3-EF8B-9F882AF0914D</generatorID>
+<ownerDesignName>HARC_SNN_Data_Model_V3_TOBE</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="checkin_date" id="AF1C2AB9-250F-8847-6B76-3620827F386A">
+<createdBy>tcollier</createdBy>
+<createdTime>2024-02-08 23:41:26 UTC</createdTime>
+<commentInRDBMS><![CDATA[1 row 1 column table containing the Sunday Night Net date which will be reported.]]></commentInRDBMS>
+<generatorID>F15A2E48-FBB0-7992-9913-5CFB50812C0A</generatorID>
+<ownerDesignName>HARC_SNN_Data_Model_V3_TOBE</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>161A90A6-CA3A-1525-7F0C-0703C95370A2</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<abbreviation>checkin_dat</abbreviation>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+</Table>

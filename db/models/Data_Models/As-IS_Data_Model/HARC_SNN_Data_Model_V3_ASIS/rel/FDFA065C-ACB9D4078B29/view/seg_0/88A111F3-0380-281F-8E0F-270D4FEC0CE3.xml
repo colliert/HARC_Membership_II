@@ -1,0 +1,31 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableView class="oracle.dbtools.crest.model.design.relational.TableView" directorySegmentName="seg_0" id="88A111F3-0380-281F-8E0F-270D4FEC0CE3" name="v_current_call_out_cutoff_days">
+<sourceDDLFile>HARC_SNN_DDL_Modified.sql</sourceDDLFile>
+<createdBy>tcollier</createdBy>
+<createdTime>2023-12-10 01:28:01 UTC</createdTime>
+<ownerDesignName>HARC_SNN_Data_Model_V3</ownerDesignName>
+<importedID>CB16004F-E672-B30F-156E-011175EAA3B5</importedID>
+<userDefined>true</userDefined>
+<userDefinedSQL><![CDATA[SELECT num_days as current_num_days
+  FROM v_call_out_cutoff_days
+ WHERE dat_est = (
+                     SELECT max(dat_est) 
+                       FROM v_call_out_cutoff_days
+                 )]]></userDefinedSQL>
+<validSQL>false</validSQL>
+<viewElements>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="current_num_days" id="B5D82EE3-FDF7-9326-836E-721844FE7891">
+<createdBy>tcollier</createdBy>
+<createdTime>2023-12-10 01:28:01 UTC</createdTime>
+<ownerDesignName>HARC_SNN_Data_Model_V3</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<alias>current_num_days</alias>
+<dataType>NUMBER</dataType>
+<headerAlias>current_num_days</headerAlias>
+<reference>false</reference>
+<referencedColumn>720395D9-164E-E462-B853-26393E1B9559</referencedColumn>
+<viewID>88A111F3-0380-281F-8E0F-270D4FEC0CE3</viewID>
+</viewElement>
+</viewElements>
+</TableView>

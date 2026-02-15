@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<InheritanceRelation class="oracle.dbtools.crest.model.design.logical.InheritanceRelation" name="member_cur_call_hierarchy" directorySegmentName="seg_0" id="1B3C57B2-A5BA-8388-0124-7A49A096A1E3">
+<createdBy>tcollier</createdBy>
+<createdTime>2024-02-05 23:53:50 UTC</createdTime>
+<ownerDesignName>HARC_SNN_Data_Model_V3_TOBE</ownerDesignName>
+<engineerTo>
+<item key="FDFA065C-9B79-4768-D3A1-ACB9D4078B29" value="true"/>
+</engineerTo>
+<identifying>false</identifying>
+<nameOnSource>Super Type</nameOnSource>
+<nameOnTarget>Sub Type</nameOnTarget>
+<optionalSource>true</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceEntity>608EDC73-E876-ECB0-2954-DC52758EEFA5</sourceEntity>
+<targetEntity>6240FB2D-BCF0-7C7B-934B-1C610A4C5B64</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</InheritanceRelation>

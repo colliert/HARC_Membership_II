@@ -1,0 +1,90 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<EntityView class="oracle.dbtools.crest.model.design.logical.EntityView" directorySegmentName="seg_0" id="8F091078-88B9-0EAC-D06A-2FA110609F39" name="v harc member">
+<createdBy>tcollier</createdBy>
+<createdTime>2023-12-10 01:29:04 UTC</createdTime>
+<commentInRDBMS><![CDATA[/*
+* v_harc_member
+* -------------
+*
+* Author:  Tim Collier
+*
+* Purpose:  List people from t_pers table who are identified as HARC members (pers_typ = 1).
+*/]]></commentInRDBMS>
+<generatorID>B03A247A-8C46-5F12-D699-36ECA83BD294</generatorID>
+<ownerDesignName>HARC_SNN_Data_Model_V3_TOBE</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="FDFA065C-9B79-4768-D3A1-ACB9D4078B29" value="false"/>
+</engineerTo>
+<userDefined>true</userDefined>
+<userDefinedSQL><![CDATA[/*
+* v_harc_member
+* -------------
+*
+* Author:  Tim Collier
+*
+* Purpose:  List people from t_pers table who are identified as HARC members (pers_typ = 1).
+*/
+select a.pers_call
+     , a.pers_f_nam
+     , a.pers_m_nam
+     , a.pers_l_nam
+     , a.pers_nicknam
+     , a.pers_lic_class
+     , pers_typ
+from t_pers a
+where pers_typ = 1
+order by a.pers_l_nam]]></userDefinedSQL>
+<validSQL>false</validSQL>
+<parsed>true</parsed>
+<viewType>NAMED QUERY</viewType>
+<viewElements>
+<viewElement class="oracle.dbtools.crest.model.design.logical.AttributeView" name="pers_typ" id="43EC8AF2-6342-CBEB-B885-9616A1827932">
+<createdBy>tcollier</createdBy>
+<createdTime>2023-12-12 23:34:01 UTC</createdTime>
+<ownerDesignName>HARC_SNN_Data_Model_V3_TOBE</ownerDesignName>
+<engineerTo>
+<item key="FDFA065C-9B79-4768-D3A1-ACB9D4078B29" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>UNKNOWN</dataType>
+<expression>pers_typ</expression>
+<reference>false</reference>
+</viewElement>
+</viewElements>
+<usedObjects>
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="9996BAFD-3943-5EAD-AEC5-CF202A841164">
+<container>true</container>
+<tableName>t_pers</tableName>
+</UsedObject>
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="B21F0822-079D-A73E-E5F4-7072DCC1A793">
+<columnName>pers_call</columnName>
+<tableName>t_pers</tableName>
+</UsedObject>
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="A5ED5B0E-4BA5-1E8F-D8AB-2697214D87D3">
+<columnName>pers_f_nam</columnName>
+<tableName>t_pers</tableName>
+</UsedObject>
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="154C71AC-B5C7-AB44-1BCF-6A54F4FD0A2F">
+<columnName>pers_m_nam</columnName>
+<tableName>t_pers</tableName>
+</UsedObject>
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="5A4E66F6-B952-BA7B-53B7-97DE3B263B33">
+<columnName>pers_l_nam</columnName>
+<tableName>t_pers</tableName>
+</UsedObject>
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="E4861035-6455-A1EC-B878-24E6BAA3D115">
+<columnName>pers_nicknam</columnName>
+<tableName>t_pers</tableName>
+</UsedObject>
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="DA3D7EFE-0806-7C02-F52A-BE1DCE6DFA55">
+<columnName>pers_lic_class</columnName>
+<tableName>t_pers</tableName>
+</UsedObject>
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="54BEA65B-DBC7-3A5B-914E-E1EC8FCA573F">
+<columnName>pers_typ</columnName>
+<tableName>t_pers</tableName>
+</UsedObject>
+</usedObjects>
+</EntityView>

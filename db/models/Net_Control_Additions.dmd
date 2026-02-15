@@ -1,0 +1,13 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="Net_Control_Additions" id="40723EA8-E935-07EB-74C5-7050554E2ED6" version="3.5">
+<createdBy>tcollier</createdBy>
+<createdTime>2025-10-21 20:18:33 UTC</createdTime>
+<ownerDesignName>Net_Control_Additions</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>40723EA8-E935-07EB-74C5-7050554E2ED6</designId>
+<usedDesignStorageDescriptors>
+<designDescr class="oracle.dbtools.crest.model.design.Design$DesignStorageDesc" id="34BB0406-964D-408B-A945-AA4B007DBAF3">
+<designStoragePath>/HARC_SNN_DDO</designStoragePath>
+</designDescr>
+</usedDesignStorageDescriptors>
+</OSDM_Design>

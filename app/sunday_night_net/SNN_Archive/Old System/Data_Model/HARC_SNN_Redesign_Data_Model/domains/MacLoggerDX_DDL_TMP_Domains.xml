@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<DomainFile class="oracle.dbtools.crest.model.design.DomainFileWrapper" fileName="MacLoggerDX_DDL_TMP_Domains">
+<domains>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="Integer_0_0_0" id="109E6CCA-FE25-FBAD-AF39-A5BEDCCFD886">
+<createdBy>tcollier</createdBy>
+<createdTime>2020-10-28 19:34:38 UTC</createdTime>
+<ownerDesignName>HARC_SNN_Redesign_Data_Model</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<fileName>MacLoggerDX_DDL_TMP_Domains</fileName>
+<logicalDatatype>LOGDT011</logicalDatatype>
+</Domain>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="REAL_0_0_0" id="8A72B65E-BC42-9BD8-B2E6-DF6ECED9AC74">
+<createdBy>tcollier</createdBy>
+<createdTime>2020-10-28 19:34:38 UTC</createdTime>
+<ownerDesignName>HARC_SNN_Redesign_Data_Model</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<fileName>MacLoggerDX_DDL_TMP_Domains</fileName>
+<logicalDatatype>LOGDT022</logicalDatatype>
+</Domain>
+</domains>
+</DomainFile>

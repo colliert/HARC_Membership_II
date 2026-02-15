@@ -1,0 +1,99 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableView class="oracle.dbtools.crest.model.design.relational.TableView" directorySegmentName="seg_0" id="F4F36313-3BA1-1879-11BE-3F15910CBBC6" name="v_net_qso">
+<sourceDDLFile>HARC_SNN_DDL_Modified.sql</sourceDDLFile>
+<createdBy>tcollier</createdBy>
+<createdTime>2023-12-10 01:28:01 UTC</createdTime>
+<ownerDesignName>HARC_SNN_Data_Model_V3</ownerDesignName>
+<importedID>F5DF267B-9164-1E6C-BE09-9673998A1FD7</importedID>
+<userDefined>true</userDefined>
+<userDefinedSQL><![CDATA[select pk -- Primary Key from MacLoggerDX table
+    ,call -- Call sign
+    ,contest_id --String denoting a context (MacLoggerDX term).
+                --The software looks for 'HARC-SNN' to see if user
+                --   checked in the the HARC SNN
+    ,first_name -- First Name
+    ,last_name  -- Last Name
+    ,qso_start  -- QSO Date and Time
+from t_net_qso]]></userDefinedSQL>
+<validSQL>false</validSQL>
+<viewElements>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="pk" id="1414D1A8-3C33-8162-577F-4C9252DE314B">
+<createdBy>tcollier</createdBy>
+<createdTime>2023-12-10 01:28:01 UTC</createdTime>
+<ownerDesignName>HARC_SNN_Data_Model_V3</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>NUMBER</dataType>
+<headerAlias>pk</headerAlias>
+<reference>false</reference>
+<referencedColumn>97014B60-0C97-3FBE-474C-8EC560A581FB</referencedColumn>
+<table>AADFA221-34FB-8527-35C4-763AD650EF5A</table>
+<viewID>F4F36313-3BA1-1879-11BE-3F15910CBBC6</viewID>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="call" id="D8EA19CC-4388-D6C4-2918-403B1D8D111B">
+<createdBy>tcollier</createdBy>
+<createdTime>2023-12-10 01:28:01 UTC</createdTime>
+<ownerDesignName>HARC_SNN_Data_Model_V3</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>UNKNOWN</dataType>
+<headerAlias>call</headerAlias>
+<reference>false</reference>
+<referencedColumn>1CE2C25A-A077-2DAF-7977-209B38A067EB</referencedColumn>
+<table>AADFA221-34FB-8527-35C4-763AD650EF5A</table>
+<viewID>F4F36313-3BA1-1879-11BE-3F15910CBBC6</viewID>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="contest_id" id="E676E3C3-6FC5-8A8E-E3B0-FF505A14D0F2">
+<createdBy>tcollier</createdBy>
+<createdTime>2023-12-10 01:28:01 UTC</createdTime>
+<ownerDesignName>HARC_SNN_Data_Model_V3</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>UNKNOWN</dataType>
+<headerAlias>contest_id</headerAlias>
+<reference>false</reference>
+<referencedColumn>86D63DF3-C54E-A64E-4952-44108F0BF617</referencedColumn>
+<table>AADFA221-34FB-8527-35C4-763AD650EF5A</table>
+<viewID>F4F36313-3BA1-1879-11BE-3F15910CBBC6</viewID>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="first_name" id="25689245-786D-5EF7-2D6D-39AEBBE1FBAE">
+<createdBy>tcollier</createdBy>
+<createdTime>2023-12-10 01:28:01 UTC</createdTime>
+<ownerDesignName>HARC_SNN_Data_Model_V3</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>UNKNOWN</dataType>
+<headerAlias>first_name</headerAlias>
+<reference>false</reference>
+<referencedColumn>454234FB-DEB4-1AFA-C675-E23C1384A972</referencedColumn>
+<table>AADFA221-34FB-8527-35C4-763AD650EF5A</table>
+<viewID>F4F36313-3BA1-1879-11BE-3F15910CBBC6</viewID>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="last_name" id="0A4A3196-E964-BF0F-321C-7E6A4739816D">
+<createdBy>tcollier</createdBy>
+<createdTime>2023-12-10 01:28:01 UTC</createdTime>
+<ownerDesignName>HARC_SNN_Data_Model_V3</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>UNKNOWN</dataType>
+<headerAlias>last_name</headerAlias>
+<reference>false</reference>
+<referencedColumn>68272484-B8AD-0F34-4593-7EFC1101D67D</referencedColumn>
+<table>AADFA221-34FB-8527-35C4-763AD650EF5A</table>
+<viewID>F4F36313-3BA1-1879-11BE-3F15910CBBC6</viewID>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="qso_start" id="71903F10-4C10-654F-D0AB-EE28C4EFBA4D">
+<createdBy>tcollier</createdBy>
+<createdTime>2023-12-10 01:28:01 UTC</createdTime>
+<ownerDesignName>HARC_SNN_Data_Model_V3</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>UNKNOWN</dataType>
+<headerAlias>qso_start</headerAlias>
+<reference>false</reference>
+<referencedColumn>B91DEC2D-56E9-9811-B6BD-53E7D8E61849</referencedColumn>
+<table>AADFA221-34FB-8527-35C4-763AD650EF5A</table>
+<viewID>F4F36313-3BA1-1879-11BE-3F15910CBBC6</viewID>
+</viewElement>
+</viewElements>
+</TableView>

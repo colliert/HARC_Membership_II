@@ -1,0 +1,48 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="BEA066A4-A82F-6DD6-FE0B-8D0216BC3938" name="t_nco_date">
+<createdBy>tcollier</createdBy>
+<createdTime>2025-10-21 20:47:14 UTC</createdTime>
+<generatorID>915F000B-BD95-3BAB-C318-D5BF4B0CFE03</generatorID>
+<ownerDesignName>Net_Control_Additions</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="net_date" id="21F9BA9F-257B-B08D-AA61-79BAB58E80BD">
+<createdBy>tcollier</createdBy>
+<createdTime>2025-10-21 20:47:14 UTC</createdTime>
+<generatorID>283813CE-D7B3-6CC3-49D0-807C63E2450F</generatorID>
+<ownerDesignName>Net_Control_Additions</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>161A90A6-CA3A-1525-7F0C-0703C95370A2</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="quarter" id="9C7E9088-AB31-5D54-5CF3-8F56A4B6A5DC">
+<createdBy>tcollier</createdBy>
+<createdTime>2025-10-21 20:47:14 UTC</createdTime>
+<generatorID>DC881317-F9A0-7669-A4F1-2F8D8857B784</generatorID>
+<ownerDesignName>Net_Control_Additions</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>90015BD8-66C0-24AE-0278-E3E87E938D9F</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="0DB33A38-75AE-ECE2-1ED7-2FE023791E1A" name="t_nco_date_PK">
+<createdBy>tcollier</createdBy>
+<createdTime>2025-10-21 20:47:14 UTC</createdTime>
+<generatorID>E5B98226-C39A-E115-C73D-B4DA17E34AF5</generatorID>
+<ownerDesignName>Net_Control_Additions</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="21F9BA9F-257B-B08D-AA61-79BAB58E80BD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

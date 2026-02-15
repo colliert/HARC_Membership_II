@@ -1,0 +1,126 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="949CAF85-0834-90EC-7045-DA386E53935A" name="t_net_qso">
+<createdBy>tcollier</createdBy>
+<createdTime>2024-02-08 23:41:26 UTC</createdTime>
+<commentInRDBMS><![CDATA[HARC SNN QSO Information is the base table.  It contains the checkin information (a primary key, the callsign, a contest id, and the first and last names.) for all contacts over all occurances of the net.  It is the primary source of information for the rest of the system.  The callout roster, for example, is generated from this entity.]]></commentInRDBMS>
+<generatorID>281C01B8-F74C-AC1E-43F0-31C1EC9E64D8</generatorID>
+<ownerDesignName>HARC_SNN_Data_Model_V3_TOBE</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="QSO_Key" id="197CA04E-17F8-D9FB-8CE3-DF4B8CD2259B">
+<createdBy>tcollier</createdBy>
+<createdTime>2024-02-08 23:41:26 UTC</createdTime>
+<commentInRDBMS><![CDATA[Sequential primary key]]></commentInRDBMS>
+<generatorID>8458E81E-6A7C-5E30-3C92-641C08898E3D</generatorID>
+<ownerDesignName>HARC_SNN_Data_Model_V3_TOBE</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>90015BD8-66C0-24AE-0278-E3E87E938D9F</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="callsign" id="6BBD5849-4F34-5F95-E268-3CB273529C65">
+<createdBy>tcollier</createdBy>
+<createdTime>2024-02-08 23:41:26 UTC</createdTime>
+<generatorID>02FF56CD-72A8-6DBD-C06E-6B336CB3FDDB</generatorID>
+<ownerDesignName>HARC_SNN_Data_Model_V3_TOBE</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>B2E81DEA-F097-0C6E-D82D-2109375E9C22</logicalDatatype>
+<domain>73126A39-BD86-8A25-4735-CA06D2B702BB</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<abbreviation>call</abbreviation>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Net_ID" id="3E5E303E-45F2-B8E1-0A5A-D09B9E277D7C">
+<createdBy>tcollier</createdBy>
+<createdTime>2024-02-08 23:41:26 UTC</createdTime>
+<generatorID>FE071AB1-240C-5562-F069-59CE447AA80C</generatorID>
+<ownerDesignName>HARC_SNN_Data_Model_V3_TOBE</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>B2E81DEA-F097-0C6E-D82D-2109375E9C22</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="First_Name" id="FA62CD22-8A99-9B76-3530-28D71FABCD89">
+<createdBy>tcollier</createdBy>
+<createdTime>2024-02-08 23:41:26 UTC</createdTime>
+<generatorID>1C218194-17EE-C08F-D223-D056E415763F</generatorID>
+<ownerDesignName>HARC_SNN_Data_Model_V3_TOBE</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>B2E81DEA-F097-0C6E-D82D-2109375E9C22</logicalDatatype>
+<domain>DF484895-0DAA-3055-8BE0-5B0F1C4B2DB9</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<abbreviation>f_nam</abbreviation>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Last_Name" id="2B995947-0BC1-80F6-FB6F-413594CCB9A3">
+<createdBy>tcollier</createdBy>
+<createdTime>2024-02-08 23:41:26 UTC</createdTime>
+<generatorID>778A630A-198F-C8E0-777E-BC2CB3221DF7</generatorID>
+<ownerDesignName>HARC_SNN_Data_Model_V3_TOBE</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>B2E81DEA-F097-0C6E-D82D-2109375E9C22</logicalDatatype>
+<domain>DF484895-0DAA-3055-8BE0-5B0F1C4B2DB9</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<abbreviation>l_nam</abbreviation>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="QSO_Start" id="8FEA8E87-0467-8FC9-40EB-C9B0047FBA13">
+<createdBy>tcollier</createdBy>
+<createdTime>2024-02-08 23:41:26 UTC</createdTime>
+<generatorID>110B9C5F-56B8-41DC-990E-57BC2A8BDD59</generatorID>
+<ownerDesignName>HARC_SNN_Data_Model_V3_TOBE</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>56284387-6B41-611F-0327-B2369C77C38C</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="qso_date" id="FE9224E0-500E-94DE-E2A9-690D1AD0C4B6">
+<createdBy>tcollier</createdBy>
+<createdTime>2024-02-13 23:31:54 UTC</createdTime>
+<ownerDesignName>HARC_SNN_Data_Model_V3_TOBE</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>161A90A6-CA3A-1525-7F0C-0703C95370A2</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<abbreviation>qso_dat</abbreviation>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="qso_time" id="2374B506-B140-B469-0A19-620A1451864C">
+<createdBy>tcollier</createdBy>
+<createdTime>2024-02-13 23:31:54 UTC</createdTime>
+<ownerDesignName>HARC_SNN_Data_Model_V3_TOBE</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>161A90A6-CA3A-1525-7F0C-0703C95370A2</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="1519C8A2-27C7-DA95-245A-70AF28619E80" name="t_net_qso_PK">
+<createdBy>tcollier</createdBy>
+<createdTime>2024-02-08 23:41:26 UTC</createdTime>
+<generatorID>F3E02C26-DF57-8C58-990F-CFE506DBC4B1</generatorID>
+<ownerDesignName>HARC_SNN_Data_Model_V3_TOBE</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="197CA04E-17F8-D9FB-8CE3-DF4B8CD2259B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

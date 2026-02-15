@@ -1,0 +1,6 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableViewProxyOraclev9i class="oracle.dbtools.crest.model.design.storage.oracle.v9i.TableViewProxyOraclev9i" name="v_call_out_cutoff_days" directorySegmentName="seg_0" id="C7E0D72B-08E7-9A94-BE3E-D3E731DF8AD6">
+<createdBy>tcollier</createdBy>
+<createdTime>2023-12-10 01:28:01 UTC</createdTime>
+<ownerDesignName>HARC_SNN_Data_Model_V3</ownerDesignName>
+</TableViewProxyOraclev9i>

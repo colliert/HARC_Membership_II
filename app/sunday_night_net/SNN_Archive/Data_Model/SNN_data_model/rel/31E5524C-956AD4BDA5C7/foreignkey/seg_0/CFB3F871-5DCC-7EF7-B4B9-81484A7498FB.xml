@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="CFB3F871-5DCC-7EF7-B4B9-81484A7498FB" containerWithKeyObject="F9DB7E22-09BA-F2C3-D37A-DB432A88B4D5" localFKIndex="D6032318-7DAA-8423-8C27-D74D73B9319D" name="t_harc_add_qso_details_qso_table_v007_FK">
+<sourceDDLFile>MacLogger_Sqlite_import copy.sql</sourceDDLFile>
+<createdBy>tcollier</createdBy>
+<createdTime>2020-10-30 17:45:49 UTC</createdTime>
+<ownerDesignName>SNN_data_model</ownerDesignName>
+<importedID>17F9F575-2B50-E689-199F-0E60D20092C9</importedID>
+<referredTableLongName>qso_table_v007</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>7420083D-5092-8BF1-7D4D-AAC0DB7BDF7D</referredTableID>
+<keyObject>D7462BCE-EAE4-0434-0A4C-0898824AB243</keyObject>
+<referredKeyID>D7462BCE-EAE4-0434-0A4C-0898824AB243</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>pk</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

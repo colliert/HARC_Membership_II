@@ -1,0 +1,35 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="4155BD9E-97DF-F3B3-EF8B-9F882AF0914D" name="t_checkin_report_date">
+<createdBy>tcollier</createdBy>
+<createdTime>2023-12-12 23:06:59 UTC</createdTime>
+<commentInRDBMS><![CDATA[Checkin Report Date is a one row, one column table containing the date beyond which will be included in the Sunday Night Checkin (by date or by time) reports.]]></commentInRDBMS>
+<ownerDesignName>HARC_SNN_Data_Model_V3_TOBE</ownerDesignName>
+<engineerTo>
+<item key="FDFA065C-9B79-4768-D3A1-ACB9D4078B29" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<synonymToDisplay>Checkin Report Date</synonymToDisplay>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="checkin_date" id="F15A2E48-FBB0-7992-9913-5CFB50812C0A">
+<createdBy>tcollier</createdBy>
+<createdTime>2023-12-12 23:07:37 UTC</createdTime>
+<commentInRDBMS><![CDATA[1 row 1 column table containing the Sunday Night Net date which will be reported.]]></commentInRDBMS>
+<ownerDesignName>HARC_SNN_Data_Model_V3_TOBE</ownerDesignName>
+<engineerTo>
+<item key="FDFA065C-9B79-4768-D3A1-ACB9D4078B29" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>161A90A6-CA3A-1525-7F0C-0703C95370A2</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+</Entity>

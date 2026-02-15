@@ -1,0 +1,88 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableView class="oracle.dbtools.crest.model.design.relational.TableView" directorySegmentName="seg_0" id="5D94D1B3-CEF0-2CAF-47A5-0156A41F30AA" name="v_harc_snn_callout_roster_random">
+<sourceDDLFile>MacLogger_Sqlite_import copy.sql</sourceDDLFile>
+<createdBy>tcollier</createdBy>
+<createdTime>2020-10-30 17:45:49 UTC</createdTime>
+<ownerDesignName>SNN_data_model</ownerDesignName>
+<importedID>A0C7F39C-5C99-6118-7B55-EA93BBA67EF7</importedID>
+<userDefined>true</userDefined>
+<userDefinedSQL><![CDATA[SELECT callsign,
+           "first name",
+           "last name",
+           member,
+           comments
+      FROM
+           (
+               SELECT random(),
+                      callsign,
+                      "first name",
+                      "last name",
+                      member,
+                      comments
+                 FROM
+                      (
+                          SELECT *
+                            FROM v_harc_snn_callout_roster
+                      )
+                ORDER BY 5,
+                         1
+           )]]></userDefinedSQL>
+<validSQL>false</validSQL>
+<viewElements>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="callsign" id="B423702E-79DD-CAB1-96F8-C30967A64EBA">
+<createdBy>tcollier</createdBy>
+<createdTime>2020-10-30 17:45:49 UTC</createdTime>
+<ownerDesignName>SNN_data_model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>UNKNOWN</dataType>
+<headerAlias>callsign</headerAlias>
+<reference>false</reference>
+<viewID>5D94D1B3-CEF0-2CAF-47A5-0156A41F30AA</viewID>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="first name" id="E8DD7A3C-D2B1-F354-2078-D7F6EB4DF470">
+<createdBy>tcollier</createdBy>
+<createdTime>2020-10-30 17:45:49 UTC</createdTime>
+<ownerDesignName>SNN_data_model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>UNKNOWN</dataType>
+<headerAlias>first name</headerAlias>
+<reference>false</reference>
+<viewID>5D94D1B3-CEF0-2CAF-47A5-0156A41F30AA</viewID>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="last name" id="C0C7E950-8DED-A9E3-0F7C-327582AAE654">
+<createdBy>tcollier</createdBy>
+<createdTime>2020-10-30 17:45:49 UTC</createdTime>
+<ownerDesignName>SNN_data_model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>UNKNOWN</dataType>
+<headerAlias>last name</headerAlias>
+<reference>false</reference>
+<viewID>5D94D1B3-CEF0-2CAF-47A5-0156A41F30AA</viewID>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="member" id="9140B53B-11D1-A113-7534-F9061D65F85C">
+<createdBy>tcollier</createdBy>
+<createdTime>2020-10-30 17:45:49 UTC</createdTime>
+<ownerDesignName>SNN_data_model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>UNKNOWN</dataType>
+<headerAlias>member</headerAlias>
+<reference>false</reference>
+<viewID>5D94D1B3-CEF0-2CAF-47A5-0156A41F30AA</viewID>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="comments" id="42D75FE8-E755-F3ED-A7A6-18F3EA1B0027">
+<createdBy>tcollier</createdBy>
+<createdTime>2020-10-30 17:45:49 UTC</createdTime>
+<ownerDesignName>SNN_data_model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>UNKNOWN</dataType>
+<headerAlias>comments</headerAlias>
+<reference>false</reference>
+<viewID>5D94D1B3-CEF0-2CAF-47A5-0156A41F30AA</viewID>
+</viewElement>
+</viewElements>
+</TableView>

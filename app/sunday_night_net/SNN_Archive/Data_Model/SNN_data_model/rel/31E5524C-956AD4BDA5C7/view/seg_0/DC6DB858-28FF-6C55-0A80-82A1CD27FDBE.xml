@@ -1,0 +1,160 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableView class="oracle.dbtools.crest.model.design.relational.TableView" directorySegmentName="seg_0" id="DC6DB858-28FF-6C55-0A80-82A1CD27FDBE" name="V_t_pers">
+<createdBy>tcollier</createdBy>
+<createdTime>2022-04-29 23:00:11 UTC</createdTime>
+<ownerDesignName>SNN_data_model</ownerDesignName>
+<userDefined>true</userDefined>
+<userDefinedSQL><![CDATA[CREATE VIEW V_t_pers
+  ( mem_call
+   , mem_f_nam
+   , mem_m_nam
+   , mem_l_nam
+   , mem_nicknam
+   , mem_lic_class
+   , Person_Type_Code
+   , Person_Typev1_per_typ_cd )
+ AS SELECT
+    mem_call
+   , mem_f_nam
+   , mem_m_nam
+   , mem_l_nam
+   , mem_nicknam
+   , mem_lic_class
+   , Person_Type_Code
+   , Person_Typev1_per_typ_cd
+ FROM 
+    t_pers ;]]></userDefinedSQL>
+<parsed>true</parsed>
+<originalTableID>31B15A74-F9A9-006F-3552-EB23A11EDAD1</originalTableID>
+<usedContainers>
+<container containerID="31B15A74-F9A9-006F-3552-EB23A11EDAD1"/>
+</usedContainers>
+<viewElements>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="mem_call" id="0A996683-4E47-2FF8-0272-A303A31BA497">
+<createdBy>tcollier</createdBy>
+<createdTime>2022-04-29 23:00:11 UTC</createdTime>
+<ownerDesignName>SNN_data_model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>CHAR</dataType>
+<reference>false</reference>
+<referencedColumn>36ADDF10-1AF3-AA99-63A7-40E01391FBDD</referencedColumn>
+<table>31B15A74-F9A9-006F-3552-EB23A11EDAD1</table>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="mem_f_nam" id="0DE317DC-2242-373B-E5DF-838CA4DB7434">
+<createdBy>tcollier</createdBy>
+<createdTime>2022-04-29 23:00:11 UTC</createdTime>
+<ownerDesignName>SNN_data_model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>CHAR</dataType>
+<reference>false</reference>
+<referencedColumn>85D71F03-01EB-4395-4C9D-60556DB22FD9</referencedColumn>
+<table>31B15A74-F9A9-006F-3552-EB23A11EDAD1</table>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="mem_m_nam" id="33754F79-D041-2274-D013-08B7EB4B96DE">
+<createdBy>tcollier</createdBy>
+<createdTime>2022-04-29 23:00:11 UTC</createdTime>
+<ownerDesignName>SNN_data_model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>CHAR</dataType>
+<reference>false</reference>
+<referencedColumn>F93770EA-24E4-950F-B52D-A5F4077B0021</referencedColumn>
+<table>31B15A74-F9A9-006F-3552-EB23A11EDAD1</table>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="mem_l_nam" id="8CE63408-0B0B-A31A-3500-72CD834314B8">
+<createdBy>tcollier</createdBy>
+<createdTime>2022-04-29 23:00:11 UTC</createdTime>
+<ownerDesignName>SNN_data_model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>CHAR</dataType>
+<reference>false</reference>
+<referencedColumn>8541C45D-B2AB-83E2-5733-2C75F3FC5D58</referencedColumn>
+<table>31B15A74-F9A9-006F-3552-EB23A11EDAD1</table>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="mem_nicknam" id="F313E5D3-352A-562F-D071-48A525A0E82A">
+<createdBy>tcollier</createdBy>
+<createdTime>2022-04-29 23:00:11 UTC</createdTime>
+<ownerDesignName>SNN_data_model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>CHAR</dataType>
+<reference>false</reference>
+<referencedColumn>D6970936-002D-C467-2AA6-002CCFFD8936</referencedColumn>
+<table>31B15A74-F9A9-006F-3552-EB23A11EDAD1</table>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="mem_lic_class" id="8EFAADC0-8DE5-894D-70E8-45DDF48E5C0B">
+<createdBy>tcollier</createdBy>
+<createdTime>2022-04-29 23:00:11 UTC</createdTime>
+<ownerDesignName>SNN_data_model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>CHAR</dataType>
+<reference>false</reference>
+<referencedColumn>834C4B71-BDD6-6E05-9D17-42598DE00D70</referencedColumn>
+<table>31B15A74-F9A9-006F-3552-EB23A11EDAD1</table>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="Person_Type_Code" id="96F96947-2F7A-2E35-6467-F9F76290A16E">
+<createdBy>tcollier</createdBy>
+<createdTime>2022-04-29 23:00:11 UTC</createdTime>
+<ownerDesignName>SNN_data_model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>INTEGER</dataType>
+<reference>false</reference>
+<referencedColumn>3B5AA539-7DB9-562C-62E3-3D28257B1DC2</referencedColumn>
+<table>31B15A74-F9A9-006F-3552-EB23A11EDAD1</table>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="Person_Typev1_per_typ_cd" id="10307B46-C906-180F-AEA7-994AFD4059FC">
+<createdBy>tcollier</createdBy>
+<createdTime>2022-04-29 23:00:11 UTC</createdTime>
+<ownerDesignName>SNN_data_model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>INTEGER</dataType>
+<reference>false</reference>
+<referencedColumn>73BB956D-FF6C-FED5-6C19-CA16D212F203</referencedColumn>
+<table>31B15A74-F9A9-006F-3552-EB23A11EDAD1</table>
+</viewElement>
+</viewElements>
+<usedObjects>
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="31B15A74-F9A9-006F-3552-EB23A11EDAD1">
+<container>true</container>
+<tableName>t_pers</tableName>
+</UsedObject>
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="36ADDF10-1AF3-AA99-63A7-40E01391FBDD">
+<columnName>mem_call</columnName>
+<tableName>t_pers</tableName>
+</UsedObject>
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="85D71F03-01EB-4395-4C9D-60556DB22FD9">
+<columnName>mem_f_nam</columnName>
+<tableName>t_pers</tableName>
+</UsedObject>
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="F93770EA-24E4-950F-B52D-A5F4077B0021">
+<columnName>mem_m_nam</columnName>
+<tableName>t_pers</tableName>
+</UsedObject>
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="8541C45D-B2AB-83E2-5733-2C75F3FC5D58">
+<columnName>mem_l_nam</columnName>
+<tableName>t_pers</tableName>
+</UsedObject>
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="D6970936-002D-C467-2AA6-002CCFFD8936">
+<columnName>mem_nicknam</columnName>
+<tableName>t_pers</tableName>
+</UsedObject>
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="834C4B71-BDD6-6E05-9D17-42598DE00D70">
+<columnName>mem_lic_class</columnName>
+<tableName>t_pers</tableName>
+</UsedObject>
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="3B5AA539-7DB9-562C-62E3-3D28257B1DC2">
+<columnName>Person_Type_Code</columnName>
+<tableName>t_pers</tableName>
+</UsedObject>
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="73BB956D-FF6C-FED5-6C19-CA16D212F203">
+<columnName>Person_Typev1_per_typ_cd</columnName>
+<tableName>t_pers</tableName>
+</UsedObject>
+</usedObjects>
+</TableView>

@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="0CA7B593-817A-53DD-64B2-932543991118" containerWithKeyObject="F9DB7E22-09BA-F2C3-D37A-DB432A88B4D5" localFKIndex="A5743C56-D19E-CCB0-AC2A-B71E7184C1F9" name="t_harc_add_qso_details_t_pwr_typ_FK">
+<sourceDDLFile>MacLogger_Sqlite_import copy.sql</sourceDDLFile>
+<createdBy>tcollier</createdBy>
+<createdTime>2020-10-30 17:45:49 UTC</createdTime>
+<ownerDesignName>MacLoggerDX_SQLite_DB</ownerDesignName>
+<importedID>8C62789E-B655-A219-29D2-BD6ECE90862B</importedID>
+<referredTableLongName>t_pwr_typ</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>59C709FC-E8D9-17A5-22C3-DCA4A7FDDBEE</referredTableID>
+<keyObject>F5245F11-A010-2687-2239-2CA36EF8F7CF</keyObject>
+<referredKeyID>F5245F11-A010-2687-2239-2CA36EF8F7CF</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>pwr_typ_cd</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

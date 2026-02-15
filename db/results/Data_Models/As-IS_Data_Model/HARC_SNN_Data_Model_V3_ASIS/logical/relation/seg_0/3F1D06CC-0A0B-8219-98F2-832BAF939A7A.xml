@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="t_harc_add_qso_details_t_rptr_FK" directorySegmentName="seg_0" id="3F1D06CC-0A0B-8219-98F2-832BAF939A7A">
+<createdBy>tcollier</createdBy>
+<createdTime>2023-12-10 01:29:04 UTC</createdTime>
+<generatorID>F3CD9067-6442-6767-1941-60E6DDE9F03E</generatorID>
+<ownerDesignName>HARC_SNN_Data_Model_V3</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="FDFA065C-9B79-4768-D3A1-ACB9D4078B29" value="false"/>
+</engineerTo>
+<sourcePk>646C8F98-C235-9EB7-E0BC-A546D982147E</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>27F0CB0A-C756-9024-52B6-CD53BF559BDC</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>3069CAFB-F0E8-E537-83F5-DEAAC7A6072A</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

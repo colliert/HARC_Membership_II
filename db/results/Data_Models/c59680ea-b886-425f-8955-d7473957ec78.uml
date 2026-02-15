@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>DATABASE</ID>
+  <OriginalElement>c59680ea-b886-425f-8955-d7473957ec78</OriginalElement>
+  <nodes>
+    <node x="331.0" y="-623.5">c59680ea-b886-425f-8955-d7473957ec78.VIEW:main.v_call_out_cutoff_days</node>
+    <node x="1006.5" y="20.5">c59680ea-b886-425f-8955-d7473957ec78.TABLE:main.sqlite_master</node>
+    <node x="918.0" y="-471.5">c59680ea-b886-425f-8955-d7473957ec78.VIEW:main.v_harc_snn_callout_roster</node>
+    <node x="747.0" y="-231.5">c59680ea-b886-425f-8955-d7473957ec78.VIEW:main.v_checkins_most_recent_net</node>
+    <node x="195.5" y="-763.5">c59680ea-b886-425f-8955-d7473957ec78.VIEW:main.v_count_qso_by_date</node>
+    <node x="-155.5" y="1536.5">c59680ea-b886-425f-8955-d7473957ec78.TABLE:main.qso_table_v008_backup</node>
+    <node x="924.5" y="2208.5">c59680ea-b886-425f-8955-d7473957ec78.VIEW:main.v_harc_snn_callout_roster_random</node>
+    <node x="817.0" y="888.0">c59680ea-b886-425f-8955-d7473957ec78.TABLE:main.t_pers</node>
+    <node x="685.5" y="32.5">c59680ea-b886-425f-8955-d7473957ec78.VIEW:main.v_check-ins_for_web_display</node>
+    <node x="637.0" y="-471.5">c59680ea-b886-425f-8955-d7473957ec78.VIEW:main.v_pers</node>
+    <node x="518.5" y="248.5">c59680ea-b886-425f-8955-d7473957ec78.VIEW:main.v_current_call_out_cutoff_days</node>
+    <node x="565.0" y="2208.5">c59680ea-b886-425f-8955-d7473957ec78.VIEW:main.v_harc_snn_callout_roster_reverse</node>
+    <node x="358.0" y="56.5">c59680ea-b886-425f-8955-d7473957ec78.VIEW:main.v_potential_callout_roster_size</node>
+    <node x="412.5" y="-231.5">c59680ea-b886-425f-8955-d7473957ec78.VIEW:main.v_harc_snn_callout_roster_suffix</node>
+    <node x="328.0" y="-484.0">c59680ea-b886-425f-8955-d7473957ec78.TABLE:main.t_net_qso</node>
+    <node x="72.5" y="-624.0">c59680ea-b886-425f-8955-d7473957ec78.TABLE:main.t_call_out_cutoff_days</node>
+    <node x="455.5" y="912.5">c59680ea-b886-425f-8955-d7473957ec78.VIEW:main.v_suffix_listing</node>
+    <node x="328.5" y="1536.5">c59680ea-b886-425f-8955-d7473957ec78.VIEW:main.v_qso_table_v008</node>
+    <node x="217.5" y="456.5">c59680ea-b886-425f-8955-d7473957ec78.TABLE:main.t_hcol_export</node>
+    <node x="234.5" y="212.5">c59680ea-b886-425f-8955-d7473957ec78.VIEW:main.v_maint_add_as_mem</node>
+    <node x="-7.0" y="32.5">c59680ea-b886-425f-8955-d7473957ec78.VIEW:main.v_maint_cha_nonmember_to_member</node>
+    <node x="117.0" y="1536.0">c59680ea-b886-425f-8955-d7473957ec78.TABLE:main.qso_table_v008</node>
+    <node x="107.0" y="-195.5">c59680ea-b886-425f-8955-d7473957ec78.VIEW:main.v_maint_remove_as_member</node>
+    <node x="-156.0" y="212.5">c59680ea-b886-425f-8955-d7473957ec78.VIEW:main.v_maint_latest_hcol_join_date</node>
+    <node x="-24.5" y="-763.5">c59680ea-b886-425f-8955-d7473957ec78.VIEW:main.v_pers_typ</node>
+    <node x="-53.5" y="-459.5">c59680ea-b886-425f-8955-d7473957ec78.VIEW:main.v_maint_add_person_to_pers</node>
+    <node x="17.5" y="456.5">c59680ea-b886-425f-8955-d7473957ec78.VIEW:main.v_hcol_export</node>
+    <node x="895.5" y="236.0">c59680ea-b886-425f-8955-d7473957ec78.TABLE:main.t_pers_typ</node>
+    <node x="-164.0" y="-635.5">c59680ea-b886-425f-8955-d7473957ec78.VIEW:main.v_maint_show_dupes</node>
+    <node x="-155.5" y="-243.5">c59680ea-b886-425f-8955-d7473957ec78.VIEW:main.v_net_qso</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="c59680ea-b886-425f-8955-d7473957ec78.TABLE:main.t_pers" target="c59680ea-b886-425f-8955-d7473957ec78.TABLE:main.t_pers_typ" relationship="REFERENCES">
+      <point x="0.0" y="-92.0" />
+      <point x="897.0" y="860.0" />
+      <point x="977.0" y="860.0" />
+      <point x="0.0" y="44.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Compact" zoom="0.14553014553014554" showDependencies="false" x="533.0" y="1150.0" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Columns</Category>
+    <Category>Comments</Category>
+    <Category>Key columns</Category>
+    <Category>Virtual foreign keys</Category>
+  </Categories>
+</Diagram>
+

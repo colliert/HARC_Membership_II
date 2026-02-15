@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="04DF0AD4-75E2-DC39-7E6E-8A92E766C11F" containerWithKeyObject="9E23ECF8-44A1-F83B-85A6-FE04276A5F9D" localFKIndex="D1929330-ADEA-ECAA-261F-DCC891646438" name="is_Club_Member_is_a_Club_Member_Current_Callsign_FK">
+<createdBy>tcollier</createdBy>
+<createdTime>2024-02-14 21:44:11 UTC</createdTime>
+<generatorID>1B3C57B2-A5BA-8388-0124-7A49A096A1E3</generatorID>
+<ownerDesignName>HARC_SNN_Data_Model_V3_TOBE</ownerDesignName>
+<referredTableLongName>Club_Member_Current_Callsign</referredTableLongName>
+<arc>88665165-D9A7-CD3D-B66F-A7ABF7D8836D</arc>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>43B65ECB-AF11-6082-21FE-2BD31C1C9096</referredTableID>
+<keyObject>60CCE8D9-9722-6658-CE4F-D6A349D2B4A8</keyObject>
+<referredKeyID>60CCE8D9-9722-6658-CE4F-D6A349D2B4A8</referredKeyID>
+<mandatory>false</mandatory>
+<refColNames>Callsign_mem_cur,pers_typ_cd_mem_cur</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

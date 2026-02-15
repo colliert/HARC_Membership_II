@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="285014EF-DB9D-DA6A-E7AE-7F56798A4B83" containerWithKeyObject="2FDFCC04-EE63-16A7-678A-FFB59139DDF0" localFKIndex="F92A190B-D09F-DDFD-75BE-7CCDD0301D19" name="qso_table_v007_FK">
+<createdBy>tcollier</createdBy>
+<createdTime>2019-07-12 16:48:06 UTC</createdTime>
+<generatorID>A532D08C-07A0-088A-CD0D-E4969E1E003D</generatorID>
+<ownerDesignName>MacLoggerDX_Project</ownerDesignName>
+<referredTableLongName>qso_table_v007</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>A4D84CD1-44D8-A8CB-304A-A7BDEDB98452</referredTableID>
+<keyObject>BE17FDB5-19BC-086F-4E03-965811365EA3</keyObject>
+<referredKeyID>BE17FDB5-19BC-086F-4E03-965811365EA3</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>&apos;pk&apos;</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

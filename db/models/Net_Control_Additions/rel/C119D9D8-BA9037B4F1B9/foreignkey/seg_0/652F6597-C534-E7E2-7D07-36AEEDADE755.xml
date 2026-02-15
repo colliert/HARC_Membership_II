@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="652F6597-C534-E7E2-7D07-36AEEDADE755" containerWithKeyObject="9F953747-C02E-E404-C5DC-D47BBC80BF3F" localFKIndex="16D32FFB-8287-BCF6-923A-E1DBD7E2B99F" name="t_nco_operator_t_pers_FK">
+<createdBy>tcollier</createdBy>
+<createdTime>2025-10-21 20:47:14 UTC</createdTime>
+<generatorID>5AB1B609-7A84-2A59-D7C1-BD9137608BC0</generatorID>
+<ownerDesignName>Net_Control_Additions</ownerDesignName>
+<referredTableLongName>t_pers</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>613608B5-F5E4-180B-BF17-5E0AAF124C38</referredTableID>
+<keyObject>E8C9CBEE-7402-E517-B95F-5E6D83A0B398</keyObject>
+<referredKeyID>E8C9CBEE-7402-E517-B95F-5E6D83A0B398</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>pers_call</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

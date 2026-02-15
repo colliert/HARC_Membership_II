@@ -1,0 +1,176 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="38072813-032C-077B-8197-AD20FB399C2F" name="Repeater">
+<createdBy>tcollier</createdBy>
+<createdTime>2019-07-03 03:30:35 UTC</createdTime>
+<ownerDesignName>MacLoggerDX_Project</ownerDesignName>
+<engineerTo>
+<item key="FC57F434-133F-87AF-675A-2915278B34DE" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<preferredAbbreviation>t_rptr</preferredAbbreviation>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Repeater Code" id="869C092E-B356-4B12-C30D-89835FDB12A9">
+<createdBy>tcollier</createdBy>
+<createdTime>2019-07-03 03:31:09 UTC</createdTime>
+<comment>Current repeater codes are:&lt;br/&gt;H1	Seven Hills&lt;br/&gt;H2	Apex Peak&lt;br/&gt;H3	Henderson&lt;br/&gt;H4	Blue Diamond&lt;br/&gt;H5	Pharumph&lt;br/&gt;C1	Pleasants Peak, CA&lt;br/&gt;A1	Sun City Anthem</comment>
+<ownerDesignName>MacLoggerDX_Project</ownerDesignName>
+<engineerTo>
+<item key="FC57F434-133F-87AF-675A-2915278B34DE" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<preferredAbbreviation>rptr_cd</preferredAbbreviation>
+</Attribute>
+<Attribute name="Repeater Description" id="2A5B46F4-FB37-8B2A-C361-16E78E2CA2FE">
+<createdBy>tcollier</createdBy>
+<createdTime>2019-07-03 03:31:37 UTC</createdTime>
+<comment>H1, H2, H3 etc.</comment>
+<ownerDesignName>MacLoggerDX_Project</ownerDesignName>
+<engineerTo>
+<item key="FC57F434-133F-87AF-675A-2915278B34DE" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT040</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<preferredAbbreviation>rptr_desc</preferredAbbreviation>
+</Attribute>
+<Attribute name="Repeater Call Sign" id="CD034457-C1D6-A1F2-1ED2-F96EAEE4ED5D">
+<createdBy>tcollier</createdBy>
+<createdTime>2019-07-03 03:34:01 UTC</createdTime>
+<ownerDesignName>MacLoggerDX_Project</ownerDesignName>
+<engineerTo>
+<item key="FC57F434-133F-87AF-675A-2915278B34DE" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT040</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<preferredAbbreviation>rptr_call</preferredAbbreviation>
+</Attribute>
+<Attribute name="Repeater TX Frequency" id="9436D6E9-2CA6-3E99-DFEC-6B78A85D0570">
+<createdBy>tcollier</createdBy>
+<createdTime>2019-07-03 03:36:12 UTC</createdTime>
+<ownerDesignName>MacLoggerDX_Project</ownerDesignName>
+<engineerTo>
+<item key="FC57F434-133F-87AF-675A-2915278B34DE" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT022</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<preferredAbbreviation>rptr_tx_freq</preferredAbbreviation>
+</Attribute>
+<Attribute name="Repeater RX Frequency" id="E0E0DBD1-871B-D48C-BB33-D844E6A0B1CB">
+<createdBy>tcollier</createdBy>
+<createdTime>2019-07-03 03:36:33 UTC</createdTime>
+<ownerDesignName>MacLoggerDX_Project</ownerDesignName>
+<engineerTo>
+<item key="FC57F434-133F-87AF-675A-2915278B34DE" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT022</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<preferredAbbreviation>rptr_rx_freq</preferredAbbreviation>
+</Attribute>
+<Attribute name="Repeater CTCSS" id="5B217C56-5DDB-BF7C-8769-F42FFF52B4C3">
+<createdBy>tcollier</createdBy>
+<createdTime>2019-07-03 03:36:59 UTC</createdTime>
+<ownerDesignName>MacLoggerDX_Project</ownerDesignName>
+<engineerTo>
+<item key="FC57F434-133F-87AF-675A-2915278B34DE" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT022</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<preferredAbbreviation>rptr_ctcss</preferredAbbreviation>
+</Attribute>
+<Attribute name="Repeater Latitude" id="0BCD4F62-E026-B319-5436-92F384AD4BD6">
+<createdBy>tcollier</createdBy>
+<createdTime>2019-07-03 03:32:03 UTC</createdTime>
+<ownerDesignName>MacLoggerDX_Project</ownerDesignName>
+<engineerTo>
+<item key="FC57F434-133F-87AF-675A-2915278B34DE" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT022</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<preferredAbbreviation>rptr__lat</preferredAbbreviation>
+</Attribute>
+<Attribute name="Repeater Longitude" id="02023933-59EF-DFDC-4190-4DEB81D02B24">
+<createdBy>tcollier</createdBy>
+<createdTime>2019-07-03 03:32:20 UTC</createdTime>
+<ownerDesignName>MacLoggerDX_Project</ownerDesignName>
+<engineerTo>
+<item key="FC57F434-133F-87AF-675A-2915278B34DE" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT022</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<preferredAbbreviation>rptr_long</preferredAbbreviation>
+</Attribute>
+<Attribute name="Repeater Allstar Node Number" id="1716C272-4EA9-0ABB-D500-E1AAECC0B9DE">
+<createdBy>tcollier</createdBy>
+<createdTime>2019-07-03 03:34:28 UTC</createdTime>
+<ownerDesignName>MacLoggerDX_Project</ownerDesignName>
+<engineerTo>
+<item key="FC57F434-133F-87AF-675A-2915278B34DE" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<preferredAbbreviation>rptr_allstar_node</preferredAbbreviation>
+</Attribute>
+<Attribute name="Repeater Echolink Node" id="B539C570-A45E-1998-008A-594D19E6AAD2">
+<createdBy>tcollier</createdBy>
+<createdTime>2019-07-03 03:35:39 UTC</createdTime>
+<ownerDesignName>MacLoggerDX_Project</ownerDesignName>
+<engineerTo>
+<item key="FC57F434-133F-87AF-675A-2915278B34DE" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<preferredAbbreviation>rptr_echolink_node</preferredAbbreviation>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="5FDF67B7-C6B3-756E-CA08-32BF1B0CBC1B" name="Repeater Types PK">
+<createdBy>tcollier</createdBy>
+<createdTime>2019-07-03 03:31:35 UTC</createdTime>
+<ownerDesignName>MacLoggerDX_Project</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="FC57F434-133F-87AF-675A-2915278B34DE" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>869C092E-B356-4B12-C30D-89835FDB12A9</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

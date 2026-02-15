@@ -1,0 +1,101 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="613608B5-F5E4-180B-BF17-5E0AAF124C38" name="t_pers">
+<createdBy>tcollier</createdBy>
+<createdTime>2025-10-21 20:47:14 UTC</createdTime>
+<generatorID>9FFC62F3-A9C1-F68E-AED7-ACA73DDC5C8B</generatorID>
+<ownerDesignName>Net_Control_Additions</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="pers_call" id="3FCCDA2A-85F1-9C88-F487-5E126CA3B71E">
+<createdBy>tcollier</createdBy>
+<createdTime>2025-10-21 20:47:14 UTC</createdTime>
+<generatorID>4FE2B929-5122-448B-C6AA-D564CBFA752C</generatorID>
+<ownerDesignName>Net_Control_Additions</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="pers_f_nam" id="58BF465D-A572-ADF7-E272-DE5DFBDE93E9">
+<createdBy>tcollier</createdBy>
+<createdTime>2025-10-21 20:47:14 UTC</createdTime>
+<generatorID>164D76A0-9EFD-EE0A-AC3E-D6890E6ACBBD</generatorID>
+<ownerDesignName>Net_Control_Additions</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="pers_m_nam" id="F9F9F0D2-0415-8C87-F89D-B30BC49A32AB">
+<createdBy>tcollier</createdBy>
+<createdTime>2025-10-21 20:47:14 UTC</createdTime>
+<generatorID>C6AF5688-9A7D-4D3E-2346-4859F58ACC57</generatorID>
+<ownerDesignName>Net_Control_Additions</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="pers_l_nam" id="AA4A7095-B4D7-ABB6-CA60-4DDF78D961AD">
+<createdBy>tcollier</createdBy>
+<createdTime>2025-10-21 20:47:14 UTC</createdTime>
+<generatorID>245A51DE-43B8-1A33-9074-48952C78113C</generatorID>
+<ownerDesignName>Net_Control_Additions</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="pers_pref_nam" id="CEA1BCEF-2623-146C-0E48-64D6D39B635C">
+<createdBy>tcollier</createdBy>
+<createdTime>2025-10-21 20:47:14 UTC</createdTime>
+<generatorID>45842B9D-E010-C599-F3D0-9854E99B0273</generatorID>
+<ownerDesignName>Net_Control_Additions</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="pers_typ_cd" id="305715AB-332C-614F-077F-6C6A00E2FEA0">
+<createdBy>tcollier</createdBy>
+<createdTime>2025-10-21 20:47:14 UTC</createdTime>
+<generatorID>E406F750-36B8-B55B-7A17-FFA5A17AF5A5</generatorID>
+<ownerDesignName>Net_Control_Additions</ownerDesignName>
+<use>0</use>
+<logicalDatatype>90015BD8-66C0-24AE-0278-E3E87E938D9F</logicalDatatype>
+<domain>B9C55F62-FDB7-1925-02A7-A963DC0653AE</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D85FBEF5-12F5-DA78-7DEF-19A9365A2AC6" referredColumn="94ABC07C-6120-50E6-30A5-E962B3FC60E2"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="E8C9CBEE-7402-E517-B95F-5E6D83A0B398" name="t_pers_PK">
+<createdBy>tcollier</createdBy>
+<createdTime>2025-10-21 20:47:14 UTC</createdTime>
+<generatorID>6D4F6EC6-E863-F5EC-7B8D-C1A12EBA13CD</generatorID>
+<ownerDesignName>Net_Control_Additions</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3FCCDA2A-85F1-9C88-F487-5E126CA3B71E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="1AC0C281-72C3-FD9A-D3C7-23ECE3F52025" name="t_pers_t_pers_typ_FK">
+<createdBy>tcollier</createdBy>
+<createdTime>2025-10-21 20:47:14 UTC</createdTime>
+<generatorID>B13DC269-D709-47C8-A80F-346F0AB5B862</generatorID>
+<ownerDesignName>Net_Control_Additions</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="305715AB-332C-614F-077F-6C6A00E2FEA0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

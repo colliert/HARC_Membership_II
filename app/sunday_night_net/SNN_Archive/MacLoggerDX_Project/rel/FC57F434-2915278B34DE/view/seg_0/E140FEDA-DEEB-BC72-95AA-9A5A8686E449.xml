@@ -1,0 +1,81 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableView class="oracle.dbtools.crest.model.design.relational.TableView" directorySegmentName="seg_0" id="E140FEDA-DEEB-BC72-95AA-9A5A8686E449" name="v_harc_member">
+<createdBy>tcollier</createdBy>
+<createdTime>2019-07-12 23:07:27 UTC</createdTime>
+<ownerDesignName>MacLoggerDX_Project</ownerDesignName>
+<ordsAlias>view_13</ordsAlias>
+<userDefined>true</userDefined>
+<userDefinedSQL>SELECT&lt;br/&gt;    *&lt;br/&gt;FROM&lt;br/&gt;    t_harc_member</userDefinedSQL>
+<parsed>true</parsed>
+<usedContainers>
+<container containerID="F09A1838-39D9-B9C1-A94C-023D7F3FB342"/>
+</usedContainers>
+<viewElements>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="mem_call" id="0EB32138-9A6A-28F7-EF7F-C2F062EFF425">
+<createdBy>tcollier</createdBy>
+<createdTime>2019-07-12 23:08:06 UTC</createdTime>
+<ownerDesignName>MacLoggerDX_Project</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>CHAR</dataType>
+<reference>false</reference>
+<referencedColumn>0BD7B063-BE4E-1303-6807-98868241F6A6</referencedColumn>
+<table>F09A1838-39D9-B9C1-A94C-023D7F3FB342</table>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="mem_f_nam" id="EFA0D123-8D1E-8F6E-A193-9983FD3BC58C">
+<createdBy>tcollier</createdBy>
+<createdTime>2019-07-12 23:08:06 UTC</createdTime>
+<ownerDesignName>MacLoggerDX_Project</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>CHAR</dataType>
+<reference>false</reference>
+<referencedColumn>FF7FF045-947C-0007-B25C-6441DE99C253</referencedColumn>
+<table>F09A1838-39D9-B9C1-A94C-023D7F3FB342</table>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="mem_m_nam" id="DEDA95D7-2E9E-A122-3072-D1B5B75AEABD">
+<createdBy>tcollier</createdBy>
+<createdTime>2019-07-12 23:08:06 UTC</createdTime>
+<ownerDesignName>MacLoggerDX_Project</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>CHAR</dataType>
+<reference>false</reference>
+<referencedColumn>4AA5C7E9-699C-AC3B-0C36-AC8130E31954</referencedColumn>
+<table>F09A1838-39D9-B9C1-A94C-023D7F3FB342</table>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="mem_l_nam" id="21DDF823-F2E5-1995-C8DF-510DB5FF2BE4">
+<createdBy>tcollier</createdBy>
+<createdTime>2019-07-12 23:08:06 UTC</createdTime>
+<ownerDesignName>MacLoggerDX_Project</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>CHAR</dataType>
+<reference>false</reference>
+<referencedColumn>301222E6-B81E-26F3-AB7E-9748B22BCFC0</referencedColumn>
+<table>F09A1838-39D9-B9C1-A94C-023D7F3FB342</table>
+</viewElement>
+</viewElements>
+<usedObjects>
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="F09A1838-39D9-B9C1-A94C-023D7F3FB342">
+<container>true</container>
+<tableName>t_harc_member</tableName>
+</UsedObject>
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="0BD7B063-BE4E-1303-6807-98868241F6A6">
+<columnName>mem_call</columnName>
+<tableName>t_harc_member</tableName>
+</UsedObject>
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="FF7FF045-947C-0007-B25C-6441DE99C253">
+<columnName>mem_f_nam</columnName>
+<tableName>t_harc_member</tableName>
+</UsedObject>
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="4AA5C7E9-699C-AC3B-0C36-AC8130E31954">
+<columnName>mem_m_nam</columnName>
+<tableName>t_harc_member</tableName>
+</UsedObject>
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="301222E6-B81E-26F3-AB7E-9748B22BCFC0">
+<columnName>mem_l_nam</columnName>
+<tableName>t_harc_member</tableName>
+</UsedObject>
+</usedObjects>
+</TableView>

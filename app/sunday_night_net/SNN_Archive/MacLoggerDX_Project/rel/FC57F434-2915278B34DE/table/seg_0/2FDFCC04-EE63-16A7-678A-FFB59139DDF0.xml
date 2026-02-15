@@ -1,0 +1,156 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="2FDFCC04-EE63-16A7-678A-FFB59139DDF0" name="t_harc_add_qso_details">
+<createdBy>tcollier</createdBy>
+<createdTime>2019-07-12 16:48:06 UTC</createdTime>
+<generatorID>F2CF089E-B065-667A-5867-B2BD6ECC5FA4</generatorID>
+<ownerDesignName>MacLoggerDX_Project</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="qso_table_v007_&apos;pk&apos;" id="20945AEE-2706-8FE4-4876-356308BB7054">
+<createdBy>tcollier</createdBy>
+<createdTime>2019-07-12 16:48:06 UTC</createdTime>
+<generatorID>F9B8E1FE-B384-2B6E-779E-E8CFF3EE18A2</generatorID>
+<ownerDesignName>MacLoggerDX_Project</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="285014EF-DB9D-DA6A-E7AE-7F56798A4B83" referredColumn="EFDAD679-F187-693B-CA11-8110646F352C"/>
+</associations>
+</Column>
+<Column name="rptr_cd" id="B6C1A1F8-C41F-55FF-7C6B-3EBD9AF649CD">
+<createdBy>tcollier</createdBy>
+<createdTime>2019-07-12 16:48:06 UTC</createdTime>
+<generatorID>BA942337-93CB-2151-A8B4-A93FA8CF0A5A</generatorID>
+<ownerDesignName>MacLoggerDX_Project</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="BDE4636A-C5C8-457B-A993-5C28B447B898" referredColumn="FEBA6C31-7474-C772-7C2A-DC63E5DD9170"/>
+</associations>
+</Column>
+<Column name="rad_typ_cd" id="47700E8A-7320-7FC9-F628-A5C8FC2D3334">
+<createdBy>tcollier</createdBy>
+<createdTime>2019-07-12 16:48:06 UTC</createdTime>
+<generatorID>08C8975B-1CEA-AE2A-C0E6-8F46A267AAF7</generatorID>
+<ownerDesignName>MacLoggerDX_Project</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B0239E7C-7AC9-1727-F589-C25556BD3746" referredColumn="921ECF11-51CE-84F7-C714-AF11CB2ACCBB"/>
+</associations>
+</Column>
+<Column name="pwr_typ_cd" id="0830D871-09A6-F7DB-80CE-F337CBCC013B">
+<createdBy>tcollier</createdBy>
+<createdTime>2019-07-12 16:48:06 UTC</createdTime>
+<generatorID>AB96F9FF-14FB-8E87-30D1-6A179B9F35B9</generatorID>
+<ownerDesignName>MacLoggerDX_Project</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="2365942F-9DE6-029E-93DE-CB1391BE9C43" referredColumn="88BC8089-46E3-F150-FBFB-CFC3BDB906B9"/>
+</associations>
+</Column>
+<Column name="ant_typ_cd" id="A52C92C7-E74F-41D2-4831-F9986EC0D5C0">
+<createdBy>tcollier</createdBy>
+<createdTime>2019-07-12 16:48:06 UTC</createdTime>
+<generatorID>4AE117EE-72A5-FD14-4FEE-F63BEA217998</generatorID>
+<ownerDesignName>MacLoggerDX_Project</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="817F48D4-8559-5DAA-C9F5-E4BF00F781DA" referredColumn="4B71AD98-C567-F9AD-C71C-7A8D0CFBA5B4"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="A48B1B84-BA3E-011F-D3EB-53FCBF3B8DC9" name="t_harc_add_qso_details_PK">
+<createdBy>tcollier</createdBy>
+<createdTime>2019-07-12 16:48:06 UTC</createdTime>
+<generatorID>E51BA891-3AA1-56C5-B663-2014FC05B10D</generatorID>
+<ownerDesignName>MacLoggerDX_Project</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="20945AEE-2706-8FE4-4876-356308BB7054"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="05B44F08-D3EF-3E46-92EC-FBC27D262CED" name="t_ant_typ_FK">
+<createdBy>tcollier</createdBy>
+<createdTime>2019-07-12 16:48:06 UTC</createdTime>
+<generatorID>84C34352-BBE9-4FD7-5B33-D388903BB29F</generatorID>
+<ownerDesignName>MacLoggerDX_Project</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A52C92C7-E74F-41D2-4831-F9986EC0D5C0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F92A190B-D09F-DDFD-75BE-7CCDD0301D19" name="qso_table_v007_FK">
+<createdBy>tcollier</createdBy>
+<createdTime>2019-07-12 16:48:06 UTC</createdTime>
+<generatorID>A532D08C-07A0-088A-CD0D-E4969E1E003D</generatorID>
+<ownerDesignName>MacLoggerDX_Project</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="20945AEE-2706-8FE4-4876-356308BB7054"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="9F5BE18B-25D0-856A-C94D-086F22D9731A" name="t_pwr_typ_FK">
+<createdBy>tcollier</createdBy>
+<createdTime>2019-07-12 16:48:06 UTC</createdTime>
+<generatorID>8B1BF29D-D348-FC0D-CB64-E699513B0562</generatorID>
+<ownerDesignName>MacLoggerDX_Project</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0830D871-09A6-F7DB-80CE-F337CBCC013B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="25A6B7AD-A218-9314-5BD1-A74F9C64C92C" name="t_rad_typ_FK">
+<createdBy>tcollier</createdBy>
+<createdTime>2019-07-12 16:48:06 UTC</createdTime>
+<generatorID>DF5EF60D-9FC2-0434-FDA4-34376538894A</generatorID>
+<ownerDesignName>MacLoggerDX_Project</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="47700E8A-7320-7FC9-F628-A5C8FC2D3334"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="601C79B9-FB7A-B602-2CCC-7BA3D2C1BADD" name="t_rptr_typ_FK">
+<createdBy>tcollier</createdBy>
+<createdTime>2019-07-12 16:48:06 UTC</createdTime>
+<generatorID>5BB6BBA9-1541-9138-3008-2B7B946693CC</generatorID>
+<ownerDesignName>MacLoggerDX_Project</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B6C1A1F8-C41F-55FF-7C6B-3EBD9AF649CD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

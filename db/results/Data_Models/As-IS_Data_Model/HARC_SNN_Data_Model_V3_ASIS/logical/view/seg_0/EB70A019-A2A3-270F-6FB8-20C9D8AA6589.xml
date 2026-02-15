@@ -1,0 +1,53 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<EntityView class="oracle.dbtools.crest.model.design.logical.EntityView" directorySegmentName="seg_0" id="EB70A019-A2A3-270F-6FB8-20C9D8AA6589" name="v harc snn callout roster">
+<createdBy>tcollier</createdBy>
+<createdTime>2023-12-10 01:29:04 UTC</createdTime>
+<generatorID>E25FEDD3-57CF-3612-3632-A547A2578BA5</generatorID>
+<ownerDesignName>HARC_SNN_Data_Model_V3</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="FDFA065C-9B79-4768-D3A1-ACB9D4078B29" value="false"/>
+</engineerTo>
+<userDefined>true</userDefined>
+<userDefinedSQL><![CDATA[select distinct a.call                                                                     as 'Callsign'
+              , CASE
+                    when v_pers.pers_call is NULL then
+                        a.first_name
+                    else
+                        ifnull(v_pers.pers_nicknam, v_pers.pers_f_nam)
+               END                                                                         as 'First Name'
+              , a.last_name                                                                as 'Last Name'
+              , CASE
+                    when v_pers.pers_typ = '1' then
+                        'member'
+                    else
+                        'non-member'
+               END                                                                         as 'Member'
+              , '                                                                    '     as 'Comments'
+              , (select current_num_days from v_current_call_out_cutoff_days)              as 'Cutoff_Days'
+
+
+from v_net_qso a
+         LEFT JOIN v_pers on trim(upper(a.Call)) = trim(upper(v_pers.pers_call))
+/*
+* Select those records that show a contest id beginning with HARC-SNN (Sunday Night Net)
+* as well as those that are within the required number of days (probably 28 days).
+* There may be some special cases where a call sign is always included
+*/
+where substr(a.contest_id, 1, 4) = 'HARC' and
+      date(a.qso_start) >
+      (select date('now', '-' || (select current_num_days from v_current_call_out_cutoff_days) || ' days'))
+   or a.call in (
+      'N6YFN' -- Lawrence Roney Net Control
+    , 'K7JTC' -- Tim Collier Net Control
+    , 'KF7JAF' -- Dave Le Blanc Net Control
+    , 'kD7YMO' -- Gerry Grabo Net Control
+    , 'N6SFX' --  Steve Farinella Net Control
+    , 'K7ZEX' -- Tony Fetcho Net Control
+    , 'KF4KF' --  Karol Frodsham Net Control
+    , 'N7WDZ' -- Gene Heiter Net Control
+    ) -- insert comma-separated call signs that will always appear in call-out list
+order by 4, 3, 2]]></userDefinedSQL>
+<validSQL>false</validSQL>
+<viewType>NAMED QUERY</viewType>
+</EntityView>

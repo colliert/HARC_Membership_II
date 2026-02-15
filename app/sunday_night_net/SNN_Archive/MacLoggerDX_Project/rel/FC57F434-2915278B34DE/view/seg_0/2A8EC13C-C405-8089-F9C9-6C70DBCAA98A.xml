@@ -1,0 +1,51 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableView class="oracle.dbtools.crest.model.design.relational.TableView" directorySegmentName="seg_0" id="2A8EC13C-C405-8089-F9C9-6C70DBCAA98A" name="v_rad_typ">
+<createdBy>tcollier</createdBy>
+<createdTime>2019-07-12 23:13:15 UTC</createdTime>
+<ownerDesignName>MacLoggerDX_Project</ownerDesignName>
+<ordsAlias>view_19</ordsAlias>
+<userDefined>true</userDefined>
+<userDefinedSQL>select *&lt;br/&gt;from t_rad_typ;&lt;br/&gt;</userDefinedSQL>
+<parsed>true</parsed>
+<usedContainers>
+<container containerID="F2DADC6F-EE2B-D624-8712-AB74C643477A"/>
+</usedContainers>
+<viewElements>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="rad_typ_cd" id="F2A48AD9-6D34-E09E-7B90-DA1C0543E194">
+<createdBy>tcollier</createdBy>
+<createdTime>2019-07-12 23:13:44 UTC</createdTime>
+<ownerDesignName>MacLoggerDX_Project</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>INTEGER</dataType>
+<reference>false</reference>
+<referencedColumn>921ECF11-51CE-84F7-C714-AF11CB2ACCBB</referencedColumn>
+<table>F2DADC6F-EE2B-D624-8712-AB74C643477A</table>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="rad_typ_desc" id="35AE5D27-AE58-4411-425F-E551C3516419">
+<createdBy>tcollier</createdBy>
+<createdTime>2019-07-12 23:13:44 UTC</createdTime>
+<ownerDesignName>MacLoggerDX_Project</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>CLOB</dataType>
+<reference>false</reference>
+<referencedColumn>4E125D67-D050-143F-38FA-440C52C1AC9B</referencedColumn>
+<table>F2DADC6F-EE2B-D624-8712-AB74C643477A</table>
+</viewElement>
+</viewElements>
+<usedObjects>
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="F2DADC6F-EE2B-D624-8712-AB74C643477A">
+<container>true</container>
+<tableName>t_rad_typ</tableName>
+</UsedObject>
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="921ECF11-51CE-84F7-C714-AF11CB2ACCBB">
+<columnName>rad_typ_cd</columnName>
+<tableName>t_rad_typ</tableName>
+</UsedObject>
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="4E125D67-D050-143F-38FA-440C52C1AC9B">
+<columnName>rad_typ_desc</columnName>
+<tableName>t_rad_typ</tableName>
+</UsedObject>
+</usedObjects>
+</TableView>

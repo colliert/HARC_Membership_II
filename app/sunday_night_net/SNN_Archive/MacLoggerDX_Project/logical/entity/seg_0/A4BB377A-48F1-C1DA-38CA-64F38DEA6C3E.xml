@@ -1,0 +1,734 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="A4BB377A-48F1-C1DA-38CA-64F38DEA6C3E" name="qso table v007">
+<createdBy>jtimothycollier</createdBy>
+<createdTime>2019-07-02 05:04:02 UTC</createdTime>
+<comment>---------------------------------------------&lt;br/&gt;DO NOT CHANGE THE STRUCTURE OF THIS  TABLE&lt;br/&gt;---------------------------------------------&lt;br/&gt;&lt;br/&gt;This is the main table used by MacLoggerDX, a logging program running under MacOS.  &lt;br/&gt;&lt;br/&gt;The application uses SQLITE, which is handy for adding on other pieces of informaiton.  &lt;br/&gt;&lt;br/&gt;However, changing this table will affect the MacLoggerDX application -- it will probably not work.</comment>
+<commentInRDBMS>---------------------------------------------&lt;br/&gt;DO NOT CHANGE THE STRUCTURE OF THIS  TABLE&lt;br/&gt;---------------------------------------------&lt;br/&gt;&lt;br/&gt;This is the main table used by MacLoggerDX, a logging program running under MacOS.  &lt;br/&gt;&lt;br/&gt;The application uses SQLITE, which is handy for adding on other pieces of informaiton.  &lt;br/&gt;&lt;br/&gt;However, changing this table will affect the MacLoggerDX application -- it will probably not work.</commentInRDBMS>
+<generatorID>91D2BBB8-825D-0BBD-3DA9-B12FAF443777</generatorID>
+<notes>---------------------------------------------&lt;br/&gt;DO NOT CHANGE THE STRUCTURE OF THIS  TABLE&lt;br/&gt;---------------------------------------------&lt;br/&gt;&lt;br/&gt;This is the main table used by MacLoggerDX, a logging program running under MacOS.  &lt;br/&gt;&lt;br/&gt;The application uses SQLITE, which is handy for adding on other pieces of informaiton.  &lt;br/&gt;&lt;br/&gt;However, changing this table will affect the MacLoggerDX application -- it will probably not work.</notes>
+<ownerDesignName>MacLoggerDX_Project</ownerDesignName>
+<engineerTo>
+<item key="FC57F434-133F-87AF-675A-2915278B34DE" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<shortName>qso_table_v007</shortName>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Primary Key" id="5622EC61-2757-4973-157E-75A143DCE2F5">
+<createdBy>jtimothycollier</createdBy>
+<createdTime>2019-07-02 05:04:02 UTC</createdTime>
+<generatorID>359518FC-BD0A-9ACA-78A2-05E19823E264</generatorID>
+<ownerDesignName>MacLoggerDX_Project</ownerDesignName>
+<engineerTo>
+<item key="FC57F434-133F-87AF-675A-2915278B34DE" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<preferredAbbreviation>&apos;pk&apos;</preferredAbbreviation>
+</Attribute>
+<Attribute name="My Grid" id="875B6C4B-E684-9F63-E463-C9EEE7FC4326">
+<createdBy>jtimothycollier</createdBy>
+<createdTime>2019-07-02 05:04:02 UTC</createdTime>
+<generatorID>593F57CB-3919-A715-47D6-821283F96BE8</generatorID>
+<ownerDesignName>MacLoggerDX_Project</ownerDesignName>
+<engineerTo>
+<item key="FC57F434-133F-87AF-675A-2915278B34DE" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT040</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<preferredAbbreviation>&apos;my grid&apos;</preferredAbbreviation>
+</Attribute>
+<Attribute name="My Call Sign" id="1EFB3FA4-3BE7-D228-EF5B-20E70383E68B">
+<createdBy>jtimothycollier</createdBy>
+<createdTime>2019-07-02 05:04:02 UTC</createdTime>
+<generatorID>0247E3DE-C936-2578-82A3-A12E6CA63A2C</generatorID>
+<ownerDesignName>MacLoggerDX_Project</ownerDesignName>
+<engineerTo>
+<item key="FC57F434-133F-87AF-675A-2915278B34DE" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT040</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<preferredAbbreviation>&apos;my call&apos;</preferredAbbreviation>
+</Attribute>
+<Attribute name="My Radio" id="5D4488B3-739A-6376-1A69-BD9027A47334">
+<createdBy>jtimothycollier</createdBy>
+<createdTime>2019-07-02 05:04:02 UTC</createdTime>
+<generatorID>EF9EFEE8-81F4-B002-56A9-6409860AE2A1</generatorID>
+<ownerDesignName>MacLoggerDX_Project</ownerDesignName>
+<engineerTo>
+<item key="FC57F434-133F-87AF-675A-2915278B34DE" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT040</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<preferredAbbreviation>&apos;my rig&apos;</preferredAbbreviation>
+</Attribute>
+<Attribute name="Call Sign" id="78C05A9B-9D05-D1B4-C8C5-BDA577889ACC">
+<createdBy>jtimothycollier</createdBy>
+<createdTime>2019-07-02 05:04:02 UTC</createdTime>
+<generatorID>8E68A848-2E51-2A21-0450-F87F31AB84B4</generatorID>
+<ownerDesignName>MacLoggerDX_Project</ownerDesignName>
+<engineerTo>
+<item key="FC57F434-133F-87AF-675A-2915278B34DE" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT040</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<preferredAbbreviation>&apos;call&apos;</preferredAbbreviation>
+</Attribute>
+<Attribute name="&apos;first name&apos;" id="9CB3BDE8-E0A1-D955-76E1-FD714393D021">
+<createdBy>jtimothycollier</createdBy>
+<createdTime>2019-07-02 05:04:02 UTC</createdTime>
+<generatorID>1B410AB5-C32E-79E4-E0AE-013721FC59C7</generatorID>
+<ownerDesignName>MacLoggerDX_Project</ownerDesignName>
+<engineerTo>
+<item key="FC57F434-133F-87AF-675A-2915278B34DE" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT040</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="&apos;last name&apos;" id="C0F5FAA1-0025-48D3-513E-D96097419B72">
+<createdBy>jtimothycollier</createdBy>
+<createdTime>2019-07-02 05:04:02 UTC</createdTime>
+<generatorID>B84A9EE3-CCEF-FF79-B642-801F0C9DDE24</generatorID>
+<ownerDesignName>MacLoggerDX_Project</ownerDesignName>
+<engineerTo>
+<item key="FC57F434-133F-87AF-675A-2915278B34DE" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT040</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="&apos;street&apos;" id="FF0F59F8-EE0A-C5D7-EE67-0F75990AAE9C">
+<createdBy>jtimothycollier</createdBy>
+<createdTime>2019-07-02 05:04:02 UTC</createdTime>
+<generatorID>BBDF7FB9-F9F5-2E4A-1D64-153D85A2D780</generatorID>
+<ownerDesignName>MacLoggerDX_Project</ownerDesignName>
+<engineerTo>
+<item key="FC57F434-133F-87AF-675A-2915278B34DE" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT040</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="&apos;city&apos;" id="94CCA460-147A-A2EC-04A7-90229F55BA60">
+<createdBy>jtimothycollier</createdBy>
+<createdTime>2019-07-02 05:04:02 UTC</createdTime>
+<generatorID>8F77DFE0-B86D-0DD3-33CE-55E2364CDF44</generatorID>
+<ownerDesignName>MacLoggerDX_Project</ownerDesignName>
+<engineerTo>
+<item key="FC57F434-133F-87AF-675A-2915278B34DE" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT040</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="&apos;county&apos;" id="37ED177E-37A6-FCEA-FE91-4445FAB3C876">
+<createdBy>jtimothycollier</createdBy>
+<createdTime>2019-07-02 05:04:02 UTC</createdTime>
+<generatorID>4C31D16F-5ABA-42B6-BA0A-45F69DFD111F</generatorID>
+<ownerDesignName>MacLoggerDX_Project</ownerDesignName>
+<engineerTo>
+<item key="FC57F434-133F-87AF-675A-2915278B34DE" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT040</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="&apos;state&apos;" id="0212DF3D-2AC3-C542-A359-53A9786CFBE4">
+<createdBy>jtimothycollier</createdBy>
+<createdTime>2019-07-02 05:04:02 UTC</createdTime>
+<generatorID>37942B59-CA81-F487-CD06-982228FB0BC8</generatorID>
+<ownerDesignName>MacLoggerDX_Project</ownerDesignName>
+<engineerTo>
+<item key="FC57F434-133F-87AF-675A-2915278B34DE" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT040</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="&apos;postal country&apos;" id="6ACCE1A0-7ABA-8E96-57B1-4EBD01FA785B">
+<createdBy>jtimothycollier</createdBy>
+<createdTime>2019-07-02 05:04:02 UTC</createdTime>
+<generatorID>36ECAF82-B447-592B-D5C6-44DC710A9D87</generatorID>
+<ownerDesignName>MacLoggerDX_Project</ownerDesignName>
+<engineerTo>
+<item key="FC57F434-133F-87AF-675A-2915278B34DE" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT040</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="&apos;zip&apos;" id="1263C5BA-537A-C45A-3479-A45863438AA0">
+<createdBy>jtimothycollier</createdBy>
+<createdTime>2019-07-02 05:04:02 UTC</createdTime>
+<generatorID>6FBFA0D7-8C01-6A98-9FBA-E359B2DED877</generatorID>
+<ownerDesignName>MacLoggerDX_Project</ownerDesignName>
+<engineerTo>
+<item key="FC57F434-133F-87AF-675A-2915278B34DE" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT040</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="&apos;grid&apos;" id="ACE03F67-67BA-C690-FCA7-D7F37309C857">
+<createdBy>jtimothycollier</createdBy>
+<createdTime>2019-07-02 05:04:02 UTC</createdTime>
+<generatorID>A9A50972-91A3-24A2-32EF-E8D439161BD8</generatorID>
+<ownerDesignName>MacLoggerDX_Project</ownerDesignName>
+<engineerTo>
+<item key="FC57F434-133F-87AF-675A-2915278B34DE" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT040</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="&apos;dxcc country&apos;" id="2170F182-01D1-B4A2-0C4E-6723D08F9ED1">
+<createdBy>jtimothycollier</createdBy>
+<createdTime>2019-07-02 05:04:02 UTC</createdTime>
+<generatorID>2880104B-10D8-E43A-23C4-9285B19862A1</generatorID>
+<ownerDesignName>MacLoggerDX_Project</ownerDesignName>
+<engineerTo>
+<item key="FC57F434-133F-87AF-675A-2915278B34DE" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT040</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="&apos;iota&apos;" id="5EBDB15E-56EB-6285-EBEB-F15CAF788626">
+<createdBy>jtimothycollier</createdBy>
+<createdTime>2019-07-02 05:04:02 UTC</createdTime>
+<generatorID>FFC5155F-0249-12A6-5510-172EDCBDD03A</generatorID>
+<ownerDesignName>MacLoggerDX_Project</ownerDesignName>
+<engineerTo>
+<item key="FC57F434-133F-87AF-675A-2915278B34DE" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT040</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="&apos;sota&apos;" id="BF6259C0-D9F2-7D90-6986-967DB34105CC">
+<createdBy>jtimothycollier</createdBy>
+<createdTime>2019-07-02 05:04:02 UTC</createdTime>
+<generatorID>4A48304A-299E-4D4A-0E56-DEF08DDCC89F</generatorID>
+<ownerDesignName>MacLoggerDX_Project</ownerDesignName>
+<engineerTo>
+<item key="FC57F434-133F-87AF-675A-2915278B34DE" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT040</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="&apos;cq zone&apos;" id="E2E81AF4-D714-AF6C-E768-1AF30B6BBE1E">
+<createdBy>jtimothycollier</createdBy>
+<createdTime>2019-07-02 05:04:02 UTC</createdTime>
+<generatorID>408378D2-0C8D-DEF9-C5CE-36DD9921E561</generatorID>
+<ownerDesignName>MacLoggerDX_Project</ownerDesignName>
+<engineerTo>
+<item key="FC57F434-133F-87AF-675A-2915278B34DE" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT040</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="&apos;itu&apos;" id="85D6D8FA-1CB6-AF97-6A19-BFF8C3D1D863">
+<createdBy>jtimothycollier</createdBy>
+<createdTime>2019-07-02 05:04:02 UTC</createdTime>
+<generatorID>B4A262DE-E692-2070-CB34-7134C19874C7</generatorID>
+<ownerDesignName>MacLoggerDX_Project</ownerDesignName>
+<engineerTo>
+<item key="FC57F434-133F-87AF-675A-2915278B34DE" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT040</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="&apos;ten ten&apos;" id="A5A1899F-2744-9B49-B90B-C74ECEC0A30B">
+<createdBy>jtimothycollier</createdBy>
+<createdTime>2019-07-02 05:04:02 UTC</createdTime>
+<generatorID>2995F397-02A9-F7BA-3C11-83FC1BE05430</generatorID>
+<ownerDesignName>MacLoggerDX_Project</ownerDesignName>
+<engineerTo>
+<item key="FC57F434-133F-87AF-675A-2915278B34DE" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT040</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="&apos;email&apos;" id="59E03909-3BA0-8360-2BEB-35CBD08933DC">
+<createdBy>jtimothycollier</createdBy>
+<createdTime>2019-07-02 05:04:02 UTC</createdTime>
+<generatorID>B4FC13BA-9128-E6EE-9127-109030C9CAA2</generatorID>
+<ownerDesignName>MacLoggerDX_Project</ownerDesignName>
+<engineerTo>
+<item key="FC57F434-133F-87AF-675A-2915278B34DE" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT040</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="&apos;url&apos;" id="4B129FDE-4697-183B-73C8-EF8E81BD7423">
+<createdBy>jtimothycollier</createdBy>
+<createdTime>2019-07-02 05:04:02 UTC</createdTime>
+<generatorID>1DF14CB3-0DC5-62BC-74ED-754A7C0F2733</generatorID>
+<ownerDesignName>MacLoggerDX_Project</ownerDesignName>
+<engineerTo>
+<item key="FC57F434-133F-87AF-675A-2915278B34DE" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT040</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="&apos;mode&apos;" id="3DCDE819-A138-921D-D7FD-1F6B9EBC6A5D">
+<createdBy>jtimothycollier</createdBy>
+<createdTime>2019-07-02 05:04:02 UTC</createdTime>
+<generatorID>BD6B234A-FD2D-0AC6-B495-3DAF236EA5B9</generatorID>
+<ownerDesignName>MacLoggerDX_Project</ownerDesignName>
+<engineerTo>
+<item key="FC57F434-133F-87AF-675A-2915278B34DE" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT040</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="&apos;band rx&apos;" id="7B2C8837-DE2A-67CD-8BA5-9904C3955171">
+<createdBy>jtimothycollier</createdBy>
+<createdTime>2019-07-02 05:04:02 UTC</createdTime>
+<generatorID>7044287E-8E16-7753-491A-941D47D519A9</generatorID>
+<ownerDesignName>MacLoggerDX_Project</ownerDesignName>
+<engineerTo>
+<item key="FC57F434-133F-87AF-675A-2915278B34DE" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT040</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="&apos;band tx&apos;" id="2D5BAA0D-67E7-AF4D-49F2-F0063C6F4879">
+<createdBy>jtimothycollier</createdBy>
+<createdTime>2019-07-02 05:04:02 UTC</createdTime>
+<generatorID>D1BE8868-5B19-32C9-09D6-A9CF8E3D1649</generatorID>
+<ownerDesignName>MacLoggerDX_Project</ownerDesignName>
+<engineerTo>
+<item key="FC57F434-133F-87AF-675A-2915278B34DE" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT040</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="&apos;rst sent&apos;" id="E04ACF4B-59C3-F017-DB50-8E0DE513582B">
+<createdBy>jtimothycollier</createdBy>
+<createdTime>2019-07-02 05:04:02 UTC</createdTime>
+<generatorID>7AE44BF5-F837-FCE7-CA2D-96D875484ECF</generatorID>
+<ownerDesignName>MacLoggerDX_Project</ownerDesignName>
+<engineerTo>
+<item key="FC57F434-133F-87AF-675A-2915278B34DE" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT040</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="&apos;rst received&apos;" id="5FEA43F0-D8D5-1B0F-ED13-11BF4595F9B1">
+<createdBy>jtimothycollier</createdBy>
+<createdTime>2019-07-02 05:04:02 UTC</createdTime>
+<generatorID>BA2649B0-D1C8-C460-706C-1D1918C3E5DA</generatorID>
+<ownerDesignName>MacLoggerDX_Project</ownerDesignName>
+<engineerTo>
+<item key="FC57F434-133F-87AF-675A-2915278B34DE" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT040</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="&apos;qsl via&apos;" id="FDAB5195-42D2-33B7-FAA9-1481AB5853AC">
+<createdBy>jtimothycollier</createdBy>
+<createdTime>2019-07-02 05:04:02 UTC</createdTime>
+<generatorID>AAD82261-6A2A-F58F-6CC6-4322AF5E89DD</generatorID>
+<ownerDesignName>MacLoggerDX_Project</ownerDesignName>
+<engineerTo>
+<item key="FC57F434-133F-87AF-675A-2915278B34DE" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT040</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="&apos;qsl sent&apos;" id="77F43ABA-5867-5014-6C01-7571CFD88050">
+<createdBy>jtimothycollier</createdBy>
+<createdTime>2019-07-02 05:04:02 UTC</createdTime>
+<generatorID>26E47CD8-D260-8A9B-7E71-F8B9B100AF00</generatorID>
+<ownerDesignName>MacLoggerDX_Project</ownerDesignName>
+<engineerTo>
+<item key="FC57F434-133F-87AF-675A-2915278B34DE" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT040</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="&apos;qsl received&apos;" id="6420D74F-15B8-3F15-D90E-EDE1F0D6C49A">
+<createdBy>jtimothycollier</createdBy>
+<createdTime>2019-07-02 05:04:02 UTC</createdTime>
+<generatorID>7E84C333-AD1C-65A9-F031-87099FF6C478</generatorID>
+<ownerDesignName>MacLoggerDX_Project</ownerDesignName>
+<engineerTo>
+<item key="FC57F434-133F-87AF-675A-2915278B34DE" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT040</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="&apos;srx&apos;" id="B44E15A5-D9CC-BD6C-83E8-A6DC65C2212A">
+<createdBy>jtimothycollier</createdBy>
+<createdTime>2019-07-02 05:04:02 UTC</createdTime>
+<generatorID>30AC780B-C702-21F9-39B4-E7E254CD1016</generatorID>
+<ownerDesignName>MacLoggerDX_Project</ownerDesignName>
+<engineerTo>
+<item key="FC57F434-133F-87AF-675A-2915278B34DE" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT040</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="&apos;stx&apos;" id="830563CB-4180-2482-0430-C8EA15705568">
+<createdBy>jtimothycollier</createdBy>
+<createdTime>2019-07-02 05:04:02 UTC</createdTime>
+<generatorID>A12E43A1-2455-6EAA-3D12-BC5C7140968A</generatorID>
+<ownerDesignName>MacLoggerDX_Project</ownerDesignName>
+<engineerTo>
+<item key="FC57F434-133F-87AF-675A-2915278B34DE" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT040</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="&apos;comments&apos;" id="3EE26FB9-1911-15CB-C59A-B4F6558DF15B">
+<createdBy>jtimothycollier</createdBy>
+<createdTime>2019-07-02 05:04:02 UTC</createdTime>
+<generatorID>17AC4D47-26F7-CB84-FBA8-6125C78D148D</generatorID>
+<ownerDesignName>MacLoggerDX_Project</ownerDesignName>
+<engineerTo>
+<item key="FC57F434-133F-87AF-675A-2915278B34DE" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT040</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="&apos;satellite&apos;" id="A3F23774-8C54-395B-39B2-3D2190F59C80">
+<createdBy>jtimothycollier</createdBy>
+<createdTime>2019-07-02 05:04:02 UTC</createdTime>
+<generatorID>9CAD8666-4359-9E27-0347-B00C0A418717</generatorID>
+<ownerDesignName>MacLoggerDX_Project</ownerDesignName>
+<engineerTo>
+<item key="FC57F434-133F-87AF-675A-2915278B34DE" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT040</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="&apos;qso start&apos;" id="A72187AD-31F4-E60E-62E5-7124F5EFD363">
+<createdBy>jtimothycollier</createdBy>
+<createdTime>2019-07-02 05:04:02 UTC</createdTime>
+<comment>Date stored in UnixEpoch form.&lt;br/&gt;&lt;br/&gt;Date Conversion - Julian to UNIXEpoch&lt;br/&gt;&lt;br/&gt;UNIXepoch date = ([Julian Date] - 2440587.5 ) * 86400&lt;br/&gt;&lt;br/&gt;Julian Date = ([UNIXepoch Date]/86400) + 2440587.5&lt;br/&gt;&lt;br/&gt;SQL Example:&lt;br/&gt;&lt;br/&gt;select &apos;2019-07-01 11:29:00&apos;                                                    as Start_Date&lt;br/&gt;        ,julianday(&apos;2019-07-01 11:29:00&apos;)                                     as Julian_Date    &lt;br/&gt;        ,(julianday(&apos;2019-07-01 11:29:00&apos;) - 2440587.5)*86400    as UNIX_Epoch&lt;br/&gt;        ,datetime(julianday(&apos;2019-07-01 11:29:00&apos;))                     as from_Julian&lt;br/&gt;        ,datetime((julianday(&apos;2019-07-01 11:29:00&apos;) - 2440587.5)*86400,&apos;unixepoch&apos;) as  from_Unix_Epoch&lt;br/&gt;&lt;br/&gt;</comment>
+<generatorID>0443AE73-6C14-0067-B51C-18A8252AB3E9</generatorID>
+<notes>Date stored in UnixEpoch form.&lt;br/&gt;&lt;br/&gt;Date Conversion - Julian to UNIXEpoch&lt;br/&gt;&lt;br/&gt;UNIXepoch date = ([Julian Date] - 2440587.5 ) * 86400&lt;br/&gt;&lt;br/&gt;Julian Date = ([UNIXepoch Date]/86400) + 2440587.5&lt;br/&gt;&lt;br/&gt;SQL Example:&lt;br/&gt;&lt;br/&gt;select &apos;2019-07-01 11:29:00&apos;                                                    as Start_Date&lt;br/&gt;        ,julianday(&apos;2019-07-01 11:29:00&apos;)                                     as Julian_Date    &lt;br/&gt;        ,(julianday(&apos;2019-07-01 11:29:00&apos;) - 2440587.5)*86400    as UNIX_Epoch&lt;br/&gt;        ,datetime(julianday(&apos;2019-07-01 11:29:00&apos;))                     as from_Julian&lt;br/&gt;        ,datetime((julianday(&apos;2019-07-01 11:29:00&apos;) - 2440587.5)*86400,&apos;unixepoch&apos;) as  from_Unix_Epoch&lt;br/&gt;&lt;br/&gt;</notes>
+<ownerDesignName>MacLoggerDX_Project</ownerDesignName>
+<engineerTo>
+<item key="FC57F434-133F-87AF-675A-2915278B34DE" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT022</logicalDatatype>
+<domain>5A36C5DE-AF0C-CD54-1975-75537D422F0F</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="&apos;qso done&apos;" id="3175C0BA-4766-B741-0194-1431750B495C">
+<createdBy>jtimothycollier</createdBy>
+<createdTime>2019-07-02 05:04:02 UTC</createdTime>
+<comment>Date stored in UnixEpoch form.&lt;br/&gt;&lt;br/&gt;Date Conversion - Julian to UNIXEpoch&lt;br/&gt;&lt;br/&gt;UNIXepoch date = ([Julian Date] - 2440587.5 ) * 86400&lt;br/&gt;&lt;br/&gt;Julian Date = ([UNIXepoch Date]/86400) + 2440587.5&lt;br/&gt;&lt;br/&gt;SQL Example:&lt;br/&gt;&lt;br/&gt;select &apos;2019-07-01 11:29:00&apos;                                                    as Start_Date&lt;br/&gt;        ,julianday(&apos;2019-07-01 11:29:00&apos;)                                     as Julian_Date    &lt;br/&gt;        ,(julianday(&apos;2019-07-01 11:29:00&apos;) - 2440587.5)*86400    as UNIX_Epoch&lt;br/&gt;        ,datetime(julianday(&apos;2019-07-01 11:29:00&apos;))                     as from_Julian&lt;br/&gt;        ,datetime((julianday(&apos;2019-07-01 11:29:00&apos;) - 2440587.5)*86400,&apos;unixepoch&apos;) as  from_Unix_Epoch&lt;br/&gt;&lt;br/&gt;</comment>
+<generatorID>5D57F07B-EF3B-6B6D-2FB0-DA431D9CB7CF</generatorID>
+<notes>Date stored in UnixEpoch form.&lt;br/&gt;&lt;br/&gt;Date Conversion - Julian to UNIXEpoch&lt;br/&gt;&lt;br/&gt;UNIXepoch date = ([Julian Date] - 2440587.5 ) * 86400&lt;br/&gt;&lt;br/&gt;Julian Date = ([UNIXepoch Date]/86400) + 2440587.5&lt;br/&gt;&lt;br/&gt;SQL Example:&lt;br/&gt;&lt;br/&gt;select &apos;2019-07-01 11:29:00&apos;                                                    as Start_Date&lt;br/&gt;        ,julianday(&apos;2019-07-01 11:29:00&apos;)                                     as Julian_Date    &lt;br/&gt;        ,(julianday(&apos;2019-07-01 11:29:00&apos;) - 2440587.5)*86400    as UNIX_Epoch&lt;br/&gt;        ,datetime(julianday(&apos;2019-07-01 11:29:00&apos;))                     as from_Julian&lt;br/&gt;        ,datetime((julianday(&apos;2019-07-01 11:29:00&apos;) - 2440587.5)*86400,&apos;unixepoch&apos;) as  from_Unix_Epoch&lt;br/&gt;&lt;br/&gt;</notes>
+<ownerDesignName>MacLoggerDX_Project</ownerDesignName>
+<engineerTo>
+<item key="FC57F434-133F-87AF-675A-2915278B34DE" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT022</logicalDatatype>
+<domain>5A36C5DE-AF0C-CD54-1975-75537D422F0F</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="&apos;latitude&apos;" id="42600DCB-9BCD-443F-E1D7-60D8F82CEF86">
+<createdBy>jtimothycollier</createdBy>
+<createdTime>2019-07-02 05:04:02 UTC</createdTime>
+<generatorID>C1BFF843-F626-D18D-4DF0-D0F4604E36FD</generatorID>
+<ownerDesignName>MacLoggerDX_Project</ownerDesignName>
+<engineerTo>
+<item key="FC57F434-133F-87AF-675A-2915278B34DE" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT022</logicalDatatype>
+<domain>5A36C5DE-AF0C-CD54-1975-75537D422F0F</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="&apos;longitude&apos;" id="B0963FC5-A84F-024F-063E-AABEF5D51836">
+<createdBy>jtimothycollier</createdBy>
+<createdTime>2019-07-02 05:04:02 UTC</createdTime>
+<generatorID>5A3B6AE5-E885-3322-323E-DBB6BC2820E1</generatorID>
+<ownerDesignName>MacLoggerDX_Project</ownerDesignName>
+<engineerTo>
+<item key="FC57F434-133F-87AF-675A-2915278B34DE" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT022</logicalDatatype>
+<domain>5A36C5DE-AF0C-CD54-1975-75537D422F0F</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="&apos;tx frequency&apos;" id="35A01E48-DBA8-1F3D-2670-C206B28359AD">
+<createdBy>jtimothycollier</createdBy>
+<createdTime>2019-07-02 05:04:02 UTC</createdTime>
+<generatorID>F3CE38F2-BAFF-D71B-B7A8-DFE7D1076A57</generatorID>
+<ownerDesignName>MacLoggerDX_Project</ownerDesignName>
+<engineerTo>
+<item key="FC57F434-133F-87AF-675A-2915278B34DE" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT022</logicalDatatype>
+<domain>5A36C5DE-AF0C-CD54-1975-75537D422F0F</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="&apos;rx frequency&apos;" id="452C7F93-B2F5-F4E4-423E-A4978E10CA51">
+<createdBy>jtimothycollier</createdBy>
+<createdTime>2019-07-02 05:04:02 UTC</createdTime>
+<generatorID>7FF8806C-B746-6007-CFFD-AB7003B498AB</generatorID>
+<ownerDesignName>MacLoggerDX_Project</ownerDesignName>
+<engineerTo>
+<item key="FC57F434-133F-87AF-675A-2915278B34DE" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT022</logicalDatatype>
+<domain>5A36C5DE-AF0C-CD54-1975-75537D422F0F</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="&apos;azimuth&apos;" id="AFEAD7CF-538E-2156-9766-C1C3EB75BDD5">
+<createdBy>jtimothycollier</createdBy>
+<createdTime>2019-07-02 05:04:02 UTC</createdTime>
+<generatorID>F0F7DDD4-FBCE-9B98-9FDA-09396C4B6508</generatorID>
+<ownerDesignName>MacLoggerDX_Project</ownerDesignName>
+<engineerTo>
+<item key="FC57F434-133F-87AF-675A-2915278B34DE" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT022</logicalDatatype>
+<domain>5A36C5DE-AF0C-CD54-1975-75537D422F0F</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="&apos;elevation&apos;" id="6FF09687-A5DD-BF52-15EF-4B9D773E9E25">
+<createdBy>jtimothycollier</createdBy>
+<createdTime>2019-07-02 05:04:02 UTC</createdTime>
+<generatorID>2B163335-17B5-6F9B-63D0-8380CA42A7D8</generatorID>
+<ownerDesignName>MacLoggerDX_Project</ownerDesignName>
+<engineerTo>
+<item key="FC57F434-133F-87AF-675A-2915278B34DE" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT022</logicalDatatype>
+<domain>5A36C5DE-AF0C-CD54-1975-75537D422F0F</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="&apos;power&apos;" id="EA8844CA-8DF8-7A9E-CC08-F5EDF781D4DF">
+<createdBy>jtimothycollier</createdBy>
+<createdTime>2019-07-02 05:04:02 UTC</createdTime>
+<generatorID>C74168CE-2D7B-7EB2-E83A-20977EA11BEB</generatorID>
+<ownerDesignName>MacLoggerDX_Project</ownerDesignName>
+<engineerTo>
+<item key="FC57F434-133F-87AF-675A-2915278B34DE" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT022</logicalDatatype>
+<domain>5A36C5DE-AF0C-CD54-1975-75537D422F0F</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="&apos;srx numeric&apos;" id="E1017044-EC02-3B9C-1D51-8CA4F36A7C87">
+<createdBy>jtimothycollier</createdBy>
+<createdTime>2019-07-02 05:04:02 UTC</createdTime>
+<generatorID>3D72BF3D-9D26-1A9F-0049-E6EC41B4969A</generatorID>
+<ownerDesignName>MacLoggerDX_Project</ownerDesignName>
+<engineerTo>
+<item key="FC57F434-133F-87AF-675A-2915278B34DE" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>D8859897-F332-FB06-FAAB-AF0470021D1A</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="&apos;stx numeric&apos;" id="DC25E58C-E8EE-A663-2F55-2B9DACD9AD3B">
+<createdBy>jtimothycollier</createdBy>
+<createdTime>2019-07-02 05:04:02 UTC</createdTime>
+<generatorID>C06AFE66-89AD-B020-6FFD-EF81803D483B</generatorID>
+<ownerDesignName>MacLoggerDX_Project</ownerDesignName>
+<engineerTo>
+<item key="FC57F434-133F-87AF-675A-2915278B34DE" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>D8859897-F332-FB06-FAAB-AF0470021D1A</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="&apos;dxcc id&apos;" id="CD7D9DA4-6F52-9272-E68D-8B9CB9619C7C">
+<createdBy>jtimothycollier</createdBy>
+<createdTime>2019-07-02 05:04:02 UTC</createdTime>
+<generatorID>B4B74F54-1AE0-D504-B57D-67CFB852AE3B</generatorID>
+<ownerDesignName>MacLoggerDX_Project</ownerDesignName>
+<engineerTo>
+<item key="FC57F434-133F-87AF-675A-2915278B34DE" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>D8859897-F332-FB06-FAAB-AF0470021D1A</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="&apos;contest id&apos;" id="9758EA93-B1DB-CC01-C849-0930DA72F2C3">
+<createdBy>jtimothycollier</createdBy>
+<createdTime>2019-07-02 05:04:02 UTC</createdTime>
+<generatorID>71D7C8DE-0CE5-FDAB-4917-AAC42C59A9FC</generatorID>
+<ownerDesignName>MacLoggerDX_Project</ownerDesignName>
+<engineerTo>
+<item key="FC57F434-133F-87AF-675A-2915278B34DE" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT040</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="&apos;my sota&apos;" id="C395022D-BD31-63C2-9236-BDA41FB5EF26">
+<createdBy>jtimothycollier</createdBy>
+<createdTime>2019-07-02 05:04:02 UTC</createdTime>
+<generatorID>CE773F77-BEB7-2420-6886-62DC3114A427</generatorID>
+<ownerDesignName>MacLoggerDX_Project</ownerDesignName>
+<engineerTo>
+<item key="FC57F434-133F-87AF-675A-2915278B34DE" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT040</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="&apos;skcc&apos;" id="3500D407-7957-2E04-363A-9A443C44FFAE">
+<createdBy>jtimothycollier</createdBy>
+<createdTime>2019-07-02 05:04:02 UTC</createdTime>
+<generatorID>FA1C97B1-BA17-A202-4F77-3311F5F55084</generatorID>
+<ownerDesignName>MacLoggerDX_Project</ownerDesignName>
+<engineerTo>
+<item key="FC57F434-133F-87AF-675A-2915278B34DE" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT040</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="91505499-A9B9-7355-7DBF-F961D1F8F878" name="qso table v007 PK">
+<createdBy>jtimothycollier</createdBy>
+<createdTime>2019-07-02 05:04:02 UTC</createdTime>
+<generatorID>4F1A969A-81DB-8C82-8873-19BC37B53B19</generatorID>
+<ownerDesignName>MacLoggerDX_Project</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="FC57F434-133F-87AF-675A-2915278B34DE" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>5622EC61-2757-4973-157E-75A143DCE2F5</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

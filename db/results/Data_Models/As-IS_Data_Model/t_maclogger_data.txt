@@ -1,0 +1,63 @@
+create table t_maclogger_data (
+pk	5	varchar2(5)
+my_grid	6	varchar2(6)
+my_call	6	varchar2(6)
+my_rig	15	varchar2(15)
+call	6	varchar2(6)
+first_name	25	varchar2(25)
+last_name	25	varchar2(25)
+street	50	varchar2(50)
+city	25	varchar2(25)
+county	25	varchar2(25)
+state	2	varchar2(2)
+postal_country	20	varchar2(20)
+zip	10	varchar2(10)
+grid	4	varchar2(4)
+dxcc_country	4	varchar2(4)
+iota	4	varchar2(4)
+sota	10	varchar2(10)
+cq_zone	4	varchar2(4)
+itu	10	varchar2(10)
+ten_ten	10	varchar2(10)
+email	30	varchar2(30)
+url	35	varchar2(35)
+mode	10	varchar2(10)
+band_rx	10	varchar2(10)
+band_tx	10	varchar2(10)
+rst_sent	3	varchar2(3)
+rst_received	3	varchar2(3)
+qsl_via	10	varchar2(10)
+qsl_sent	10	varchar2(10)
+qsl_received	10	varchar2(10)
+srx	10	varchar2(10)
+stx	10	varchar2(10)
+comments	25	varchar2(25)
+satellite	10	varchar2(10)
+qso_start	16	REAL
+qso_done	16	REAL
+latitude	16	REAL
+longitude	17	REAL
+tx_frequency		REAL
+rx_frequency		REAL
+azimuth		REAL
+elevation		REAL
+power		REAL
+srx_numeric		INTEGER
+stx_numeric		INTEGER
+dxcc_id		INTEGER
+contest_id	20	varchar2(20)
+my_sota	10	varchar2(10)
+skcc	10	varchar2(10)
+pota	20	varchar2(20)
+my_pota	20	varchar2(20)
+wwff	10	varchar2(10)
+my_wwff	10	varchar2(10)
+sig	10	varchar2(10)
+my_sig	10	varchar2(10)
+sig_info	10	varchar2(10)
+my_sig_info	10	varchar2(10)
+ext_val_1	10	varchar2(10)
+ext_val_2	10	varchar2(10)
+ext_val_3	10	varchar2(10)
+ext_val_4	10	varchar2(10)
+distance	10	REAL)

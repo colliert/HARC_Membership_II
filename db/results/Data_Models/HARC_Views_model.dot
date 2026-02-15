@@ -1,0 +1,30 @@
+digraph "v_call_out_cutoff_days" {
+
+splines  = ortho;
+fontname = "Inconsolata";
+
+node [colorscheme = ylgnbu4];
+edge [colorscheme = dark28, dir = both];
+
+v_call_out_cutoff_days            [shape = record, label = "{ v_call_out_cutoff_days |  dat_est : text\l  num_days : integer\l }"];
+v_checkins_most_recent_net        [shape = record, label = "{ v_checkins_most_recent_net |  call : text\l  f_nam : text\l  l_nam : text\l  UTC_Checkin_Date : text\l  UTC_Time : text\l  Member_Status : unknown\l }"];
+v_count_qso_by_date               [shape = record, label = "{ v_count_qso_by_date |  qso_date : text\l  count(qso_date) : unknown\l }"];
+v_current_call_out_cutoff_days    [shape = record, label = "{ v_current_call_out_cutoff_days |  current_num_days : integer\l }"];
+v_harc_snn_callout_roster         [shape = record, label = "{ v_harc_snn_callout_roster |  Callsign : text\l  First Name : unknown\l  Last Name : text\l  Member : unknown\l  Comments : unknown\l  Cutoff_Days : integer\l }"];
+v_harc_snn_callout_roster_random  [shape = record, label = "{ v_harc_snn_callout_roster_random |  callsign : text\l  first name : unknown\l  last name : text\l  member : unknown\l  comments : unknown\l  Cutoff_Days : integer\l }"];
+v_harc_snn_callout_roster_reverse [shape = record, label = "{ v_harc_snn_callout_roster_reverse |  callsign : text\l  first name : unknown\l  last name : text\l  member : unknown\l  comments : unknown\l  Cutoff_Days : integer\l }"];
+v_harc_snn_callout_roster_suffix  [shape = record, label = "{ v_harc_snn_callout_roster_suffix |  callsign : text\l  first name : unknown\l  last name : text\l  member : unknown\l  comments : unknown\l  Cutoff_Days : integer\l }"];
+v_hcol_export                     [shape = record, label = "{ v_hcol_export |  mem_num : numeric\l  roster : text\l  f_nam : text\l  pref_nam : text\l  l_nam : text\l  call : text\l  lic_cls : text\l  lic_exp_dat : text\l  lic_num : text\l  lic_agncy : text\l  street : text\l  city : text\l  st : text\l  zip : text\l  country_cd : text\l  lat : numeric\l  lon : numeric\l  elev : numeric\l  hcol_emal : text\l  hcol_email_stat : text\l  club_email : text\l  club_email_stat : text\l  phone_pri : text\l  phone_pri_typ : text\l  phone_pri_pub : text\l  phone_alt : text\l  phone_alt_typ : text\l  phone_alt_pub : text\l  emer_cntct : text\l  join_dat : text\l  left_dat : text\l  club_rank : text\l  club_pos : text\l  dele : text\l  mem_typ : text\l  mem_exp_dat : text\l  club_bal : numeric\l  dob : text\l  priv_mem : numeric\l  tz : text\l  lst_login : text\l  role_cnt : numeric\l }"];
+v_maint_add_as_mem                [shape = record, label = "{ v_maint_add_as_mem |  call : text\l  f_nam : text\l  l_nam : text\l  roster : text\l }"];
+v_maint_add_person_to_pers        [shape = record, label = "{ v_maint_add_person_to_pers |  call : text\l  net_id : text\l  f_nam : text\l  l_nam : text\l  qso_date : text\l }"];
+v_maint_cha_nonmember_to_member   [shape = record, label = "{ v_maint_cha_nonmember_to_member |  call : text\l  f_nam : text\l  l_nam : text\l  roster : text\l }"];
+v_maint_latest_hcol_join_date     [shape = record, label = "{ v_maint_latest_hcol_join_date |  call : text\l  First_Name : text\l  Last_Name : text\l  Latest_Join_Date : unknown\l }"];
+v_maint_remove_as_member          [shape = record, label = "{ v_maint_remove_as_member |  pers_call : text\l  pers_f_nam : text\l  pers_l_nam : text\l }"];
+v_maint_show_dupes                [shape = record, label = "{ v_maint_show_dupes |  item_checked : blob\l  dupe_type : unknown\l  num_found : unknown\l }"];
+v_net_qso                         [shape = record, label = "{ v_net_qso |  QSO_Key : numeric\l  call : text\l  net_id : text\l  f_nam : text\l  l_nam : text\l  qso_date : text\l  qso_time : text\l }"];
+v_pers                            [shape = record, label = "{ v_pers |  pers_call : text\l  pers_f_nam : text\l  pers_m_nam : text\l  pers_l_nam : text\l  pers_pref_nam : text\l  pers_typ_cd : number\l }"];
+v_potential_callout_roster_size   [shape = record, label = "{ v_potential_callout_roster_size |  Days_since_last_checkin : unknown\l  Potential_number_of_callouts : unknown\l }"];
+v_qso_table_v008                  [shape = record, label = "{ v_qso_table_v008 |  }"];
+
+
+}

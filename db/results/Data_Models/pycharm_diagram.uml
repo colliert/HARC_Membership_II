@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>DATABASE</ID>
+  <OriginalElement>c59680ea-b886-425f-8955-d7473957ec78.TABLE:main.qso_table_v008</OriginalElement>
+  <nodes>
+    <node x="-4726.642857142857" y="-444.5">c59680ea-b886-425f-8955-d7473957ec78.TABLE:main.t_hcol_export</node>
+    <node x="-4473.732142857142" y="-444.5">c59680ea-b886-425f-8955-d7473957ec78.TABLE:main.t_net_qso</node>
+    <node x="-4484.732142857142" y="100.9566326530612">c59680ea-b886-425f-8955-d7473957ec78.TABLE:main.t_pers</node>
+    <node x="-4933.073979591837" y="-444.5">c59680ea-b886-425f-8955-d7473957ec78.TABLE:main.qso_table_v008</node>
+    <node x="-4487.732142857142" y="-94.57287755102072">c59680ea-b886-425f-8955-d7473957ec78.TABLE:main.t_pers_typ</node>
+    <node x="-4509.232142857142" y="382.53155918367366">c59680ea-b886-425f-8955-d7473957ec78.TABLE:main.t_call_out_cutoff_days</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="c59680ea-b886-425f-8955-d7473957ec78.TABLE:main.t_pers" target="c59680ea-b886-425f-8955-d7473957ec78.TABLE:main.t_pers_typ" relationship="REFERENCES">
+      <point x="0.0" y="-92.5" />
+      <point x="-4404.732142857142" y="160.0" />
+      <point x="-4406.232142857142" y="160.0" />
+      <point x="0.0" y="44.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Compact" zoom="1.0138042902542375" showDependencies="false" x="-4437.750693877551" y="-231.43291428571433" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Columns</Category>
+    <Category>Comments</Category>
+    <Category>Key columns</Category>
+    <Category>Virtual foreign keys</Category>
+  </Categories>
+</Diagram>
+

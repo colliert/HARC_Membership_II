@@ -1,0 +1,134 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="31B15A74-F9A9-006F-3552-EB23A11EDAD1" name="t_pers">
+<createdBy>tcollier</createdBy>
+<createdTime>2020-10-30 22:42:30 UTC</createdTime>
+<generatorID>7F6899A9-D330-6EBB-B413-FA52DD0B1A31</generatorID>
+<ownerDesignName>SNN_data_model</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="mem_call" id="36ADDF10-1AF3-AA99-63A7-40E01391FBDD">
+<createdBy>tcollier</createdBy>
+<createdTime>2020-10-30 22:42:30 UTC</createdTime>
+<generatorID>3C661828-F0E3-2C0F-BC1D-D5822668B020</generatorID>
+<ownerDesignName>SNN_data_model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="mem_f_nam" id="85D71F03-01EB-4395-4C9D-60556DB22FD9">
+<createdBy>tcollier</createdBy>
+<createdTime>2020-10-30 22:42:30 UTC</createdTime>
+<generatorID>15D3FE5A-468F-C922-F409-C68FA46FF61C</generatorID>
+<ownerDesignName>SNN_data_model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="mem_m_nam" id="F93770EA-24E4-950F-B52D-A5F4077B0021">
+<createdBy>tcollier</createdBy>
+<createdTime>2020-10-30 22:42:30 UTC</createdTime>
+<generatorID>6E573F9C-1FCB-B9C1-67DC-B905F4DBBFB9</generatorID>
+<ownerDesignName>SNN_data_model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="mem_l_nam" id="8541C45D-B2AB-83E2-5733-2C75F3FC5D58">
+<createdBy>tcollier</createdBy>
+<createdTime>2020-10-30 22:42:30 UTC</createdTime>
+<generatorID>594458D6-BA3B-85BB-507D-55F70F452E0D</generatorID>
+<ownerDesignName>SNN_data_model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="mem_nicknam" id="D6970936-002D-C467-2AA6-002CCFFD8936">
+<createdBy>tcollier</createdBy>
+<createdTime>2020-10-30 22:42:30 UTC</createdTime>
+<generatorID>1D6B4D1D-CC3C-B9E6-279B-6A898A7DE617</generatorID>
+<ownerDesignName>SNN_data_model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="mem_lic_class" id="834C4B71-BDD6-6E05-9D17-42598DE00D70">
+<createdBy>tcollier</createdBy>
+<createdTime>2020-10-30 22:42:30 UTC</createdTime>
+<generatorID>D597FB9A-64D9-1C42-994E-90D011644809</generatorID>
+<ownerDesignName>SNN_data_model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Person_Type_Code" id="3B5AA539-7DB9-562C-62E3-3D28257B1DC2">
+<createdBy>tcollier</createdBy>
+<createdTime>2020-10-30 22:42:30 UTC</createdTime>
+<generatorID>AD1F3779-5765-79FE-284E-AAD69D47A484</generatorID>
+<ownerDesignName>SNN_data_model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Person_Typev1_per_typ_cd" id="73BB956D-FF6C-FED5-6C19-CA16D212F203">
+<createdBy>tcollier</createdBy>
+<createdTime>2020-10-30 22:42:30 UTC</createdTime>
+<generatorID>0126E802-D6D8-0DD8-5419-1B04743F744C</generatorID>
+<ownerDesignName>SNN_data_model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="BC98EAF5-8D75-1150-3096-7C68C0EC3052" referredColumn="FB12C3A3-240A-D83A-B2C9-D4B13CE94D1F"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="B7EAE327-C2CD-3782-3F82-81027174E704" name="Person_PK">
+<createdBy>tcollier</createdBy>
+<createdTime>2020-10-30 22:42:30 UTC</createdTime>
+<generatorID>19EB4883-F0A4-DBFB-407D-B32761F49306</generatorID>
+<ownerDesignName>SNN_data_model</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="36ADDF10-1AF3-AA99-63A7-40E01391FBDD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="17197238-CDF0-70AF-1684-384EF460EE10" name="t_pers_t_pers_typ_FK">
+<createdBy>tcollier</createdBy>
+<createdTime>2020-10-30 22:42:30 UTC</createdTime>
+<generatorID>280A40DB-2C98-88C4-96C1-9F2EA64A10D1</generatorID>
+<ownerDesignName>SNN_data_model</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="73BB956D-FF6C-FED5-6C19-CA16D212F203"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

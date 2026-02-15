@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableView class="oracle.dbtools.crest.model.design.relational.TableView" directorySegmentName="seg_0" id="AAA04844-90DB-42CE-0A86-C0DEAE3452D5" name="v_snn_latest_net_checkin_count">
+<sourceDDLFile>HARC_SNN_DDL_Modified.sql</sourceDDLFile>
+<createdBy>tcollier</createdBy>
+<createdTime>2023-12-10 01:28:01 UTC</createdTime>
+<ownerDesignName>HARC_SNN_Data_Model_V3</ownerDesignName>
+<importedID>95CA494E-B2A0-2C47-8D95-D6A449E84946</importedID>
+<userDefined>true</userDefined>
+<userDefinedSQL><![CDATA[select count(qso_start) as 'Checkins'
+        ,date(qso_start,'unixepoch') as 'Net_Date'
+from v_qso_table_v008
+where date(qso_start,'unixepoch') in 
+            (select  date((select max(qso_start) 
+            from v_qso_table_v008),'unixepoch') as 'Latest_Net_Date')]]></userDefinedSQL>
+<validSQL>false</validSQL>
+</TableView>

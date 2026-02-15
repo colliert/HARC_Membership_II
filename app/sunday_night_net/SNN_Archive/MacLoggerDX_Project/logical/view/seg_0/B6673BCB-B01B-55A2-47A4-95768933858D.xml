@@ -1,0 +1,906 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<EntityView class="oracle.dbtools.crest.model.design.logical.EntityView" directorySegmentName="seg_0" id="B6673BCB-B01B-55A2-47A4-95768933858D" name="qso_table_v007 View">
+<createdBy>tcollier</createdBy>
+<createdTime>2019-07-12 21:26:38 UTC</createdTime>
+<ownerDesignName>MacLoggerDX_Project</ownerDesignName>
+<engineerTo>
+<item key="FC57F434-133F-87AF-675A-2915278B34DE" value="true"/>
+</engineerTo>
+<userDefined>true</userDefined>
+<userDefinedSQL>select *&lt;br/&gt;from &quot;qso table v007&quot;;</userDefinedSQL>
+<parsed>true</parsed>
+<viewType>EntityView</viewType>
+<usedContainers>
+<container containerID="A4BB377A-48F1-C1DA-38CA-64F38DEA6C3E"/>
+</usedContainers>
+<viewElements>
+<viewElement class="oracle.dbtools.crest.model.design.logical.AttributeView" name="Primary Key" id="880B7B7C-30B3-480F-E38B-D6A622FF4DCE">
+<createdBy>tcollier</createdBy>
+<createdTime>2019-07-12 21:28:27 UTC</createdTime>
+<ownerDesignName>MacLoggerDX_Project</ownerDesignName>
+<engineerTo>
+<item key="FC57F434-133F-87AF-675A-2915278B34DE" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>INTEGER</dataType>
+<reference>false</reference>
+<referencedColumn>5622EC61-2757-4973-157E-75A143DCE2F5</referencedColumn>
+<table>A4BB377A-48F1-C1DA-38CA-64F38DEA6C3E</table>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.logical.AttributeView" name="My Grid" id="3E94A24E-AB55-F8C4-E0F9-24A2ADF4E701">
+<createdBy>tcollier</createdBy>
+<createdTime>2019-07-12 21:28:27 UTC</createdTime>
+<ownerDesignName>MacLoggerDX_Project</ownerDesignName>
+<engineerTo>
+<item key="FC57F434-133F-87AF-675A-2915278B34DE" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>CLOB</dataType>
+<reference>false</reference>
+<referencedColumn>875B6C4B-E684-9F63-E463-C9EEE7FC4326</referencedColumn>
+<table>A4BB377A-48F1-C1DA-38CA-64F38DEA6C3E</table>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.logical.AttributeView" name="My Call Sign" id="14431D7F-3F0A-9E63-F8E2-9329CFBF6392">
+<createdBy>tcollier</createdBy>
+<createdTime>2019-07-12 21:28:27 UTC</createdTime>
+<ownerDesignName>MacLoggerDX_Project</ownerDesignName>
+<engineerTo>
+<item key="FC57F434-133F-87AF-675A-2915278B34DE" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>CLOB</dataType>
+<reference>false</reference>
+<referencedColumn>1EFB3FA4-3BE7-D228-EF5B-20E70383E68B</referencedColumn>
+<table>A4BB377A-48F1-C1DA-38CA-64F38DEA6C3E</table>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.logical.AttributeView" name="My Radio" id="CA38A6CB-9DE1-8A7D-7EDA-CC9D1245B44C">
+<createdBy>tcollier</createdBy>
+<createdTime>2019-07-12 21:28:27 UTC</createdTime>
+<ownerDesignName>MacLoggerDX_Project</ownerDesignName>
+<engineerTo>
+<item key="FC57F434-133F-87AF-675A-2915278B34DE" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>CLOB</dataType>
+<reference>false</reference>
+<referencedColumn>5D4488B3-739A-6376-1A69-BD9027A47334</referencedColumn>
+<table>A4BB377A-48F1-C1DA-38CA-64F38DEA6C3E</table>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.logical.AttributeView" name="Call Sign" id="B998A73F-BE8D-AA47-2827-8265334CE7AE">
+<createdBy>tcollier</createdBy>
+<createdTime>2019-07-12 21:28:27 UTC</createdTime>
+<ownerDesignName>MacLoggerDX_Project</ownerDesignName>
+<engineerTo>
+<item key="FC57F434-133F-87AF-675A-2915278B34DE" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>CLOB</dataType>
+<reference>false</reference>
+<referencedColumn>78C05A9B-9D05-D1B4-C8C5-BDA577889ACC</referencedColumn>
+<table>A4BB377A-48F1-C1DA-38CA-64F38DEA6C3E</table>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.logical.AttributeView" name="&apos;first name&apos;" id="81AAFD32-5CAF-0A83-5978-DA428C979EB7">
+<createdBy>tcollier</createdBy>
+<createdTime>2019-07-12 21:28:27 UTC</createdTime>
+<ownerDesignName>MacLoggerDX_Project</ownerDesignName>
+<engineerTo>
+<item key="FC57F434-133F-87AF-675A-2915278B34DE" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>CLOB</dataType>
+<reference>false</reference>
+<referencedColumn>9CB3BDE8-E0A1-D955-76E1-FD714393D021</referencedColumn>
+<table>A4BB377A-48F1-C1DA-38CA-64F38DEA6C3E</table>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.logical.AttributeView" name="&apos;last name&apos;" id="843C13D0-01D8-C6D8-5A5A-BC3151B2B8D1">
+<createdBy>tcollier</createdBy>
+<createdTime>2019-07-12 21:28:27 UTC</createdTime>
+<ownerDesignName>MacLoggerDX_Project</ownerDesignName>
+<engineerTo>
+<item key="FC57F434-133F-87AF-675A-2915278B34DE" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>CLOB</dataType>
+<reference>false</reference>
+<referencedColumn>C0F5FAA1-0025-48D3-513E-D96097419B72</referencedColumn>
+<table>A4BB377A-48F1-C1DA-38CA-64F38DEA6C3E</table>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.logical.AttributeView" name="&apos;street&apos;" id="12E0E136-A57E-8BB8-48B3-E9F5A5A7489A">
+<createdBy>tcollier</createdBy>
+<createdTime>2019-07-12 21:28:27 UTC</createdTime>
+<ownerDesignName>MacLoggerDX_Project</ownerDesignName>
+<engineerTo>
+<item key="FC57F434-133F-87AF-675A-2915278B34DE" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>CLOB</dataType>
+<reference>false</reference>
+<referencedColumn>FF0F59F8-EE0A-C5D7-EE67-0F75990AAE9C</referencedColumn>
+<table>A4BB377A-48F1-C1DA-38CA-64F38DEA6C3E</table>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.logical.AttributeView" name="&apos;city&apos;" id="C21F79ED-FD01-3B3D-CC88-9F0A78A2D164">
+<createdBy>tcollier</createdBy>
+<createdTime>2019-07-12 21:28:27 UTC</createdTime>
+<ownerDesignName>MacLoggerDX_Project</ownerDesignName>
+<engineerTo>
+<item key="FC57F434-133F-87AF-675A-2915278B34DE" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>CLOB</dataType>
+<reference>false</reference>
+<referencedColumn>94CCA460-147A-A2EC-04A7-90229F55BA60</referencedColumn>
+<table>A4BB377A-48F1-C1DA-38CA-64F38DEA6C3E</table>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.logical.AttributeView" name="&apos;county&apos;" id="F159164B-541E-99E6-3589-9937D3819C0F">
+<createdBy>tcollier</createdBy>
+<createdTime>2019-07-12 21:28:27 UTC</createdTime>
+<ownerDesignName>MacLoggerDX_Project</ownerDesignName>
+<engineerTo>
+<item key="FC57F434-133F-87AF-675A-2915278B34DE" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>CLOB</dataType>
+<reference>false</reference>
+<referencedColumn>37ED177E-37A6-FCEA-FE91-4445FAB3C876</referencedColumn>
+<table>A4BB377A-48F1-C1DA-38CA-64F38DEA6C3E</table>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.logical.AttributeView" name="&apos;state&apos;" id="C55CC40E-B036-2113-D845-5F3B82544035">
+<createdBy>tcollier</createdBy>
+<createdTime>2019-07-12 21:28:27 UTC</createdTime>
+<ownerDesignName>MacLoggerDX_Project</ownerDesignName>
+<engineerTo>
+<item key="FC57F434-133F-87AF-675A-2915278B34DE" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>CLOB</dataType>
+<reference>false</reference>
+<referencedColumn>0212DF3D-2AC3-C542-A359-53A9786CFBE4</referencedColumn>
+<table>A4BB377A-48F1-C1DA-38CA-64F38DEA6C3E</table>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.logical.AttributeView" name="&apos;postal country&apos;" id="344452DE-38D9-A970-EBDD-5079706CC36E">
+<createdBy>tcollier</createdBy>
+<createdTime>2019-07-12 21:28:27 UTC</createdTime>
+<ownerDesignName>MacLoggerDX_Project</ownerDesignName>
+<engineerTo>
+<item key="FC57F434-133F-87AF-675A-2915278B34DE" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>CLOB</dataType>
+<reference>false</reference>
+<referencedColumn>6ACCE1A0-7ABA-8E96-57B1-4EBD01FA785B</referencedColumn>
+<table>A4BB377A-48F1-C1DA-38CA-64F38DEA6C3E</table>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.logical.AttributeView" name="&apos;zip&apos;" id="DCA882CD-CA47-78B8-3797-EBA8A778AA75">
+<createdBy>tcollier</createdBy>
+<createdTime>2019-07-12 21:28:27 UTC</createdTime>
+<ownerDesignName>MacLoggerDX_Project</ownerDesignName>
+<engineerTo>
+<item key="FC57F434-133F-87AF-675A-2915278B34DE" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>CLOB</dataType>
+<reference>false</reference>
+<referencedColumn>1263C5BA-537A-C45A-3479-A45863438AA0</referencedColumn>
+<table>A4BB377A-48F1-C1DA-38CA-64F38DEA6C3E</table>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.logical.AttributeView" name="&apos;grid&apos;" id="6784F186-FB61-28BC-94DC-C3173BB12357">
+<createdBy>tcollier</createdBy>
+<createdTime>2019-07-12 21:28:27 UTC</createdTime>
+<ownerDesignName>MacLoggerDX_Project</ownerDesignName>
+<engineerTo>
+<item key="FC57F434-133F-87AF-675A-2915278B34DE" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>CLOB</dataType>
+<reference>false</reference>
+<referencedColumn>ACE03F67-67BA-C690-FCA7-D7F37309C857</referencedColumn>
+<table>A4BB377A-48F1-C1DA-38CA-64F38DEA6C3E</table>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.logical.AttributeView" name="&apos;dxcc country&apos;" id="FAC686FC-920A-EE45-FE9B-C3E1BB0FB506">
+<createdBy>tcollier</createdBy>
+<createdTime>2019-07-12 21:28:27 UTC</createdTime>
+<ownerDesignName>MacLoggerDX_Project</ownerDesignName>
+<engineerTo>
+<item key="FC57F434-133F-87AF-675A-2915278B34DE" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>CLOB</dataType>
+<reference>false</reference>
+<referencedColumn>2170F182-01D1-B4A2-0C4E-6723D08F9ED1</referencedColumn>
+<table>A4BB377A-48F1-C1DA-38CA-64F38DEA6C3E</table>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.logical.AttributeView" name="&apos;iota&apos;" id="321F4E4E-E621-ED7F-C01D-9D4F0C1A587F">
+<createdBy>tcollier</createdBy>
+<createdTime>2019-07-12 21:28:27 UTC</createdTime>
+<ownerDesignName>MacLoggerDX_Project</ownerDesignName>
+<engineerTo>
+<item key="FC57F434-133F-87AF-675A-2915278B34DE" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>CLOB</dataType>
+<reference>false</reference>
+<referencedColumn>5EBDB15E-56EB-6285-EBEB-F15CAF788626</referencedColumn>
+<table>A4BB377A-48F1-C1DA-38CA-64F38DEA6C3E</table>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.logical.AttributeView" name="&apos;sota&apos;" id="9F3ED351-7CAB-6DEF-A23F-8CC7D2C01815">
+<createdBy>tcollier</createdBy>
+<createdTime>2019-07-12 21:28:27 UTC</createdTime>
+<ownerDesignName>MacLoggerDX_Project</ownerDesignName>
+<engineerTo>
+<item key="FC57F434-133F-87AF-675A-2915278B34DE" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>CLOB</dataType>
+<reference>false</reference>
+<referencedColumn>BF6259C0-D9F2-7D90-6986-967DB34105CC</referencedColumn>
+<table>A4BB377A-48F1-C1DA-38CA-64F38DEA6C3E</table>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.logical.AttributeView" name="&apos;cq zone&apos;" id="00A5F265-AB34-C556-54D1-730E13248001">
+<createdBy>tcollier</createdBy>
+<createdTime>2019-07-12 21:28:27 UTC</createdTime>
+<ownerDesignName>MacLoggerDX_Project</ownerDesignName>
+<engineerTo>
+<item key="FC57F434-133F-87AF-675A-2915278B34DE" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>CLOB</dataType>
+<reference>false</reference>
+<referencedColumn>E2E81AF4-D714-AF6C-E768-1AF30B6BBE1E</referencedColumn>
+<table>A4BB377A-48F1-C1DA-38CA-64F38DEA6C3E</table>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.logical.AttributeView" name="&apos;itu&apos;" id="95BBB729-36F9-1EEE-D654-17F86F43F3BC">
+<createdBy>tcollier</createdBy>
+<createdTime>2019-07-12 21:28:27 UTC</createdTime>
+<ownerDesignName>MacLoggerDX_Project</ownerDesignName>
+<engineerTo>
+<item key="FC57F434-133F-87AF-675A-2915278B34DE" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>CLOB</dataType>
+<reference>false</reference>
+<referencedColumn>85D6D8FA-1CB6-AF97-6A19-BFF8C3D1D863</referencedColumn>
+<table>A4BB377A-48F1-C1DA-38CA-64F38DEA6C3E</table>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.logical.AttributeView" name="&apos;ten ten&apos;" id="56AA4DF6-6860-CD51-B5C6-CC903CE9379D">
+<createdBy>tcollier</createdBy>
+<createdTime>2019-07-12 21:28:27 UTC</createdTime>
+<ownerDesignName>MacLoggerDX_Project</ownerDesignName>
+<engineerTo>
+<item key="FC57F434-133F-87AF-675A-2915278B34DE" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>CLOB</dataType>
+<reference>false</reference>
+<referencedColumn>A5A1899F-2744-9B49-B90B-C74ECEC0A30B</referencedColumn>
+<table>A4BB377A-48F1-C1DA-38CA-64F38DEA6C3E</table>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.logical.AttributeView" name="&apos;email&apos;" id="21F7DE2F-15E9-F638-CB55-A02EE0F1489F">
+<createdBy>tcollier</createdBy>
+<createdTime>2019-07-12 21:28:27 UTC</createdTime>
+<ownerDesignName>MacLoggerDX_Project</ownerDesignName>
+<engineerTo>
+<item key="FC57F434-133F-87AF-675A-2915278B34DE" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>CLOB</dataType>
+<reference>false</reference>
+<referencedColumn>59E03909-3BA0-8360-2BEB-35CBD08933DC</referencedColumn>
+<table>A4BB377A-48F1-C1DA-38CA-64F38DEA6C3E</table>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.logical.AttributeView" name="&apos;url&apos;" id="7CEC530D-1B0F-60D4-B099-AA50391040D7">
+<createdBy>tcollier</createdBy>
+<createdTime>2019-07-12 21:28:27 UTC</createdTime>
+<ownerDesignName>MacLoggerDX_Project</ownerDesignName>
+<engineerTo>
+<item key="FC57F434-133F-87AF-675A-2915278B34DE" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>CLOB</dataType>
+<reference>false</reference>
+<referencedColumn>4B129FDE-4697-183B-73C8-EF8E81BD7423</referencedColumn>
+<table>A4BB377A-48F1-C1DA-38CA-64F38DEA6C3E</table>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.logical.AttributeView" name="&apos;mode&apos;" id="35F10381-2E6C-A3F5-20F6-3A9761510774">
+<createdBy>tcollier</createdBy>
+<createdTime>2019-07-12 21:28:27 UTC</createdTime>
+<ownerDesignName>MacLoggerDX_Project</ownerDesignName>
+<engineerTo>
+<item key="FC57F434-133F-87AF-675A-2915278B34DE" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>CLOB</dataType>
+<reference>false</reference>
+<referencedColumn>3DCDE819-A138-921D-D7FD-1F6B9EBC6A5D</referencedColumn>
+<table>A4BB377A-48F1-C1DA-38CA-64F38DEA6C3E</table>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.logical.AttributeView" name="&apos;band rx&apos;" id="806BB8F8-2017-10D3-4FF0-796A99F24E84">
+<createdBy>tcollier</createdBy>
+<createdTime>2019-07-12 21:28:27 UTC</createdTime>
+<ownerDesignName>MacLoggerDX_Project</ownerDesignName>
+<engineerTo>
+<item key="FC57F434-133F-87AF-675A-2915278B34DE" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>CLOB</dataType>
+<reference>false</reference>
+<referencedColumn>7B2C8837-DE2A-67CD-8BA5-9904C3955171</referencedColumn>
+<table>A4BB377A-48F1-C1DA-38CA-64F38DEA6C3E</table>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.logical.AttributeView" name="&apos;band tx&apos;" id="034F34F7-97C2-DEA7-11F8-08CBC6A9052A">
+<createdBy>tcollier</createdBy>
+<createdTime>2019-07-12 21:28:27 UTC</createdTime>
+<ownerDesignName>MacLoggerDX_Project</ownerDesignName>
+<engineerTo>
+<item key="FC57F434-133F-87AF-675A-2915278B34DE" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>CLOB</dataType>
+<reference>false</reference>
+<referencedColumn>2D5BAA0D-67E7-AF4D-49F2-F0063C6F4879</referencedColumn>
+<table>A4BB377A-48F1-C1DA-38CA-64F38DEA6C3E</table>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.logical.AttributeView" name="&apos;rst sent&apos;" id="65AE47AD-7F9E-5167-CC48-0C37FCC7E960">
+<createdBy>tcollier</createdBy>
+<createdTime>2019-07-12 21:28:27 UTC</createdTime>
+<ownerDesignName>MacLoggerDX_Project</ownerDesignName>
+<engineerTo>
+<item key="FC57F434-133F-87AF-675A-2915278B34DE" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>CLOB</dataType>
+<reference>false</reference>
+<referencedColumn>E04ACF4B-59C3-F017-DB50-8E0DE513582B</referencedColumn>
+<table>A4BB377A-48F1-C1DA-38CA-64F38DEA6C3E</table>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.logical.AttributeView" name="&apos;rst received&apos;" id="20035150-44BE-3AD1-54D1-532980B284EF">
+<createdBy>tcollier</createdBy>
+<createdTime>2019-07-12 21:28:27 UTC</createdTime>
+<ownerDesignName>MacLoggerDX_Project</ownerDesignName>
+<engineerTo>
+<item key="FC57F434-133F-87AF-675A-2915278B34DE" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>CLOB</dataType>
+<reference>false</reference>
+<referencedColumn>5FEA43F0-D8D5-1B0F-ED13-11BF4595F9B1</referencedColumn>
+<table>A4BB377A-48F1-C1DA-38CA-64F38DEA6C3E</table>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.logical.AttributeView" name="&apos;qsl via&apos;" id="DC235B32-BC09-C1D0-50B7-2CDD5F77074C">
+<createdBy>tcollier</createdBy>
+<createdTime>2019-07-12 21:28:27 UTC</createdTime>
+<ownerDesignName>MacLoggerDX_Project</ownerDesignName>
+<engineerTo>
+<item key="FC57F434-133F-87AF-675A-2915278B34DE" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>CLOB</dataType>
+<reference>false</reference>
+<referencedColumn>FDAB5195-42D2-33B7-FAA9-1481AB5853AC</referencedColumn>
+<table>A4BB377A-48F1-C1DA-38CA-64F38DEA6C3E</table>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.logical.AttributeView" name="&apos;qsl sent&apos;" id="950E94F9-EC2F-D51F-B314-3863D1A850B0">
+<createdBy>tcollier</createdBy>
+<createdTime>2019-07-12 21:28:27 UTC</createdTime>
+<ownerDesignName>MacLoggerDX_Project</ownerDesignName>
+<engineerTo>
+<item key="FC57F434-133F-87AF-675A-2915278B34DE" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>CLOB</dataType>
+<reference>false</reference>
+<referencedColumn>77F43ABA-5867-5014-6C01-7571CFD88050</referencedColumn>
+<table>A4BB377A-48F1-C1DA-38CA-64F38DEA6C3E</table>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.logical.AttributeView" name="&apos;qsl received&apos;" id="1C7C2750-AAD2-6F2D-29E2-706D20A13225">
+<createdBy>tcollier</createdBy>
+<createdTime>2019-07-12 21:28:27 UTC</createdTime>
+<ownerDesignName>MacLoggerDX_Project</ownerDesignName>
+<engineerTo>
+<item key="FC57F434-133F-87AF-675A-2915278B34DE" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>CLOB</dataType>
+<reference>false</reference>
+<referencedColumn>6420D74F-15B8-3F15-D90E-EDE1F0D6C49A</referencedColumn>
+<table>A4BB377A-48F1-C1DA-38CA-64F38DEA6C3E</table>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.logical.AttributeView" name="&apos;srx&apos;" id="0701476A-F07A-104A-8F3D-2E6E038B443C">
+<createdBy>tcollier</createdBy>
+<createdTime>2019-07-12 21:28:27 UTC</createdTime>
+<ownerDesignName>MacLoggerDX_Project</ownerDesignName>
+<engineerTo>
+<item key="FC57F434-133F-87AF-675A-2915278B34DE" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>CLOB</dataType>
+<reference>false</reference>
+<referencedColumn>B44E15A5-D9CC-BD6C-83E8-A6DC65C2212A</referencedColumn>
+<table>A4BB377A-48F1-C1DA-38CA-64F38DEA6C3E</table>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.logical.AttributeView" name="&apos;stx&apos;" id="002847B1-8F71-DF54-B910-38584B3ECAA7">
+<createdBy>tcollier</createdBy>
+<createdTime>2019-07-12 21:28:27 UTC</createdTime>
+<ownerDesignName>MacLoggerDX_Project</ownerDesignName>
+<engineerTo>
+<item key="FC57F434-133F-87AF-675A-2915278B34DE" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>CLOB</dataType>
+<reference>false</reference>
+<referencedColumn>830563CB-4180-2482-0430-C8EA15705568</referencedColumn>
+<table>A4BB377A-48F1-C1DA-38CA-64F38DEA6C3E</table>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.logical.AttributeView" name="&apos;comments&apos;" id="4B348290-5525-5314-B1B1-4F6A3D08E501">
+<createdBy>tcollier</createdBy>
+<createdTime>2019-07-12 21:28:27 UTC</createdTime>
+<ownerDesignName>MacLoggerDX_Project</ownerDesignName>
+<engineerTo>
+<item key="FC57F434-133F-87AF-675A-2915278B34DE" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>CLOB</dataType>
+<reference>false</reference>
+<referencedColumn>3EE26FB9-1911-15CB-C59A-B4F6558DF15B</referencedColumn>
+<table>A4BB377A-48F1-C1DA-38CA-64F38DEA6C3E</table>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.logical.AttributeView" name="&apos;satellite&apos;" id="771CD4AC-1A57-1F10-CC32-2662C8C0CB87">
+<createdBy>tcollier</createdBy>
+<createdTime>2019-07-12 21:28:27 UTC</createdTime>
+<ownerDesignName>MacLoggerDX_Project</ownerDesignName>
+<engineerTo>
+<item key="FC57F434-133F-87AF-675A-2915278B34DE" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>CLOB</dataType>
+<reference>false</reference>
+<referencedColumn>A3F23774-8C54-395B-39B2-3D2190F59C80</referencedColumn>
+<table>A4BB377A-48F1-C1DA-38CA-64F38DEA6C3E</table>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.logical.AttributeView" name="&apos;qso start&apos;" id="82E191EB-7A2C-D531-4B81-397FA70E8968">
+<createdBy>tcollier</createdBy>
+<createdTime>2019-07-12 21:28:27 UTC</createdTime>
+<ownerDesignName>MacLoggerDX_Project</ownerDesignName>
+<engineerTo>
+<item key="FC57F434-133F-87AF-675A-2915278B34DE" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>REAL</dataType>
+<reference>false</reference>
+<referencedColumn>A72187AD-31F4-E60E-62E5-7124F5EFD363</referencedColumn>
+<table>A4BB377A-48F1-C1DA-38CA-64F38DEA6C3E</table>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.logical.AttributeView" name="&apos;qso done&apos;" id="575A1F65-1F86-BB03-E5A3-72B42F4D2C0A">
+<createdBy>tcollier</createdBy>
+<createdTime>2019-07-12 21:28:27 UTC</createdTime>
+<ownerDesignName>MacLoggerDX_Project</ownerDesignName>
+<engineerTo>
+<item key="FC57F434-133F-87AF-675A-2915278B34DE" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>REAL</dataType>
+<reference>false</reference>
+<referencedColumn>3175C0BA-4766-B741-0194-1431750B495C</referencedColumn>
+<table>A4BB377A-48F1-C1DA-38CA-64F38DEA6C3E</table>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.logical.AttributeView" name="&apos;latitude&apos;" id="8F36C2CE-3FA4-F3D9-ED8D-7DE34F794BE2">
+<createdBy>tcollier</createdBy>
+<createdTime>2019-07-12 21:28:27 UTC</createdTime>
+<ownerDesignName>MacLoggerDX_Project</ownerDesignName>
+<engineerTo>
+<item key="FC57F434-133F-87AF-675A-2915278B34DE" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>REAL</dataType>
+<reference>false</reference>
+<referencedColumn>42600DCB-9BCD-443F-E1D7-60D8F82CEF86</referencedColumn>
+<table>A4BB377A-48F1-C1DA-38CA-64F38DEA6C3E</table>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.logical.AttributeView" name="&apos;longitude&apos;" id="421F8444-2650-44D3-7E02-4B05C05DBC4D">
+<createdBy>tcollier</createdBy>
+<createdTime>2019-07-12 21:28:27 UTC</createdTime>
+<ownerDesignName>MacLoggerDX_Project</ownerDesignName>
+<engineerTo>
+<item key="FC57F434-133F-87AF-675A-2915278B34DE" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>REAL</dataType>
+<reference>false</reference>
+<referencedColumn>B0963FC5-A84F-024F-063E-AABEF5D51836</referencedColumn>
+<table>A4BB377A-48F1-C1DA-38CA-64F38DEA6C3E</table>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.logical.AttributeView" name="&apos;tx frequency&apos;" id="FE7CA93A-D5A6-3802-76EF-2C2DBB0AE419">
+<createdBy>tcollier</createdBy>
+<createdTime>2019-07-12 21:28:27 UTC</createdTime>
+<ownerDesignName>MacLoggerDX_Project</ownerDesignName>
+<engineerTo>
+<item key="FC57F434-133F-87AF-675A-2915278B34DE" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>REAL</dataType>
+<reference>false</reference>
+<referencedColumn>35A01E48-DBA8-1F3D-2670-C206B28359AD</referencedColumn>
+<table>A4BB377A-48F1-C1DA-38CA-64F38DEA6C3E</table>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.logical.AttributeView" name="&apos;rx frequency&apos;" id="19DCE2E4-1A28-B0A1-EC5E-9A543191A5C0">
+<createdBy>tcollier</createdBy>
+<createdTime>2019-07-12 21:28:27 UTC</createdTime>
+<ownerDesignName>MacLoggerDX_Project</ownerDesignName>
+<engineerTo>
+<item key="FC57F434-133F-87AF-675A-2915278B34DE" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>REAL</dataType>
+<reference>false</reference>
+<referencedColumn>452C7F93-B2F5-F4E4-423E-A4978E10CA51</referencedColumn>
+<table>A4BB377A-48F1-C1DA-38CA-64F38DEA6C3E</table>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.logical.AttributeView" name="&apos;azimuth&apos;" id="EA23CEB2-1F70-9E6E-FAEA-854E8163753C">
+<createdBy>tcollier</createdBy>
+<createdTime>2019-07-12 21:28:27 UTC</createdTime>
+<ownerDesignName>MacLoggerDX_Project</ownerDesignName>
+<engineerTo>
+<item key="FC57F434-133F-87AF-675A-2915278B34DE" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>REAL</dataType>
+<reference>false</reference>
+<referencedColumn>AFEAD7CF-538E-2156-9766-C1C3EB75BDD5</referencedColumn>
+<table>A4BB377A-48F1-C1DA-38CA-64F38DEA6C3E</table>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.logical.AttributeView" name="&apos;elevation&apos;" id="0B4846B9-FD89-3C1E-0FAD-B788BF094A65">
+<createdBy>tcollier</createdBy>
+<createdTime>2019-07-12 21:28:27 UTC</createdTime>
+<ownerDesignName>MacLoggerDX_Project</ownerDesignName>
+<engineerTo>
+<item key="FC57F434-133F-87AF-675A-2915278B34DE" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>REAL</dataType>
+<reference>false</reference>
+<referencedColumn>6FF09687-A5DD-BF52-15EF-4B9D773E9E25</referencedColumn>
+<table>A4BB377A-48F1-C1DA-38CA-64F38DEA6C3E</table>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.logical.AttributeView" name="&apos;power&apos;" id="D428A71A-880F-60D1-A8FB-1BAE7F6CC0E4">
+<createdBy>tcollier</createdBy>
+<createdTime>2019-07-12 21:28:27 UTC</createdTime>
+<ownerDesignName>MacLoggerDX_Project</ownerDesignName>
+<engineerTo>
+<item key="FC57F434-133F-87AF-675A-2915278B34DE" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>REAL</dataType>
+<reference>false</reference>
+<referencedColumn>EA8844CA-8DF8-7A9E-CC08-F5EDF781D4DF</referencedColumn>
+<table>A4BB377A-48F1-C1DA-38CA-64F38DEA6C3E</table>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.logical.AttributeView" name="&apos;srx numeric&apos;" id="366A58B9-1FE0-2C2D-AFC5-819C71E46F4A">
+<createdBy>tcollier</createdBy>
+<createdTime>2019-07-12 21:28:27 UTC</createdTime>
+<ownerDesignName>MacLoggerDX_Project</ownerDesignName>
+<engineerTo>
+<item key="FC57F434-133F-87AF-675A-2915278B34DE" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>INTEGER</dataType>
+<reference>false</reference>
+<referencedColumn>E1017044-EC02-3B9C-1D51-8CA4F36A7C87</referencedColumn>
+<table>A4BB377A-48F1-C1DA-38CA-64F38DEA6C3E</table>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.logical.AttributeView" name="&apos;stx numeric&apos;" id="ACE9E490-CE4D-D751-6A23-71EB421315A4">
+<createdBy>tcollier</createdBy>
+<createdTime>2019-07-12 21:28:27 UTC</createdTime>
+<ownerDesignName>MacLoggerDX_Project</ownerDesignName>
+<engineerTo>
+<item key="FC57F434-133F-87AF-675A-2915278B34DE" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>INTEGER</dataType>
+<reference>false</reference>
+<referencedColumn>DC25E58C-E8EE-A663-2F55-2B9DACD9AD3B</referencedColumn>
+<table>A4BB377A-48F1-C1DA-38CA-64F38DEA6C3E</table>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.logical.AttributeView" name="&apos;dxcc id&apos;" id="A4259D98-CF8F-57C9-C614-63F82DEBE4EF">
+<createdBy>tcollier</createdBy>
+<createdTime>2019-07-12 21:28:27 UTC</createdTime>
+<ownerDesignName>MacLoggerDX_Project</ownerDesignName>
+<engineerTo>
+<item key="FC57F434-133F-87AF-675A-2915278B34DE" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>INTEGER</dataType>
+<reference>false</reference>
+<referencedColumn>CD7D9DA4-6F52-9272-E68D-8B9CB9619C7C</referencedColumn>
+<table>A4BB377A-48F1-C1DA-38CA-64F38DEA6C3E</table>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.logical.AttributeView" name="&apos;contest id&apos;" id="70E1256A-35E1-816C-873F-D42E76AE43EB">
+<createdBy>tcollier</createdBy>
+<createdTime>2019-07-12 21:28:27 UTC</createdTime>
+<ownerDesignName>MacLoggerDX_Project</ownerDesignName>
+<engineerTo>
+<item key="FC57F434-133F-87AF-675A-2915278B34DE" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>CLOB</dataType>
+<reference>false</reference>
+<referencedColumn>9758EA93-B1DB-CC01-C849-0930DA72F2C3</referencedColumn>
+<table>A4BB377A-48F1-C1DA-38CA-64F38DEA6C3E</table>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.logical.AttributeView" name="&apos;my sota&apos;" id="302C8DE9-7A8B-335C-2C42-F665BB4C6FBC">
+<createdBy>tcollier</createdBy>
+<createdTime>2019-07-12 21:28:27 UTC</createdTime>
+<ownerDesignName>MacLoggerDX_Project</ownerDesignName>
+<engineerTo>
+<item key="FC57F434-133F-87AF-675A-2915278B34DE" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>CLOB</dataType>
+<reference>false</reference>
+<referencedColumn>C395022D-BD31-63C2-9236-BDA41FB5EF26</referencedColumn>
+<table>A4BB377A-48F1-C1DA-38CA-64F38DEA6C3E</table>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.logical.AttributeView" name="&apos;skcc&apos;" id="4F9BA581-71F0-CFCE-E28B-C65B4E96F495">
+<createdBy>tcollier</createdBy>
+<createdTime>2019-07-12 21:28:27 UTC</createdTime>
+<ownerDesignName>MacLoggerDX_Project</ownerDesignName>
+<engineerTo>
+<item key="FC57F434-133F-87AF-675A-2915278B34DE" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>CLOB</dataType>
+<reference>false</reference>
+<referencedColumn>3500D407-7957-2E04-363A-9A443C44FFAE</referencedColumn>
+<table>A4BB377A-48F1-C1DA-38CA-64F38DEA6C3E</table>
+</viewElement>
+</viewElements>
+<usedObjects>
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="A4BB377A-48F1-C1DA-38CA-64F38DEA6C3E">
+<container>true</container>
+<tableName>qso table v007</tableName>
+</UsedObject>
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="5622EC61-2757-4973-157E-75A143DCE2F5">
+<columnName>Primary Key</columnName>
+<tableName>qso table v007</tableName>
+</UsedObject>
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="875B6C4B-E684-9F63-E463-C9EEE7FC4326">
+<columnName>My Grid</columnName>
+<tableName>qso table v007</tableName>
+</UsedObject>
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="1EFB3FA4-3BE7-D228-EF5B-20E70383E68B">
+<columnName>My Call Sign</columnName>
+<tableName>qso table v007</tableName>
+</UsedObject>
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="5D4488B3-739A-6376-1A69-BD9027A47334">
+<columnName>My Radio</columnName>
+<tableName>qso table v007</tableName>
+</UsedObject>
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="78C05A9B-9D05-D1B4-C8C5-BDA577889ACC">
+<columnName>Call Sign</columnName>
+<tableName>qso table v007</tableName>
+</UsedObject>
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="9CB3BDE8-E0A1-D955-76E1-FD714393D021">
+<columnName>&apos;first name&apos;</columnName>
+<tableName>qso table v007</tableName>
+</UsedObject>
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="C0F5FAA1-0025-48D3-513E-D96097419B72">
+<columnName>&apos;last name&apos;</columnName>
+<tableName>qso table v007</tableName>
+</UsedObject>
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="FF0F59F8-EE0A-C5D7-EE67-0F75990AAE9C">
+<columnName>&apos;street&apos;</columnName>
+<tableName>qso table v007</tableName>
+</UsedObject>
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="94CCA460-147A-A2EC-04A7-90229F55BA60">
+<columnName>&apos;city&apos;</columnName>
+<tableName>qso table v007</tableName>
+</UsedObject>
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="37ED177E-37A6-FCEA-FE91-4445FAB3C876">
+<columnName>&apos;county&apos;</columnName>
+<tableName>qso table v007</tableName>
+</UsedObject>
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="0212DF3D-2AC3-C542-A359-53A9786CFBE4">
+<columnName>&apos;state&apos;</columnName>
+<tableName>qso table v007</tableName>
+</UsedObject>
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="6ACCE1A0-7ABA-8E96-57B1-4EBD01FA785B">
+<columnName>&apos;postal country&apos;</columnName>
+<tableName>qso table v007</tableName>
+</UsedObject>
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="1263C5BA-537A-C45A-3479-A45863438AA0">
+<columnName>&apos;zip&apos;</columnName>
+<tableName>qso table v007</tableName>
+</UsedObject>
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="ACE03F67-67BA-C690-FCA7-D7F37309C857">
+<columnName>&apos;grid&apos;</columnName>
+<tableName>qso table v007</tableName>
+</UsedObject>
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="2170F182-01D1-B4A2-0C4E-6723D08F9ED1">
+<columnName>&apos;dxcc country&apos;</columnName>
+<tableName>qso table v007</tableName>
+</UsedObject>
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="5EBDB15E-56EB-6285-EBEB-F15CAF788626">
+<columnName>&apos;iota&apos;</columnName>
+<tableName>qso table v007</tableName>
+</UsedObject>
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="BF6259C0-D9F2-7D90-6986-967DB34105CC">
+<columnName>&apos;sota&apos;</columnName>
+<tableName>qso table v007</tableName>
+</UsedObject>
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="E2E81AF4-D714-AF6C-E768-1AF30B6BBE1E">
+<columnName>&apos;cq zone&apos;</columnName>
+<tableName>qso table v007</tableName>
+</UsedObject>
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="85D6D8FA-1CB6-AF97-6A19-BFF8C3D1D863">
+<columnName>&apos;itu&apos;</columnName>
+<tableName>qso table v007</tableName>
+</UsedObject>
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="A5A1899F-2744-9B49-B90B-C74ECEC0A30B">
+<columnName>&apos;ten ten&apos;</columnName>
+<tableName>qso table v007</tableName>
+</UsedObject>
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="59E03909-3BA0-8360-2BEB-35CBD08933DC">
+<columnName>&apos;email&apos;</columnName>
+<tableName>qso table v007</tableName>
+</UsedObject>
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="4B129FDE-4697-183B-73C8-EF8E81BD7423">
+<columnName>&apos;url&apos;</columnName>
+<tableName>qso table v007</tableName>
+</UsedObject>
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="3DCDE819-A138-921D-D7FD-1F6B9EBC6A5D">
+<columnName>&apos;mode&apos;</columnName>
+<tableName>qso table v007</tableName>
+</UsedObject>
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="7B2C8837-DE2A-67CD-8BA5-9904C3955171">
+<columnName>&apos;band rx&apos;</columnName>
+<tableName>qso table v007</tableName>
+</UsedObject>
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="2D5BAA0D-67E7-AF4D-49F2-F0063C6F4879">
+<columnName>&apos;band tx&apos;</columnName>
+<tableName>qso table v007</tableName>
+</UsedObject>
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="E04ACF4B-59C3-F017-DB50-8E0DE513582B">
+<columnName>&apos;rst sent&apos;</columnName>
+<tableName>qso table v007</tableName>
+</UsedObject>
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="5FEA43F0-D8D5-1B0F-ED13-11BF4595F9B1">
+<columnName>&apos;rst received&apos;</columnName>
+<tableName>qso table v007</tableName>
+</UsedObject>
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="FDAB5195-42D2-33B7-FAA9-1481AB5853AC">
+<columnName>&apos;qsl via&apos;</columnName>
+<tableName>qso table v007</tableName>
+</UsedObject>
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="77F43ABA-5867-5014-6C01-7571CFD88050">
+<columnName>&apos;qsl sent&apos;</columnName>
+<tableName>qso table v007</tableName>
+</UsedObject>
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="6420D74F-15B8-3F15-D90E-EDE1F0D6C49A">
+<columnName>&apos;qsl received&apos;</columnName>
+<tableName>qso table v007</tableName>
+</UsedObject>
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="B44E15A5-D9CC-BD6C-83E8-A6DC65C2212A">
+<columnName>&apos;srx&apos;</columnName>
+<tableName>qso table v007</tableName>
+</UsedObject>
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="830563CB-4180-2482-0430-C8EA15705568">
+<columnName>&apos;stx&apos;</columnName>
+<tableName>qso table v007</tableName>
+</UsedObject>
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="3EE26FB9-1911-15CB-C59A-B4F6558DF15B">
+<columnName>&apos;comments&apos;</columnName>
+<tableName>qso table v007</tableName>
+</UsedObject>
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="A3F23774-8C54-395B-39B2-3D2190F59C80">
+<columnName>&apos;satellite&apos;</columnName>
+<tableName>qso table v007</tableName>
+</UsedObject>
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="A72187AD-31F4-E60E-62E5-7124F5EFD363">
+<columnName>&apos;qso start&apos;</columnName>
+<tableName>qso table v007</tableName>
+</UsedObject>
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="3175C0BA-4766-B741-0194-1431750B495C">
+<columnName>&apos;qso done&apos;</columnName>
+<tableName>qso table v007</tableName>
+</UsedObject>
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="42600DCB-9BCD-443F-E1D7-60D8F82CEF86">
+<columnName>&apos;latitude&apos;</columnName>
+<tableName>qso table v007</tableName>
+</UsedObject>
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="B0963FC5-A84F-024F-063E-AABEF5D51836">
+<columnName>&apos;longitude&apos;</columnName>
+<tableName>qso table v007</tableName>
+</UsedObject>
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="35A01E48-DBA8-1F3D-2670-C206B28359AD">
+<columnName>&apos;tx frequency&apos;</columnName>
+<tableName>qso table v007</tableName>
+</UsedObject>
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="452C7F93-B2F5-F4E4-423E-A4978E10CA51">
+<columnName>&apos;rx frequency&apos;</columnName>
+<tableName>qso table v007</tableName>
+</UsedObject>
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="AFEAD7CF-538E-2156-9766-C1C3EB75BDD5">
+<columnName>&apos;azimuth&apos;</columnName>
+<tableName>qso table v007</tableName>
+</UsedObject>
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="6FF09687-A5DD-BF52-15EF-4B9D773E9E25">
+<columnName>&apos;elevation&apos;</columnName>
+<tableName>qso table v007</tableName>
+</UsedObject>
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="EA8844CA-8DF8-7A9E-CC08-F5EDF781D4DF">
+<columnName>&apos;power&apos;</columnName>
+<tableName>qso table v007</tableName>
+</UsedObject>
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="E1017044-EC02-3B9C-1D51-8CA4F36A7C87">
+<columnName>&apos;srx numeric&apos;</columnName>
+<tableName>qso table v007</tableName>
+</UsedObject>
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="DC25E58C-E8EE-A663-2F55-2B9DACD9AD3B">
+<columnName>&apos;stx numeric&apos;</columnName>
+<tableName>qso table v007</tableName>
+</UsedObject>
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="CD7D9DA4-6F52-9272-E68D-8B9CB9619C7C">
+<columnName>&apos;dxcc id&apos;</columnName>
+<tableName>qso table v007</tableName>
+</UsedObject>
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="9758EA93-B1DB-CC01-C849-0930DA72F2C3">
+<columnName>&apos;contest id&apos;</columnName>
+<tableName>qso table v007</tableName>
+</UsedObject>
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="C395022D-BD31-63C2-9236-BDA41FB5EF26">
+<columnName>&apos;my sota&apos;</columnName>
+<tableName>qso table v007</tableName>
+</UsedObject>
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="3500D407-7957-2E04-363A-9A443C44FFAE">
+<columnName>&apos;skcc&apos;</columnName>
+<tableName>qso table v007</tableName>
+</UsedObject>
+</usedObjects>
+</EntityView>

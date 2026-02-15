@@ -1,0 +1,33 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<EntityView class="oracle.dbtools.crest.model.design.logical.EntityView" directorySegmentName="seg_0" id="0EB032C3-6298-EDAF-DF80-E95663FCFBE9" name="v member qso">
+<createdBy>tcollier</createdBy>
+<createdTime>2023-12-10 01:29:04 UTC</createdTime>
+<generatorID>72D10DC1-83F7-43E5-5BA2-462C0F1E2397</generatorID>
+<ownerDesignName>HARC_SNN_Data_Model_V3</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="FDFA065C-9B79-4768-D3A1-ACB9D4078B29" value="false"/>
+</engineerTo>
+<userDefined>true</userDefined>
+<userDefinedSQL><![CDATA[SELECT v_harc_member.pers_call,
+           v_harc_member.pers_f_nam,
+           v_harc_member.pers_m_nam,
+           v_harc_member.pers_l_nam,
+           v_qso_table_v008.'band_rx',
+           v_qso_table_v008.'rx_frequency',
+           v_qso_table_v008.'tx_frequency',
+           v_qso_table_v008.'latitude',
+           v_qso_table_v008'longitude',
+           v_qso_table_v008.'contest_id',
+           v_qso_table_v008.'qso_start',
+           v_reptr.rptr_desc
+      FROM v_harc_member
+           INNER JOIN
+           v_qso_table_v008 ON v_harc_member.pers_call = v_qso_table_v008.call
+           INNER JOIN
+           v_harc_add_qso_details ON v_qso_table_v00.pk = v_harc_add_qso_details.[qso_table_v008_pk]
+           INNER JOIN
+           v_reptr ON v_harc_add_qso_details.rptr_cd = v_reptr.rptr_cd]]></userDefinedSQL>
+<validSQL>false</validSQL>
+<viewType>EntityView</viewType>
+</EntityView>

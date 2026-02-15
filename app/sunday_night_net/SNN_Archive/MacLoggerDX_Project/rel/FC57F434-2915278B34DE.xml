@@ -1,0 +1,15 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<relationalModel class="oracle.dbtools.crest.model.design.relational.RelationalDesign" name="Relational" id="FC57F434-133F-87AF-675A-2915278B34DE" mainViewID="85EDA63A-C202-A767-DF92-0E886705203C">
+<createdBy>jtimothycollier</createdBy>
+<createdTime>2019-07-02 04:19:10 UTC</createdTime>
+<ownerDesignName>MacLoggerDX_Project</ownerDesignName>
+<shouldBeOpen>true</shouldBeOpen>
+<selectedRDBMSSite>9807C1FA-0550-772D-1F14-16B19CA63681</selectedRDBMSSite>
+<importDDLFileStamps>
+<importDDLFileStamp class="oracle.dbtools.crest.imports.DDLFileStamp">
+<fileName>create_qso_sql.</fileName>
+<pathName>/Users/jtimothycollier/Desktop</pathName>
+<dbType>7</dbType>
+</importDDLFileStamp>
+</importDDLFileStamps>
+</relationalModel>

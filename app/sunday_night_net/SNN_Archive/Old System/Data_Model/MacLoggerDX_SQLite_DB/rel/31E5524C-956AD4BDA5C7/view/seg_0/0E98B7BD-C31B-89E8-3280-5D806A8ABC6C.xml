@@ -1,0 +1,154 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableView class="oracle.dbtools.crest.model.design.relational.TableView" directorySegmentName="seg_0" id="0E98B7BD-C31B-89E8-3280-5D806A8ABC6C" name="v_reptr">
+<sourceDDLFile>MacLogger_Sqlite_import copy.sql</sourceDDLFile>
+<createdBy>tcollier</createdBy>
+<createdTime>2020-10-30 17:45:49 UTC</createdTime>
+<ownerDesignName>MacLoggerDX_SQLite_DB</ownerDesignName>
+<importedID>978FAA41-3202-2A7D-B3DE-DEA7BC6E3552</importedID>
+<userDefined>true</userDefined>
+<userDefinedSQL><![CDATA[SELECT *
+      FROM t_rptr]]></userDefinedSQL>
+<validSQL>false</validSQL>
+<viewElements>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="rptr_cd" id="F7239047-0B26-3424-01E2-1F54897B6F28">
+<createdBy>tcollier</createdBy>
+<createdTime>2020-10-30 17:45:49 UTC</createdTime>
+<ownerDesignName>MacLoggerDX_SQLite_DB</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>CHAR</dataType>
+<headerAlias>rptr_cd</headerAlias>
+<reference>false</reference>
+<referencedColumn>AC66D5C1-BE07-5A95-91BA-C5D77CADFC3D</referencedColumn>
+<table>43946AEA-1F01-2C59-81FF-99DF97E9428F</table>
+<tableAlias>t_rptr</tableAlias>
+<viewID>0E98B7BD-C31B-89E8-3280-5D806A8ABC6C</viewID>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="rptr_desc" id="ED3D48ED-9FD1-A89A-CAC7-BDC841EDF915">
+<createdBy>tcollier</createdBy>
+<createdTime>2020-10-30 17:45:49 UTC</createdTime>
+<ownerDesignName>MacLoggerDX_SQLite_DB</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>CHAR</dataType>
+<headerAlias>rptr_desc</headerAlias>
+<reference>false</reference>
+<referencedColumn>09151404-04C0-D65A-B536-34EA1979E7B1</referencedColumn>
+<table>43946AEA-1F01-2C59-81FF-99DF97E9428F</table>
+<tableAlias>t_rptr</tableAlias>
+<viewID>0E98B7BD-C31B-89E8-3280-5D806A8ABC6C</viewID>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="rptr_call" id="9CC5B2E2-686A-DF79-C58D-959AAE5009E3">
+<createdBy>tcollier</createdBy>
+<createdTime>2020-10-30 17:45:49 UTC</createdTime>
+<ownerDesignName>MacLoggerDX_SQLite_DB</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>CHAR</dataType>
+<headerAlias>rptr_call</headerAlias>
+<reference>false</reference>
+<referencedColumn>816A75A7-EB1B-277A-577C-CE373E8072D5</referencedColumn>
+<table>43946AEA-1F01-2C59-81FF-99DF97E9428F</table>
+<tableAlias>t_rptr</tableAlias>
+<viewID>0E98B7BD-C31B-89E8-3280-5D806A8ABC6C</viewID>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="rptr_tx_freq" id="33546882-B11B-E04B-496F-9CBE487CA7F5">
+<createdBy>tcollier</createdBy>
+<createdTime>2020-10-30 17:45:49 UTC</createdTime>
+<ownerDesignName>MacLoggerDX_SQLite_DB</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>REAL</dataType>
+<headerAlias>rptr_tx_freq</headerAlias>
+<reference>false</reference>
+<referencedColumn>60A8547F-02BF-98D6-8D71-DEC026D6BCCB</referencedColumn>
+<table>43946AEA-1F01-2C59-81FF-99DF97E9428F</table>
+<tableAlias>t_rptr</tableAlias>
+<viewID>0E98B7BD-C31B-89E8-3280-5D806A8ABC6C</viewID>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="rptr_rx_freq" id="0E2EEBEC-FAD4-C69A-468C-6D1BDE8BAE0A">
+<createdBy>tcollier</createdBy>
+<createdTime>2020-10-30 17:45:49 UTC</createdTime>
+<ownerDesignName>MacLoggerDX_SQLite_DB</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>REAL</dataType>
+<headerAlias>rptr_rx_freq</headerAlias>
+<reference>false</reference>
+<referencedColumn>820A3B1C-271C-AE56-7568-CB940E8EE02B</referencedColumn>
+<table>43946AEA-1F01-2C59-81FF-99DF97E9428F</table>
+<tableAlias>t_rptr</tableAlias>
+<viewID>0E98B7BD-C31B-89E8-3280-5D806A8ABC6C</viewID>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="rptr_ctcss" id="4E8EDB32-71B6-346B-D40D-0D7630768FB1">
+<createdBy>tcollier</createdBy>
+<createdTime>2020-10-30 17:45:49 UTC</createdTime>
+<ownerDesignName>MacLoggerDX_SQLite_DB</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>REAL</dataType>
+<headerAlias>rptr_ctcss</headerAlias>
+<reference>false</reference>
+<referencedColumn>8615AEAF-25B3-BDA7-507C-AF4AE7AD4DE9</referencedColumn>
+<table>43946AEA-1F01-2C59-81FF-99DF97E9428F</table>
+<tableAlias>t_rptr</tableAlias>
+<viewID>0E98B7BD-C31B-89E8-3280-5D806A8ABC6C</viewID>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="rptr__lat" id="E56F5934-3E06-8B95-BAE9-5DCF56877419">
+<createdBy>tcollier</createdBy>
+<createdTime>2020-10-30 17:45:49 UTC</createdTime>
+<ownerDesignName>MacLoggerDX_SQLite_DB</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>REAL</dataType>
+<headerAlias>rptr__lat</headerAlias>
+<reference>false</reference>
+<referencedColumn>942E9F52-E8BF-6F5E-E25F-E295FA96D5A2</referencedColumn>
+<table>43946AEA-1F01-2C59-81FF-99DF97E9428F</table>
+<tableAlias>t_rptr</tableAlias>
+<viewID>0E98B7BD-C31B-89E8-3280-5D806A8ABC6C</viewID>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="rptr_long" id="45B5036A-5B80-63D2-1C09-F71569CEAE40">
+<createdBy>tcollier</createdBy>
+<createdTime>2020-10-30 17:45:49 UTC</createdTime>
+<ownerDesignName>MacLoggerDX_SQLite_DB</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>REAL</dataType>
+<headerAlias>rptr_long</headerAlias>
+<reference>false</reference>
+<referencedColumn>05D72D26-8BB7-5AAD-7418-CA6B27E9ADBB</referencedColumn>
+<table>43946AEA-1F01-2C59-81FF-99DF97E9428F</table>
+<tableAlias>t_rptr</tableAlias>
+<viewID>0E98B7BD-C31B-89E8-3280-5D806A8ABC6C</viewID>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="rptr_allstar_node" id="ACF9C16F-3818-37F6-F20A-4E0D1C62894E">
+<createdBy>tcollier</createdBy>
+<createdTime>2020-10-30 17:45:49 UTC</createdTime>
+<ownerDesignName>MacLoggerDX_SQLite_DB</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>INTEGER</dataType>
+<headerAlias>rptr_allstar_node</headerAlias>
+<reference>false</reference>
+<referencedColumn>3DC587F2-4584-771E-8F71-DF19C4CCDECA</referencedColumn>
+<table>43946AEA-1F01-2C59-81FF-99DF97E9428F</table>
+<tableAlias>t_rptr</tableAlias>
+<viewID>0E98B7BD-C31B-89E8-3280-5D806A8ABC6C</viewID>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="rptr_echolink_node" id="76639C83-5E08-61DC-239D-0A5380A55F74">
+<createdBy>tcollier</createdBy>
+<createdTime>2020-10-30 17:45:49 UTC</createdTime>
+<ownerDesignName>MacLoggerDX_SQLite_DB</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>INTEGER</dataType>
+<headerAlias>rptr_echolink_node</headerAlias>
+<reference>false</reference>
+<referencedColumn>24CF5F69-1A52-293B-4372-173CC55DCB5D</referencedColumn>
+<table>43946AEA-1F01-2C59-81FF-99DF97E9428F</table>
+<tableAlias>t_rptr</tableAlias>
+<viewID>0E98B7BD-C31B-89E8-3280-5D806A8ABC6C</viewID>
+</viewElement>
+</viewElements>
+</TableView>

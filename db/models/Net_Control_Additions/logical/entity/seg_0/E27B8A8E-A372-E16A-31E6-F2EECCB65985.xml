@@ -1,0 +1,47 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="E27B8A8E-A372-E16A-31E6-F2EECCB65985" name="t net control">
+<createdBy>tcollier</createdBy>
+<createdTime>2025-10-21 20:20:08 UTC</createdTime>
+<generatorID>49D962E3-B8DF-D974-1062-2ACF34D594F9</generatorID>
+<ownerDesignName>Net_Control_Additions</ownerDesignName>
+<engineerTo>
+<item key="C119D9D8-C824-B40C-12F8-BA9037B4F1B9" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="pers call" id="50A75033-A8CE-07E3-6FCF-3254F43E93CC">
+<createdBy>tcollier</createdBy>
+<createdTime>2025-10-21 20:38:01 UTC</createdTime>
+<generatorID>5AB1B609-7A84-2A59-D7C1-BD9137608BC0</generatorID>
+<ownerDesignName>Net_Control_Additions</ownerDesignName>
+<engineerTo>
+<item key="C119D9D8-C824-B40C-12F8-BA9037B4F1B9" value="true"/>
+</engineerTo>
+<referedAttribute>4FE2B929-5122-448B-C6AA-D564CBFA752C</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="6EED66B5-3421-AF1B-6686-69FDE430CF67" name="t net control PK">
+<createdBy>tcollier</createdBy>
+<createdTime>2025-10-21 20:28:11 UTC</createdTime>
+<ownerDesignName>Net_Control_Additions</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="C119D9D8-C824-B40C-12F8-BA9037B4F1B9" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>50A75033-A8CE-07E3-6FCF-3254F43E93CC</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

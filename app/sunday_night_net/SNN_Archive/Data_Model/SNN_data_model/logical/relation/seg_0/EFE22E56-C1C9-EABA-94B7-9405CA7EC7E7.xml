@@ -1,0 +1,22 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="r_add_qso_details" directorySegmentName="seg_0" id="EFE22E56-C1C9-EABA-94B7-9405CA7EC7E7">
+<createdBy>tcollier</createdBy>
+<createdTime>2020-10-30 17:47:38 UTC</createdTime>
+<generatorID>CFB3F871-5DCC-7EF7-B4B9-81484A7498FB</generatorID>
+<ownerDesignName>SNN_data_model</ownerDesignName>
+<engineerTo>
+<item key="AF3E3F20-8AFD-D45A-FD64-95FBA8FAE7F0" value="true"/>
+<item key="31E5524C-62D2-47CA-ED22-956AD4BDA5C7" value="true"/>
+</engineerTo>
+<sourcePk>33D76AB1-EBDD-FDD8-6109-66DB3F17ECCC</sourcePk>
+<dominantRole>BFBF3BC0-D135-FDFA-537A-348D709B324E</dominantRole>
+<identifying>true</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>BFBF3BC0-D135-FDFA-537A-348D709B324E</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>8A32FD50-BC11-6659-EFA6-96E06EC8BC98</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

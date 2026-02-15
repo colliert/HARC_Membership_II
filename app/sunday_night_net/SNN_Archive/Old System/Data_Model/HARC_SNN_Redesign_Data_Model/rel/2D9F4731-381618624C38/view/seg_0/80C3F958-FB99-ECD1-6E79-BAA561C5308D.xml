@@ -1,0 +1,198 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableView class="oracle.dbtools.crest.model.design.relational.TableView" directorySegmentName="seg_0" id="80C3F958-FB99-ECD1-6E79-BAA561C5308D" name="v_harc_member_allstar_listing">
+<sourceDDLFile>MacLoggerDX_DDL_TMP.sql</sourceDDLFile>
+<createdBy>tcollier</createdBy>
+<createdTime>2020-10-28 19:34:38 UTC</createdTime>
+<ownerDesignName>HARC_SNN_Redesign_Data_Model</ownerDesignName>
+<importedID>EC6E5BA8-30E9-3674-72DC-2E8264B512AF</importedID>
+<userDefined>true</userDefined>
+<userDefinedSQL><![CDATA[SELECT v_harc_member.mem_call,
+           v_harc_member.mem_f_nam,
+           v_harc_member.mem_m_nam,
+           v_harc_member.mem_l_nam,
+           v_harc_member_allstar.node_num,
+           v_harc_member_allstar.node_id,
+           v_harc_member_allstar.node_freq,
+           v_harc_member_allstar.node_tone,
+           v_harc_member_allstar.node_location,
+           v_harc_member_allstar.node_country,
+           v_harc_member_allstar.node_site_nam,
+           v_harc_member_allstar.node_affiliation,
+           v_harc_member_allstar.node_eff_dat
+      FROM v_harc_member_allstar
+           JOIN
+           v_harc_member ON v_harc_member.mem_call = v_harc_member_allstar.mem_call
+     ORDER BY v_harc_member.mem_call]]></userDefinedSQL>
+<validSQL>false</validSQL>
+<viewElements>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="mem_call" id="06F14A18-CF95-748F-686C-751F0AC9FF76">
+<createdBy>tcollier</createdBy>
+<createdTime>2020-10-28 19:34:38 UTC</createdTime>
+<ownerDesignName>HARC_SNN_Redesign_Data_Model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>UNKNOWN</dataType>
+<headerAlias>mem_call</headerAlias>
+<reference>false</reference>
+<referencedColumn>3D5444B7-DB48-1D16-32A4-AB1E652D82F7</referencedColumn>
+<tableAlias>v_harc_member</tableAlias>
+<viewID>80C3F958-FB99-ECD1-6E79-BAA561C5308D</viewID>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="mem_f_nam" id="CC1A2286-2A35-4A98-77E8-15292A2B260E">
+<createdBy>tcollier</createdBy>
+<createdTime>2020-10-28 19:34:38 UTC</createdTime>
+<ownerDesignName>HARC_SNN_Redesign_Data_Model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>UNKNOWN</dataType>
+<headerAlias>mem_f_nam</headerAlias>
+<reference>false</reference>
+<referencedColumn>0722CD71-DACC-C869-BBF5-56E77B8F431C</referencedColumn>
+<tableAlias>v_harc_member</tableAlias>
+<viewID>80C3F958-FB99-ECD1-6E79-BAA561C5308D</viewID>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="mem_m_nam" id="4F5CB115-668E-70E4-1343-35F303820C4D">
+<createdBy>tcollier</createdBy>
+<createdTime>2020-10-28 19:34:38 UTC</createdTime>
+<ownerDesignName>HARC_SNN_Redesign_Data_Model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>UNKNOWN</dataType>
+<headerAlias>mem_m_nam</headerAlias>
+<reference>false</reference>
+<referencedColumn>C235E653-B0F6-3561-CF8B-A9DA9C1FAFCD</referencedColumn>
+<tableAlias>v_harc_member</tableAlias>
+<viewID>80C3F958-FB99-ECD1-6E79-BAA561C5308D</viewID>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="mem_l_nam" id="84DF752B-AEE7-7AC5-C4C1-95C6D0F43A3D">
+<createdBy>tcollier</createdBy>
+<createdTime>2020-10-28 19:34:38 UTC</createdTime>
+<ownerDesignName>HARC_SNN_Redesign_Data_Model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>UNKNOWN</dataType>
+<headerAlias>mem_l_nam</headerAlias>
+<reference>false</reference>
+<referencedColumn>4157E4A1-A8C0-029A-FFDC-2B66A54C2DA1</referencedColumn>
+<tableAlias>v_harc_member</tableAlias>
+<viewID>80C3F958-FB99-ECD1-6E79-BAA561C5308D</viewID>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="node_num" id="6351DEE7-0DBF-DD73-5B19-FD9CCD5A692B">
+<createdBy>tcollier</createdBy>
+<createdTime>2020-10-28 19:34:38 UTC</createdTime>
+<ownerDesignName>HARC_SNN_Redesign_Data_Model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>INTEGER</dataType>
+<headerAlias>node_num</headerAlias>
+<reference>false</reference>
+<referencedColumn>EDFD40FA-7626-6CC7-CA00-A89065D0BD19</referencedColumn>
+<tableAlias>v_harc_member_allstar</tableAlias>
+<viewID>80C3F958-FB99-ECD1-6E79-BAA561C5308D</viewID>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="node_id" id="7BC0259F-0886-9104-A58C-F4EB777A08DB">
+<createdBy>tcollier</createdBy>
+<createdTime>2020-10-28 19:34:38 UTC</createdTime>
+<ownerDesignName>HARC_SNN_Redesign_Data_Model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>UNKNOWN</dataType>
+<headerAlias>node_id</headerAlias>
+<reference>false</reference>
+<referencedColumn>64D059E6-B1AB-674D-EF92-4A4415D80E1E</referencedColumn>
+<tableAlias>v_harc_member_allstar</tableAlias>
+<viewID>80C3F958-FB99-ECD1-6E79-BAA561C5308D</viewID>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="node_freq" id="AA3B1E88-261A-5C5B-4C28-03E10B5D6A27">
+<createdBy>tcollier</createdBy>
+<createdTime>2020-10-28 19:34:38 UTC</createdTime>
+<ownerDesignName>HARC_SNN_Redesign_Data_Model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>REAL</dataType>
+<headerAlias>node_freq</headerAlias>
+<reference>false</reference>
+<referencedColumn>60942898-38DF-956E-C918-39264C0C68BF</referencedColumn>
+<tableAlias>v_harc_member_allstar</tableAlias>
+<viewID>80C3F958-FB99-ECD1-6E79-BAA561C5308D</viewID>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="node_tone" id="BEADDDFD-FD2C-02D3-E8A5-F29772CD2E0E">
+<createdBy>tcollier</createdBy>
+<createdTime>2020-10-28 19:34:38 UTC</createdTime>
+<ownerDesignName>HARC_SNN_Redesign_Data_Model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>REAL</dataType>
+<headerAlias>node_tone</headerAlias>
+<reference>false</reference>
+<referencedColumn>CBC7F4AF-3E63-CD8E-A2E7-CAA946D45C02</referencedColumn>
+<tableAlias>v_harc_member_allstar</tableAlias>
+<viewID>80C3F958-FB99-ECD1-6E79-BAA561C5308D</viewID>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="node_location" id="602912E4-0AA2-68D7-7AA0-981234FEFB26">
+<createdBy>tcollier</createdBy>
+<createdTime>2020-10-28 19:34:38 UTC</createdTime>
+<ownerDesignName>HARC_SNN_Redesign_Data_Model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>UNKNOWN</dataType>
+<headerAlias>node_location</headerAlias>
+<reference>false</reference>
+<referencedColumn>87415079-D8A4-C44B-3C04-663CCBCB951B</referencedColumn>
+<tableAlias>v_harc_member_allstar</tableAlias>
+<viewID>80C3F958-FB99-ECD1-6E79-BAA561C5308D</viewID>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="node_country" id="09FCB32E-AE4E-3592-A428-1BBA8F72FD26">
+<createdBy>tcollier</createdBy>
+<createdTime>2020-10-28 19:34:38 UTC</createdTime>
+<ownerDesignName>HARC_SNN_Redesign_Data_Model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>UNKNOWN</dataType>
+<headerAlias>node_country</headerAlias>
+<reference>false</reference>
+<referencedColumn>614E548C-F0F1-5FED-053B-CFD174A10153</referencedColumn>
+<tableAlias>v_harc_member_allstar</tableAlias>
+<viewID>80C3F958-FB99-ECD1-6E79-BAA561C5308D</viewID>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="node_site_nam" id="05FF5A83-AD31-6133-B642-0892A9669D58">
+<createdBy>tcollier</createdBy>
+<createdTime>2020-10-28 19:34:38 UTC</createdTime>
+<ownerDesignName>HARC_SNN_Redesign_Data_Model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>UNKNOWN</dataType>
+<headerAlias>node_site_nam</headerAlias>
+<reference>false</reference>
+<referencedColumn>56FD9B7B-FA7D-3545-7AA0-42C5AE677EDE</referencedColumn>
+<tableAlias>v_harc_member_allstar</tableAlias>
+<viewID>80C3F958-FB99-ECD1-6E79-BAA561C5308D</viewID>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="node_affiliation" id="0FC351F8-3EC8-5EFF-1F66-1A772AAB30D2">
+<createdBy>tcollier</createdBy>
+<createdTime>2020-10-28 19:34:38 UTC</createdTime>
+<ownerDesignName>HARC_SNN_Redesign_Data_Model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>UNKNOWN</dataType>
+<headerAlias>node_affiliation</headerAlias>
+<reference>false</reference>
+<referencedColumn>7ACD2F33-9880-DD5D-B766-E581A16367D1</referencedColumn>
+<tableAlias>v_harc_member_allstar</tableAlias>
+<viewID>80C3F958-FB99-ECD1-6E79-BAA561C5308D</viewID>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="node_eff_dat" id="C475E3C4-E07A-4926-041B-DAA179C7F77C">
+<createdBy>tcollier</createdBy>
+<createdTime>2020-10-28 19:34:38 UTC</createdTime>
+<ownerDesignName>HARC_SNN_Redesign_Data_Model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>UNKNOWN</dataType>
+<headerAlias>node_eff_dat</headerAlias>
+<reference>false</reference>
+<referencedColumn>485C106B-8BD6-AFB3-26C7-F4A0E9DE3334</referencedColumn>
+<tableAlias>v_harc_member_allstar</tableAlias>
+<viewID>80C3F958-FB99-ECD1-6E79-BAA561C5308D</viewID>
+</viewElement>
+</viewElements>
+</TableView>

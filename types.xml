@@ -1,0 +1,339 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<logtypes>
+	<logicaltype name="unknown" objectid="LOGDT017" default="true">
+		<mapping rdbms="Oracle Database 21c">UNKNOWN</mapping>
+		<mapping rdbms="Oracle Database 12cR2">UNKNOWN</mapping>
+		<mapping rdbms="Oracle Database 12c">UNKNOWN</mapping>
+		<mapping rdbms="Oracle Database 11g">UNKNOWN</mapping>
+		<mapping rdbms="Oracle Database 10g">UNKNOWN</mapping>
+		<mapping rdbms="Oracle9i">UNKNOWN</mapping>
+		<mapping rdbms="SQL Server 2012">UNKNOWN</mapping>
+		<mapping rdbms="SQL Server 2008">UNKNOWN</mapping>
+		<mapping rdbms="SQL Server 2005">UNKNOWN</mapping>
+		<mapping rdbms="SQL Server 2000">UNKNOWN</mapping>
+		<mapping rdbms="DB2/390 8">UNKNOWN</mapping>
+		<mapping rdbms="DB2/390 7">UNKNOWN</mapping>
+		<mapping rdbms="DB2/UDB 9">UNKNOWN</mapping>
+		<mapping rdbms="DB2/UDB 8.1">UNKNOWN</mapping>
+		<mapping rdbms="DB2/UDB 7.1">UNKNOWN</mapping>
+	</logicaltype>
+	<logicaltype name="character" objectid="B2E81DEA-F097-0C6E-D82D-2109375E9C22">
+		<mapping rdbms="Oracle Database 21c">VARCHAR2</mapping>
+		<mapping rdbms="Oracle Database 12cR2">VARCHAR2</mapping>
+		<mapping rdbms="Oracle Database 12c">UNKNOWN</mapping>
+		<mapping rdbms="Oracle Database 11g">UNKNOWN</mapping>
+		<mapping rdbms="Oracle Database 10g">UNKNOWN</mapping>
+		<mapping rdbms="Oracle9i">varchar</mapping>
+		<mapping rdbms="SQL Server 2012">UNKNOWN</mapping>
+		<mapping rdbms="SQL Server 2008">UNKNOWN</mapping>
+		<mapping rdbms="SQL Server 2005">UNKNOWN</mapping>
+		<mapping rdbms="SQL Server 2000">UNKNOWN</mapping>
+		<mapping rdbms="DB2/390 8">UNKNOWN</mapping>
+		<mapping rdbms="DB2/390 7">UNKNOWN</mapping>
+		<mapping rdbms="DB2/UDB 9">UNKNOWN</mapping>
+		<mapping rdbms="DB2/UDB 8.1">UNKNOWN</mapping>
+		<mapping rdbms="DB2/UDB 7.1">UNKNOWN</mapping>
+	</logicaltype>
+	<logicaltype name="date" objectid="161A90A6-CA3A-1525-7F0C-0703C95370A2">
+		<mapping rdbms="Oracle Database 21c">UNKNOWN</mapping>
+		<mapping rdbms="Oracle Database 12cR2">UNKNOWN</mapping>
+		<mapping rdbms="Oracle Database 12c">UNKNOWN</mapping>
+		<mapping rdbms="Oracle Database 11g">UNKNOWN</mapping>
+		<mapping rdbms="Oracle Database 10g">UNKNOWN</mapping>
+		<mapping rdbms="Oracle9i">DATE</mapping>
+		<mapping rdbms="SQL Server 2012">UNKNOWN</mapping>
+		<mapping rdbms="SQL Server 2008">UNKNOWN</mapping>
+		<mapping rdbms="SQL Server 2005">UNKNOWN</mapping>
+		<mapping rdbms="SQL Server 2000">UNKNOWN</mapping>
+		<mapping rdbms="DB2/390 8">UNKNOWN</mapping>
+		<mapping rdbms="DB2/390 7">UNKNOWN</mapping>
+		<mapping rdbms="DB2/UDB 9">UNKNOWN</mapping>
+		<mapping rdbms="DB2/UDB 8.1">UNKNOWN</mapping>
+		<mapping rdbms="DB2/UDB 7.1">UNKNOWN</mapping>
+	</logicaltype>
+	<logicaltype name="number" objectid="90015BD8-66C0-24AE-0278-E3E87E938D9F">
+		<mapping rdbms="Oracle Database 21c">UNKNOWN</mapping>
+		<mapping rdbms="Oracle Database 12cR2">UNKNOWN</mapping>
+		<mapping rdbms="Oracle Database 12c">UNKNOWN</mapping>
+		<mapping rdbms="Oracle Database 11g">UNKNOWN</mapping>
+		<mapping rdbms="Oracle Database 10g">UNKNOWN</mapping>
+		<mapping rdbms="Oracle9i">NUMERIC</mapping>
+		<mapping rdbms="SQL Server 2012">UNKNOWN</mapping>
+		<mapping rdbms="SQL Server 2008">UNKNOWN</mapping>
+		<mapping rdbms="SQL Server 2005">UNKNOWN</mapping>
+		<mapping rdbms="SQL Server 2000">UNKNOWN</mapping>
+		<mapping rdbms="DB2/390 8">UNKNOWN</mapping>
+		<mapping rdbms="DB2/390 7">UNKNOWN</mapping>
+		<mapping rdbms="DB2/UDB 9">UNKNOWN</mapping>
+		<mapping rdbms="DB2/UDB 8.1">UNKNOWN</mapping>
+		<mapping rdbms="DB2/UDB 7.1">UNKNOWN</mapping>
+	</logicaltype>
+	<logicaltype name="dollars" objectid="BA2C6143-2A08-9021-B127-28326D437F79">
+		<mapping rdbms="Oracle Database 21c">UNKNOWN</mapping>
+		<mapping rdbms="Oracle Database 12cR2">UNKNOWN</mapping>
+		<mapping rdbms="Oracle Database 12c">UNKNOWN</mapping>
+		<mapping rdbms="Oracle Database 11g">UNKNOWN</mapping>
+		<mapping rdbms="Oracle Database 10g">UNKNOWN</mapping>
+		<mapping rdbms="Oracle9i">double precision</mapping>
+		<mapping rdbms="SQL Server 2012">UNKNOWN</mapping>
+		<mapping rdbms="SQL Server 2008">UNKNOWN</mapping>
+		<mapping rdbms="SQL Server 2005">UNKNOWN</mapping>
+		<mapping rdbms="SQL Server 2000">UNKNOWN</mapping>
+		<mapping rdbms="DB2/390 8">UNKNOWN</mapping>
+		<mapping rdbms="DB2/390 7">UNKNOWN</mapping>
+		<mapping rdbms="DB2/UDB 9">UNKNOWN</mapping>
+		<mapping rdbms="DB2/UDB 8.1">UNKNOWN</mapping>
+		<mapping rdbms="DB2/UDB 7.1">UNKNOWN</mapping>
+	</logicaltype>
+	<logicaltype name="Boolean" objectid="09749D46-3ED4-FA1D-E66F-D82B538FF72C">
+		<mapping rdbms="Oracle Database 21c">UNKNOWN</mapping>
+		<mapping rdbms="Oracle Database 12cR2">UNKNOWN</mapping>
+		<mapping rdbms="Oracle Database 12c">UNKNOWN</mapping>
+		<mapping rdbms="Oracle Database 11g">UNKNOWN</mapping>
+		<mapping rdbms="Oracle Database 10g">UNKNOWN</mapping>
+		<mapping rdbms="Oracle9i">boolean</mapping>
+		<mapping rdbms="SQL Server 2012">UNKNOWN</mapping>
+		<mapping rdbms="SQL Server 2008">UNKNOWN</mapping>
+		<mapping rdbms="SQL Server 2005">UNKNOWN</mapping>
+		<mapping rdbms="SQL Server 2000">bool</mapping>
+		<mapping rdbms="DB2/390 8">UNKNOWN</mapping>
+		<mapping rdbms="DB2/390 7">UNKNOWN</mapping>
+		<mapping rdbms="DB2/UDB 9">UNKNOWN</mapping>
+		<mapping rdbms="DB2/UDB 8.1">UNKNOWN</mapping>
+		<mapping rdbms="DB2/UDB 7.1">UNKNOWN</mapping>
+	</logicaltype>
+	<logicaltype name="geometric" objectid="A49D28A8-792E-311F-E3EE-A2D1601F1BC7">
+		<mapping rdbms="Oracle Database 21c">UNKNOWN</mapping>
+		<mapping rdbms="Oracle Database 12cR2">UNKNOWN</mapping>
+		<mapping rdbms="Oracle Database 12c">UNKNOWN</mapping>
+		<mapping rdbms="Oracle Database 11g">UNKNOWN</mapping>
+		<mapping rdbms="Oracle Database 10g">UNKNOWN</mapping>
+		<mapping rdbms="Oracle9i">UNKNOWN</mapping>
+		<mapping rdbms="SQL Server 2012">UNKNOWN</mapping>
+		<mapping rdbms="SQL Server 2008">UNKNOWN</mapping>
+		<mapping rdbms="SQL Server 2005">UNKNOWN</mapping>
+		<mapping rdbms="SQL Server 2000">UNKNOWN</mapping>
+		<mapping rdbms="DB2/390 8">UNKNOWN</mapping>
+		<mapping rdbms="DB2/390 7">UNKNOWN</mapping>
+		<mapping rdbms="DB2/UDB 9">UNKNOWN</mapping>
+		<mapping rdbms="DB2/UDB 8.1">UNKNOWN</mapping>
+		<mapping rdbms="DB2/UDB 7.1">UNKNOWN</mapping>
+	</logicaltype>
+	<logicaltype name="IP_Address" objectid="63737C52-8926-938B-99C6-C9FACD8B3A1B">
+		<mapping rdbms="Oracle Database 21c">UNKNOWN</mapping>
+		<mapping rdbms="Oracle Database 12cR2">UNKNOWN</mapping>
+		<mapping rdbms="Oracle Database 12c">UNKNOWN</mapping>
+		<mapping rdbms="Oracle Database 11g">UNKNOWN</mapping>
+		<mapping rdbms="Oracle Database 10g">UNKNOWN</mapping>
+		<mapping rdbms="Oracle9i">UNKNOWN</mapping>
+		<mapping rdbms="SQL Server 2012">UNKNOWN</mapping>
+		<mapping rdbms="SQL Server 2008">UNKNOWN</mapping>
+		<mapping rdbms="SQL Server 2005">UNKNOWN</mapping>
+		<mapping rdbms="SQL Server 2000">UNKNOWN</mapping>
+		<mapping rdbms="DB2/390 8">UNKNOWN</mapping>
+		<mapping rdbms="DB2/390 7">UNKNOWN</mapping>
+		<mapping rdbms="DB2/UDB 9">UNKNOWN</mapping>
+		<mapping rdbms="DB2/UDB 8.1">UNKNOWN</mapping>
+		<mapping rdbms="DB2/UDB 7.1">UNKNOWN</mapping>
+	</logicaltype>
+	<logicaltype name="MAC_Address" objectid="F3840AC3-75EE-90AE-A6A6-4219D895262D">
+		<mapping rdbms="Oracle Database 21c">UNKNOWN</mapping>
+		<mapping rdbms="Oracle Database 12cR2">UNKNOWN</mapping>
+		<mapping rdbms="Oracle Database 12c">UNKNOWN</mapping>
+		<mapping rdbms="Oracle Database 11g">UNKNOWN</mapping>
+		<mapping rdbms="Oracle Database 10g">UNKNOWN</mapping>
+		<mapping rdbms="Oracle9i">UNKNOWN</mapping>
+		<mapping rdbms="SQL Server 2012">UNKNOWN</mapping>
+		<mapping rdbms="SQL Server 2008">UNKNOWN</mapping>
+		<mapping rdbms="SQL Server 2005">UNKNOWN</mapping>
+		<mapping rdbms="SQL Server 2000">UNKNOWN</mapping>
+		<mapping rdbms="DB2/390 8">UNKNOWN</mapping>
+		<mapping rdbms="DB2/390 7">UNKNOWN</mapping>
+		<mapping rdbms="DB2/UDB 9">UNKNOWN</mapping>
+		<mapping rdbms="DB2/UDB 8.1">UNKNOWN</mapping>
+		<mapping rdbms="DB2/UDB 7.1">UNKNOWN</mapping>
+	</logicaltype>
+	<logicaltype name="Universally_Unique_Identifier" objectid="43D825E4-0D58-B3E9-E49B-831AFE76FEF8">
+		<mapping rdbms="Oracle Database 21c">UNKNOWN</mapping>
+		<mapping rdbms="Oracle Database 12cR2">UNKNOWN</mapping>
+		<mapping rdbms="Oracle Database 12c">UNKNOWN</mapping>
+		<mapping rdbms="Oracle Database 11g">UNKNOWN</mapping>
+		<mapping rdbms="Oracle Database 10g">UNKNOWN</mapping>
+		<mapping rdbms="Oracle9i">UNKNOWN</mapping>
+		<mapping rdbms="SQL Server 2012">UNKNOWN</mapping>
+		<mapping rdbms="SQL Server 2008">UNKNOWN</mapping>
+		<mapping rdbms="SQL Server 2005">UNKNOWN</mapping>
+		<mapping rdbms="SQL Server 2000">UNKNOWN</mapping>
+		<mapping rdbms="DB2/390 8">UNKNOWN</mapping>
+		<mapping rdbms="DB2/390 7">UNKNOWN</mapping>
+		<mapping rdbms="DB2/UDB 9">UNKNOWN</mapping>
+		<mapping rdbms="DB2/UDB 8.1">UNKNOWN</mapping>
+		<mapping rdbms="DB2/UDB 7.1">UNKNOWN</mapping>
+	</logicaltype>
+	<logicaltype name="XML" objectid="E26BB471-74F8-A1D5-3498-95B6E211C2C6">
+		<mapping rdbms="Oracle Database 21c">UNKNOWN</mapping>
+		<mapping rdbms="Oracle Database 12cR2">UNKNOWN</mapping>
+		<mapping rdbms="Oracle Database 12c">UNKNOWN</mapping>
+		<mapping rdbms="Oracle Database 11g">UNKNOWN</mapping>
+		<mapping rdbms="Oracle Database 10g">UNKNOWN</mapping>
+		<mapping rdbms="Oracle9i">UNKNOWN</mapping>
+		<mapping rdbms="SQL Server 2012">UNKNOWN</mapping>
+		<mapping rdbms="SQL Server 2008">UNKNOWN</mapping>
+		<mapping rdbms="SQL Server 2005">UNKNOWN</mapping>
+		<mapping rdbms="SQL Server 2000">UNKNOWN</mapping>
+		<mapping rdbms="DB2/390 8">UNKNOWN</mapping>
+		<mapping rdbms="DB2/390 7">UNKNOWN</mapping>
+		<mapping rdbms="DB2/UDB 9">UNKNOWN</mapping>
+		<mapping rdbms="DB2/UDB 8.1">UNKNOWN</mapping>
+		<mapping rdbms="DB2/UDB 7.1">UNKNOWN</mapping>
+	</logicaltype>
+	<logicaltype name="JSON" objectid="1C66CC5B-B39A-45BD-5E75-7B4BFDDAA44D">
+		<mapping rdbms="Oracle Database 21c">UNKNOWN</mapping>
+		<mapping rdbms="Oracle Database 12cR2">UNKNOWN</mapping>
+		<mapping rdbms="Oracle Database 12c">UNKNOWN</mapping>
+		<mapping rdbms="Oracle Database 11g">UNKNOWN</mapping>
+		<mapping rdbms="Oracle Database 10g">UNKNOWN</mapping>
+		<mapping rdbms="Oracle9i">UNKNOWN</mapping>
+		<mapping rdbms="SQL Server 2012">UNKNOWN</mapping>
+		<mapping rdbms="SQL Server 2008">UNKNOWN</mapping>
+		<mapping rdbms="SQL Server 2005">UNKNOWN</mapping>
+		<mapping rdbms="SQL Server 2000">UNKNOWN</mapping>
+		<mapping rdbms="DB2/390 8">UNKNOWN</mapping>
+		<mapping rdbms="DB2/390 7">UNKNOWN</mapping>
+		<mapping rdbms="DB2/UDB 9">UNKNOWN</mapping>
+		<mapping rdbms="DB2/UDB 8.1">UNKNOWN</mapping>
+		<mapping rdbms="DB2/UDB 7.1">UNKNOWN</mapping>
+	</logicaltype>
+	<native_to_logical_mappings>
+		<mappings_for_RDBMS_type rdbms_type="Oracle Database 21c">
+			<mapping native_type="DATE" logicaltype="date" log_type_id="161A90A6-CA3A-1525-7F0C-0703C95370A2" />
+		</mappings_for_RDBMS_type>
+		<mappings_for_RDBMS_type rdbms_type="Oracle Database 12cR2">
+			<mapping native_type="DATE" logicaltype="date" log_type_id="161A90A6-CA3A-1525-7F0C-0703C95370A2" />
+		</mappings_for_RDBMS_type>
+		<mappings_for_RDBMS_type rdbms_type="Oracle Database 12c">
+			<mapping native_type="DATE" logicaltype="date" log_type_id="161A90A6-CA3A-1525-7F0C-0703C95370A2" />
+		</mappings_for_RDBMS_type>
+		<mappings_for_RDBMS_type rdbms_type="Oracle Database 11g">
+			<mapping native_type="DATE" logicaltype="date" log_type_id="161A90A6-CA3A-1525-7F0C-0703C95370A2" />
+		</mappings_for_RDBMS_type>
+		<mappings_for_RDBMS_type rdbms_type="Oracle Database 10g">
+			<mapping native_type="DATE" logicaltype="date" log_type_id="161A90A6-CA3A-1525-7F0C-0703C95370A2" />
+		</mappings_for_RDBMS_type>
+		<mappings_for_RDBMS_type rdbms_type="Oracle9i">
+			<mapping native_type="DATE" logicaltype="date" log_type_id="161A90A6-CA3A-1525-7F0C-0703C95370A2" />
+			<mapping native_type="DECIMAL" logicaltype="number" log_type_id="90015BD8-66C0-24AE-0278-E3E87E938D9F" />
+			<mapping native_type="FLOAT" logicaltype="number" log_type_id="90015BD8-66C0-24AE-0278-E3E87E938D9F" />
+			<mapping native_type="INTEGER" logicaltype="number" log_type_id="90015BD8-66C0-24AE-0278-E3E87E938D9F" />
+			<mapping native_type="NCHAR" logicaltype="character" log_type_id="B2E81DEA-F097-0C6E-D82D-2109375E9C22" />
+			<mapping native_type="NUMBER" logicaltype="number" log_type_id="90015BD8-66C0-24AE-0278-E3E87E938D9F" />
+			<mapping native_type="NUMERIC" logicaltype="number" log_type_id="90015BD8-66C0-24AE-0278-E3E87E938D9F" />
+			<mapping native_type="VARCHAR2" logicaltype="character" log_type_id="B2E81DEA-F097-0C6E-D82D-2109375E9C22" />
+		</mappings_for_RDBMS_type>
+		<mappings_for_RDBMS_type rdbms_type="SQL Server 2012">
+			<mapping native_type="DATE" logicaltype="date" log_type_id="161A90A6-CA3A-1525-7F0C-0703C95370A2" />
+		</mappings_for_RDBMS_type>
+		<mappings_for_RDBMS_type rdbms_type="SQL Server 2008">
+			<mapping native_type="DATE" logicaltype="date" log_type_id="161A90A6-CA3A-1525-7F0C-0703C95370A2" />
+		</mappings_for_RDBMS_type>
+		<mappings_for_RDBMS_type rdbms_type="SQL Server 2005">
+			<mapping native_type="DATE" logicaltype="date" log_type_id="161A90A6-CA3A-1525-7F0C-0703C95370A2" />
+		</mappings_for_RDBMS_type>
+		<mappings_for_RDBMS_type rdbms_type="SQL Server 2000">
+			<mapping native_type="BIGINT" logicaltype="number" log_type_id="90015BD8-66C0-24AE-0278-E3E87E938D9F" />
+			<mapping native_type="BINARY" logicaltype="number" log_type_id="90015BD8-66C0-24AE-0278-E3E87E938D9F" />
+			<mapping native_type="BIT" logicaltype="number" log_type_id="90015BD8-66C0-24AE-0278-E3E87E938D9F" />
+			<mapping native_type="CHAR" logicaltype="character" log_type_id="B2E81DEA-F097-0C6E-D82D-2109375E9C22" />
+			<mapping native_type="DATE" logicaltype="date" log_type_id="161A90A6-CA3A-1525-7F0C-0703C95370A2" />
+			<mapping native_type="DATETIME" logicaltype="date" log_type_id="161A90A6-CA3A-1525-7F0C-0703C95370A2" />
+			<mapping native_type="DECIMAL" logicaltype="number" log_type_id="90015BD8-66C0-24AE-0278-E3E87E938D9F" />
+			<mapping native_type="DOUBLE" logicaltype="number" log_type_id="90015BD8-66C0-24AE-0278-E3E87E938D9F" />
+			<mapping native_type="FLOAT" logicaltype="number" log_type_id="90015BD8-66C0-24AE-0278-E3E87E938D9F" />
+			<mapping native_type="INTEGER" logicaltype="number" log_type_id="90015BD8-66C0-24AE-0278-E3E87E938D9F" />
+			<mapping native_type="MONEY" logicaltype="number" log_type_id="90015BD8-66C0-24AE-0278-E3E87E938D9F" />
+			<mapping native_type="NCHAR" logicaltype="character" log_type_id="B2E81DEA-F097-0C6E-D82D-2109375E9C22" />
+			<mapping native_type="NTEXT" logicaltype="character" log_type_id="B2E81DEA-F097-0C6E-D82D-2109375E9C22" />
+			<mapping native_type="NUMERIC" logicaltype="number" log_type_id="90015BD8-66C0-24AE-0278-E3E87E938D9F" />
+			<mapping native_type="NVARCHAR" logicaltype="character" log_type_id="B2E81DEA-F097-0C6E-D82D-2109375E9C22" />
+			<mapping native_type="REAL" logicaltype="number" log_type_id="90015BD8-66C0-24AE-0278-E3E87E938D9F" />
+			<mapping native_type="SMALLDATETIME" logicaltype="date" log_type_id="161A90A6-CA3A-1525-7F0C-0703C95370A2" />
+			<mapping native_type="SMALLINT" logicaltype="number" log_type_id="90015BD8-66C0-24AE-0278-E3E87E938D9F" />
+			<mapping native_type="SMALLMONEY" logicaltype="number" log_type_id="90015BD8-66C0-24AE-0278-E3E87E938D9F" />
+			<mapping native_type="SYSNAME" logicaltype="character" log_type_id="B2E81DEA-F097-0C6E-D82D-2109375E9C22" />
+			<mapping native_type="TEXT" logicaltype="character" log_type_id="B2E81DEA-F097-0C6E-D82D-2109375E9C22" />
+			<mapping native_type="TIMESTAMP" logicaltype="date" log_type_id="161A90A6-CA3A-1525-7F0C-0703C95370A2" />
+			<mapping native_type="TINYINT" logicaltype="number" log_type_id="90015BD8-66C0-24AE-0278-E3E87E938D9F" />
+			<mapping native_type="UNIQUEIDENTIFIER" logicaltype="number" log_type_id="90015BD8-66C0-24AE-0278-E3E87E938D9F" />
+			<mapping native_type="VARBINARY" logicaltype="number" log_type_id="90015BD8-66C0-24AE-0278-E3E87E938D9F" />
+			<mapping native_type="VARCHAR" logicaltype="character" log_type_id="B2E81DEA-F097-0C6E-D82D-2109375E9C22" />
+		</mappings_for_RDBMS_type>
+		<mappings_for_RDBMS_type rdbms_type="DB2/390 8">
+			<mapping native_type="DATE" logicaltype="date" log_type_id="161A90A6-CA3A-1525-7F0C-0703C95370A2" />
+		</mappings_for_RDBMS_type>
+		<mappings_for_RDBMS_type rdbms_type="DB2/390 7">
+			<mapping native_type="DATE" logicaltype="date" log_type_id="161A90A6-CA3A-1525-7F0C-0703C95370A2" />
+		</mappings_for_RDBMS_type>
+		<mappings_for_RDBMS_type rdbms_type="DB2/UDB 9">
+			<mapping native_type="DATE" logicaltype="date" log_type_id="161A90A6-CA3A-1525-7F0C-0703C95370A2" />
+		</mappings_for_RDBMS_type>
+		<mappings_for_RDBMS_type rdbms_type="DB2/UDB 8.1">
+			<mapping native_type="DATE" logicaltype="date" log_type_id="161A90A6-CA3A-1525-7F0C-0703C95370A2" />
+		</mappings_for_RDBMS_type>
+		<mappings_for_RDBMS_type rdbms_type="DB2/UDB 7.1">
+			<mapping native_type="DATE" logicaltype="date" log_type_id="161A90A6-CA3A-1525-7F0C-0703C95370A2" />
+		</mappings_for_RDBMS_type>
+	</native_to_logical_mappings>
+	<ud_native_db_types>
+		<ud_native_for_db_type rdbms_type="Oracle9i">
+			<ud_db_type native_type="boolean" logicaltype="Boolean" log_type_id="09749D46-3ED4-FA1D-E66F-D82B538FF72C" />
+			<ud_db_type native_type="double precision" logicaltype="dollars" log_type_id="BA2C6143-2A08-9021-B127-28326D437F79" has_size="true" />
+			<ud_db_type native_type="numeric" logicaltype="number" log_type_id="90015BD8-66C0-24AE-0278-E3E87E938D9F" has_size="true" />
+			<ud_db_type native_type="varchar" logicaltype="character" log_type_id="B2E81DEA-F097-0C6E-D82D-2109375E9C22" has_size="true" />
+		</ud_native_for_db_type>
+		<ud_native_for_db_type rdbms_type="SQL Server 2000">
+			<ud_db_type native_type="UUID" />
+			<ud_db_type native_type="XML" />
+			<ud_db_type native_type="bigint" logicaltype="number" log_type_id="90015BD8-66C0-24AE-0278-E3E87E938D9F" />
+			<ud_db_type native_type="bigserial" logicaltype="number" log_type_id="90015BD8-66C0-24AE-0278-E3E87E938D9F" />
+			<ud_db_type native_type="bit" logicaltype="number" log_type_id="90015BD8-66C0-24AE-0278-E3E87E938D9F" has_size="true" />
+			<ud_db_type native_type="bool" logicaltype="unknown" log_type_id="LOGDT017" />
+			<ud_db_type native_type="box" />
+			<ud_db_type native_type="bytea" />
+			<ud_db_type native_type="char" has_size="true" />
+			<ud_db_type native_type="cidr" />
+			<ud_db_type native_type="circle" />
+			<ud_db_type native_type="date" />
+			<ud_db_type native_type="float8" />
+			<ud_db_type native_type="inet" />
+			<ud_db_type native_type="int" />
+			<ud_db_type native_type="interval" />
+			<ud_db_type native_type="json" />
+			<ud_db_type native_type="jsonb" />
+			<ud_db_type native_type="line" />
+			<ud_db_type native_type="lseg" />
+			<ud_db_type native_type="macaddr" />
+			<ud_db_type native_type="macaddr8" />
+			<ud_db_type native_type="money" />
+			<ud_db_type native_type="n" />
+			<ud_db_type native_type="native_type" />
+			<ud_db_type native_type="numeric" has_precision="true" has_scale="true" />
+			<ud_db_type native_type="path" />
+			<ud_db_type native_type="pg_lsn" />
+			<ud_db_type native_type="pg_snapshot" />
+			<ud_db_type native_type="point" />
+			<ud_db_type native_type="real" />
+			<ud_db_type native_type="serial" />
+			<ud_db_type native_type="smallint" />
+			<ud_db_type native_type="smallserial" />
+			<ud_db_type native_type="text" />
+			<ud_db_type native_type="time" has_precision="true" has_scale="true" />
+			<ud_db_type native_type="timestamp" has_precision="true" has_scale="true" />
+			<ud_db_type native_type="timetz" has_precision="true" has_scale="true" />
+			<ud_db_type native_type="tsquery" />
+			<ud_db_type native_type="tsvector" />
+			<ud_db_type native_type="txid_snapshot" />
+			<ud_db_type native_type="varbit" logicaltype="number" log_type_id="90015BD8-66C0-24AE-0278-E3E87E938D9F" has_size="true" />
+			<ud_db_type native_type="varchar" has_size="true" />
+		</ud_native_for_db_type>
+	</ud_native_db_types>
+</logtypes>

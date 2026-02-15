@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="r_person_person_type" directorySegmentName="seg_0" id="280A40DB-2C98-88C4-96C1-9F2EA64A10D1">
+<createdBy>tcollier</createdBy>
+<createdTime>2020-10-30 22:38:09 UTC</createdTime>
+<ownerDesignName>MacLoggerDX_SQLite_DB</ownerDesignName>
+<engineerTo>
+<item key="AF3E3F20-8AFD-D45A-FD64-95FBA8FAE7F0" value="true"/>
+<item key="31E5524C-62D2-47CA-ED22-956AD4BDA5C7" value="true"/>
+</engineerTo>
+<sourcePk>B31DC61E-E792-BBE0-7115-504D07C53103</sourcePk>
+<identifying>true</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>B6B1619A-D772-C16D-E9A5-DBBDD443086C</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>7F6899A9-D330-6EBB-B413-FA52DD0B1A31</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

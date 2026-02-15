@@ -1,0 +1,41 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableView class="oracle.dbtools.crest.model.design.relational.TableView" directorySegmentName="seg_0" id="D5CC0F9E-EC68-0F11-6500-9F3D91A47B03" name="v_checkin_report_date">
+<createdBy>tcollier</createdBy>
+<createdTime>2024-02-10 00:12:53 UTC</createdTime>
+<ownerDesignName>HARC_SNN_Data_Model_V3_TOBE</ownerDesignName>
+<ordsAlias>v_t_checkin_report_date</ordsAlias>
+<userDefined>true</userDefined>
+<userDefinedSQL><![CDATA[CREATE VIEW v_t_checkin_report_date
+  ( checkin_date )
+ AS SELECT
+    checkin_date
+ FROM 
+    t_checkin_report_date ;]]></userDefinedSQL>
+<parsed>true</parsed>
+<originalTableID>9B74157D-23DE-4FF7-1BB2-98DE85926656</originalTableID>
+<viewElements>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="checkin_date" id="AC9EE3EF-E9B6-3713-1495-32420A1F4477">
+<createdBy>tcollier</createdBy>
+<createdTime>2024-02-10 00:12:53 UTC</createdTime>
+<commentInRDBMS><![CDATA[1 row 1 column table containing the Sunday Night Net date which will be reported.]]></commentInRDBMS>
+<ownerDesignName>HARC_SNN_Data_Model_V3_TOBE</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>DATE</dataType>
+<headerAlias>checkin_date</headerAlias>
+<reference>false</reference>
+<referencedColumn>AF1C2AB9-250F-8847-6B76-3620827F386A</referencedColumn>
+<table>9B74157D-23DE-4FF7-1BB2-98DE85926656</table>
+</viewElement>
+</viewElements>
+<usedObjects>
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="9B74157D-23DE-4FF7-1BB2-98DE85926656">
+<container>true</container>
+<tableName>t_checkin_report_date</tableName>
+</UsedObject>
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="AF1C2AB9-250F-8847-6B76-3620827F386A">
+<columnName>checkin_date</columnName>
+<tableName>t_checkin_report_date</tableName>
+</UsedObject>
+</usedObjects>
+</TableView>

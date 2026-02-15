@@ -1,0 +1,851 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<EntityView class="oracle.dbtools.crest.model.design.logical.EntityView" directorySegmentName="seg_0" id="A38CD427-CD55-10E2-FF13-540F2FB940FE" name="v qso table v007">
+<createdBy>tcollier</createdBy>
+<createdTime>2023-12-10 01:29:04 UTC</createdTime>
+<generatorID>00218715-62A5-4C7F-BD60-C158A4719C86</generatorID>
+<ownerDesignName>HARC_SNN_Data_Model_V3</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="FDFA065C-9B79-4768-D3A1-ACB9D4078B29" value="false"/>
+</engineerTo>
+<userDefined>true</userDefined>
+<userDefinedSQL><![CDATA[select *
+	from qso_table_v007]]></userDefinedSQL>
+<validSQL>false</validSQL>
+<viewType>EntityView</viewType>
+<viewElements>
+<viewElement class="oracle.dbtools.crest.model.design.logical.AttributeView" name="&apos;pk&apos;" id="1F4F8DAE-795B-D457-889E-415FF9993B30">
+<createdBy>tcollier</createdBy>
+<createdTime>2023-12-10 01:29:04 UTC</createdTime>
+<generatorID>C5DFE1E8-351F-E2AA-DC72-822194EDA44C</generatorID>
+<ownerDesignName>HARC_SNN_Data_Model_V3</ownerDesignName>
+<engineerTo>
+<item key="FDFA065C-9B79-4768-D3A1-ACB9D4078B29" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>NUMBER</dataType>
+<reference>false</reference>
+<referencedColumn>9428AF50-1A03-0B6D-4256-C5AAC039BD3E</referencedColumn>
+<table>CE320D0B-11AA-139A-32B3-2E410093780F</table>
+<tableAlias>qso_table_v007</tableAlias>
+<viewID>A38CD427-CD55-10E2-FF13-540F2FB940FE</viewID>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.logical.AttributeView" name="&apos;my_grid&apos;" id="4B679A80-B6DC-07C7-8464-6CFFD6921E37">
+<createdBy>tcollier</createdBy>
+<createdTime>2023-12-10 01:29:04 UTC</createdTime>
+<generatorID>0A177AA8-90D6-998F-8E24-7EDF55B7C5DE</generatorID>
+<ownerDesignName>HARC_SNN_Data_Model_V3</ownerDesignName>
+<engineerTo>
+<item key="FDFA065C-9B79-4768-D3A1-ACB9D4078B29" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>UNKNOWN</dataType>
+<reference>false</reference>
+<referencedColumn>731266C9-1494-03E9-F569-440EE1653B7C</referencedColumn>
+<table>CE320D0B-11AA-139A-32B3-2E410093780F</table>
+<tableAlias>qso_table_v007</tableAlias>
+<viewID>A38CD427-CD55-10E2-FF13-540F2FB940FE</viewID>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.logical.AttributeView" name="&apos;my_call&apos;" id="4D7E4F3A-FBA4-052B-357D-10EC9DC26F1F">
+<createdBy>tcollier</createdBy>
+<createdTime>2023-12-10 01:29:04 UTC</createdTime>
+<generatorID>5EC16BD6-4F8D-6D04-DC59-AE36D2A192E8</generatorID>
+<ownerDesignName>HARC_SNN_Data_Model_V3</ownerDesignName>
+<engineerTo>
+<item key="FDFA065C-9B79-4768-D3A1-ACB9D4078B29" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>UNKNOWN</dataType>
+<reference>false</reference>
+<referencedColumn>F93725D8-8A2D-88E3-FF49-CDB378977EE2</referencedColumn>
+<table>CE320D0B-11AA-139A-32B3-2E410093780F</table>
+<tableAlias>qso_table_v007</tableAlias>
+<viewID>A38CD427-CD55-10E2-FF13-540F2FB940FE</viewID>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.logical.AttributeView" name="&apos;my_rig&apos;" id="F772E6C4-641D-FC3E-12C7-9529AF88DFA3">
+<createdBy>tcollier</createdBy>
+<createdTime>2023-12-10 01:29:04 UTC</createdTime>
+<generatorID>13AF91F9-4659-24B3-9183-A4B518901E74</generatorID>
+<ownerDesignName>HARC_SNN_Data_Model_V3</ownerDesignName>
+<engineerTo>
+<item key="FDFA065C-9B79-4768-D3A1-ACB9D4078B29" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>UNKNOWN</dataType>
+<reference>false</reference>
+<referencedColumn>3059BA11-4C2F-DB02-CAB2-5B84D841D757</referencedColumn>
+<table>CE320D0B-11AA-139A-32B3-2E410093780F</table>
+<tableAlias>qso_table_v007</tableAlias>
+<viewID>A38CD427-CD55-10E2-FF13-540F2FB940FE</viewID>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.logical.AttributeView" name="&apos;call&apos;" id="83AE2006-E996-60ED-B55F-5E6084B17B7A">
+<createdBy>tcollier</createdBy>
+<createdTime>2023-12-10 01:29:04 UTC</createdTime>
+<generatorID>761EC0BA-1A40-81F6-EE5D-B21C0C53B7B9</generatorID>
+<ownerDesignName>HARC_SNN_Data_Model_V3</ownerDesignName>
+<engineerTo>
+<item key="FDFA065C-9B79-4768-D3A1-ACB9D4078B29" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>UNKNOWN</dataType>
+<reference>false</reference>
+<referencedColumn>525AD5D8-63D4-DA62-E4E3-0F27EC873906</referencedColumn>
+<table>CE320D0B-11AA-139A-32B3-2E410093780F</table>
+<tableAlias>qso_table_v007</tableAlias>
+<viewID>A38CD427-CD55-10E2-FF13-540F2FB940FE</viewID>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.logical.AttributeView" name="&apos;first_name&apos;" id="5888BCF9-F216-3787-EE61-153F68808517">
+<createdBy>tcollier</createdBy>
+<createdTime>2023-12-10 01:29:04 UTC</createdTime>
+<generatorID>1C9E7362-8A81-C6EB-E93D-2D783475EE0F</generatorID>
+<ownerDesignName>HARC_SNN_Data_Model_V3</ownerDesignName>
+<engineerTo>
+<item key="FDFA065C-9B79-4768-D3A1-ACB9D4078B29" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>UNKNOWN</dataType>
+<reference>false</reference>
+<referencedColumn>0BEE81E8-C9A2-8911-442D-DE3212B4DDFE</referencedColumn>
+<table>CE320D0B-11AA-139A-32B3-2E410093780F</table>
+<tableAlias>qso_table_v007</tableAlias>
+<viewID>A38CD427-CD55-10E2-FF13-540F2FB940FE</viewID>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.logical.AttributeView" name="&apos;last_name&apos;" id="906673F9-A319-DBA0-70C0-013DF8BB072C">
+<createdBy>tcollier</createdBy>
+<createdTime>2023-12-10 01:29:04 UTC</createdTime>
+<generatorID>4AB382E9-2FF6-F463-972F-2B77D79685D9</generatorID>
+<ownerDesignName>HARC_SNN_Data_Model_V3</ownerDesignName>
+<engineerTo>
+<item key="FDFA065C-9B79-4768-D3A1-ACB9D4078B29" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>UNKNOWN</dataType>
+<reference>false</reference>
+<referencedColumn>47C563DB-6629-24C2-6E1E-D2882FC2F25D</referencedColumn>
+<table>CE320D0B-11AA-139A-32B3-2E410093780F</table>
+<tableAlias>qso_table_v007</tableAlias>
+<viewID>A38CD427-CD55-10E2-FF13-540F2FB940FE</viewID>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.logical.AttributeView" name="&apos;street&apos;" id="EFEAD95B-27D8-3490-B0E4-9B9BE33DB404">
+<createdBy>tcollier</createdBy>
+<createdTime>2023-12-10 01:29:04 UTC</createdTime>
+<generatorID>59C2B477-018D-A886-78B1-32F1719AE4DF</generatorID>
+<ownerDesignName>HARC_SNN_Data_Model_V3</ownerDesignName>
+<engineerTo>
+<item key="FDFA065C-9B79-4768-D3A1-ACB9D4078B29" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>UNKNOWN</dataType>
+<reference>false</reference>
+<referencedColumn>821EAF2D-93B8-D0C8-F976-7FFB4481061F</referencedColumn>
+<table>CE320D0B-11AA-139A-32B3-2E410093780F</table>
+<tableAlias>qso_table_v007</tableAlias>
+<viewID>A38CD427-CD55-10E2-FF13-540F2FB940FE</viewID>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.logical.AttributeView" name="&apos;city&apos;" id="88200F7E-815F-ABA7-B043-9B542FB59BF0">
+<createdBy>tcollier</createdBy>
+<createdTime>2023-12-10 01:29:04 UTC</createdTime>
+<generatorID>23C16432-EC2E-DAC6-EB18-468F12D6B348</generatorID>
+<ownerDesignName>HARC_SNN_Data_Model_V3</ownerDesignName>
+<engineerTo>
+<item key="FDFA065C-9B79-4768-D3A1-ACB9D4078B29" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>UNKNOWN</dataType>
+<reference>false</reference>
+<referencedColumn>750119CB-184C-5DCA-E7E2-30B52A7677F2</referencedColumn>
+<table>CE320D0B-11AA-139A-32B3-2E410093780F</table>
+<tableAlias>qso_table_v007</tableAlias>
+<viewID>A38CD427-CD55-10E2-FF13-540F2FB940FE</viewID>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.logical.AttributeView" name="&apos;county&apos;" id="1FF07075-2CF4-7113-5872-B589A135D46E">
+<createdBy>tcollier</createdBy>
+<createdTime>2023-12-10 01:29:04 UTC</createdTime>
+<generatorID>EEE75724-0F85-8971-13DC-99198EEE45EE</generatorID>
+<ownerDesignName>HARC_SNN_Data_Model_V3</ownerDesignName>
+<engineerTo>
+<item key="FDFA065C-9B79-4768-D3A1-ACB9D4078B29" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>UNKNOWN</dataType>
+<reference>false</reference>
+<referencedColumn>B84D424F-CF46-9346-F5B5-02951CA82E76</referencedColumn>
+<table>CE320D0B-11AA-139A-32B3-2E410093780F</table>
+<tableAlias>qso_table_v007</tableAlias>
+<viewID>A38CD427-CD55-10E2-FF13-540F2FB940FE</viewID>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.logical.AttributeView" name="&apos;state&apos;" id="74FB381E-B2EE-2C31-0743-361296CE2BEF">
+<createdBy>tcollier</createdBy>
+<createdTime>2023-12-10 01:29:04 UTC</createdTime>
+<generatorID>0F324393-9DAB-FABD-F06D-64607BF31414</generatorID>
+<ownerDesignName>HARC_SNN_Data_Model_V3</ownerDesignName>
+<engineerTo>
+<item key="FDFA065C-9B79-4768-D3A1-ACB9D4078B29" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>UNKNOWN</dataType>
+<reference>false</reference>
+<referencedColumn>9928A6D9-D3D9-5D26-1A07-0E46D021FBEF</referencedColumn>
+<table>CE320D0B-11AA-139A-32B3-2E410093780F</table>
+<tableAlias>qso_table_v007</tableAlias>
+<viewID>A38CD427-CD55-10E2-FF13-540F2FB940FE</viewID>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.logical.AttributeView" name="&apos;postal_country&apos;" id="1369BD39-2E48-B5A4-C85E-3237EBA99979">
+<createdBy>tcollier</createdBy>
+<createdTime>2023-12-10 01:29:04 UTC</createdTime>
+<generatorID>5CA772EE-37CD-DC0E-7495-FEBE4B16F3BF</generatorID>
+<ownerDesignName>HARC_SNN_Data_Model_V3</ownerDesignName>
+<engineerTo>
+<item key="FDFA065C-9B79-4768-D3A1-ACB9D4078B29" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>UNKNOWN</dataType>
+<reference>false</reference>
+<referencedColumn>53612F6A-CDF0-F5B0-77DB-C05D9C2EACB3</referencedColumn>
+<table>CE320D0B-11AA-139A-32B3-2E410093780F</table>
+<tableAlias>qso_table_v007</tableAlias>
+<viewID>A38CD427-CD55-10E2-FF13-540F2FB940FE</viewID>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.logical.AttributeView" name="&apos;zip&apos;" id="A50B1839-C995-9D9C-389B-FF5191C7B045">
+<createdBy>tcollier</createdBy>
+<createdTime>2023-12-10 01:29:04 UTC</createdTime>
+<generatorID>90E2BA29-CFB3-4EF0-2429-1851498207FE</generatorID>
+<ownerDesignName>HARC_SNN_Data_Model_V3</ownerDesignName>
+<engineerTo>
+<item key="FDFA065C-9B79-4768-D3A1-ACB9D4078B29" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>UNKNOWN</dataType>
+<reference>false</reference>
+<referencedColumn>2CADC343-A973-7BDA-46FE-1FD284E9B61E</referencedColumn>
+<table>CE320D0B-11AA-139A-32B3-2E410093780F</table>
+<tableAlias>qso_table_v007</tableAlias>
+<viewID>A38CD427-CD55-10E2-FF13-540F2FB940FE</viewID>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.logical.AttributeView" name="&apos;grid&apos;" id="9995523C-7A24-C6C9-EAF6-0AAE15698E75">
+<createdBy>tcollier</createdBy>
+<createdTime>2023-12-10 01:29:04 UTC</createdTime>
+<generatorID>C7E3AC7B-7276-898B-3B13-3FA0839A6976</generatorID>
+<ownerDesignName>HARC_SNN_Data_Model_V3</ownerDesignName>
+<engineerTo>
+<item key="FDFA065C-9B79-4768-D3A1-ACB9D4078B29" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>UNKNOWN</dataType>
+<reference>false</reference>
+<referencedColumn>E0C01A1A-C295-3D2E-E4E9-93C955838862</referencedColumn>
+<table>CE320D0B-11AA-139A-32B3-2E410093780F</table>
+<tableAlias>qso_table_v007</tableAlias>
+<viewID>A38CD427-CD55-10E2-FF13-540F2FB940FE</viewID>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.logical.AttributeView" name="&apos;dxcc_country&apos;" id="9A86220E-D81C-5F5C-C314-D00C32308A84">
+<createdBy>tcollier</createdBy>
+<createdTime>2023-12-10 01:29:04 UTC</createdTime>
+<generatorID>487D3117-F8AD-3D04-02E2-47B1AD5D31B1</generatorID>
+<ownerDesignName>HARC_SNN_Data_Model_V3</ownerDesignName>
+<engineerTo>
+<item key="FDFA065C-9B79-4768-D3A1-ACB9D4078B29" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>UNKNOWN</dataType>
+<reference>false</reference>
+<referencedColumn>0D800897-4102-F244-FC09-B0371A3ECA8E</referencedColumn>
+<table>CE320D0B-11AA-139A-32B3-2E410093780F</table>
+<tableAlias>qso_table_v007</tableAlias>
+<viewID>A38CD427-CD55-10E2-FF13-540F2FB940FE</viewID>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.logical.AttributeView" name="&apos;iota&apos;" id="B5CBC7CA-817B-BB77-915D-43C3F49C52FC">
+<createdBy>tcollier</createdBy>
+<createdTime>2023-12-10 01:29:04 UTC</createdTime>
+<generatorID>B47D7738-CF23-3D2A-BBC5-8BDD41DE0AAD</generatorID>
+<ownerDesignName>HARC_SNN_Data_Model_V3</ownerDesignName>
+<engineerTo>
+<item key="FDFA065C-9B79-4768-D3A1-ACB9D4078B29" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>UNKNOWN</dataType>
+<reference>false</reference>
+<referencedColumn>E5361A8F-9E17-7BD0-35CB-E66D4D41D631</referencedColumn>
+<table>CE320D0B-11AA-139A-32B3-2E410093780F</table>
+<tableAlias>qso_table_v007</tableAlias>
+<viewID>A38CD427-CD55-10E2-FF13-540F2FB940FE</viewID>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.logical.AttributeView" name="&apos;sota&apos;" id="5A6C0194-8925-DA7C-1A81-F85E22D0270B">
+<createdBy>tcollier</createdBy>
+<createdTime>2023-12-10 01:29:04 UTC</createdTime>
+<generatorID>F12D66B7-771D-9FB7-0376-9BC1398A6180</generatorID>
+<ownerDesignName>HARC_SNN_Data_Model_V3</ownerDesignName>
+<engineerTo>
+<item key="FDFA065C-9B79-4768-D3A1-ACB9D4078B29" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>UNKNOWN</dataType>
+<reference>false</reference>
+<referencedColumn>3CF8CAE9-EFD7-57F2-017B-63EE56991B87</referencedColumn>
+<table>CE320D0B-11AA-139A-32B3-2E410093780F</table>
+<tableAlias>qso_table_v007</tableAlias>
+<viewID>A38CD427-CD55-10E2-FF13-540F2FB940FE</viewID>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.logical.AttributeView" name="&apos;cq_zone&apos;" id="557A7B2F-308F-4C60-0B9D-062C819BDFC5">
+<createdBy>tcollier</createdBy>
+<createdTime>2023-12-10 01:29:04 UTC</createdTime>
+<generatorID>5B247F83-20A3-46A1-5304-4A4F8ECD0DA6</generatorID>
+<ownerDesignName>HARC_SNN_Data_Model_V3</ownerDesignName>
+<engineerTo>
+<item key="FDFA065C-9B79-4768-D3A1-ACB9D4078B29" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>UNKNOWN</dataType>
+<reference>false</reference>
+<referencedColumn>959819B9-2640-EEEB-8E06-0E1E782C0DAA</referencedColumn>
+<table>CE320D0B-11AA-139A-32B3-2E410093780F</table>
+<tableAlias>qso_table_v007</tableAlias>
+<viewID>A38CD427-CD55-10E2-FF13-540F2FB940FE</viewID>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.logical.AttributeView" name="&apos;itu&apos;" id="8D32D50F-C179-B6FC-5E1A-66AC2521077A">
+<createdBy>tcollier</createdBy>
+<createdTime>2023-12-10 01:29:04 UTC</createdTime>
+<generatorID>D166D936-08BE-1DA5-6FFA-DD392310E4F0</generatorID>
+<ownerDesignName>HARC_SNN_Data_Model_V3</ownerDesignName>
+<engineerTo>
+<item key="FDFA065C-9B79-4768-D3A1-ACB9D4078B29" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>UNKNOWN</dataType>
+<reference>false</reference>
+<referencedColumn>05913D0B-2F5E-8F63-E665-4EB3BFF534E4</referencedColumn>
+<table>CE320D0B-11AA-139A-32B3-2E410093780F</table>
+<tableAlias>qso_table_v007</tableAlias>
+<viewID>A38CD427-CD55-10E2-FF13-540F2FB940FE</viewID>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.logical.AttributeView" name="&apos;ten_ten&apos;" id="0B346DF1-475F-8219-FE17-AC8E5B42C124">
+<createdBy>tcollier</createdBy>
+<createdTime>2023-12-10 01:29:04 UTC</createdTime>
+<generatorID>DA0421A8-C99A-F540-4EA3-8B6BEF3A956C</generatorID>
+<ownerDesignName>HARC_SNN_Data_Model_V3</ownerDesignName>
+<engineerTo>
+<item key="FDFA065C-9B79-4768-D3A1-ACB9D4078B29" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>UNKNOWN</dataType>
+<reference>false</reference>
+<referencedColumn>8E5DF133-C6A6-AD89-549B-7BD115624E7D</referencedColumn>
+<table>CE320D0B-11AA-139A-32B3-2E410093780F</table>
+<tableAlias>qso_table_v007</tableAlias>
+<viewID>A38CD427-CD55-10E2-FF13-540F2FB940FE</viewID>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.logical.AttributeView" name="&apos;email&apos;" id="C5EB642F-271D-53C0-6162-A8D6A9E6EF2C">
+<createdBy>tcollier</createdBy>
+<createdTime>2023-12-10 01:29:04 UTC</createdTime>
+<generatorID>DE202487-4CE5-8FBE-50EB-30C8CF4CD659</generatorID>
+<ownerDesignName>HARC_SNN_Data_Model_V3</ownerDesignName>
+<engineerTo>
+<item key="FDFA065C-9B79-4768-D3A1-ACB9D4078B29" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>UNKNOWN</dataType>
+<reference>false</reference>
+<referencedColumn>0F413799-44A0-0BF9-B847-49A0FD956129</referencedColumn>
+<table>CE320D0B-11AA-139A-32B3-2E410093780F</table>
+<tableAlias>qso_table_v007</tableAlias>
+<viewID>A38CD427-CD55-10E2-FF13-540F2FB940FE</viewID>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.logical.AttributeView" name="&apos;url&apos;" id="0C4F3B91-0879-1FFB-F32B-3D876467D772">
+<createdBy>tcollier</createdBy>
+<createdTime>2023-12-10 01:29:04 UTC</createdTime>
+<generatorID>588755A1-A312-3EF9-0622-1126BA72BC8E</generatorID>
+<ownerDesignName>HARC_SNN_Data_Model_V3</ownerDesignName>
+<engineerTo>
+<item key="FDFA065C-9B79-4768-D3A1-ACB9D4078B29" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>UNKNOWN</dataType>
+<reference>false</reference>
+<referencedColumn>30362D13-137C-0671-CA0A-6996E995F10F</referencedColumn>
+<table>CE320D0B-11AA-139A-32B3-2E410093780F</table>
+<tableAlias>qso_table_v007</tableAlias>
+<viewID>A38CD427-CD55-10E2-FF13-540F2FB940FE</viewID>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.logical.AttributeView" name="&apos;mode&apos;" id="207DE33E-3BCA-18C0-1D5E-EBF4211E6CA9">
+<createdBy>tcollier</createdBy>
+<createdTime>2023-12-10 01:29:04 UTC</createdTime>
+<generatorID>0E03AF03-93DC-58B2-3352-8E4F9677F163</generatorID>
+<ownerDesignName>HARC_SNN_Data_Model_V3</ownerDesignName>
+<engineerTo>
+<item key="FDFA065C-9B79-4768-D3A1-ACB9D4078B29" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>UNKNOWN</dataType>
+<reference>false</reference>
+<referencedColumn>85F8FECE-764F-A4B3-90EE-29B98F13EA4F</referencedColumn>
+<table>CE320D0B-11AA-139A-32B3-2E410093780F</table>
+<tableAlias>qso_table_v007</tableAlias>
+<viewID>A38CD427-CD55-10E2-FF13-540F2FB940FE</viewID>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.logical.AttributeView" name="&apos;band_rx&apos;" id="BA664389-8994-B583-54EA-45734706B9F5">
+<createdBy>tcollier</createdBy>
+<createdTime>2023-12-10 01:29:04 UTC</createdTime>
+<generatorID>275A48C3-F6F4-95CD-0229-8796D1C6C755</generatorID>
+<ownerDesignName>HARC_SNN_Data_Model_V3</ownerDesignName>
+<engineerTo>
+<item key="FDFA065C-9B79-4768-D3A1-ACB9D4078B29" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>UNKNOWN</dataType>
+<reference>false</reference>
+<referencedColumn>97416219-102A-B38E-0417-BBB6C448DC92</referencedColumn>
+<table>CE320D0B-11AA-139A-32B3-2E410093780F</table>
+<tableAlias>qso_table_v007</tableAlias>
+<viewID>A38CD427-CD55-10E2-FF13-540F2FB940FE</viewID>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.logical.AttributeView" name="&apos;band_tx&apos;" id="4F92B467-777A-B617-CD1A-21E62AFF3741">
+<createdBy>tcollier</createdBy>
+<createdTime>2023-12-10 01:29:04 UTC</createdTime>
+<generatorID>B562F666-A2EE-8A69-2C4A-2B4A5EED60D6</generatorID>
+<ownerDesignName>HARC_SNN_Data_Model_V3</ownerDesignName>
+<engineerTo>
+<item key="FDFA065C-9B79-4768-D3A1-ACB9D4078B29" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>UNKNOWN</dataType>
+<reference>false</reference>
+<referencedColumn>886DB7ED-47A1-C755-812D-EDDC6F85CEC8</referencedColumn>
+<table>CE320D0B-11AA-139A-32B3-2E410093780F</table>
+<tableAlias>qso_table_v007</tableAlias>
+<viewID>A38CD427-CD55-10E2-FF13-540F2FB940FE</viewID>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.logical.AttributeView" name="&apos;rst_sent&apos;" id="EFB48AD4-A69D-8C5D-3E55-432B34AEF7CD">
+<createdBy>tcollier</createdBy>
+<createdTime>2023-12-10 01:29:04 UTC</createdTime>
+<generatorID>DA240905-E1D0-1A4C-8AD2-CFB20BC6F340</generatorID>
+<ownerDesignName>HARC_SNN_Data_Model_V3</ownerDesignName>
+<engineerTo>
+<item key="FDFA065C-9B79-4768-D3A1-ACB9D4078B29" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>UNKNOWN</dataType>
+<reference>false</reference>
+<referencedColumn>BFCBC2BC-6959-1ABE-0C47-20B53142579F</referencedColumn>
+<table>CE320D0B-11AA-139A-32B3-2E410093780F</table>
+<tableAlias>qso_table_v007</tableAlias>
+<viewID>A38CD427-CD55-10E2-FF13-540F2FB940FE</viewID>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.logical.AttributeView" name="&apos;rst_received&apos;" id="ED17FA56-6A2E-28A7-783D-EB3F813A0214">
+<createdBy>tcollier</createdBy>
+<createdTime>2023-12-10 01:29:04 UTC</createdTime>
+<generatorID>7680784F-95CE-339B-E05E-EDA073C00870</generatorID>
+<ownerDesignName>HARC_SNN_Data_Model_V3</ownerDesignName>
+<engineerTo>
+<item key="FDFA065C-9B79-4768-D3A1-ACB9D4078B29" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>UNKNOWN</dataType>
+<reference>false</reference>
+<referencedColumn>B5C07643-7317-C9CA-3821-D09C700C6AC4</referencedColumn>
+<table>CE320D0B-11AA-139A-32B3-2E410093780F</table>
+<tableAlias>qso_table_v007</tableAlias>
+<viewID>A38CD427-CD55-10E2-FF13-540F2FB940FE</viewID>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.logical.AttributeView" name="&apos;qsl_via&apos;" id="DC34F37A-EFE1-B99A-3088-A7CE89B315EE">
+<createdBy>tcollier</createdBy>
+<createdTime>2023-12-10 01:29:04 UTC</createdTime>
+<generatorID>0D234CD9-1EDB-4839-A979-5193A7F90A38</generatorID>
+<ownerDesignName>HARC_SNN_Data_Model_V3</ownerDesignName>
+<engineerTo>
+<item key="FDFA065C-9B79-4768-D3A1-ACB9D4078B29" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>UNKNOWN</dataType>
+<reference>false</reference>
+<referencedColumn>8D2B7576-E294-0F42-7C25-7B113C99DE59</referencedColumn>
+<table>CE320D0B-11AA-139A-32B3-2E410093780F</table>
+<tableAlias>qso_table_v007</tableAlias>
+<viewID>A38CD427-CD55-10E2-FF13-540F2FB940FE</viewID>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.logical.AttributeView" name="&apos;qsl_sent&apos;" id="BE51D2CA-F480-BCD4-C19E-DA8154AEE0CC">
+<createdBy>tcollier</createdBy>
+<createdTime>2023-12-10 01:29:04 UTC</createdTime>
+<generatorID>0C52F5E8-026F-12AE-9C50-908F3ECFC965</generatorID>
+<ownerDesignName>HARC_SNN_Data_Model_V3</ownerDesignName>
+<engineerTo>
+<item key="FDFA065C-9B79-4768-D3A1-ACB9D4078B29" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>UNKNOWN</dataType>
+<reference>false</reference>
+<referencedColumn>8818A831-7C0D-DB5D-DE0B-104146720CB3</referencedColumn>
+<table>CE320D0B-11AA-139A-32B3-2E410093780F</table>
+<tableAlias>qso_table_v007</tableAlias>
+<viewID>A38CD427-CD55-10E2-FF13-540F2FB940FE</viewID>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.logical.AttributeView" name="&apos;qsl_received&apos;" id="204B37C9-A109-8858-787D-719224A44791">
+<createdBy>tcollier</createdBy>
+<createdTime>2023-12-10 01:29:04 UTC</createdTime>
+<generatorID>A85158F1-9B7C-A9F6-15A5-7D563B0CBFA1</generatorID>
+<ownerDesignName>HARC_SNN_Data_Model_V3</ownerDesignName>
+<engineerTo>
+<item key="FDFA065C-9B79-4768-D3A1-ACB9D4078B29" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>UNKNOWN</dataType>
+<reference>false</reference>
+<referencedColumn>0F081D6F-51F9-4F4B-705A-87021C710E4C</referencedColumn>
+<table>CE320D0B-11AA-139A-32B3-2E410093780F</table>
+<tableAlias>qso_table_v007</tableAlias>
+<viewID>A38CD427-CD55-10E2-FF13-540F2FB940FE</viewID>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.logical.AttributeView" name="&apos;srx&apos;" id="BB58B0E7-EC85-E318-2D5E-27B0A974EB9A">
+<createdBy>tcollier</createdBy>
+<createdTime>2023-12-10 01:29:04 UTC</createdTime>
+<generatorID>E36359E8-72B6-8878-847B-962B21D4C217</generatorID>
+<ownerDesignName>HARC_SNN_Data_Model_V3</ownerDesignName>
+<engineerTo>
+<item key="FDFA065C-9B79-4768-D3A1-ACB9D4078B29" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>UNKNOWN</dataType>
+<reference>false</reference>
+<referencedColumn>3FE8378B-D51E-A71C-81B4-9561A66E2B84</referencedColumn>
+<table>CE320D0B-11AA-139A-32B3-2E410093780F</table>
+<tableAlias>qso_table_v007</tableAlias>
+<viewID>A38CD427-CD55-10E2-FF13-540F2FB940FE</viewID>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.logical.AttributeView" name="&apos;stx&apos;" id="B0809A39-6CEA-259B-CB9C-7DB1EFBA287B">
+<createdBy>tcollier</createdBy>
+<createdTime>2023-12-10 01:29:04 UTC</createdTime>
+<generatorID>B1111D8E-D728-2CC7-614F-1D01DEA6A579</generatorID>
+<ownerDesignName>HARC_SNN_Data_Model_V3</ownerDesignName>
+<engineerTo>
+<item key="FDFA065C-9B79-4768-D3A1-ACB9D4078B29" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>UNKNOWN</dataType>
+<reference>false</reference>
+<referencedColumn>81A79F76-E69C-D557-ECFB-E28190DC7CC6</referencedColumn>
+<table>CE320D0B-11AA-139A-32B3-2E410093780F</table>
+<tableAlias>qso_table_v007</tableAlias>
+<viewID>A38CD427-CD55-10E2-FF13-540F2FB940FE</viewID>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.logical.AttributeView" name="&apos;comments&apos;" id="C02B967A-0009-81FD-BB51-A19EF13512EF">
+<createdBy>tcollier</createdBy>
+<createdTime>2023-12-10 01:29:04 UTC</createdTime>
+<generatorID>9A2A35B6-4BE3-50B2-80C8-80A3988D8E30</generatorID>
+<ownerDesignName>HARC_SNN_Data_Model_V3</ownerDesignName>
+<engineerTo>
+<item key="FDFA065C-9B79-4768-D3A1-ACB9D4078B29" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>UNKNOWN</dataType>
+<reference>false</reference>
+<referencedColumn>2287C097-4239-A7F0-46D4-CF26315D0710</referencedColumn>
+<table>CE320D0B-11AA-139A-32B3-2E410093780F</table>
+<tableAlias>qso_table_v007</tableAlias>
+<viewID>A38CD427-CD55-10E2-FF13-540F2FB940FE</viewID>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.logical.AttributeView" name="&apos;satellite&apos;" id="B7F6FAA9-298A-DD39-58D0-2418BD6E8CCD">
+<createdBy>tcollier</createdBy>
+<createdTime>2023-12-10 01:29:04 UTC</createdTime>
+<generatorID>2D757EAB-0962-A743-8871-322C2CEF414D</generatorID>
+<ownerDesignName>HARC_SNN_Data_Model_V3</ownerDesignName>
+<engineerTo>
+<item key="FDFA065C-9B79-4768-D3A1-ACB9D4078B29" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>UNKNOWN</dataType>
+<reference>false</reference>
+<referencedColumn>452C73C2-8123-C81B-90C0-D737EF82BB35</referencedColumn>
+<table>CE320D0B-11AA-139A-32B3-2E410093780F</table>
+<tableAlias>qso_table_v007</tableAlias>
+<viewID>A38CD427-CD55-10E2-FF13-540F2FB940FE</viewID>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.logical.AttributeView" name="&apos;qso_start&apos;" id="37E7F911-D356-FB28-6BFB-F94A0854F48C">
+<createdBy>tcollier</createdBy>
+<createdTime>2023-12-10 01:29:04 UTC</createdTime>
+<generatorID>04BB89D3-F651-04AA-ECF5-3520139D7AA3</generatorID>
+<ownerDesignName>HARC_SNN_Data_Model_V3</ownerDesignName>
+<engineerTo>
+<item key="FDFA065C-9B79-4768-D3A1-ACB9D4078B29" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>UNKNOWN</dataType>
+<reference>false</reference>
+<referencedColumn>1FA4A099-BCC9-73E7-6581-737C8094AB25</referencedColumn>
+<table>CE320D0B-11AA-139A-32B3-2E410093780F</table>
+<tableAlias>qso_table_v007</tableAlias>
+<viewID>A38CD427-CD55-10E2-FF13-540F2FB940FE</viewID>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.logical.AttributeView" name="&apos;qso_done&apos;" id="4259DCAE-0B2E-5043-5D24-810C67FC3806">
+<createdBy>tcollier</createdBy>
+<createdTime>2023-12-10 01:29:04 UTC</createdTime>
+<generatorID>B479F6B1-DB90-266D-D2B5-F8A390725DB9</generatorID>
+<ownerDesignName>HARC_SNN_Data_Model_V3</ownerDesignName>
+<engineerTo>
+<item key="FDFA065C-9B79-4768-D3A1-ACB9D4078B29" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>UNKNOWN</dataType>
+<reference>false</reference>
+<referencedColumn>54E7173C-6534-546C-0B8D-4CC0296962D1</referencedColumn>
+<table>CE320D0B-11AA-139A-32B3-2E410093780F</table>
+<tableAlias>qso_table_v007</tableAlias>
+<viewID>A38CD427-CD55-10E2-FF13-540F2FB940FE</viewID>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.logical.AttributeView" name="&apos;latitude&apos;" id="F0AD3955-C1E2-E338-413A-9A270E40C1BF">
+<createdBy>tcollier</createdBy>
+<createdTime>2023-12-10 01:29:04 UTC</createdTime>
+<generatorID>EB0CC36C-336A-AED4-23EB-CECD2B7D1F2F</generatorID>
+<ownerDesignName>HARC_SNN_Data_Model_V3</ownerDesignName>
+<engineerTo>
+<item key="FDFA065C-9B79-4768-D3A1-ACB9D4078B29" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>UNKNOWN</dataType>
+<reference>false</reference>
+<referencedColumn>A94C642E-7BB2-410A-4E99-999D11114A7F</referencedColumn>
+<table>CE320D0B-11AA-139A-32B3-2E410093780F</table>
+<tableAlias>qso_table_v007</tableAlias>
+<viewID>A38CD427-CD55-10E2-FF13-540F2FB940FE</viewID>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.logical.AttributeView" name="&apos;longitude&apos;" id="E9146353-20B6-1317-4B66-2463D0D7ED77">
+<createdBy>tcollier</createdBy>
+<createdTime>2023-12-10 01:29:04 UTC</createdTime>
+<generatorID>80A8BF9E-586F-BAFE-69C3-55CE74550885</generatorID>
+<ownerDesignName>HARC_SNN_Data_Model_V3</ownerDesignName>
+<engineerTo>
+<item key="FDFA065C-9B79-4768-D3A1-ACB9D4078B29" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>UNKNOWN</dataType>
+<reference>false</reference>
+<referencedColumn>E51B7F9D-1F1A-E778-381E-AF7FBD1B2E2E</referencedColumn>
+<table>CE320D0B-11AA-139A-32B3-2E410093780F</table>
+<tableAlias>qso_table_v007</tableAlias>
+<viewID>A38CD427-CD55-10E2-FF13-540F2FB940FE</viewID>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.logical.AttributeView" name="&apos;tx_frequency&apos;" id="28568236-76EF-EC79-7407-37B3FDAC24CC">
+<createdBy>tcollier</createdBy>
+<createdTime>2023-12-10 01:29:04 UTC</createdTime>
+<generatorID>BBEB831C-611E-2516-E780-6B17A3168BDF</generatorID>
+<ownerDesignName>HARC_SNN_Data_Model_V3</ownerDesignName>
+<engineerTo>
+<item key="FDFA065C-9B79-4768-D3A1-ACB9D4078B29" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>UNKNOWN</dataType>
+<reference>false</reference>
+<referencedColumn>6DAEAA69-1C7B-9417-82F8-85445F9D2D95</referencedColumn>
+<table>CE320D0B-11AA-139A-32B3-2E410093780F</table>
+<tableAlias>qso_table_v007</tableAlias>
+<viewID>A38CD427-CD55-10E2-FF13-540F2FB940FE</viewID>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.logical.AttributeView" name="&apos;rx_frequency&apos;" id="B2790024-9C4C-615A-9276-52A9EF40A772">
+<createdBy>tcollier</createdBy>
+<createdTime>2023-12-10 01:29:04 UTC</createdTime>
+<generatorID>CF726A49-E2C9-47FA-CE9C-C80524A1392E</generatorID>
+<ownerDesignName>HARC_SNN_Data_Model_V3</ownerDesignName>
+<engineerTo>
+<item key="FDFA065C-9B79-4768-D3A1-ACB9D4078B29" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>UNKNOWN</dataType>
+<reference>false</reference>
+<referencedColumn>0385E2D2-6B8A-211D-1C18-011D3E541FCC</referencedColumn>
+<table>CE320D0B-11AA-139A-32B3-2E410093780F</table>
+<tableAlias>qso_table_v007</tableAlias>
+<viewID>A38CD427-CD55-10E2-FF13-540F2FB940FE</viewID>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.logical.AttributeView" name="&apos;azimuth&apos;" id="6AEB1CAC-7999-0685-6297-9C5A1F5DE680">
+<createdBy>tcollier</createdBy>
+<createdTime>2023-12-10 01:29:04 UTC</createdTime>
+<generatorID>46AD307A-A876-D40A-CBC8-196A4A8DAFEE</generatorID>
+<ownerDesignName>HARC_SNN_Data_Model_V3</ownerDesignName>
+<engineerTo>
+<item key="FDFA065C-9B79-4768-D3A1-ACB9D4078B29" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>UNKNOWN</dataType>
+<reference>false</reference>
+<referencedColumn>7574D37E-9C9A-DAAA-B94B-D98B6860C085</referencedColumn>
+<table>CE320D0B-11AA-139A-32B3-2E410093780F</table>
+<tableAlias>qso_table_v007</tableAlias>
+<viewID>A38CD427-CD55-10E2-FF13-540F2FB940FE</viewID>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.logical.AttributeView" name="&apos;elevation&apos;" id="F4ED297C-BF1F-7DF7-555B-781FAA56E494">
+<createdBy>tcollier</createdBy>
+<createdTime>2023-12-10 01:29:04 UTC</createdTime>
+<generatorID>951755AC-6F70-CF54-02C9-5CD66C3776AC</generatorID>
+<ownerDesignName>HARC_SNN_Data_Model_V3</ownerDesignName>
+<engineerTo>
+<item key="FDFA065C-9B79-4768-D3A1-ACB9D4078B29" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>UNKNOWN</dataType>
+<reference>false</reference>
+<referencedColumn>264868E0-713C-9553-A11A-B3A5B4400499</referencedColumn>
+<table>CE320D0B-11AA-139A-32B3-2E410093780F</table>
+<tableAlias>qso_table_v007</tableAlias>
+<viewID>A38CD427-CD55-10E2-FF13-540F2FB940FE</viewID>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.logical.AttributeView" name="&apos;power&apos;" id="AFFE7491-BA70-CEF1-1B58-BE1F6230B51D">
+<createdBy>tcollier</createdBy>
+<createdTime>2023-12-10 01:29:04 UTC</createdTime>
+<generatorID>075A448E-3BDF-B169-C545-ABBAE38B32BC</generatorID>
+<ownerDesignName>HARC_SNN_Data_Model_V3</ownerDesignName>
+<engineerTo>
+<item key="FDFA065C-9B79-4768-D3A1-ACB9D4078B29" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>UNKNOWN</dataType>
+<reference>false</reference>
+<referencedColumn>FDBEB00E-59E7-7EA2-5BE4-0048997697EE</referencedColumn>
+<table>CE320D0B-11AA-139A-32B3-2E410093780F</table>
+<tableAlias>qso_table_v007</tableAlias>
+<viewID>A38CD427-CD55-10E2-FF13-540F2FB940FE</viewID>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.logical.AttributeView" name="&apos;srx_numeric&apos;" id="90F39CBA-83EE-BD17-9908-2CBF0F602DB2">
+<createdBy>tcollier</createdBy>
+<createdTime>2023-12-10 01:29:04 UTC</createdTime>
+<generatorID>5FF07018-7400-1436-F77E-C2B252749743</generatorID>
+<ownerDesignName>HARC_SNN_Data_Model_V3</ownerDesignName>
+<engineerTo>
+<item key="FDFA065C-9B79-4768-D3A1-ACB9D4078B29" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>NUMBER</dataType>
+<reference>false</reference>
+<referencedColumn>54A10A73-BCBA-B5E5-8057-D1CC171E9746</referencedColumn>
+<table>CE320D0B-11AA-139A-32B3-2E410093780F</table>
+<tableAlias>qso_table_v007</tableAlias>
+<viewID>A38CD427-CD55-10E2-FF13-540F2FB940FE</viewID>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.logical.AttributeView" name="&apos;stx_numeric&apos;" id="0345A1C5-10A0-AC53-346E-2D6191BAE492">
+<createdBy>tcollier</createdBy>
+<createdTime>2023-12-10 01:29:04 UTC</createdTime>
+<generatorID>D153DA3D-4666-4DBC-CD33-90B8770FCC21</generatorID>
+<ownerDesignName>HARC_SNN_Data_Model_V3</ownerDesignName>
+<engineerTo>
+<item key="FDFA065C-9B79-4768-D3A1-ACB9D4078B29" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>NUMBER</dataType>
+<reference>false</reference>
+<referencedColumn>87BCC369-47A7-72B3-81AE-A1D6F27DFDA9</referencedColumn>
+<table>CE320D0B-11AA-139A-32B3-2E410093780F</table>
+<tableAlias>qso_table_v007</tableAlias>
+<viewID>A38CD427-CD55-10E2-FF13-540F2FB940FE</viewID>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.logical.AttributeView" name="&apos;dxcc_id&apos;" id="6EC6D235-8026-E6B5-6E91-78BD717B823C">
+<createdBy>tcollier</createdBy>
+<createdTime>2023-12-10 01:29:04 UTC</createdTime>
+<generatorID>7F030FB4-1371-A027-6828-2F91288753F9</generatorID>
+<ownerDesignName>HARC_SNN_Data_Model_V3</ownerDesignName>
+<engineerTo>
+<item key="FDFA065C-9B79-4768-D3A1-ACB9D4078B29" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>NUMBER</dataType>
+<reference>false</reference>
+<referencedColumn>FDDBF018-E776-C44D-660A-F9386D35DF6C</referencedColumn>
+<table>CE320D0B-11AA-139A-32B3-2E410093780F</table>
+<tableAlias>qso_table_v007</tableAlias>
+<viewID>A38CD427-CD55-10E2-FF13-540F2FB940FE</viewID>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.logical.AttributeView" name="&apos;contest_id&apos;" id="1511A8FB-9906-ABF5-5325-3020DF71A790">
+<createdBy>tcollier</createdBy>
+<createdTime>2023-12-10 01:29:04 UTC</createdTime>
+<generatorID>ABC5DDAF-40DE-4A05-4156-07FA8014B55E</generatorID>
+<ownerDesignName>HARC_SNN_Data_Model_V3</ownerDesignName>
+<engineerTo>
+<item key="FDFA065C-9B79-4768-D3A1-ACB9D4078B29" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>UNKNOWN</dataType>
+<reference>false</reference>
+<referencedColumn>C996F9FF-3A46-E364-1CF8-2DD49AD0FC6A</referencedColumn>
+<table>CE320D0B-11AA-139A-32B3-2E410093780F</table>
+<tableAlias>qso_table_v007</tableAlias>
+<viewID>A38CD427-CD55-10E2-FF13-540F2FB940FE</viewID>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.logical.AttributeView" name="&apos;my_sota&apos;" id="9487DCCE-322D-F716-5C44-E7ACAC63F303">
+<createdBy>tcollier</createdBy>
+<createdTime>2023-12-10 01:29:04 UTC</createdTime>
+<generatorID>0A754869-1711-0862-3C33-C64716941900</generatorID>
+<ownerDesignName>HARC_SNN_Data_Model_V3</ownerDesignName>
+<engineerTo>
+<item key="FDFA065C-9B79-4768-D3A1-ACB9D4078B29" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>UNKNOWN</dataType>
+<reference>false</reference>
+<referencedColumn>02CD0A5F-6171-3655-5443-5889DB09916E</referencedColumn>
+<table>CE320D0B-11AA-139A-32B3-2E410093780F</table>
+<tableAlias>qso_table_v007</tableAlias>
+<viewID>A38CD427-CD55-10E2-FF13-540F2FB940FE</viewID>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.logical.AttributeView" name="&apos;skcc&apos;" id="7BCAE8A2-ACDC-FFA5-8ADB-BC898FD7EA08">
+<createdBy>tcollier</createdBy>
+<createdTime>2023-12-10 01:29:04 UTC</createdTime>
+<generatorID>D1E16B59-0B16-89EC-6164-1A0C53CA9C59</generatorID>
+<ownerDesignName>HARC_SNN_Data_Model_V3</ownerDesignName>
+<engineerTo>
+<item key="FDFA065C-9B79-4768-D3A1-ACB9D4078B29" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>UNKNOWN</dataType>
+<reference>false</reference>
+<referencedColumn>E32C5AE0-71A8-2C91-DA17-89DB7C39FFDB</referencedColumn>
+<table>CE320D0B-11AA-139A-32B3-2E410093780F</table>
+<tableAlias>qso_table_v007</tableAlias>
+<viewID>A38CD427-CD55-10E2-FF13-540F2FB940FE</viewID>
+</viewElement>
+</viewElements>
+</EntityView>

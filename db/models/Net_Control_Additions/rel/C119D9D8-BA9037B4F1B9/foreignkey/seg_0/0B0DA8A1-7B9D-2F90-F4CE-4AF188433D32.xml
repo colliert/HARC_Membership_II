@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="0B0DA8A1-7B9D-2F90-F4CE-4AF188433D32" containerWithKeyObject="4E36A572-A0CF-7A9A-56A0-C1923B60400A" localFKIndex="11B2C3CE-331D-8FFB-313D-21C38DDAA3DF" name="t_nco_avail_t_nco_date_FK">
+<createdBy>tcollier</createdBy>
+<createdTime>2025-10-21 20:47:14 UTC</createdTime>
+<generatorID>6FD210B4-32F0-7905-6B12-BA54A46F93AD</generatorID>
+<ownerDesignName>Net_Control_Additions</ownerDesignName>
+<referredTableLongName>t_nco_date</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>BEA066A4-A82F-6DD6-FE0B-8D0216BC3938</referredTableID>
+<keyObject>0DB33A38-75AE-ECE2-1ED7-2FE023791E1A</keyObject>
+<referredKeyID>0DB33A38-75AE-ECE2-1ED7-2FE023791E1A</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>net_date</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

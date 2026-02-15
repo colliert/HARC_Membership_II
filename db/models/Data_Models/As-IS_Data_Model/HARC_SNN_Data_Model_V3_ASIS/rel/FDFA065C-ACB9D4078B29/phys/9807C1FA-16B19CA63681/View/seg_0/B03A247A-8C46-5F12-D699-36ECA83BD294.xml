@@ -1,0 +1,6 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableViewProxyOraclev9i class="oracle.dbtools.crest.model.design.storage.oracle.v9i.TableViewProxyOraclev9i" name="v_harc_member" directorySegmentName="seg_0" id="B03A247A-8C46-5F12-D699-36ECA83BD294">
+<createdBy>tcollier</createdBy>
+<createdTime>2023-12-10 01:28:01 UTC</createdTime>
+<ownerDesignName>HARC_SNN_Data_Model_V3</ownerDesignName>
+</TableViewProxyOraclev9i>

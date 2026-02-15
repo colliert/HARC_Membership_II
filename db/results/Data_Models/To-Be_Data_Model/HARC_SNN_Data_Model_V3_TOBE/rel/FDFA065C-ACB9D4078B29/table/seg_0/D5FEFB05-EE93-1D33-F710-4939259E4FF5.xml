@@ -1,0 +1,93 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="D5FEFB05-EE93-1D33-F710-4939259E4FF5" name="Net_Participation">
+<createdBy>tcollier</createdBy>
+<createdTime>2024-04-30 21:02:34 UTC</createdTime>
+<generatorID>DE59738B-0063-79D9-2FDD-930959B6C233</generatorID>
+<ownerDesignName>HARC_SNN_Data_Model_V3_TOBE</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="QSO_Date" id="29C30A27-0562-3EC2-8206-6582DEF24EAD">
+<createdBy>tcollier</createdBy>
+<createdTime>2024-04-30 21:02:34 UTC</createdTime>
+<generatorID>EC294FA4-3029-F84B-5959-B9DB48037AAF</generatorID>
+<ownerDesignName>HARC_SNN_Data_Model_V3_TOBE</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>161A90A6-CA3A-1525-7F0C-0703C95370A2</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="QSO_Time" id="13762F3C-142F-C1C6-2AEE-5DBAF4DF04C8">
+<createdBy>tcollier</createdBy>
+<createdTime>2024-04-30 21:02:34 UTC</createdTime>
+<generatorID>49F748AD-57AB-13B1-24DD-D7CB3877F098</generatorID>
+<ownerDesignName>HARC_SNN_Data_Model_V3_TOBE</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>56284387-6B41-611F-0327-B2369C77C38C</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Callsign" id="3CA69C03-5291-639E-C049-1EEA892FC667">
+<createdBy>tcollier</createdBy>
+<createdTime>2024-04-30 21:02:34 UTC</createdTime>
+<generatorID>44FBC47A-78F1-3417-E901-A03A3DC80C8F</generatorID>
+<ownerDesignName>HARC_SNN_Data_Model_V3_TOBE</ownerDesignName>
+<use>0</use>
+<logicalDatatype>B2E81DEA-F097-0C6E-D82D-2109375E9C22</logicalDatatype>
+<domain>73126A39-BD86-8A25-4735-CA06D2B702BB</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="434C3EEC-1605-9748-00AC-6B5F51800669" referredColumn="E4C176F0-1D5A-A1FC-D522-87AA34FF2E9D"/>
+</associations>
+</Column>
+<Column name="Person_Type_Code" id="1EA227E8-B91E-D80D-A7B8-620A077473E8">
+<createdBy>tcollier</createdBy>
+<createdTime>2024-04-30 21:02:34 UTC</createdTime>
+<generatorID>39C97BD6-B0A3-0F91-E7B1-32E9D126710E</generatorID>
+<ownerDesignName>HARC_SNN_Data_Model_V3_TOBE</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>90015BD8-66C0-24AE-0278-E3E87E938D9F</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="434C3EEC-1605-9748-00AC-6B5F51800669" referredColumn="D2184D12-6036-1AB1-745D-903A0BB75D90"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="AA1C94C8-8BDC-8162-FF1A-E63E1E133A5D" name="Net_Participation_PK">
+<createdBy>tcollier</createdBy>
+<createdTime>2024-04-30 21:02:34 UTC</createdTime>
+<generatorID>96159AD8-F827-47D5-E870-8DF204F4D36C</generatorID>
+<ownerDesignName>HARC_SNN_Data_Model_V3_TOBE</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3CA69C03-5291-639E-C049-1EEA892FC667"/>
+<colUsage columnID="1EA227E8-B91E-D80D-A7B8-620A077473E8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="9EC7884D-5E6F-CE55-417A-E715E1F5E216" name="Net_Participation_t_pers_FK">
+<createdBy>tcollier</createdBy>
+<createdTime>2024-04-30 21:02:34 UTC</createdTime>
+<generatorID>D66A789C-DE2D-8932-2BFA-F035683F900E</generatorID>
+<ownerDesignName>HARC_SNN_Data_Model_V3_TOBE</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3CA69C03-5291-639E-C049-1EEA892FC667"/>
+<colUsage columnID="1EA227E8-B91E-D80D-A7B8-620A077473E8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="464D687F-5A71-8590-8731-C0DBD773FC5B" containerWithKeyObject="F9DB7E22-09BA-F2C3-D37A-DB432A88B4D5" localFKIndex="80F02B0A-2BF5-B5CA-77DD-8E8AE8222EEB" name="t_harc_add_qso_details_t_rptr_FK">
+<sourceDDLFile>MacLogger_Sqlite_import copy.sql</sourceDDLFile>
+<createdBy>tcollier</createdBy>
+<createdTime>2020-10-30 17:45:49 UTC</createdTime>
+<ownerDesignName>MacLoggerDX_SQLite_DB</ownerDesignName>
+<importedID>5842BB06-ECC7-A571-0BEA-E6F48BB09D1E</importedID>
+<referredTableLongName>t_rptr</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>43946AEA-1F01-2C59-81FF-99DF97E9428F</referredTableID>
+<keyObject>F9946003-1A32-A922-ABFA-388F8268578A</keyObject>
+<referredKeyID>F9946003-1A32-A922-ABFA-388F8268578A</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>rptr_cd</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

@@ -1,0 +1,70 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableView class="oracle.dbtools.crest.model.design.relational.TableView" directorySegmentName="seg_0" id="089A3B31-283C-B7BC-54BC-EF4B032E5598" name="v_callsign_suffix">
+<sourceDDLFile>MacLogger_Sqlite_import copy.sql</sourceDDLFile>
+<createdBy>tcollier</createdBy>
+<createdTime>2020-10-30 17:45:49 UTC</createdTime>
+<ownerDesignName>MacLoggerDX_SQLite_DB</ownerDesignName>
+<importedID>D6F5AF05-CBB1-1C3A-711C-6A420E480216</importedID>
+<userDefined>true</userDefined>
+<userDefinedSQL><![CDATA[SELECT DISTINCT call AS Call,
+                    first_name AS First_Name,
+                    last_name AS Last_Name,
+                    CASE CAST(substr(call, 2, 1)AS INTEGER)WHEN 0 THEN substr(call, 4, length(call))ELSE substr(call, 3, length(call))END AS Suffix
+      FROM v_qso_table_v007
+     ORDER BY 4]]></userDefinedSQL>
+<validSQL>false</validSQL>
+<viewElements>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="Call" id="D15413D7-D3AF-D8CB-93A0-99A7069D5959">
+<createdBy>tcollier</createdBy>
+<createdTime>2020-10-30 17:45:49 UTC</createdTime>
+<ownerDesignName>MacLoggerDX_SQLite_DB</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<alias>Call</alias>
+<dataType>CHAR</dataType>
+<headerAlias>Call</headerAlias>
+<reference>false</reference>
+<referencedColumn>63E66700-E6D2-C3C4-D674-BF424E20A67C</referencedColumn>
+<viewID>089A3B31-283C-B7BC-54BC-EF4B032E5598</viewID>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="First_Name" id="3FFB7491-20E0-D61A-70D7-4867606AF2FC">
+<createdBy>tcollier</createdBy>
+<createdTime>2020-10-30 17:45:49 UTC</createdTime>
+<ownerDesignName>MacLoggerDX_SQLite_DB</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<alias>First_Name</alias>
+<dataType>CHAR</dataType>
+<headerAlias>First_Name</headerAlias>
+<reference>false</reference>
+<referencedColumn>96CCEA5B-F1A8-BE2B-2223-C79513F25F10</referencedColumn>
+<viewID>089A3B31-283C-B7BC-54BC-EF4B032E5598</viewID>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="Last_Name" id="8C30F9BB-DBA5-C207-DBD6-ACEA9D09C68C">
+<createdBy>tcollier</createdBy>
+<createdTime>2020-10-30 17:45:49 UTC</createdTime>
+<ownerDesignName>MacLoggerDX_SQLite_DB</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<alias>Last_Name</alias>
+<dataType>CHAR</dataType>
+<headerAlias>Last_Name</headerAlias>
+<reference>false</reference>
+<referencedColumn>6D7AD34F-1700-9A50-A881-A39F359B7B6C</referencedColumn>
+<viewID>089A3B31-283C-B7BC-54BC-EF4B032E5598</viewID>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="Suffix" id="64627147-D30B-78F8-1152-17C0143B951A">
+<createdBy>tcollier</createdBy>
+<createdTime>2020-10-30 17:45:49 UTC</createdTime>
+<ownerDesignName>MacLoggerDX_SQLite_DB</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<alias>Suffix</alias>
+<dataType>UNKNOWN</dataType>
+<headerAlias>Suffix</headerAlias>
+<expression>CASECAST(substr(call,2,1)ASINTEGER)WHEN0THENsubstr(call,4,length(call))ELSEsubstr(call,3,length(call))END</expression>
+<reference>false</reference>
+<viewID>089A3B31-283C-B7BC-54BC-EF4B032E5598</viewID>
+</viewElement>
+</viewElements>
+</TableView>

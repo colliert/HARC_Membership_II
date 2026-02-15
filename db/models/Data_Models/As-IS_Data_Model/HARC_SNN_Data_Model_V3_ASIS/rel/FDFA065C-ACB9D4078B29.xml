@@ -1,0 +1,15 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<relationalModel class="oracle.dbtools.crest.model.design.relational.RelationalDesign" name="Relational_1" id="FDFA065C-9B79-4768-D3A1-ACB9D4078B29" mainViewID="D546B92E-3987-3D8D-2EBD-72043E0E1672">
+<createdBy>tcollier</createdBy>
+<createdTime>2023-12-10 01:27:14 UTC</createdTime>
+<ownerDesignName>HARC_SNN_Data_Model_V3</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+<selectedRDBMSSite>9807C1FA-0550-772D-1F14-16B19CA63681</selectedRDBMSSite>
+<importDDLFileStamps>
+<importDDLFileStamp class="oracle.dbtools.crest.imports.DDLFileStamp">
+<fileName>HARC_SNN_DDL_Modified.sql</fileName>
+<pathName>/Users/tcollier/Dropbox/JTC/Software Development/HARC_Sunday_Night_Net/SNN_Redesign_V3</pathName>
+<dbType>7</dbType>
+</importDDLFileStamp>
+</importDDLFileStamps>
+</relationalModel>

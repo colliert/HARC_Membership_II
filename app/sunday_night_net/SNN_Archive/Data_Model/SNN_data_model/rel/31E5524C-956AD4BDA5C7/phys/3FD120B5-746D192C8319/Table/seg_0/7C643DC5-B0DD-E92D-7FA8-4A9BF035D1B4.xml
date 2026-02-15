@@ -1,0 +1,45 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev12c class="oracle.dbtools.crest.model.design.storage.oracle.v12c.TableProxyOraclev12c" name="t_pers_typ" directorySegmentName="seg_0" id="7C643DC5-B0DD-E92D-7FA8-4A9BF035D1B4">
+<createdBy>tcollier</createdBy>
+<createdTime>2020-10-30 22:41:48 UTC</createdTime>
+<ownerDesignName>SNN_data_model</ownerDesignName>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="pers_typ_desc" id="70913AA3-C62C-96FE-7EC7-0A67C3DC27D4">
+<createdBy>tcollier</createdBy>
+<createdTime>2020-10-30 22:41:48 UTC</createdTime>
+<ownerDesignName>SNN_data_model</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="per_typ_cd" id="FB12C3A3-240A-D83A-B2C9-D4B13CE94D1F">
+<createdBy>tcollier</createdBy>
+<createdTime>2020-10-30 22:41:48 UTC</createdTime>
+<ownerDesignName>SNN_data_model</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="t_pers_typ_PK" id="723E6E3E-CE81-CDEC-4FDD-3928D5724AAC">
+<createdBy>tcollier</createdBy>
+<createdTime>2020-10-30 23:09:15 UTC</createdTime>
+<ownerDesignName>SNN_data_model</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+<uniqueKeys>
+<UniqueKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.UniqueOraclev10g" name="Person_Typev1_per_typ_cd_UN" id="3AD37E19-67AF-D18F-B649-4129A8DE3C5F">
+<createdBy>tcollier</createdBy>
+<createdTime>2020-10-30 22:41:48 UTC</createdTime>
+<ownerDesignName>SNN_data_model</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</UniqueKey>
+<UniqueKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.UniqueOraclev10g" name="Person_Typev1_PK" id="3F29C502-F9BD-B91B-A639-0D7189340F57">
+<createdBy>tcollier</createdBy>
+<createdTime>2020-10-30 23:09:15 UTC</createdTime>
+<ownerDesignName>SNN_data_model</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</UniqueKey>
+</uniqueKeys>
+</TableProxyOraclev12c>

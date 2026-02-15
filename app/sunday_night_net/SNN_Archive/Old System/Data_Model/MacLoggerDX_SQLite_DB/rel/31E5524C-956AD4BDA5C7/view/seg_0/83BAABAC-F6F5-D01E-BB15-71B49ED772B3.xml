@@ -1,0 +1,32 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableView class="oracle.dbtools.crest.model.design.relational.TableView" directorySegmentName="seg_0" id="83BAABAC-F6F5-D01E-BB15-71B49ED772B3" name="v_current_call_out_cutoff_days">
+<sourceDDLFile>MacLogger_Sqlite_import copy.sql</sourceDDLFile>
+<createdBy>tcollier</createdBy>
+<createdTime>2020-10-30 17:45:49 UTC</createdTime>
+<ownerDesignName>MacLoggerDX_SQLite_DB</ownerDesignName>
+<importedID>659987F6-63F4-F895-40A5-FA6DD563F9EA</importedID>
+<userDefined>true</userDefined>
+<userDefinedSQL><![CDATA[SELECT num_days AS current_num_days
+      FROM v_call_out_cutoff_days
+     WHERE dat_est = 
+                     (
+                         SELECT max(dat_est)
+                           FROM v_call_out_cutoff_days
+                     )]]></userDefinedSQL>
+<validSQL>false</validSQL>
+<viewElements>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="current_num_days" id="35B29D89-9720-E9C9-EF37-F528DC1351B0">
+<createdBy>tcollier</createdBy>
+<createdTime>2020-10-30 17:45:49 UTC</createdTime>
+<ownerDesignName>MacLoggerDX_SQLite_DB</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<alias>current_num_days</alias>
+<dataType>INTEGER</dataType>
+<headerAlias>current_num_days</headerAlias>
+<reference>false</reference>
+<referencedColumn>4C0F932E-3C34-764F-8A2B-92A02FF23A40</referencedColumn>
+<viewID>83BAABAC-F6F5-D01E-BB15-71B49ED772B3</viewID>
+</viewElement>
+</viewElements>
+</TableView>

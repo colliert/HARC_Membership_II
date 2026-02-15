@@ -1,0 +1,135 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="98C91E27-7E02-7E4E-AA7F-FED1B5D7AA40" name="t_pers">
+<createdBy>tcollier</createdBy>
+<createdTime>2024-02-05 23:48:32 UTC</createdTime>
+<ownerDesignName>HARC_SNN_Data_Model_V3_TOBE</ownerDesignName>
+<engineerTo>
+<item key="FDFA065C-9B79-4768-D3A1-ACB9D4078B29" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<shortName>t_pers</shortName>
+<synonymToDisplay>Person</synonymToDisplay>
+<discriminatorAttributeID>0EE63331-DD17-9DFA-2F6F-F78D736D4B54</discriminatorAttributeID>
+<discriminatorColumnName>Person Type</discriminatorColumnName>
+<discriminatorValue>1</discriminatorValue>
+<completeSubtypes>true</completeSubtypes>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Callsign" id="60A8FDB1-E4D3-7AFA-6535-A3A5F75DCC62">
+<createdBy>tcollier</createdBy>
+<createdTime>2024-02-05 23:48:42 UTC</createdTime>
+<ownerDesignName>HARC_SNN_Data_Model_V3_TOBE</ownerDesignName>
+<engineerTo>
+<item key="FDFA065C-9B79-4768-D3A1-ACB9D4078B29" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>B2E81DEA-F097-0C6E-D82D-2109375E9C22</logicalDatatype>
+<domain>73126A39-BD86-8A25-4735-CA06D2B702BB</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="First Name" id="F1ABFE04-E193-9621-6167-53C0212094EE">
+<createdBy>tcollier</createdBy>
+<createdTime>2024-02-05 23:48:46 UTC</createdTime>
+<ownerDesignName>HARC_SNN_Data_Model_V3_TOBE</ownerDesignName>
+<engineerTo>
+<item key="FDFA065C-9B79-4768-D3A1-ACB9D4078B29" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>B2E81DEA-F097-0C6E-D82D-2109375E9C22</logicalDatatype>
+<domain>DF484895-0DAA-3055-8BE0-5B0F1C4B2DB9</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Middle Name" id="83D0FBF3-187F-81B4-37C7-7E8DF66A8F06">
+<createdBy>tcollier</createdBy>
+<createdTime>2024-02-05 23:48:59 UTC</createdTime>
+<ownerDesignName>HARC_SNN_Data_Model_V3_TOBE</ownerDesignName>
+<engineerTo>
+<item key="FDFA065C-9B79-4768-D3A1-ACB9D4078B29" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>B2E81DEA-F097-0C6E-D82D-2109375E9C22</logicalDatatype>
+<domain>DF484895-0DAA-3055-8BE0-5B0F1C4B2DB9</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Last Name" id="3555ECCE-DC07-9877-7538-054D0E1BDC0C">
+<createdBy>tcollier</createdBy>
+<createdTime>2024-02-05 23:49:47 UTC</createdTime>
+<ownerDesignName>HARC_SNN_Data_Model_V3_TOBE</ownerDesignName>
+<engineerTo>
+<item key="FDFA065C-9B79-4768-D3A1-ACB9D4078B29" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>B2E81DEA-F097-0C6E-D82D-2109375E9C22</logicalDatatype>
+<domain>DF484895-0DAA-3055-8BE0-5B0F1C4B2DB9</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Preferred Name" id="A79A7056-8EE2-1A70-0024-862739261002">
+<createdBy>tcollier</createdBy>
+<createdTime>2024-02-06 00:04:47 UTC</createdTime>
+<ownerDesignName>HARC_SNN_Data_Model_V3_TOBE</ownerDesignName>
+<engineerTo>
+<item key="FDFA065C-9B79-4768-D3A1-ACB9D4078B29" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>B2E81DEA-F097-0C6E-D82D-2109375E9C22</logicalDatatype>
+<domain>DF484895-0DAA-3055-8BE0-5B0F1C4B2DB9</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Person Type" id="0EE63331-DD17-9DFA-2F6F-F78D736D4B54">
+<createdBy>tcollier</createdBy>
+<createdTime>2024-02-07 22:37:39 UTC</createdTime>
+<commentInRDBMS><![CDATA[0 = non member
+1 = member using currint callsign
+2 = member using old callsign]]></commentInRDBMS>
+<ownerDesignName>HARC_SNN_Data_Model_V3_TOBE</ownerDesignName>
+<engineerTo>
+<item key="FDFA065C-9B79-4768-D3A1-ACB9D4078B29" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>90015BD8-66C0-24AE-0278-E3E87E938D9F</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Person Type Code" id="9CE3F1B9-C450-7018-37B6-930A57EC5BB9">
+<createdBy>tcollier</createdBy>
+<createdTime>2024-02-09 23:23:59 UTC</createdTime>
+<generatorID>A7A9425A-9542-FD01-37C7-C2FB9591EA25</generatorID>
+<ownerDesignName>HARC_SNN_Data_Model_V3_TOBE</ownerDesignName>
+<engineerTo>
+<item key="FDFA065C-9B79-4768-D3A1-ACB9D4078B29" value="true"/>
+</engineerTo>
+<referedAttribute>0EA8EA7D-A426-4B9E-763A-6DD238589018</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>90015BD8-66C0-24AE-0278-E3E87E938D9F</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="5B24D2E6-15BF-DFF5-48C9-69056A3B4380" name="t_pers PK">
+<createdBy>tcollier</createdBy>
+<createdTime>2024-02-07 00:19:05 UTC</createdTime>
+<ownerDesignName>HARC_SNN_Data_Model_V3_TOBE</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="FDFA065C-9B79-4768-D3A1-ACB9D4078B29" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>60A8FDB1-E4D3-7AFA-6535-A3A5F75DCC62</attributeRef>
+<attributeRef>9CE3F1B9-C450-7018-37B6-930A57EC5BB9</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

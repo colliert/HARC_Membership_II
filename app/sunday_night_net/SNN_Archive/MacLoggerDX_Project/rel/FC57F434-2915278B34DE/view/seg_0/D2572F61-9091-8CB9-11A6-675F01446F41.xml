@@ -1,0 +1,51 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableView class="oracle.dbtools.crest.model.design.relational.TableView" directorySegmentName="seg_0" id="D2572F61-9091-8CB9-11A6-675F01446F41" name="v_ant_typ">
+<createdBy>tcollier</createdBy>
+<createdTime>2019-07-12 23:13:49 UTC</createdTime>
+<ownerDesignName>MacLoggerDX_Project</ownerDesignName>
+<ordsAlias>view_20</ordsAlias>
+<userDefined>true</userDefined>
+<userDefinedSQL>select *&lt;br/&gt;from t_ant_typ;</userDefinedSQL>
+<parsed>true</parsed>
+<usedContainers>
+<container containerID="CEFC1A54-30FE-826C-5B9D-F9D185A9FA8B"/>
+</usedContainers>
+<viewElements>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="ant_typ_cd" id="2D73B0DE-46C7-F70A-E48F-97EBCAF9028F">
+<createdBy>tcollier</createdBy>
+<createdTime>2019-07-12 23:14:19 UTC</createdTime>
+<ownerDesignName>MacLoggerDX_Project</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>INTEGER</dataType>
+<reference>false</reference>
+<referencedColumn>4B71AD98-C567-F9AD-C71C-7A8D0CFBA5B4</referencedColumn>
+<table>CEFC1A54-30FE-826C-5B9D-F9D185A9FA8B</table>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="ant_typ_desc" id="BE9EEC37-1C5D-20CD-96F2-77F9EED30D5D">
+<createdBy>tcollier</createdBy>
+<createdTime>2019-07-12 23:14:19 UTC</createdTime>
+<ownerDesignName>MacLoggerDX_Project</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>CLOB</dataType>
+<reference>false</reference>
+<referencedColumn>FBA960E1-1481-2E0A-0CEF-A1E5F254968F</referencedColumn>
+<table>CEFC1A54-30FE-826C-5B9D-F9D185A9FA8B</table>
+</viewElement>
+</viewElements>
+<usedObjects>
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="CEFC1A54-30FE-826C-5B9D-F9D185A9FA8B">
+<container>true</container>
+<tableName>t_ant_typ</tableName>
+</UsedObject>
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="4B71AD98-C567-F9AD-C71C-7A8D0CFBA5B4">
+<columnName>ant_typ_cd</columnName>
+<tableName>t_ant_typ</tableName>
+</UsedObject>
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="FBA960E1-1481-2E0A-0CEF-A1E5F254968F">
+<columnName>ant_typ_desc</columnName>
+<tableName>t_ant_typ</tableName>
+</UsedObject>
+</usedObjects>
+</TableView>

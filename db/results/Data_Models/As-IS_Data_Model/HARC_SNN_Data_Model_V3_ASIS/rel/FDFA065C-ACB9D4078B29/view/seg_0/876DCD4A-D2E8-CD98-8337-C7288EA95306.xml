@@ -1,0 +1,163 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableView class="oracle.dbtools.crest.model.design.relational.TableView" directorySegmentName="seg_0" id="876DCD4A-D2E8-CD98-8337-C7288EA95306" name="v_potential_call_roster_size">
+<sourceDDLFile>HARC_SNN_DDL_Modified.sql</sourceDDLFile>
+<createdBy>tcollier</createdBy>
+<createdTime>2023-12-10 01:28:01 UTC</createdTime>
+<ownerDesignName>HARC_SNN_Data_Model_V3</ownerDesignName>
+<importedID>48C7D694-5BFD-627D-34AA-F62F2178733A</importedID>
+<userDefined>true</userDefined>
+<userDefinedSQL><![CDATA[select 7 as Days_since_last_checkin
+        ,count(call) as "Potential_number_of_callouts"
+from    (
+        select distinct call from v_net_qso a
+        LEFT JOIN v_pers on trim(upper(a.Call)) = trim(upper(v_pers.pers_call))
+        where (pers_typ = 0 or pers_typ = 1)
+            and substr(a.contest_id, 1, 4) = 'HARC'
+            and date(qso_start) > (select date('now','-' || 7 || ' days'))
+        order by 1
+        )
+
+union
+
+select 14 as Days_since_last_checkin
+        ,count(call) as "Potential_number_of_callouts"
+from    (
+        select distinct call from v_net_qso a
+        LEFT JOIN v_pers on trim(upper(a.Call)) = trim(upper(v_pers.pers_call))
+        where (pers_typ = 0 or pers_typ = 1)
+             and substr(a.contest_id, 1, 4) = 'HARC'
+             and date(qso_start) > (select date('now','-' || 14 || ' days'))
+        order by 1
+        )
+
+union
+
+select 21 as Days_since_last_checkin
+        ,count(call) as "Potential_number_of_callouts"
+from    (
+        select distinct call from v_net_qso a
+        LEFT JOIN v_pers on trim(upper(a.Call)) = trim(upper(v_pers.pers_call))
+        where (pers_typ = 0 or pers_typ = 1)
+             and substr(a.contest_id, 1, 4) = 'HARC'
+             and date(qso_start) > (select date('now','-' || 21 || ' days'))
+        order by 1
+        )
+
+union
+
+select 28 as Days_since_last_checkin
+        ,count(call) as "Potential_number_of_callouts"
+from    (
+        select distinct call from v_net_qso a
+        LEFT JOIN v_pers on trim(upper(a.Call)) = trim(upper(v_pers.pers_call))
+        where (pers_typ = 0 or pers_typ = 1)
+             and substr(a.contest_id, 1, 4) = 'HARC'
+             and date(qso_start) > (select date('now','-' || 28 || ' days'))
+        order by 1
+        )
+
+union
+
+select 35 as Days_since_last_checkin
+        ,count(call) as "Potential_number_of_callouts"
+from    (
+        select distinct call from v_net_qso a
+        LEFT JOIN v_pers on trim(upper(a.Call)) = trim(upper(v_pers.pers_call))
+        where (pers_typ = 0 or pers_typ = 1)
+            and substr(a.contest_id, 1, 4) = 'HARC'
+            and date(qso_start) > (select date('now','-' || 35 || ' days'))
+        order by 1
+        )
+
+union
+
+select 42 as Days_since_last_checkin
+        ,count(call) as "Potential_number_of_callouts"
+from    (
+        select distinct call from v_net_qso a
+        LEFT JOIN v_pers on trim(upper(a.Call)) = trim(upper(v_pers.pers_call))
+        where (pers_typ = 0 or pers_typ = 1)
+             and substr(a.contest_id, 1, 4) = 'HARC'
+             and date(qso_start) > (select date('now','-' || 42 || ' days'))
+        order by 1
+        )
+
+union
+
+select 49 as Days_since_last_checkin
+        ,count(call) as "Potential_number_of_callouts"
+from    (
+        select distinct call from v_net_qso a
+        LEFT JOIN v_pers on trim(upper(a.Call)) = trim(upper(v_pers.pers_call))
+        where (pers_typ = 0 or pers_typ = 1)
+             and substr(a.contest_id, 1, 4) = 'HARC'
+             and date(qso_start) > (select date('now','-' || 49 || ' days'))
+        order by 1
+        )
+
+union
+
+select 56 as Days_since_last_checkin
+        ,count(call) as "Potential_number_of_callouts"
+from    (
+        select distinct call from v_net_qso a
+        LEFT JOIN v_pers on trim(upper(a.Call)) = trim(upper(v_pers.pers_call))
+        where (pers_typ = 0 or pers_typ = 1)
+             and substr(a.contest_id, 1, 4) = 'HARC'
+             and date(qso_start) > (select date('now','-' || 56 || ' days'))
+        order by 1
+        )
+
+union
+
+select 63 as Days_since_last_checkin
+        ,count(call) as "Potential_number_of_callouts"
+from    (
+        select distinct call from v_net_qso a
+        LEFT JOIN v_pers on trim(upper(a.Call)) = trim(upper(v_pers.pers_call))
+        where (pers_typ = 0 or pers_typ = 1)
+             and substr(a.contest_id, 1, 4) = 'HARC'
+             and date(qso_start) > (select date('now','-' || 63 || ' days'))
+        order by 1
+        )
+
+union
+
+select 70 as Days_since_last_checkin
+        ,count(call) as "Potential_number_of_callouts"
+from    (
+        select distinct call from v_net_qso a
+        LEFT JOIN v_pers on trim(upper(a.Call)) = trim(upper(v_pers.pers_call))
+        where (pers_typ = 0 or pers_typ = 1)
+             and substr(a.contest_id, 1, 4) = 'HARC'
+             and date(qso_start) > (select date('now','-' || 70 || ' days'))
+        order by 1
+        )
+
+union
+
+select 'All Time'  as Days_since_last_checkin
+        ,count(call) as "Potential_number_of_callouts"
+from    (
+        select distinct call from v_net_qso a
+        LEFT JOIN v_pers on trim(upper(a.Call)) = trim(upper(v_pers.pers_call))
+        where (pers_typ = 0 or pers_typ = 1)
+             and substr(a.contest_id, 1, 4) = 'HARC'
+      --     and date(qso_start) > (select date('now','-' || 70 || ' days'))
+        order by 1
+        )]]></userDefinedSQL>
+<validSQL>false</validSQL>
+<viewElements>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="call" id="AC133F17-1991-26C4-5B85-9D40EFFECC7A">
+<createdBy>tcollier</createdBy>
+<createdTime>2023-12-10 01:28:01 UTC</createdTime>
+<ownerDesignName>HARC_SNN_Data_Model_V3</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>UNKNOWN</dataType>
+<headerAlias>call</headerAlias>
+<reference>false</reference>
+<viewID>876DCD4A-D2E8-CD98-8337-C7288EA95306</viewID>
+</viewElement>
+</viewElements>
+</TableView>

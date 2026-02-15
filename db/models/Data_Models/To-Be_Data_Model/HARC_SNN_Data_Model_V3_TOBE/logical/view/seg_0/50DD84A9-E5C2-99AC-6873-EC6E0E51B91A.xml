@@ -1,0 +1,76 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<EntityView class="oracle.dbtools.crest.model.design.logical.EntityView" directorySegmentName="seg_0" id="50DD84A9-E5C2-99AC-6873-EC6E0E51B91A" name="v_snn_checkin_date_by_name">
+<createdBy>tcollier</createdBy>
+<createdTime>2023-12-12 23:00:06 UTC</createdTime>
+<commentInRDBMS><![CDATA[/*
+* q_snn_checkins_by_time.sql
+*-------------------
+*
+* Title:   Sunday Night Checkin list (by name).
+* Author:  Tim Collier
+* Date:    11/12/23
+*
+* List checkins from v_net_qso where date is greater than the given date
+*
+*/]]></commentInRDBMS>
+<ownerDesignName>HARC_SNN_Data_Model_V3_TOBE</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="FDFA065C-9B79-4768-D3A1-ACB9D4078B29" value="false"/>
+</engineerTo>
+<userDefined>true</userDefined>
+<userDefinedSQL><![CDATA[/*
+* q_snn_checkins_by_time.sql
+*-------------------
+*
+* Title:   Sunday Night Checkin list (by name).
+* Author:  Tim Collier
+* Date:    11/12/23
+*
+* List checkins from v_net_qso where date is greater than the given date
+*
+*/
+select call
+     , first_name
+     , last_name
+     , date(qso_start) as UTC_Date
+     , time(qso_start) as UTC_TIME
+from v_net_qso
+where date(qso_start) >= (select checkin_date from v_checkin_report_date)
+order by last_name, first_name]]></userDefinedSQL>
+<validSQL>false</validSQL>
+<incorrectSQL>true</incorrectSQL>
+<viewType>EntityView</viewType>
+<usedObjects>
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="7D2B7CCC-4EB3-05A2-8A61-A7E174D2E842">
+<container>true</container>
+<tableName>v_net_qso</tableName>
+<view>true</view>
+</UsedObject>
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="BD090608-5819-F7E3-A184-363AF50F5FDC">
+<columnName>call</columnName>
+<tableName>v_net_qso</tableName>
+</UsedObject>
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="3A6BF221-DBF5-3D8D-15B8-53D132987F07">
+<columnName>first_name</columnName>
+<tableName>v_net_qso</tableName>
+</UsedObject>
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="A04D7A76-207B-654F-3518-7B7512A8F5EF">
+<columnName>last_name</columnName>
+<tableName>v_net_qso</tableName>
+</UsedObject>
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="0002A877-33EF-895D-1820-65EE0E83DAE9">
+<container>true</container>
+<tableName>v_checkin_report_date</tableName>
+<view>true</view>
+</UsedObject>
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="A3E41928-B237-B6B0-60F7-D60AB3E8BB2E">
+<columnName>qso_start</columnName>
+<tableName>v_net_qso</tableName>
+</UsedObject>
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="649DD609-D05C-D1C3-0AAC-557588981E23">
+<columnName>checkin_date</columnName>
+<tableName>v_checkin_report_date</tableName>
+</UsedObject>
+</usedObjects>
+</EntityView>

@@ -1,0 +1,90 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="4E36A572-A0CF-7A9A-56A0-C1923B60400A" name="t_nco_avail">
+<createdBy>tcollier</createdBy>
+<createdTime>2025-10-21 20:47:14 UTC</createdTime>
+<generatorID>D690EEE0-5A80-9427-CB55-746523084A4C</generatorID>
+<ownerDesignName>Net_Control_Additions</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="pers_call1" id="2DD30E83-CA87-281C-DF03-86D9BB39A1DB">
+<createdBy>tcollier</createdBy>
+<createdTime>2025-10-21 20:47:14 UTC</createdTime>
+<generatorID>203F340F-63EE-AD20-D253-F1BABD4C8F57</generatorID>
+<ownerDesignName>Net_Control_Additions</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="051F21CF-4FB2-510C-CFAE-0BBF8EC14475" referredColumn="6B96B3BD-2C7D-7EFF-7E46-04503B58FA41"/>
+</associations>
+</Column>
+<Column name="net_date" id="EF8DD222-9276-4433-0837-CD2308F46F71">
+<createdBy>tcollier</createdBy>
+<createdTime>2025-10-21 20:47:14 UTC</createdTime>
+<generatorID>1BF77C76-BE4D-5613-2A31-EA80FCA22295</generatorID>
+<ownerDesignName>Net_Control_Additions</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>161A90A6-CA3A-1525-7F0C-0703C95370A2</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="0B0DA8A1-7B9D-2F90-F4CE-4AF188433D32" referredColumn="21F9BA9F-257B-B08D-AA61-79BAB58E80BD"/>
+</associations>
+</Column>
+<Column name="scheduled" id="95481497-4711-400E-6FF7-BC890260593E">
+<createdBy>tcollier</createdBy>
+<createdTime>2025-10-21 20:47:14 UTC</createdTime>
+<commentInRDBMS><![CDATA[Scheduled for this date?  Yes/No (boolean)]]></commentInRDBMS>
+<generatorID>21A69118-0061-D447-ECBE-A5D488F88447</generatorID>
+<ownerDesignName>Net_Control_Additions</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>09749D46-3ED4-FA1D-E66F-D82B538FF72C</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="2003BF10-83B2-E200-00BD-EAE701DD2021" name="t_nco_avail_PK">
+<createdBy>tcollier</createdBy>
+<createdTime>2025-10-21 20:47:14 UTC</createdTime>
+<generatorID>8FFB6505-E1BE-EFEE-3198-AB94B1EEFEC0</generatorID>
+<ownerDesignName>Net_Control_Additions</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2DD30E83-CA87-281C-DF03-86D9BB39A1DB"/>
+<colUsage columnID="EF8DD222-9276-4433-0837-CD2308F46F71"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A5EB41CC-5A1C-7C73-EAD6-0DCB6AAB28A3" name="t_nco_avail_t_nco_operator_FK">
+<createdBy>tcollier</createdBy>
+<createdTime>2025-10-21 20:47:14 UTC</createdTime>
+<generatorID>151BF80F-4CB5-A0EB-46F3-2ABA80D008FF</generatorID>
+<ownerDesignName>Net_Control_Additions</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2DD30E83-CA87-281C-DF03-86D9BB39A1DB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="11B2C3CE-331D-8FFB-313D-21C38DDAA3DF" name="t_nco_avail_t_nco_date_FK">
+<createdBy>tcollier</createdBy>
+<createdTime>2025-10-21 20:47:14 UTC</createdTime>
+<generatorID>6FD210B4-32F0-7905-6B12-BA54A46F93AD</generatorID>
+<ownerDesignName>Net_Control_Additions</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="EF8DD222-9276-4433-0837-CD2308F46F71"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

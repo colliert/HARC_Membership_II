@@ -1,0 +1,67 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="44925BC9-49E3-D717-A7C3-B5B3F02E63D7" name="t_call_out_cutoff_days">
+<createdBy>tcollier</createdBy>
+<createdTime>2023-12-10 01:29:04 UTC</createdTime>
+<commentInRDBMS><![CDATA[Call-out cutoff days (t_callout_cutoff_days) keeps track of the history of the number of cutoff days.  The most recent date has the current number of cutoff days.
+
+A cutoff day determines how long ago an operator must of checked into the net to be included on the roster.  For example, if the cutoff days are 28 (roughly 4 weeks), then the system will look for those operators whose last checkin date was greater than, or equal to, the date that it was 28 days ago.  Anyone whose last checkin date was longer than 28 days will not be included on the roster.]]></commentInRDBMS>
+<generatorID>09065D76-EF01-CE80-ABE5-74B1417DE4AD</generatorID>
+<ownerDesignName>HARC_SNN_Data_Model_V3_TOBE</ownerDesignName>
+<engineerTo>
+<item key="FDFA065C-9B79-4768-D3A1-ACB9D4078B29" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<shortName>num_days</shortName>
+<synonymToDisplay>Call-out Cutoff Days</synonymToDisplay>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Date Established" id="4AA3BA94-BAED-DCED-BD2F-EB4E47EAF8FE">
+<createdBy>tcollier</createdBy>
+<createdTime>2023-12-10 01:29:04 UTC</createdTime>
+<generatorID>2FDB4757-6934-D7EC-46B4-18E2AF92D217</generatorID>
+<ownerDesignName>HARC_SNN_Data_Model_V3_TOBE</ownerDesignName>
+<engineerTo>
+<item key="FDFA065C-9B79-4768-D3A1-ACB9D4078B29" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>161A90A6-CA3A-1525-7F0C-0703C95370A2</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Number of Days" id="ED20C632-63E7-4716-AFFE-44F1207FF737">
+<createdBy>tcollier</createdBy>
+<createdTime>2023-12-10 01:29:04 UTC</createdTime>
+<generatorID>720395D9-164E-E462-B853-26393E1B9559</generatorID>
+<ownerDesignName>HARC_SNN_Data_Model_V3_TOBE</ownerDesignName>
+<engineerTo>
+<item key="FDFA065C-9B79-4768-D3A1-ACB9D4078B29" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>90015BD8-66C0-24AE-0278-E3E87E938D9F</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="475534E0-097F-9596-97CC-51959FBC0E9C" name="t call out cutoff days PK">
+<createdBy>tcollier</createdBy>
+<createdTime>2023-12-10 01:29:04 UTC</createdTime>
+<generatorID>170679F5-1079-EEC2-BCC4-88CCD1B5CAC7</generatorID>
+<ownerDesignName>HARC_SNN_Data_Model_V3_TOBE</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="FDFA065C-9B79-4768-D3A1-ACB9D4078B29" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>4AA3BA94-BAED-DCED-BD2F-EB4E47EAF8FE</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

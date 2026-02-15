@@ -1,0 +1,43 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableView class="oracle.dbtools.crest.model.design.relational.TableView" directorySegmentName="seg_0" id="67C92A7F-69A9-61E3-44C7-00E224162A91" name="v_checkin_count">
+<sourceDDLFile>HARC_SNN_DDL_Modified.sql</sourceDDLFile>
+<createdBy>tcollier</createdBy>
+<createdTime>2023-12-10 01:28:01 UTC</createdTime>
+<ownerDesignName>HARC_SNN_Data_Model_V3</ownerDesignName>
+<importedID>AE198F0E-26A1-BE50-5F5B-180BD3B010B7</importedID>
+<userDefined>true</userDefined>
+<userDefinedSQL><![CDATA[select date(qso_start) as "Net Date"
+     , count(date(qso_start))             as "Checkins"
+from v_net_qso
+group by 1
+order by 1]]></userDefinedSQL>
+<validSQL>false</validSQL>
+<viewElements>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="Net Date" id="C2C49FFB-1B9D-E820-D43D-079FC763FDA2">
+<createdBy>tcollier</createdBy>
+<createdTime>2023-12-10 01:28:01 UTC</createdTime>
+<ownerDesignName>HARC_SNN_Data_Model_V3</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<alias>&quot;Net Date&quot;</alias>
+<dataType>UNKNOWN</dataType>
+<headerAlias>&quot;Net Date&quot;</headerAlias>
+<expression>date(qso_start)</expression>
+<reference>false</reference>
+<viewID>67C92A7F-69A9-61E3-44C7-00E224162A91</viewID>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="Checkins" id="69E22DAA-2C2F-12A7-28AD-739D8E82A2FA">
+<createdBy>tcollier</createdBy>
+<createdTime>2023-12-10 01:28:01 UTC</createdTime>
+<ownerDesignName>HARC_SNN_Data_Model_V3</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<alias>&quot;Checkins&quot;</alias>
+<dataType>UNKNOWN</dataType>
+<headerAlias>&quot;Checkins&quot;</headerAlias>
+<expression>count(date(qso_start))</expression>
+<reference>false</reference>
+<viewID>67C92A7F-69A9-61E3-44C7-00E224162A91</viewID>
+</viewElement>
+</viewElements>
+</TableView>
