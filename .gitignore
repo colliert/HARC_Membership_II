@@ -1,0 +1,30 @@
+# Data directories
+data/raw/*
+data/staging/*
+data/processed/*
+logs/*
+
+# Allow documentation in ignored dirs
+!data/raw/README.md
+!data/staging/README.md
+!data/processed/README.md
+!logs/README.md
+
+# Large data
+*.dat
+*.csv
+*.xlsx
+*.zip
+
+# Backups
+_Backups/
+_baackups/
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+
+# Environment
+.env
+
