@@ -2,5 +2,7 @@
 <project version="4">
   <component name="SqlDialectMappings">
     <file url="file://$PROJECT_DIR$/app/ETL/q_copy_v008_to_t_net_qso.sql" dialect="SQLite" />
+    <file url="file://$PROJECT_DIR$/app/ETL/q_hcol_mem_not_in_pers.sql" dialect="SQLite" />
+    <file url="file://$PROJECT_DIR$/app/ETL/q_mem_in_pers_not_in_mem_list.sql" dialect="SQLite" />
   </component>
 </project>
