@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="DataSourceManagerImpl" format="xml" multifile-model="true">
-    <data-source source="LOCAL" name="HARC_SNN_3_PROD 2.sqlite" uuid="4a13fff3-aefc-4bbe-9f15-ff0862baab1c">
+    <data-source source="LOCAL" name="HARC_SNN_3_PROD.sql" uuid="80b20c4a-3ea1-45ea-a57e-2d6702c55594">
       <driver-ref>sqlite.xerial</driver-ref>
       <synchronize>true</synchronize>
       <jdbc-driver>org.sqlite.JDBC</jdbc-driver>
-      <jdbc-url>jdbc:sqlite:$PROJECT_DIR$/../../../Amateur Radio/MACLoggerDX/MLDX_Logs/HARC_SNN_3_PROD 2.sqlite</jdbc-url>
+      <jdbc-url>jdbc:sqlite:$PROJECT_DIR$/../../../Amateur Radio/MACLoggerDX/MLDX_Logs/HARC_SNN_3_PROD.sql</jdbc-url>
       <working-dir>$ProjectFileDir$</working-dir>
     </data-source>
   </component>

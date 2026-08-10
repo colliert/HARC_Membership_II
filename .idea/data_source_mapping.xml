@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DataSourcePerFileMappings">
+    <file url="file://$PROJECT_DIR$/app/ETL/q_copy_v008_to_t_net_qso.sql" value="80b20c4a-3ea1-45ea-a57e-2d6702c55594" />
+    <file url="file://$APPLICATION_CONFIG_DIR$/scratches/scratch_30.sql" value="80b20c4a-3ea1-45ea-a57e-2d6702c55594" />
+  </component>
+</project>
